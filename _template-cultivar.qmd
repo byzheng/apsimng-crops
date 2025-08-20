@@ -1,0 +1,38 @@
+---
+title: "{{title}}"
+format: html
+params:
+  crop: "{{crop}}"
+  cultivar: "{{cultivar}}"
+---
+
+
+```{r setup, echo=FALSE}
+suppressPackageStartupMessages({
+    library(tidyverse)
+    library(knitr)
+    library(here)
+})
+
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, error = FALSE, message = FALSE)
+
+if (!exists("params")) {
+    params = list(crop = "Canola",
+                  cultivar = "ATR_Stingray")
+}
+crop <- params[["crop"]]
+cultivar <- params[["cultivar"]]
+crop_cache_dir <- ".cache"
+
+# Read the obs/prediction files
+file_path <- file.path(crop_cache_dir, paste0(crop, ".Rds")) |> 
+    here()
+
+obs_sim <- readRDS(file_path)
+
+```
+
+
+This report is generated for performance of `r crop` model in APSIM NG for cultivar `r cultivar`. 
+
+
