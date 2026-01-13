@@ -1,5 +1,6 @@
 project:
   type: website
+  pre-render: _scripts/generate_qmd.R
 exclude:
   - template.qmd
 website:
