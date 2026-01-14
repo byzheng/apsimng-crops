@@ -1,8 +1,13 @@
 project:
   type: website
   pre-render: _scripts/generate_qmd.R
-exclude:
-  - template.qmd
+execute:
+  echo: false
+  message: false
+  warning: false
+  fig.align: center
+  out.width: 100%
+  freeze: auto
 website:
   title: "APSIM NG Crops"
   google-analytics: 
