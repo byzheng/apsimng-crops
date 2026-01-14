@@ -48,8 +48,11 @@
     file_mtime <- file_info$mtime
     db_info <- file.info(db_file)
     db_mtime <- db_info$mtime
+    message("APSIMX file time: ", file_mtime)
+    message("DB file time: ", db_mtime)
     if (db_mtime < file_mtime) {
         message("APSIMX file is newer than DB file, need to rerun: ", file)
+
         return(TRUE)
     }
     
@@ -57,15 +60,13 @@
     stopifnot(is.character(apsimx_base) && length(apsimx_base) == 1)
     stopifnot(dir.exists(apsimx_base))
     apsimx_latest <- .last_apsimx_commit(apsimx_base)
+    message("APSIMX latest commit time: ", apsimx_latest)
     if (db_mtime < apsimx_latest) {
-        message("APSIMX repo has newer commit than DB file, need to rerun: ", file)
+        message("APSIMX repo has newer commit than DB file, need to rerun: ", file)        
         return(TRUE)
     }
     # Otherwise return FALSE
     message("No need to rerun APSIMX for: ", file)
-    message("  DB file time: ", db_mtime)
-    message("  APSIMX file time: ", file_mtime)
-    message("  APSIMX latest commit time: ", apsimx_latest)
     return(FALSE)
 }
 
