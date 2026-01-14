@@ -29,7 +29,17 @@ jobs:
       
       - name: Compile APSIMX
         uses: byzheng/apsimx-actions@main
-      
+
+      - name: Restore APSIMX simulation cache
+        id: cache-apsimx-sim
+        uses: actions/cache@v4
+        with:
+          # Only cache .db files under Validation (recursive)
+          path: ${{ env.APSIMX_DIR }}/Tests/Validation/**/*.db
+          key: apsimx-sim-${{ github.ref }}-${{ hashFiles('Tests/Validation/**/*.db') }}
+          restore-keys: |
+            apsimx-sim-${{ github.ref }}-
+
       - name: Cache Quarto freeze state
         uses: actions/cache@v3
         with:
@@ -44,3 +54,9 @@ jobs:
           target: gh-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Save APSIMX simulation cache
+        uses: actions/cache@v4
+        with:
+          path: ${{ env.APSIMX_DIR }}/Tests/Validation/**/*.db
+          key: apsimx-sim-${{ github.ref }}-${{ hashFiles('Tests/Validation/**/*.db') }}
