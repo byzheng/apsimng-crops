@@ -106,7 +106,7 @@ run_apsimx <- function(files, apsimx_base, rerun = TRUE) {
         })
         Sys.sleep(1)  # Wait for file removal to complete
         # Run simulations
-        message(sprintf("Re-running simulation(s) for %s ...", basename(files[i])))
+        message(sprintf("Re-running simulation(s) for %s.", files[i]))
         cmd <- paste0(Models, " \"",  files[i], "\"")
         system(cmd, ignore.stdout = TRUE, ignore.stderr = TRUE)
         Sys.sleep(1)  # Wait for simulations to complete
