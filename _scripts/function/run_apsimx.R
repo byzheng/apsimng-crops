@@ -94,6 +94,7 @@ run_apsimx <- function(files, apsimx_base, rerun = TRUE) {
         }
         is_rerun <- .is_rerun(files[i], apsimx_base = apsimx_base)
         if (!is_rerun) {
+            message(sprintf("Skipping simulation for %s (up-to-date).", basename(files[i])))
             next
         }
         # Remove db files to force re-run
