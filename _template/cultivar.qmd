@@ -9,7 +9,6 @@ params:
 
 ```{r setup, echo=FALSE}
 suppressPackageStartupMessages({
-    library(tidyverse)
     library(knitr)
     library(here)
 })
