@@ -3,7 +3,8 @@ read_report <- function(apsimx, crop) {
     stopifnot(is.character(crop) && length(crop) == 1)    
     file <- paste0(tools::file_path_sans_ext(apsimx), ".db")
     if (!file.exists(file)) {
-        stop("DB file is not found: ", file) 
+        warning("DB file is not found: ", file) 
+        return(NULL)
     }
     con <- DBI::dbConnect(RSQLite::SQLite(), file)
     tbls <- DBI::dbListTables(con)
