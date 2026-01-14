@@ -4,7 +4,9 @@ project:
 exclude:
   - template.qmd
 website:
-  title: "apsimng-crops"
+  title: "APSIM NG Crops"
+  site-url: https://apsimng-crops.bangyou.me
+  repo-url: "https://github.com/byzheng/apsimng-crops"
   navbar:
     left:
       - href: index.qmd
