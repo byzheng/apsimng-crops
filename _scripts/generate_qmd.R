@@ -34,6 +34,7 @@ for (i in seq(along = crops[[1]])) {
     crop <- crops$Crop[i]
     # List all apsimx files
     files <- get_apsimx(crop)
+    files <- files[7,]
     # Run apsimx files
     run_apsimx(files$file, apsimx_base = APSIMX_DIR, rerun = rerun)
 
