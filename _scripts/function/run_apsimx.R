@@ -1,4 +1,36 @@
-# Run apsimx files 
+# Get the time of the latest git commit for a specific folder
+.last_apsimx_commit <- local({
+    cache <- new.env(parent = emptyenv())
+    
+    function(folder) {
+        stopifnot(is.character(folder) && length(folder) == 1)
+        stopifnot(dir.exists(folder))
+        
+        # Use normalized path as cache key
+        cache_key <- normalizePath(folder, winslash = "/", mustWork = TRUE)
+        
+        if (!exists(cache_key, envir = cache)) {
+            tryCatch({
+                git_log <- system(
+                    sprintf("git -C \"%s\" log -1 --format=%%ct", folder),
+                    intern = TRUE,
+                    ignore.stderr = TRUE
+                )
+                if (length(git_log) == 0 || nzchar(git_log) == 0) {
+                    commit_time <- Sys.time()
+                } else {
+                    commit_time <- as.POSIXct(as.numeric(git_log), origin = "1970-01-01")
+                }
+                assign(cache_key, commit_time, envir = cache)
+            }, error = function(e) {
+                assign(cache_key, Sys.time(), envir = cache)
+            })
+        }
+        
+        get(cache_key, envir = cache)
+    }
+})
+
 run_apsimx <- function(files, rerun = TRUE) {
 
     stopifnot(is.character(files) && length(files) >= 1)
