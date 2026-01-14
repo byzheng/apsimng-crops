@@ -42,7 +42,7 @@ jobs:
         uses: actions/cache@v3
         with:
           path: _freeze
-          key: freeze-${{ github.ref }}-${{ hashFiles('**/*.qmd') }}
+          key: freeze-${{ github.ref }}-${{ hashFiles('Tests/Validation/**/*.qmd') }}
           restore-keys: |
             freeze-${{ github.ref }}-
 
