@@ -1,9 +1,34 @@
 ---
 title: "About"
+sidebar: false
 ---
 
-About this site
+Welcome to my personal documentation site for cultivar performance in **[APSIM Next Generation](https://www.apsim.info/)**.
 
-```{r}
-1 + 1
-```
+This site provides a overview of cultivar performances for various crops simulated using APSIM Next Generation (APSIM NG).
+
+## Not Official Documentation
+
+> **This site is _not_ the official APSIM documentation.**
+
+The official resources are available here:
+
+- 📘 [APSIM Documentation (legacy)](https://apsimnextgeneration.netlify.app/)
+- 🔬 [Model Validation](https://docs.apsim.info/)
+- 🧪 [APSIM GitHub Repository](https://github.com/APSIMInitiative/ApsimX)
+
+
+## ⚖️ License and Attribution
+
+This documentation includes content derived from:
+
+- The source code of [APSIM Next Generation](https://github.com/APSIMInitiative/ApsimX)  
+
+It is provided under the [General Use Licence Agreement for Agricultural Production Systems Simulator (APSIM)](LICENSE.md).
+
+> This is an **independent learning resource** compiled and maintained by myself. It is **not an official publication** of the APSIM Initiative and may contain personal interpretations or errors.  
+
+## 🙏 Acknowledgment
+
+Acknowledgment is made to the APSIM Initiative which takes responsibility for quality assurance and a structured innovation programme for APSIM’s modelling software, which is provided free for research and development use. See www.apsim.info for details.
+

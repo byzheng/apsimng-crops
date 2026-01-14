@@ -1,15 +1,11 @@
----
-title: "Cultivar Performances for APSIM NG Crops"
----
-
 
 [![Quarto Publish](https://github.com/byzheng/apsimng-crops/actions/workflows/publish.yml/badge.svg)](https://github.com/byzheng/apsimng-crops/actions/workflows/publish.yml)
 
+
+
+# Crops for APSIM Next Generation
+
 This repository provides a overview of cultivar performances for various crops simulated using APSIM Next Generation (APSIM NG).
-
-## Crops
-
-{{{crop_table}}}
 
 
 ## 🤝 Contributing
@@ -20,11 +16,12 @@ If you find any errors, have suggestions, or want to contribute improvements, yo
 
 This documentation includes content derived from:
 
-- The source code of [APSIM Next Generation](https://github.com/APSIMInitiative/ApsimX)  
+- The source code of [APSIM Next Generation](https://github.com/APSIMInitiative/ApsimX) 
 
 It is provided under the [General Use Licence Agreement for Agricultural Production Systems Simulator (APSIM)](LICENSE.md).
 
 > This is an **independent learning resource** compiled and maintained by myself. It is **not an official publication** of the APSIM Initiative and may contain personal interpretations or errors.  
+
 
 ## 🙏 Acknowledgment
 
