@@ -20,10 +20,6 @@ crop_cache_dir <- ".cache"
 
 ```
 
----
-title: "Cultivar Report for `r crop` - `r cultivar`"
----
-
 ```{r data-obs-sim}
 
 # Read the obs/prediction files
