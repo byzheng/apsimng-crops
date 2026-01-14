@@ -31,10 +31,43 @@
     }
 })
 
-run_apsimx <- function(files, rerun = TRUE) {
+# Check if APSIMX needs to be re-run and run it
+.is_rerun <- function(file, apsimx_base) {
+    stopifnot(is.character(file) && length(file) == 1)
+    stopifnot(file.exists(file))
+    
+    # return TRUE if no db file exists
+    db_file <- gsub("\\.apsimx$", ".db", file)
+    if (!file.exists(db_file)) {
+        return(TRUE)
+    }
+    
+    # Return TRUE if apsimx file is newer than db file
+    file_info <- file.info(file)
+    file_mtime <- file_info$mtime
+    db_info <- file.info(db_file)
+    db_mtime <- db_info$mtime
+    if (db_mtime < file_mtime) {
+        return(TRUE)
+    }
+    
+    # Return TRUE if APSIMX repo has newer commit than db file
+    stopifnot(is.character(apsimx_base) && length(apsimx_base) == 1)
+    stopifnot(dir.exists(apsimx_base))
+    apsimx_latest <- .last_apsimx_commit(apsimx_base)
+    if (db_mtime < apsimx_latest) {
+        return(TRUE)
+    }
+    # Otherwise return FALSE
+    return(FALSE)
+}
+
+run_apsimx <- function(files, apsimx_base, rerun = TRUE) {
 
     stopifnot(is.character(files) && length(files) >= 1)
     stopifnot(all(file.exists(files)))
+    stopifnot(is.character(apsimx_base) && length(apsimx_base) == 1)
+    stopifnot(dir.exists(apsimx_base))
     stopifnot(is.logical(rerun) && length(rerun) == 1)
     
     # Check the Models executable 
@@ -57,6 +90,10 @@ run_apsimx <- function(files, rerun = TRUE) {
     i <- 1
     for (i in seq(along = files)) {
         if (!rerun) {
+            next
+        }
+        is_rerun <- .is_rerun(files[i], apsimx_base = apsimx_base)
+        if (!is_rerun) {
             next
         }
         # Remove db files to force re-run

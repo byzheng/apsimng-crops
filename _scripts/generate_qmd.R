@@ -1,7 +1,7 @@
 rm(list = ls())
 
 # Define parmeters
-rerun <- FALSE # whether to rerun apsimx simulations
+rerun <- TRUE # whether to rerun apsimx simulations
 target_crops <- c("Barley", "Wheat", "Canola") # list of crops to process
 target_crops <- "Wheat" 
 APSIMX_DIR <- Sys.getenv("APSIMX_DIR")
@@ -35,7 +35,7 @@ for (i in seq(along = crops[[1]])) {
     # List all apsimx files
     files <- get_apsimx(crop)
     # Run apsimx files
-    run_apsimx(files$file, rerun = rerun)
+    run_apsimx(files$file, apsimx_base = APSIMX_DIR, rerun = rerun)
 
     # read all reports 
     all_reports <- read_reports(files$file, crop)
