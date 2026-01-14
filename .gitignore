@@ -8,3 +8,5 @@
 /crop/
 _site
 /_temp_script/
+**/*.quarto_ipynb
+index.qmd

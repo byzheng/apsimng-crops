@@ -1,3 +1,9 @@
 ---
-title: ""
+title: "Cultivar Performances for APSIM NG Crops"
 ---
+
+
+## Crops
+
+{{{crop_table}}}
+

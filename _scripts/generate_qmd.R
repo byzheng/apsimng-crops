@@ -44,7 +44,7 @@ for (i in seq(along = crops[[1]])) {
     
 
     apsimx <- rapsimng::read_apsimx(crops$Model[i])
-    cultivars <- rapsimng::get_cultivar(apsimx, alias = TRUE) |> tibble()
+    cultivars <- rapsimng::get_cultivar(apsimx, alias = TRUE) |> tibble::tibble()
     cultivars_names <- cultivars$name |> unique()
     cultivars_names <- cultivars_names[1:2]
 
@@ -74,7 +74,20 @@ for (i in seq(along = crops[[1]])) {
     
     writeLines(index_lines_i, file.path(crop_output_dir, "index.qmd"))        
         
-    # Add link to index
-    rel_link <- file.path(crop_output_dir, "index.html")
-    template_home <- c(template_home, paste0("- [", crop, "](", rel_link, ")"))    
+    # # Add link to index
+    # rel_link <- file.path(crop_output_dir, "index.html")
+    # template_home <- c(template_home, paste0("- [", crop, "](", rel_link, ")"))    
 }
+
+# Generate table of crops for home template
+crop_table <- crops |>
+    dplyr::mutate(
+        link = paste0("- [", Crop, "](crop/", tolower(Crop), "/index.html)")
+    ) |>
+    dplyr::pull(link) |>
+    paste(collapse = "\n")
+
+template_home <- whisker::whisker.render(template_home, list(
+    crop_table = crop_table
+))
+writeLines(template_home, "index.qmd")
