@@ -36,7 +36,7 @@ jobs:
         with:
           # Only cache .db files under Validation (recursive)
           path: ${{ env.APSIMX_DIR }}/Tests/Validation/**/*.db
-          key: apsimx-sim-${{ github.ref }}-${{ hashFiles('Tests/Validation/**/*.db') }}
+          key: apsimx-sim-${{ github.ref }}-${{ github.run_id }}
           restore-keys: |
             apsimx-sim-${{ github.ref }}-
 
@@ -59,4 +59,4 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ${{ env.APSIMX_DIR }}/Tests/Validation/**/*.db
-          key: apsimx-sim-${{ github.ref }}-${{ hashFiles('Tests/Validation/**/*.db') }}
+          key: apsimx-sim-${{ github.ref }}-${{ github.run_id }}

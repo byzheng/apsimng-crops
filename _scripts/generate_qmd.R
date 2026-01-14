@@ -47,7 +47,7 @@ for (i in seq(along = crops[[1]])) {
     apsimx <- rapsimng::read_apsimx(crops$Model[i])
     cultivars <- rapsimng::get_cultivar(apsimx, alias = TRUE) |> tibble::tibble()
     cultivars_names <- cultivars$standard_name |> unique()
-    #cultivars_names <- cultivars_names[1:2]
+    cultivars_names <- cultivars_names[1:2]
 
 
     crop_output_dir <- paste0("crop/", tolower(crop))
