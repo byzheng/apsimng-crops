@@ -5,8 +5,14 @@ exclude:
   - template.qmd
 website:
   title: "APSIM NG Crops"
+  google-analytics: 
+    tracking-id: "G-5K7WTC1T5R"
+    storage: "cookies"
   site-url: https://apsimng-crops.bangyou.me
   repo-url: "https://github.com/byzheng/apsimng-crops"
+  repo-actions: [edit, issue]
+  search:
+    show-item-context: true
   navbar:
     left:
       - href: index.qmd
