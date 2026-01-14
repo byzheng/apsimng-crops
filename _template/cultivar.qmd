@@ -8,16 +8,11 @@ params:
 
 
 ```{r setup, echo=FALSE}
-suppressPackageStartupMessages({
-    library(knitr)
-    library(here)
-})
-
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, error = FALSE, message = FALSE)
 
 if (!exists("params")) {
-    params = list(crop = "Canola",
-                  cultivar = "ATR_Stingray")
+    params <- list(crop = "Wheat",
+                cultivar = "Amarok")
 }
 crop <- params[["crop"]]
 cultivar <- params[["cultivar"]]
@@ -25,13 +20,34 @@ crop_cache_dir <- ".cache"
 
 # Read the obs/prediction files
 file_path <- file.path(crop_cache_dir, paste0(crop, ".Rds")) |> 
-    here()
+    here::here()
 
 obs_sim <- readRDS(file_path)
 
+APSIMX_DIR <- Sys.getenv("APSIMX_DIR")
+if (APSIMX_DIR == "") {
+    stop("Please set APSIMX_DIR environment variable to point to APSIM NG installation directory.")
+}
+model <- file.path(APSIMX_DIR, sprintf("Models/Resources/%s.json", crop))
+if (!file.exists(model)) {
+    stop(sprintf("Model file %s does not exist.", model))
+}
+apsimx <- rapsimng::read_apsimx(model)
+cultivars <- rapsimng::get_cultivar(apsimx, alias = TRUE) |> tibble::tibble()
+cultivar_info <- cultivars |> dplyr::filter(name == cultivar)
 ```
 
 
 This report is generated for performance of `r crop` model in APSIM NG for cultivar `r cultivar`. 
 
 
+## Cultivar Information
+
+
+The cultivar specific parameters used in the simulation are listed in the table below:
+
+```{r tbl-cultivar_info}
+cultivar_info |> 
+    knitr::kable(caption = sprintf("Cultivar specific parameters for `%s`", cultivar))
+
+```

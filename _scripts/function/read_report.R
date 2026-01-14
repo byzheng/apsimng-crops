@@ -9,7 +9,8 @@ read_report <- function(apsimx, crop) {
     con <- DBI::dbConnect(RSQLite::SQLite(), file)
     tbls <- DBI::dbListTables(con)
     if (!("SowingReport" %in% tbls)) {
-        stop("SowingReport table is not found in the database: ", file)
+        warning("SowingReport table is not found in the database: ", file)
+        return(NULL)
     }
     simulations <- DBI::dbReadTable(con, "_Simulations") |> tibble::tibble()
     sowing_report <- DBI::dbReadTable(con, "SowingReport") |> tibble::tibble()
