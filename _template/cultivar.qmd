@@ -4,6 +4,7 @@ format: html
 params:
   crop: "{{crop}}"
   cultivar: "{{cultivar}}"
+has_data: true
 ---
 
 
@@ -76,3 +77,41 @@ if (length(aliases) > 0) {
     #cat("\n")
 }
 ```
+
+## Experiments
+
+
+::: {.content-hidden when-meta="has_data"}
+> No observations available for this cultivar.
+:::
+
+
+
+::: {.content-visible when-meta="has_data"}
+
+
+```{r data-obs-sim-cultivar}
+
+obs_sim_cultivar <- obs_sim |> 
+    dplyr::filter(Genotype == tolower(cultivar))
+
+experiments <- obs_sim_cultivar |> 
+    dplyr::distinct(ExperimentName, Latitude, Longitude)
+
+```
+
+There are `r nrow(experiments)` experiments which tested cultivar `r cultivar` and its aliases.
+
+
+```{r fig-experiments, fig.height=6, fig.cap="Locations of experiments for cultivar `r cultivar`."}
+experiments  |> 
+    ggplot2::ggplot() +
+    ggplot2::borders("world", colour = "gray85", fill = "gray80") +
+    ggplot2::geom_point(ggplot2::aes(x = Longitude, y = Latitude), 
+        size = 3,
+        shape = 21, fill = "red") + 
+    myutils::theme_map() +
+    ggplot2::coord_fixed()
+```
+
+:::

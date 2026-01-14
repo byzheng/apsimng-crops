@@ -39,7 +39,8 @@ for (i in seq(along = crops[[1]])) {
     run_apsimx(files$file, apsimx_base = APSIMX_DIR, rerun = rerun)
 
     # read all reports 
-    all_reports <- read_reports(files$file, crop)
+    all_reports <- read_reports(files$file, crop) |> 
+        dplyr::mutate(Genotype = tolower(Genotype))
     obs_file <- file.path(crop_cache_dir, paste0(crop, ".Rds"))
     saveRDS(all_reports, obs_file)
     
@@ -63,7 +64,12 @@ for (i in seq(along = crops[[1]])) {
     j <- 1
     for (j in seq(along = cultivars_names)) {
         cultivar <- cultivars_names[j]
+        obs_i <- all_reports |> 
+            dplyr::filter(Genotype == tolower(cultivar))
+        has_data <- nrow(obs_i) > 0
         # Render .qmd content
+        pos <- grep("has_data:", template_cultivar)
+        template_cultivar[pos] <- paste0("has_data: ", tolower(as.character(has_data)))
         output <- whisker::whisker.render(template_cultivar, list(
             title = paste(cultivar),
             crop = crop,
