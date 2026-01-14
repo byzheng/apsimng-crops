@@ -7,6 +7,9 @@
 
 This repository provides a overview of cultivar performances for various crops simulated using APSIM Next Generation (APSIM NG).
 
+## Published Documentation
+
+The documentation is published and can be accessed at: https://apsimng-crops.bangyou.me
 
 ## 🤝 Contributing
 
