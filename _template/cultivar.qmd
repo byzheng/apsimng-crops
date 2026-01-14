@@ -52,7 +52,19 @@ The cultivar specific parameters used in the simulation are listed in the table 
 
 ```{r tbl-cultivar_info}
 cultivar_info |> 
-    dplyr::select(-name) |>
+    dplyr::select(-name) |> 
+    dplyr::distinct() |>
+    dplyr::select(parameter, value) |>
     knitr::kable(caption = sprintf("Cultivar specific parameters for `%s`", cultivar))
+
+```
+
+
+The following aliases are also available for this cultivar:
+
+```{r tbl-cultivar_aliases}
+cultivar_info |> 
+    dplyr::distinct(name) |>
+    knitr::kable(caption = sprintf("Aliases for cultivar `%s`", cultivar), col.names = NULL)
 
 ```

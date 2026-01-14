@@ -34,7 +34,7 @@ for (i in seq(along = crops[[1]])) {
     crop <- crops$Crop[i]
     # List all apsimx files
     files <- get_apsimx(crop)
-    files <- files[7,]
+    # files <- files[7,]
     # Run apsimx files
     run_apsimx(files$file, apsimx_base = APSIMX_DIR, rerun = rerun)
 
@@ -47,7 +47,7 @@ for (i in seq(along = crops[[1]])) {
     apsimx <- rapsimng::read_apsimx(crops$Model[i])
     cultivars <- rapsimng::get_cultivar(apsimx, alias = TRUE) |> tibble::tibble()
     cultivars_names <- cultivars$standard_name |> unique()
-    cultivars_names <- cultivars_names[1:2]
+    # cultivars_names <- cultivars_names[1:2]
 
 
     crop_output_dir <- paste0("crop/", tolower(crop))
