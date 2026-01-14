@@ -1,1 +1,1 @@
-Sitemap: https://byzheng.github.io/apsimng-crops/sitemap.xml
+Sitemap: https://apsimng-crops.bangyou.me/sitemap.xml
