@@ -39,7 +39,7 @@
     # return TRUE if no db file exists
     db_file <- gsub("\\.apsimx$", ".db", file)
     if (!file.exists(db_file)) {
-        message("DB file not found, need to rerun: ", db_file)
+        message("DB file not found, need to rerun: ", file)
         return(TRUE)
     }
     
@@ -49,7 +49,7 @@
     db_info <- file.info(db_file)
     db_mtime <- db_info$mtime
     if (db_mtime < file_mtime) {
-        message("APSIMX file is newer than DB file, need to rerun: ", db_file)
+        message("APSIMX file is newer than DB file, need to rerun: ", file)
         return(TRUE)
     }
     
@@ -58,11 +58,11 @@
     stopifnot(dir.exists(apsimx_base))
     apsimx_latest <- .last_apsimx_commit(apsimx_base)
     if (db_mtime < apsimx_latest) {
-        message("APSIMX repo has newer commit than DB file, need to rerun: ", db_file)
+        message("APSIMX repo has newer commit than DB file, need to rerun: ", file)
         return(TRUE)
     }
     # Otherwise return FALSE
-    message("No need to rerun APSIMX for: ", db_file)
+    message("No need to rerun APSIMX for: ", file)
     message("  DB file time: ", db_mtime)
     message("  APSIMX file time: ", file_mtime)
     message("  APSIMX latest commit time: ", apsimx_latest)
