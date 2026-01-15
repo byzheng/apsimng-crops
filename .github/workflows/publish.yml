@@ -45,10 +45,10 @@ jobs:
       
       - name: Checkout Data Repository
         uses: actions/checkout@v4
-          with:
-            repository: byzheng/apsimng-crops-data
-            path: _data
-
+        with:
+          repository: byzheng/apsimng-crops-data
+          path: _data
+      
       - name: Cache Quarto freeze state
         uses: actions/cache@v3
         with:
