@@ -84,7 +84,7 @@ if (length(aliases) > 0) {
 ::: {.content-visible when-meta="has_data"}
 
 
-:::
+
 ```{r data-obs-sim-cultivar}
 
 obs_sim_cultivar <- obs_sim |> 
@@ -106,3 +106,5 @@ experiments |>
     leaflet::addMarkers(~Longitude, ~Latitude, 
         popup = ~ExperimentName)
 ```
+
+:::
