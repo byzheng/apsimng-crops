@@ -50,7 +50,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ${{ env.APSIMX_DIR }}/Tests/Validation/**/*.db
-          key: apsimx-sim-${{ runner.os }}-${{ github.ref }}-${{ hashFiles('**/*.apsimx') }}
+          key: apsimx-sim-${{ runner.os }}-${{ github.ref }}-
           restore-keys: |
             apsimx-sim-${{ runner.os }}-${{ github.ref }}-
 
