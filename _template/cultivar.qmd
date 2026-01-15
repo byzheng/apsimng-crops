@@ -98,7 +98,6 @@ obs_sim_cultivar <- obs_sim |>
 
 experiments <- obs_sim_cultivar |> 
     dplyr::distinct(ExperimentName, Latitude, Longitude)
-View(experiments)
 ```
 
 There are `r nrow(experiments)` experiments which tested cultivar `r cultivar` and its aliases.
