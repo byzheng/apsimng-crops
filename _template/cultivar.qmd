@@ -13,7 +13,7 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, error = FALSE, message = FA
 
 if (!exists("params") || grepl("\\{", params$crop)) {
     crop <- "Wheat"
-    cultivar <- "Claire"
+    cultivar <- "Bolac"
 } else {
     crop <- params[["crop"]]
     cultivar <- params[["cultivar"]]
@@ -98,22 +98,17 @@ obs_sim_cultivar <- obs_sim |>
 
 experiments <- obs_sim_cultivar |> 
     dplyr::distinct(ExperimentName, Latitude, Longitude)
-
+View(experiments)
 ```
 
 There are `r nrow(experiments)` experiments which tested cultivar `r cultivar` and its aliases.
 
 
-```{r fig-experiments, fig.height=6, fig.cap="Locations of experiments."}
-# experiments  |> 
-#     ggplot2::ggplot() +
-#     ggplot2::borders("world", colour = "gray85", fill = "gray80") +
-#     ggplot2::geom_point(ggplot2::aes(x = Longitude, y = Latitude), 
-#         size = 3,
-#         shape = 21, fill = "red") + 
-#     myutils::theme_map() +
-#     ggplot2::coord_fixed()
-leaflet::leaflet(data = experiments) |>
+```{r fig-experiments, fig.height=6, fig.cap="Locations of experiments without controlled environments."}
+experiments |> 
+    dplyr::filter(!is.na(Longitude), !is.na(Latitude)) |>
+    dplyr::filter(Longitude != 0 & Latitude != 0) |>
+    leaflet::leaflet() |>
     leaflet::addTiles() |>
     leaflet::addMarkers(~Longitude, ~Latitude, 
         popup = ~ExperimentName)
