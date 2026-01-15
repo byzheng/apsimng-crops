@@ -6,7 +6,7 @@ target_crops <- c("Barley", "Wheat", "Canola") # list of crops to process
 template_cultivar_file <- "_template/cultivar.qmd" # Template for cultivar report
 template_index_file <- "_template/index.qmd" # Template for index report
 template_home_file <- "_template/home.qmd" # Template for home report
-crop_output_dir <- "_data/_outputs" # Directory to store cached data
+crop_db_output_dir <- "_data/_outputs" # Directory to store cached data
 
 # source all functions
 a <- list.files("_scripts/function", full.names = TRUE) |>
@@ -28,7 +28,7 @@ for (i in seq(along = crops[[1]])) {
     crop <- crops$Crop[i]
     
     message("Processing crop: ", crop)
-    output_file <- file.path(crop_output_dir, paste0(crop, ".Rds"))
+    output_file <- file.path(crop_db_output_dir, paste0(crop, ".Rds"))
     if (!file.exists(output_file)) {
         message("Output file not found, skipping crop.")
         next
