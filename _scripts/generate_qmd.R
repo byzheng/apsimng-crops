@@ -1,14 +1,13 @@
 rm(list = ls())
 
-# Define parmeters
-rerun <- TRUE # whether to rerun apsimx simulations
+
+APSIMX_DIR <- Sys.getenv("APSIMX_DIR")
 target_crops <- c("Barley", "Wheat", "Canola") # list of crops to process
 target_crops <- "Wheat" 
-APSIMX_DIR <- Sys.getenv("APSIMX_DIR")
 template_cultivar_file <- "_template/cultivar.qmd" # Template for cultivar report
 template_index_file <- "_template/index.qmd" # Template for index report
 template_home_file <- "_template/home.qmd" # Template for home report
-crop_cache_dir <- ".cache" # Directory to store cached data
+crop_output_dir <- "_data/_outputs" # Directory to store cached data
 
 # source all functions
 a <- list.files("_scripts/function", full.names = TRUE) |>
@@ -19,31 +18,19 @@ template_cultivar <- readLines(template_cultivar_file)
 template_index <- readLines(template_index_file)
 template_home <- readLines(template_home_file)
 
-# create cache directory
-if (!dir.exists(crop_cache_dir)) {
-    dir.create(crop_cache_dir, recursive = TRUE)
-}
 # list all crops and only keep target crops
-models <- list.files(file.path(APSIMX_DIR, "Models/Resources/"), "*.json", full.names = TRUE)
+models <- sprintf("https://raw.githubusercontent.com/APSIMInitiative/ApsimX/refs/heads/master/Models/Resources/%s.json", target_crops)
+
 crops <- tibble::tibble(Model = models) |> 
     dplyr::mutate(Crop = tools::file_path_sans_ext(basename(Model)))
-crops <- crops |> 
-    dplyr::filter(Crop %in% target_crops)
+
 i <- 1
 for (i in seq(along = crops[[1]])) {
     crop <- crops$Crop[i]
-    # List all apsimx files
-    files <- get_apsimx(crop)
-    # files <- files[7,]
-    # Run apsimx files
-    run_apsimx(files$file, apsimx_base = APSIMX_DIR, rerun = rerun)
-
-    # read all reports 
-    all_reports <- read_reports(files$file, crop) |> 
-        dplyr::mutate(Genotype = tolower(Genotype))
-    obs_file <- file.path(crop_cache_dir, paste0(crop, ".Rds"))
-    saveRDS(all_reports, obs_file)
     
+    message("Processing crop: ", crop)
+    output_file <- file.path(crop_output_dir, paste0(crop, ".Rds"))
+    all_reports <- readRDS(output_file)
 
     apsimx <- rapsimng::read_apsimx(crops$Model[i])
     cultivars <- rapsimng::get_cultivar(apsimx, alias = TRUE) |> tibble::tibble()

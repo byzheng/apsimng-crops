@@ -43,8 +43,11 @@ jobs:
         with:
           cache-version: 1
       
-      - name: Compile APSIMX
-        uses: byzheng/apsimx-actions@main
+      - name: Checkout Data Repository
+        uses: actions/checkout@v4
+          with:
+            repository: byzheng/apsimng-crops-data
+            path: _data
 
       - name: Cache Quarto freeze state
         uses: actions/cache@v3

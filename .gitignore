@@ -13,4 +13,5 @@ index.qmd
 *.html
 *_files/
 /_freeze/
-/_cache
+/_cache/
+/_data/
