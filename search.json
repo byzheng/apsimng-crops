@@ -14,6 +14,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Mercury\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n100\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n80\n\n\n[Phenology].CAMP.FLNparams.MinLN\n9.0\n\n\n[Phenology].CAMP.FLNparams.PpLN\n2.0\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n0.0\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0.0\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n0.0\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n6\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60"
   },
   {
+    "objectID": "crop/wheat/Mercury.html#experiments",
+    "href": "crop/wheat/Mercury.html#experiments",
+    "title": "Mercury",
+    "section": "Experiments",
+    "text": "Experiments\n\nNo observations available for this cultivar.\n\nThere are 0 experiments which tested cultivar Mercury and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/CSIROW002.html",
     "href": "crop/wheat/CSIROW002.html",
     "title": "CSIROW002",
@@ -26,6 +33,13 @@
     "title": "CSIROW002",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for CSIROW002\n\n\n\n\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n97.1048561789481\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.330486171103675\n\n\n[Phenology].CAMP.FLNparams.MinLN\n6.658457459336699\n\n\n[Phenology].CAMP.FLNparams.PpLN\n1.9822634447408163\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n2.6921517428015016\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0.012348660067480921\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n169.0\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n1.3207357239932465"
+  },
+  {
+    "objectID": "crop/wheat/CSIROW002.html#experiments",
+    "href": "crop/wheat/CSIROW002.html#experiments",
+    "title": "CSIROW002",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 10 experiments which tested cultivar CSIROW002 and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/Dekan.html",
@@ -42,6 +56,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Dekan\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n3\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n100.0\n\n\n[Leaf].ExtinctionCoeff.VegetativePhase.FixedValue\n0.8\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.6\n\n\n[Phenology].CAMP.FLNparams.MinLN\n9\n\n\n[Phenology].CAMP.FLNparams.PpLN\n3.0\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n7\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0.0"
   },
   {
+    "objectID": "crop/wheat/Dekan.html#experiments",
+    "href": "crop/wheat/Dekan.html#experiments",
+    "title": "Dekan",
+    "section": "Experiments",
+    "text": "Experiments\n\nNo observations available for this cultivar.\n\nThere are 0 experiments which tested cultivar Dekan and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Einstein.html",
     "href": "crop/wheat/Einstein.html",
     "title": "Einstein",
@@ -54,6 +75,13 @@
     "title": "Einstein",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Einstein\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].CAMP.FLNparams.MinLN\n8.5\n\n\n[Phenology].CAMP.FLNparams.PpLN\n4\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n7.5\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n1\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n109.3\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.2\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.9\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n190\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n2"
+  },
+  {
+    "objectID": "crop/wheat/Einstein.html#experiments",
+    "href": "crop/wheat/Einstein.html#experiments",
+    "title": "Einstein",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 4 experiments which tested cultivar Einstein and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/RockStar.html",
@@ -70,6 +98,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for RockStar\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].CAMP.FLNparams.MinLN\n7.1\n\n\n[Phenology].CAMP.FLNparams.PpLN\n3.1\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n2.4\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-0.9\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n96.3\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.3\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n154\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n2"
   },
   {
+    "objectID": "crop/wheat/RockStar.html#experiments",
+    "href": "crop/wheat/RockStar.html#experiments",
+    "title": "RockStar",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 35 experiments which tested cultivar RockStar and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Gamenya.html",
     "href": "crop/wheat/Gamenya.html",
     "title": "Gamenya",
@@ -82,6 +117,13 @@
     "title": "Gamenya",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Gamenya\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n100\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.349562436956343\n\n\n[Phenology].CAMP.FLNparams.MinLN\n8\n\n\n[Phenology].CAMP.FLNparams.PpLN\n3\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n0.5\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n6\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n50\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n4"
+  },
+  {
+    "objectID": "crop/wheat/Gamenya.html#experiments",
+    "href": "crop/wheat/Gamenya.html#experiments",
+    "title": "Gamenya",
+    "section": "Experiments",
+    "text": "Experiments\n\nNo observations available for this cultivar.\n\nThere are 0 experiments which tested cultivar Gamenya and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/Winter Quick.html",
@@ -98,6 +140,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Winter Quick\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].CAMP.FLNparams.MinLN\n8.4\n\n\n[Phenology].CAMP.FLNparams.PpLN\n0.9\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n5.7\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n5.5\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n98\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.2\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n80\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n2.8"
   },
   {
+    "objectID": "crop/wheat/Winter Quick.html#experiments",
+    "href": "crop/wheat/Winter Quick.html#experiments",
+    "title": "Winter Quick",
+    "section": "Experiments",
+    "text": "Experiments\n\nNo observations available for this cultivar.\n\nThere are 0 experiments which tested cultivar Winter Quick and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/CSIROW018.html",
     "href": "crop/wheat/CSIROW018.html",
     "title": "CSIROW018",
@@ -110,6 +159,13 @@
     "title": "CSIROW018",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for CSIROW018\n\n\n\n\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n100.218976921681\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.305627551956816\n\n\n[Phenology].CAMP.FLNparams.MinLN\n5.0\n\n\n[Phenology].CAMP.FLNparams.PpLN\n2.0037887506286465\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n3.5823533971961172\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-2.0415045806529806\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n371.0\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n0.94606616045257"
+  },
+  {
+    "objectID": "crop/wheat/CSIROW018.html#experiments",
+    "href": "crop/wheat/CSIROW018.html#experiments",
+    "title": "CSIROW018",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 10 experiments which tested cultivar CSIROW018 and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/Strzelecki.html",
@@ -126,6 +182,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Strzelecki\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n96.5633530493006\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.245575047413057\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].CAMP.FLNparams.MinLN\n7\n\n\n[Phenology].CAMP.FLNparams.PpLN\n3\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n3\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n110\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n3"
   },
   {
+    "objectID": "crop/wheat/Strzelecki.html#experiments",
+    "href": "crop/wheat/Strzelecki.html#experiments",
+    "title": "Strzelecki",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 20 experiments which tested cultivar Strzelecki and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Cutlass.html",
     "href": "crop/wheat/Cutlass.html",
     "title": "Cutlass",
@@ -138,6 +201,13 @@
     "title": "Cutlass",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Cutlass\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n95.8008034182983\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.352406544577556\n\n\n[Phenology].CAMP.FLNparams.MinLN\n7\n\n\n[Phenology].CAMP.FLNparams.PpLN\n5\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n1\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n2\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n130\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n2"
+  },
+  {
+    "objectID": "crop/wheat/Cutlass.html#experiments",
+    "href": "crop/wheat/Cutlass.html#experiments",
+    "title": "Cutlass",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 11 experiments which tested cultivar Cutlass and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/CSIROW021.html",
@@ -154,6 +224,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for CSIROW021\n\n\n\n\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n100.85898282236\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.228645304743823\n\n\n[Phenology].CAMP.FLNparams.MinLN\n8.0\n\n\n[Phenology].CAMP.FLNparams.PpLN\n1.333333333333334\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n6.166666666666666\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-0.8333333333333357\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n200.0\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n2.0"
   },
   {
+    "objectID": "crop/wheat/CSIROW021.html#experiments",
+    "href": "crop/wheat/CSIROW021.html#experiments",
+    "title": "CSIROW021",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 10 experiments which tested cultivar CSIROW021 and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/BigRed.html",
     "href": "crop/wheat/BigRed.html",
     "title": "BigRed",
@@ -166,6 +243,13 @@
     "title": "BigRed",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for BigRed\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].CAMP.FLNparams.MinLN\n8.5\n\n\n[Phenology].CAMP.FLNparams.PpLN\n4\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n7.5\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n1\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n109.3\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.2\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.9\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n190\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n2"
+  },
+  {
+    "objectID": "crop/wheat/BigRed.html#experiments",
+    "href": "crop/wheat/BigRed.html#experiments",
+    "title": "BigRed",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 16 experiments which tested cultivar BigRed and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/Wedgetail.html",
@@ -182,6 +266,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Wedgetail\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n111.579556421375\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.217687425020179\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].CAMP.FLNparams.MinLN\n7\n\n\n[Phenology].CAMP.FLNparams.PpLN\n1\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n9\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-1\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n170\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n2"
   },
   {
+    "objectID": "crop/wheat/Wedgetail.html#experiments",
+    "href": "crop/wheat/Wedgetail.html#experiments",
+    "title": "Wedgetail",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 40 experiments which tested cultivar Wedgetail and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Sunlamb.html",
     "href": "crop/wheat/Sunlamb.html",
     "title": "Sunlamb",
@@ -194,6 +285,13 @@
     "title": "Sunlamb",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Sunlamb\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n100.382265746297\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.154235967458266\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].CAMP.FLNparams.MinLN\n7\n\n\n[Phenology].CAMP.FLNparams.PpLN\n5\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n10\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-5\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n150\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n4"
+  },
+  {
+    "objectID": "crop/wheat/Sunlamb.html#experiments",
+    "href": "crop/wheat/Sunlamb.html#experiments",
+    "title": "Sunlamb",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 10 experiments which tested cultivar Sunlamb and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/Otane.html",
@@ -210,6 +308,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Otane\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n2\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n100.0\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.6\n\n\n[Phenology].CAMP.FLNparams.MinLN\n7\n\n\n[Phenology].CAMP.FLNparams.PpLN\n4\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n0\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n150\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n6\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60"
   },
   {
+    "objectID": "crop/wheat/Otane.html#experiments",
+    "href": "crop/wheat/Otane.html#experiments",
+    "title": "Otane",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 2 experiments which tested cultivar Otane and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Spring Mid-Slow.html",
     "href": "crop/wheat/Spring Mid-Slow.html",
     "title": "Spring Mid-Slow",
@@ -222,6 +327,13 @@
     "title": "Spring Mid-Slow",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Spring Mid-Slow\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].CAMP.FLNparams.MinLN\n6.8\n\n\n[Phenology].CAMP.FLNparams.PpLN\n3.2\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n2.1\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0.8\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n103.3\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.2\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n153\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n2.3"
+  },
+  {
+    "objectID": "crop/wheat/Spring Mid-Slow.html#experiments",
+    "href": "crop/wheat/Spring Mid-Slow.html#experiments",
+    "title": "Spring Mid-Slow",
+    "section": "Experiments",
+    "text": "Experiments\n\nNo observations available for this cultivar.\n\nThere are 0 experiments which tested cultivar Spring Mid-Slow and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/Yitpi.html",
@@ -238,6 +350,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Yitpi\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n107.48018743345\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.247088996399892\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].CAMP.FLNparams.MinLN\n7\n\n\n[Phenology].CAMP.FLNparams.PpLN\n4\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n2\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n50\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n5"
   },
   {
+    "objectID": "crop/wheat/Yitpi.html#experiments",
+    "href": "crop/wheat/Yitpi.html#experiments",
+    "title": "Yitpi",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 38 experiments which tested cultivar Yitpi and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Wilgoyne.html",
     "href": "crop/wheat/Wilgoyne.html",
     "title": "Wilgoyne",
@@ -250,6 +369,13 @@
     "title": "Wilgoyne",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Wilgoyne\n\n\n\n\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n100\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.349562436956343\n\n\n[Grain].NumberFunction.GrainNumber.GrainsPerGramOfStem.FixedValue\n17\n\n\n[Phenology].CAMP.FLNparams.MinLN\n8\n\n\n[Phenology].CAMP.FLNparams.PpLN\n3\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n0.5\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n6\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n50\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n4"
+  },
+  {
+    "objectID": "crop/wheat/Wilgoyne.html#experiments",
+    "href": "crop/wheat/Wilgoyne.html#experiments",
+    "title": "Wilgoyne",
+    "section": "Experiments",
+    "text": "Experiments\n\nNo observations available for this cultivar.\n\nThere are 0 experiments which tested cultivar Wilgoyne and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/Trojan.html",
@@ -266,6 +392,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Trojan\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n99.1351271229079\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.35511766231399\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n6\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].CAMP.FLNparams.MinLN\n7\n\n\n[Phenology].CAMP.FLNparams.PpLN\n5\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n2\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n1\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n50\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n4"
   },
   {
+    "objectID": "crop/wheat/Trojan.html#experiments",
+    "href": "crop/wheat/Trojan.html#experiments",
+    "title": "Trojan",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 67 experiments which tested cultivar Trojan and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Catapult.html",
     "href": "crop/wheat/Catapult.html",
     "title": "Catapult",
@@ -278,6 +411,13 @@
     "title": "Catapult",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Catapult\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].CAMP.FLNparams.MinLN\n7.1\n\n\n[Phenology].CAMP.FLNparams.PpLN\n3.1\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n2.4\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-0.9\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n96.3\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.3\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n154\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n2"
+  },
+  {
+    "objectID": "crop/wheat/Catapult.html#experiments",
+    "href": "crop/wheat/Catapult.html#experiments",
+    "title": "Catapult",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 7 experiments which tested cultivar Catapult and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/Tribute.html",
@@ -294,6 +434,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Tribute\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].CAMP.FLNparams.MinLN\n9\n\n\n[Phenology].CAMP.FLNparams.PpLN\n3.0\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n7\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0.0"
   },
   {
+    "objectID": "crop/wheat/Tribute.html#experiments",
+    "href": "crop/wheat/Tribute.html#experiments",
+    "title": "Tribute",
+    "section": "Experiments",
+    "text": "Experiments\n\nNo observations available for this cultivar.\n\nThere are 0 experiments which tested cultivar Tribute and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Ellison.html",
     "href": "crop/wheat/Ellison.html",
     "title": "Ellison",
@@ -306,6 +453,13 @@
     "title": "Ellison",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Ellison\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n110.512287746208\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.282156394448543\n\n\n[Phenology].CAMP.FLNparams.MinLN\n6\n\n\n[Phenology].CAMP.FLNparams.PpLN\n4\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n1\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n2\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n130\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n4"
+  },
+  {
+    "objectID": "crop/wheat/Ellison.html#experiments",
+    "href": "crop/wheat/Ellison.html#experiments",
+    "title": "Ellison",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 31 experiments which tested cultivar Ellison and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/Lang.html",
@@ -322,6 +476,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Lang\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n100\n\n\n[Phenology].CAMP.FLNparams.MinLN\n7\n\n\n[Phenology].CAMP.FLNparams.PpLN\n7\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n0\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n70\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n4\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n6\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60"
   },
   {
+    "objectID": "crop/wheat/Lang.html#experiments",
+    "href": "crop/wheat/Lang.html#experiments",
+    "title": "Lang",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 4 experiments which tested cultivar Lang and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Derrimut.html",
     "href": "crop/wheat/Derrimut.html",
     "title": "Derrimut",
@@ -334,6 +495,13 @@
     "title": "Derrimut",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Derrimut\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n94.7552823110091\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.263180943521024\n\n\n[Phenology].CAMP.FLNparams.MinLN\n7\n\n\n[Phenology].CAMP.FLNparams.PpLN\n3\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n2\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-2\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n150\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n1"
+  },
+  {
+    "objectID": "crop/wheat/Derrimut.html#experiments",
+    "href": "crop/wheat/Derrimut.html#experiments",
+    "title": "Derrimut",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 41 experiments which tested cultivar Derrimut and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/Claire.html",
@@ -350,6 +518,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Claire\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n2\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n100\n\n\n[Phenology].CAMP.FLNparams.MinLN\n9\n\n\n[Phenology].CAMP.FLNparams.PpLN\n5\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n4\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n4\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n150\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n6\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n\n\n\n\n\n\nThe following aliases are also available for this cultivar: Savannah, Atlanta, Istabraq"
   },
   {
+    "objectID": "crop/wheat/Claire.html#experiments",
+    "href": "crop/wheat/Claire.html#experiments",
+    "title": "Claire",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 3 experiments which tested cultivar Claire and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Gorgan.html",
     "href": "crop/wheat/Gorgan.html",
     "title": "Gorgan",
@@ -362,6 +537,13 @@
     "title": "Gorgan",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Gorgan\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n100\n\n\n[Phenology].CAMP.FLNparams.MinLN\n7\n\n\n[Phenology].CAMP.FLNparams.PpLN\n4.0\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n0\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0.0"
+  },
+  {
+    "objectID": "crop/wheat/Gorgan.html#experiments",
+    "href": "crop/wheat/Gorgan.html#experiments",
+    "title": "Gorgan",
+    "section": "Experiments",
+    "text": "Experiments\n\nNo observations available for this cultivar.\n\nThere are 0 experiments which tested cultivar Gorgan and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/Suntop.html",
@@ -378,6 +560,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Suntop\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n93.1036394598307\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.335203758711104\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].CAMP.FLNparams.MinLN\n8\n\n\n[Phenology].CAMP.FLNparams.PpLN\n2\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n0\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n210\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n0"
   },
   {
+    "objectID": "crop/wheat/Suntop.html#experiments",
+    "href": "crop/wheat/Suntop.html#experiments",
+    "title": "Suntop",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 14 experiments which tested cultivar Suntop and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Merinda.html",
     "href": "crop/wheat/Merinda.html",
     "title": "Merinda",
@@ -390,6 +579,13 @@
     "title": "Merinda",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Merinda\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n98.5779272570712\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.347160824156039\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].CAMP.FLNparams.MinLN\n7\n\n\n[Phenology].CAMP.FLNparams.PpLN\n1\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n1\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-1\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n210\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n1"
+  },
+  {
+    "objectID": "crop/wheat/Merinda.html#experiments",
+    "href": "crop/wheat/Merinda.html#experiments",
+    "title": "Merinda",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 14 experiments which tested cultivar Merinda and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/Ararat.html",
@@ -406,6 +602,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Ararat\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n3\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n100.0\n\n\n[Leaf].ExtinctionCoeff.VegetativePhase.FixedValue\n0.8\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.6\n\n\n[Phenology].CAMP.FLNparams.MinLN\n9\n\n\n[Phenology].CAMP.FLNparams.PpLN\n3.0\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n7\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0.0"
   },
   {
+    "objectID": "crop/wheat/Ararat.html#experiments",
+    "href": "crop/wheat/Ararat.html#experiments",
+    "title": "Ararat",
+    "section": "Experiments",
+    "text": "Experiments\n\nNo observations available for this cultivar.\n\nThere are 0 experiments which tested cultivar Ararat and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Sunstate.html",
     "href": "crop/wheat/Sunstate.html",
     "title": "Sunstate",
@@ -418,6 +621,13 @@
     "title": "Sunstate",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Sunstate\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n95.0758950229683\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.225986092694718\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n6\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].CAMP.FLNparams.MinLN\n7\n\n\n[Phenology].CAMP.FLNparams.PpLN\n1\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n4\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-4\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n190\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n1"
+  },
+  {
+    "objectID": "crop/wheat/Sunstate.html#experiments",
+    "href": "crop/wheat/Sunstate.html#experiments",
+    "title": "Sunstate",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 33 experiments which tested cultivar Sunstate and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/Amarok.html",
@@ -434,6 +644,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Amarok\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n4\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n100.0\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.6\n\n\n[Phenology].CAMP.FLNparams.MinLN\n8\n\n\n[Phenology].CAMP.FLNparams.PpLN\n4\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n5\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n2\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n90\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n6\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60"
   },
   {
+    "objectID": "crop/wheat/Amarok.html#experiments",
+    "href": "crop/wheat/Amarok.html#experiments",
+    "title": "Amarok",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 2 experiments which tested cultivar Amarok and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Nugaines.html",
     "href": "crop/wheat/Nugaines.html",
     "title": "Nugaines",
@@ -446,6 +663,13 @@
     "title": "Nugaines",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Nugaines\n\n\n\n\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Grain].NumberFunction.GrainNumber.GrainsPerGramOfStem.FixedValue\n20\n\n\n[Grain].MaximumNConc.FixedValue\n0.02\n\n\n[Phenology].CAMP.FLNparams.MinLN\n7\n\n\n[Phenology].CAMP.FLNparams.PpLN\n4.0\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n6\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0.0"
+  },
+  {
+    "objectID": "crop/wheat/Nugaines.html#experiments",
+    "href": "crop/wheat/Nugaines.html#experiments",
+    "title": "Nugaines",
+    "section": "Experiments",
+    "text": "Experiments\n\nNo observations available for this cultivar.\n\nThere are 0 experiments which tested cultivar Nugaines and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/Sunbee.html",
@@ -462,6 +686,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Sunbee\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n97.2940011008473\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.185142054210791\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].CAMP.FLNparams.MinLN\n7\n\n\n[Phenology].CAMP.FLNparams.PpLN\n1\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n3\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-3\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n370\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n0"
   },
   {
+    "objectID": "crop/wheat/Sunbee.html#experiments",
+    "href": "crop/wheat/Sunbee.html#experiments",
+    "title": "Sunbee",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 10 experiments which tested cultivar Sunbee and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Sage.html",
     "href": "crop/wheat/Sage.html",
     "title": "Sage",
@@ -474,6 +705,13 @@
     "title": "Sage",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Sage\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].CAMP.FLNparams.MinLN\n9\n\n\n[Phenology].CAMP.FLNparams.PpLN\n3.0\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n7\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0.0"
+  },
+  {
+    "objectID": "crop/wheat/Sage.html#experiments",
+    "href": "crop/wheat/Sage.html#experiments",
+    "title": "Sage",
+    "section": "Experiments",
+    "text": "Experiments\n\nNo observations available for this cultivar.\n\nThere are 0 experiments which tested cultivar Sage and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/Hyslop.html",
@@ -490,6 +728,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Hyslop\n\n\n\n\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Grain].NumberFunction.GrainNumber.GrainsPerGramOfStem.FixedValue\n22\n\n\n[Grain].MaximumNConc.FixedValue\n0.02\n\n\n[Phenology].CAMP.FLNparams.MinLN\n7\n\n\n[Phenology].CAMP.FLNparams.PpLN\n4.0\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n6\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0.0"
   },
   {
+    "objectID": "crop/wheat/Hyslop.html#experiments",
+    "href": "crop/wheat/Hyslop.html#experiments",
+    "title": "Hyslop",
+    "section": "Experiments",
+    "text": "Experiments\n\nNo observations available for this cultivar.\n\nThere are 0 experiments which tested cultivar Hyslop and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Spear.html",
     "href": "crop/wheat/Spear.html",
     "title": "Spear",
@@ -502,6 +747,13 @@
     "title": "Spear",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Spear\n\n\n\n\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n102.794916048683\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.192036818570067\n\n\n[Grain].NumberFunction.GrainNumber.GrainsPerGramOfStem.FixedValue\n22\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n6\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].CAMP.FLNparams.MinLN\n7\n\n\n[Phenology].CAMP.FLNparams.PpLN\n2\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n4\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-2\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n170\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n0"
+  },
+  {
+    "objectID": "crop/wheat/Spear.html#experiments",
+    "href": "crop/wheat/Spear.html#experiments",
+    "title": "Spear",
+    "section": "Experiments",
+    "text": "Experiments\n\nNo observations available for this cultivar.\n\nThere are 0 experiments which tested cultivar Spear and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/MacKellar.html",
@@ -518,6 +770,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for MacKellar\n\n\n\n\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n114.0\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n100\n\n\n[Phenology].CAMP.FLNparams.MinLN\n8.664527440257086\n\n\n[Phenology].CAMP.FLNparams.PpLN\n1.0215422635640583\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n10.022473345513335\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-2.1045318640627455\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n3.533066035654082\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n6\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60"
   },
   {
+    "objectID": "crop/wheat/MacKellar.html#experiments",
+    "href": "crop/wheat/MacKellar.html#experiments",
+    "title": "MacKellar",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 1 experiments which tested cultivar MacKellar and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Bennett.html",
     "href": "crop/wheat/Bennett.html",
     "title": "Bennett",
@@ -530,6 +789,13 @@
     "title": "Bennett",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Bennett\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n106.269847259128\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.221423439420895\n\n\n[Phenology].CAMP.FLNparams.MinLN\n8\n\n\n[Phenology].CAMP.FLNparams.PpLN\n1\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n6\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n1\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n230\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n2"
+  },
+  {
+    "objectID": "crop/wheat/Bennett.html#experiments",
+    "href": "crop/wheat/Bennett.html#experiments",
+    "title": "Bennett",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 59 experiments which tested cultivar Bennett and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/Manning.html",
@@ -546,6 +812,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Manning\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n104.816433323058\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.253254338348875\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n6\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].CAMP.FLNparams.MinLN\n9\n\n\n[Phenology].CAMP.FLNparams.PpLN\n6\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n8\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n230\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n0"
   },
   {
+    "objectID": "crop/wheat/Manning.html#experiments",
+    "href": "crop/wheat/Manning.html#experiments",
+    "title": "Manning",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 30 experiments which tested cultivar Manning and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Scout.html",
     "href": "crop/wheat/Scout.html",
     "title": "Scout",
@@ -558,6 +831,13 @@
     "title": "Scout",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Scout\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n102.794916048683\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.192036818570067\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n6\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].CAMP.FLNparams.MinLN\n7\n\n\n[Phenology].CAMP.FLNparams.PpLN\n2\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n4\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-2\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n170\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n0"
+  },
+  {
+    "objectID": "crop/wheat/Scout.html#experiments",
+    "href": "crop/wheat/Scout.html#experiments",
+    "title": "Scout",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 15 experiments which tested cultivar Scout and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/Gregory.html",
@@ -574,6 +854,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Gregory\n\n\n\n\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n96.2227321902995\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.199981872553676\n\n\n[Phenology].CAMP.FLNparams.MinLN\n8\n\n\n[Phenology].CAMP.FLNparams.PpLN\n2\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n4\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-3\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n6\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n110\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n1\n\n\n[Grain].MaximumPotentialGrainSize.FixedValue\n0.041\n\n\n[Grain].NumberFunction.GrainNumber.GrainsPerGramOfStem.FixedValue\n22"
   },
   {
+    "objectID": "crop/wheat/Gregory.html#experiments",
+    "href": "crop/wheat/Gregory.html#experiments",
+    "title": "Gregory",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 46 experiments which tested cultivar Gregory and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Axe.html",
     "href": "crop/wheat/Axe.html",
     "title": "Axe",
@@ -586,6 +873,13 @@
     "title": "Axe",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Axe\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n1\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n92.9812317822162\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.268590208069814\n\n\n[Phenology].CAMP.FLNparams.MinLN\n7\n\n\n[Phenology].CAMP.FLNparams.PpLN\n2\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n0\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n130"
+  },
+  {
+    "objectID": "crop/wheat/Axe.html#experiments",
+    "href": "crop/wheat/Axe.html#experiments",
+    "title": "Axe",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 50 experiments which tested cultivar Axe and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/CSIROW005.html",
@@ -602,6 +896,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for CSIROW005\n\n\n\n\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n100.324132823901\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.16547784419225\n\n\n[Phenology].CAMP.FLNparams.MinLN\n5.759207332491177\n\n\n[Phenology].CAMP.FLNparams.PpLN\n2.4191796388445765\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n3.0756722363145896\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-0.2627994305564112\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n369.0\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n0.0"
   },
   {
+    "objectID": "crop/wheat/CSIROW005.html#experiments",
+    "href": "crop/wheat/CSIROW005.html#experiments",
+    "title": "CSIROW005",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 10 experiments which tested cultivar CSIROW005 and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/H45.html",
     "href": "crop/wheat/H45.html",
     "title": "H45",
@@ -614,6 +915,13 @@
     "title": "H45",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for H45\n\n\n\n\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n85.6989214218668\n\n\n[Grain].NumberFunction.GrainNumber.GrainsPerGramOfStem.FixedValue\n20\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.349562436956343\n\n\n[Phenology].CAMP.FLNparams.MinLN\n8\n\n\n[Phenology].CAMP.FLNparams.PpLN\n3\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n0\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n6\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n50\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n4"
+  },
+  {
+    "objectID": "crop/wheat/H45.html#experiments",
+    "href": "crop/wheat/H45.html#experiments",
+    "title": "H45",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 11 experiments which tested cultivar H45 and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/McCubbin.html",
@@ -630,6 +938,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for McCubbin\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n90\n\n\n[Phenology].CAMP.FLNparams.MinLN\n8.0\n\n\n[Phenology].CAMP.FLNparams.PpLN\n8.0\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n0.0\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n3.0\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n200.0\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n2.0\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n6\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60"
   },
   {
+    "objectID": "crop/wheat/McCubbin.html#experiments",
+    "href": "crop/wheat/McCubbin.html#experiments",
+    "title": "McCubbin",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 1 experiments which tested cultivar McCubbin and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Genius.html",
     "href": "crop/wheat/Genius.html",
     "title": "Genius",
@@ -642,6 +957,13 @@
     "title": "Genius",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Genius\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].CAMP.FLNparams.MinLN\n8.5\n\n\n[Phenology].CAMP.FLNparams.PpLN\n4\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n7.5\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n1\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n109.3\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.2\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.9\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n190\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n2"
+  },
+  {
+    "objectID": "crop/wheat/Genius.html#experiments",
+    "href": "crop/wheat/Genius.html#experiments",
+    "title": "Genius",
+    "section": "Experiments",
+    "text": "Experiments\n\nNo observations available for this cultivar.\n\nThere are 0 experiments which tested cultivar Genius and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/CRW247.html",
@@ -658,6 +980,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for CRW247\n\n\n\n\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n50\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n105.0\n\n\n[Leaf].ExtinctionCoeff.VegetativePhase.FixedValue\n0.75\n\n\n[Grain].NumberFunction.GrainNumber.GrainsPerGramOfStem.FixedValue\n26\n\n\n[Grain].MaximumPotentialGrainSize.FixedValue\n0.045\n\n\n[Leaf].CohortParameters.MaxArea.AreaLargestLeaves.FixedValue\n3000\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.33\n\n\n[Phenology].CAMP.FLNparams.MinLN\n10\n\n\n[Phenology].CAMP.FLNparams.PpLN\n8\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n0\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n8\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n6\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60"
   },
   {
+    "objectID": "crop/wheat/CRW247.html#experiments",
+    "href": "crop/wheat/CRW247.html#experiments",
+    "title": "CRW247",
+    "section": "Experiments",
+    "text": "Experiments\n\nNo observations available for this cultivar.\n\nThere are 0 experiments which tested cultivar CRW247 and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/BattenSpring.html",
     "href": "crop/wheat/BattenSpring.html",
     "title": "BattenSpring",
@@ -670,6 +999,13 @@
     "title": "BattenSpring",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for BattenSpring\n\n\n\n\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n0.006727231500210627\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n100.0\n\n\n[Leaf].ExtinctionCoeff.VegetativePhase.FixedValue\n0.7\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.6\n\n\n[Phenology].CAMP.FLNparams.MinLN\n8.25262475446035\n\n\n[Phenology].CAMP.FLNparams.PpLN\n7.552256317837019\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n0.18541366678983096\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-0.03479769923441367\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n107.0\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n6\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60"
+  },
+  {
+    "objectID": "crop/wheat/BattenSpring.html#experiments",
+    "href": "crop/wheat/BattenSpring.html#experiments",
+    "title": "BattenSpring",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 3 experiments which tested cultivar BattenSpring and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/CSIROW073.html",
@@ -686,6 +1022,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for CSIROW073\n\n\n\n\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n95.6693440169749\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.226791235396558\n\n\n[Phenology].CAMP.FLNparams.MinLN\n8.790112770072708\n\n\n[Phenology].CAMP.FLNparams.PpLN\n0.7295023618186995\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n4.373125182546708\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n9.99670899443495\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n50.0\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n3.5452031099169528"
   },
   {
+    "objectID": "crop/wheat/CSIROW073.html#experiments",
+    "href": "crop/wheat/CSIROW073.html#experiments",
+    "title": "CSIROW073",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 10 experiments which tested cultivar CSIROW073 and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Sunco.html",
     "href": "crop/wheat/Sunco.html",
     "title": "Sunco",
@@ -698,6 +1041,13 @@
     "title": "Sunco",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Sunco\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n1\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n100\n\n\n[Phenology].CAMP.FLNparams.MinLN\n6\n\n\n[Phenology].CAMP.FLNparams.PpLN\n11\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n10\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-9\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n170"
+  },
+  {
+    "objectID": "crop/wheat/Sunco.html#experiments",
+    "href": "crop/wheat/Sunco.html#experiments",
+    "title": "Sunco",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 2 experiments which tested cultivar Sunco and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/Konya.html",
@@ -714,6 +1064,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Konya\n\n\n\n\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n100\n\n\n[Grain].NumberFunction.GrainNumber.GrainsPerGramOfStem.FixedValue\n13\n\n\n[Grain].MaximumPotentialGrainSize.FixedValue\n0.05\n\n\n[Phenology].GrainFilling.Target.FixedValue\n450\n\n\n[Stem].DMRetranslocationFactor.ReproductiveGrowth.DMRetranslocationFactor.FixedValue\n0.2\n\n\n[Stem].DMDemands.Structural.StructuralFraction.VegetativeGrowth.Fraction.FixedValue\n0.6\n\n\n[Leaf].ExtinctionCoeff.VegetativePhase.FixedValue\n0.8\n\n\n[Phenology].CAMP.FLNparams.MinLN\n7\n\n\n[Phenology].CAMP.FLNparams.PpLN\n2.0\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n2\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0.0"
   },
   {
+    "objectID": "crop/wheat/Konya.html#experiments",
+    "href": "crop/wheat/Konya.html#experiments",
+    "title": "Konya",
+    "section": "Experiments",
+    "text": "Experiments\n\nNo observations available for this cultivar.\n\nThere are 0 experiments which tested cultivar Konya and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Spring Mid.html",
     "href": "crop/wheat/Spring Mid.html",
     "title": "Spring Mid",
@@ -726,6 +1083,13 @@
     "title": "Spring Mid",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Spring Mid\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].CAMP.FLNparams.MinLN\n7.1\n\n\n[Phenology].CAMP.FLNparams.PpLN\n3.1\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n2.4\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-0.9\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n96.3\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.3\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n154\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n2"
+  },
+  {
+    "objectID": "crop/wheat/Spring Mid.html#experiments",
+    "href": "crop/wheat/Spring Mid.html#experiments",
+    "title": "Spring Mid",
+    "section": "Experiments",
+    "text": "Experiments\n\nNo observations available for this cultivar.\n\nThere are 0 experiments which tested cultivar Spring Mid and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/CSIROW023.html",
@@ -742,6 +1106,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for CSIROW023\n\n\n\n\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n102.809488116017\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.218898108718466\n\n\n[Phenology].CAMP.FLNparams.MinLN\n7.493027691870457\n\n\n[Phenology].CAMP.FLNparams.PpLN\n2.584156511279189\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n2.37442378811967\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0.28214981195795374\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n219.0\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n0.0"
   },
   {
+    "objectID": "crop/wheat/CSIROW023.html#experiments",
+    "href": "crop/wheat/CSIROW023.html#experiments",
+    "title": "CSIROW023",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 10 experiments which tested cultivar CSIROW023 and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Wakanui.html",
     "href": "crop/wheat/Wakanui.html",
     "title": "Wakanui",
@@ -754,6 +1125,13 @@
     "title": "Wakanui",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Wakanui\n\n\n\n\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n50\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n105.0\n\n\n[Leaf].ExtinctionCoeff.VegetativePhase.FixedValue\n0.75\n\n\n[Grain].NumberFunction.GrainNumber.GrainsPerGramOfStem.FixedValue\n26\n\n\n[Grain].MaximumPotentialGrainSize.FixedValue\n0.045\n\n\n[Leaf].CohortParameters.MaxArea.AreaLargestLeaves.FixedValue\n3000\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.33\n\n\n[Phenology].CAMP.FLNparams.MinLN\n10\n\n\n[Phenology].CAMP.FLNparams.PpLN\n12\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n12\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n4\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n8\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n6\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60"
+  },
+  {
+    "objectID": "crop/wheat/Wakanui.html#experiments",
+    "href": "crop/wheat/Wakanui.html#experiments",
+    "title": "Wakanui",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 1 experiments which tested cultivar Wakanui and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/Bolac.html",
@@ -770,6 +1148,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Bolac\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n99.3767047504637\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.204801292585874\n\n\n[Phenology].CAMP.FLNparams.MinLN\n7\n\n\n[Phenology].CAMP.FLNparams.PpLN\n5\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n1\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n170\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n1"
   },
   {
+    "objectID": "crop/wheat/Bolac.html#experiments",
+    "href": "crop/wheat/Bolac.html#experiments",
+    "title": "Bolac",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 53 experiments which tested cultivar Bolac and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Gladius.html",
     "href": "crop/wheat/Gladius.html",
     "title": "Gladius",
@@ -782,6 +1167,13 @@
     "title": "Gladius",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Gladius\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n100\n\n\n[Phenology].CAMP.FLNparams.MinLN\n6\n\n\n[Phenology].CAMP.FLNparams.PpLN\n5.0\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n0\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0.0"
+  },
+  {
+    "objectID": "crop/wheat/Gladius.html#experiments",
+    "href": "crop/wheat/Gladius.html#experiments",
+    "title": "Gladius",
+    "section": "Experiments",
+    "text": "Experiments\n\nNo observations available for this cultivar.\n\nThere are 0 experiments which tested cultivar Gladius and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/Mace.html",
@@ -798,6 +1190,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Mace\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n106.268453805677\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.137742329295879\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n6\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].CAMP.FLNparams.MinLN\n7\n\n\n[Phenology].CAMP.FLNparams.PpLN\n2\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n3\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-3\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n70\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n1"
   },
   {
+    "objectID": "crop/wheat/Mace.html#experiments",
+    "href": "crop/wheat/Mace.html#experiments",
+    "title": "Mace",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 28 experiments which tested cultivar Mace and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Magenta.html",
     "href": "crop/wheat/Magenta.html",
     "title": "Magenta",
@@ -810,6 +1209,13 @@
     "title": "Magenta",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Magenta\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n113.040956826707\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.138444741551648\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].CAMP.FLNparams.MinLN\n7\n\n\n[Phenology].CAMP.FLNparams.PpLN\n3\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n2\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n1\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n130\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n0"
+  },
+  {
+    "objectID": "crop/wheat/Magenta.html#experiments",
+    "href": "crop/wheat/Magenta.html#experiments",
+    "title": "Magenta",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 10 experiments which tested cultivar Magenta and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/Kennedy.html",
@@ -826,6 +1232,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Kennedy\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n100\n\n\n[Phenology].CAMP.FLNparams.MinLN\n8\n\n\n[Phenology].CAMP.FLNparams.PpLN\n4.0\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n0\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0.0"
   },
   {
+    "objectID": "crop/wheat/Kennedy.html#experiments",
+    "href": "crop/wheat/Kennedy.html#experiments",
+    "title": "Kennedy",
+    "section": "Experiments",
+    "text": "Experiments\n\nNo observations available for this cultivar.\n\nThere are 0 experiments which tested cultivar Kennedy and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Forrest.html",
     "href": "crop/wheat/Forrest.html",
     "title": "Forrest",
@@ -838,6 +1251,13 @@
     "title": "Forrest",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Forrest\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n99.8910902837222\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.417874283738016\n\n\n[Phenology].CAMP.FLNparams.MinLN\n6\n\n\n[Phenology].CAMP.FLNparams.PpLN\n5\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n2\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n1\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n370\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n1"
+  },
+  {
+    "objectID": "crop/wheat/Forrest.html#experiments",
+    "href": "crop/wheat/Forrest.html#experiments",
+    "title": "Forrest",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 14 experiments which tested cultivar Forrest and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/Zyatt.html",
@@ -854,6 +1274,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Zyatt\n\n\n\n\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n50\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n105.0\n\n\n[Leaf].ExtinctionCoeff.VegetativePhase.FixedValue\n0.75\n\n\n[Grain].NumberFunction.GrainNumber.GrainsPerGramOfStem.FixedValue\n26\n\n\n[Grain].MaximumPotentialGrainSize.FixedValue\n0.045\n\n\n[Leaf].CohortParameters.MaxArea.AreaLargestLeaves.FixedValue\n3000\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.33\n\n\n[Phenology].CAMP.FLNparams.MinLN\n10\n\n\n[Phenology].CAMP.FLNparams.PpLN\n12\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n12\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n4\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n8\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n6\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60"
   },
   {
+    "objectID": "crop/wheat/Zyatt.html#experiments",
+    "href": "crop/wheat/Zyatt.html#experiments",
+    "title": "Zyatt",
+    "section": "Experiments",
+    "text": "Experiments\n\nNo observations available for this cultivar.\n\nThere are 0 experiments which tested cultivar Zyatt and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Calibro.html",
     "href": "crop/wheat/Calibro.html",
     "title": "Calibro",
@@ -866,6 +1293,13 @@
     "title": "Calibro",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Calibro\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].CAMP.FLNparams.MinLN\n8.5\n\n\n[Phenology].CAMP.FLNparams.PpLN\n4\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n7.5\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n1\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n109.3\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.2\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.9\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n190\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n2"
+  },
+  {
+    "objectID": "crop/wheat/Calibro.html#experiments",
+    "href": "crop/wheat/Calibro.html#experiments",
+    "title": "Calibro",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 6 experiments which tested cultivar Calibro and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/Wills.html",
@@ -882,6 +1316,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Wills\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n94.9906866085437\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.264808096779551\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].CAMP.FLNparams.MinLN\n8\n\n\n[Phenology].CAMP.FLNparams.PpLN\n2\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n4\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-3\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n110\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n1"
   },
   {
+    "objectID": "crop/wheat/Wills.html#experiments",
+    "href": "crop/wheat/Wills.html#experiments",
+    "title": "Wills",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 14 experiments which tested cultivar Wills and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Hume.html",
     "href": "crop/wheat/Hume.html",
     "title": "Hume",
@@ -894,6 +1335,13 @@
     "title": "Hume",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Hume\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n86.6877539944917\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.340327517277635\n\n\n[Phenology].CAMP.FLNparams.MinLN\n7\n\n\n[Phenology].CAMP.FLNparams.PpLN\n3\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n1\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-1\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n190\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n1"
+  },
+  {
+    "objectID": "crop/wheat/Hume.html#experiments",
+    "href": "crop/wheat/Hume.html#experiments",
+    "title": "Hume",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 15 experiments which tested cultivar Hume and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/Stockade.html",
@@ -910,6 +1358,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Stockade\n\n\n\n\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n50\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n105.0\n\n\n[Leaf].ExtinctionCoeff.VegetativePhase.FixedValue\n0.75\n\n\n[Grain].NumberFunction.GrainNumber.GrainsPerGramOfStem.FixedValue\n26\n\n\n[Grain].MaximumPotentialGrainSize.FixedValue\n0.045\n\n\n[Leaf].CohortParameters.MaxArea.AreaLargestLeaves.FixedValue\n3000\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.33\n\n\n[Phenology].CAMP.FLNparams.MinLN\n8\n\n\n[Phenology].CAMP.FLNparams.PpLN\n12\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n12\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n4\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n8\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n6\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].CAMP.FLNparams.MinLN\n7.3\n\n\n[Phenology].CAMP.FLNparams.PpLN\n4\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n2.3\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0.8\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n95.5\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.3\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.9\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n230\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n1.5"
   },
   {
+    "objectID": "crop/wheat/Stockade.html#experiments",
+    "href": "crop/wheat/Stockade.html#experiments",
+    "title": "Stockade",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 8 experiments which tested cultivar Stockade and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Robigus.html",
     "href": "crop/wheat/Robigus.html",
     "title": "Robigus",
@@ -922,6 +1377,13 @@
     "title": "Robigus",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Robigus\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].CAMP.FLNparams.MinLN\n9\n\n\n[Phenology].CAMP.FLNparams.PpLN\n3.0\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n7\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0.0"
+  },
+  {
+    "objectID": "crop/wheat/Robigus.html#experiments",
+    "href": "crop/wheat/Robigus.html#experiments",
+    "title": "Robigus",
+    "section": "Experiments",
+    "text": "Experiments\n\nNo observations available for this cultivar.\n\nThere are 0 experiments which tested cultivar Robigus and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/index.html",
@@ -945,6 +1407,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Matong\n\n\n\n\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n100\n\n\n[Grain].NumberFunction.GrainNumber.GrainsPerGramOfStem.FixedValue\n22\n\n\n[Phenology].CAMP.FLNparams.MinLN\n7\n\n\n[Phenology].CAMP.FLNparams.PpLN\n4.0\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n1\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0.0"
   },
   {
+    "objectID": "crop/wheat/Matong.html#experiments",
+    "href": "crop/wheat/Matong.html#experiments",
+    "title": "Matong",
+    "section": "Experiments",
+    "text": "Experiments\n\nNo observations available for this cultivar.\n\nThere are 0 experiments which tested cultivar Matong and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Cunningham.html",
     "href": "crop/wheat/Cunningham.html",
     "title": "Cunningham",
@@ -957,6 +1426,13 @@
     "title": "Cunningham",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Cunningham\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n100\n\n\n[Phenology].CAMP.FLNparams.MinLN\n7\n\n\n[Phenology].CAMP.FLNparams.PpLN\n12\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n9\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-9\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n50\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n0"
+  },
+  {
+    "objectID": "crop/wheat/Cunningham.html#experiments",
+    "href": "crop/wheat/Cunningham.html#experiments",
+    "title": "Cunningham",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 5 experiments which tested cultivar Cunningham and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/Meering.html",
@@ -973,6 +1449,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Meering\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].CAMP.FLNparams.MinLN\n7.1\n\n\n[Phenology].CAMP.FLNparams.PpLN\n3.1\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n2.4\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-0.9\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n100\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.3\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n154\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n1"
   },
   {
+    "objectID": "crop/wheat/Meering.html#experiments",
+    "href": "crop/wheat/Meering.html#experiments",
+    "title": "Meering",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 1 experiments which tested cultivar Meering and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/HAR1685.html",
     "href": "crop/wheat/HAR1685.html",
     "title": "HAR1685",
@@ -985,6 +1468,13 @@
     "title": "HAR1685",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for HAR1685\n\n\n\n\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n100\n\n\n[Grain].NumberFunction.GrainNumber.GrainsPerGramOfStem.FixedValue\n17\n\n\n[Phenology].GrainFilling.Target.FixedValue\n350\n\n\n[Phenology].CAMP.FLNparams.MinLN\n7\n\n\n[Phenology].CAMP.FLNparams.PpLN\n3.0\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n0\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0.0"
+  },
+  {
+    "objectID": "crop/wheat/HAR1685.html#experiments",
+    "href": "crop/wheat/HAR1685.html#experiments",
+    "title": "HAR1685",
+    "section": "Experiments",
+    "text": "Experiments\n\nNo observations available for this cultivar.\n\nThere are 0 experiments which tested cultivar HAR1685 and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/Hartog.html",
@@ -1001,6 +1491,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Hartog\n\n\n\n\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n107.48\n\n\n[Grain].MaximumPotentialGrainSize.FixedValue\n0.041\n\n\n[Grain].NumberFunction.GrainNumber.GrainsPerGramOfStem.FixedValue\n22\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.247\n\n\n[Phenology].CAMP.FLNparams.MinLN\n7\n\n\n[Phenology].CAMP.FLNparams.PpLN\n4\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n2\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n50\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n5\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n6\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n\n\n\n\n\n\nThe following aliases are also available for this cultivar: Corack"
   },
   {
+    "objectID": "crop/wheat/Hartog.html#experiments",
+    "href": "crop/wheat/Hartog.html#experiments",
+    "title": "Hartog",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 14 experiments which tested cultivar Hartog and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Emu_Rock.html",
     "href": "crop/wheat/Emu_Rock.html",
     "title": "Emu_Rock",
@@ -1013,6 +1510,13 @@
     "title": "Emu_Rock",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Emu_Rock\n\n\n\n\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n94.7698873180009\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.358007951256312\n\n\n[Phenology].CAMP.FLNparams.MinLN\n6\n\n\n[Phenology].CAMP.FLNparams.PpLN\n1\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n1\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-1\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n183.0\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n1.7962741039794823"
+  },
+  {
+    "objectID": "crop/wheat/Emu_Rock.html#experiments",
+    "href": "crop/wheat/Emu_Rock.html#experiments",
+    "title": "Emu_Rock",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 10 experiments which tested cultivar Emu_Rock and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/Longsword.html",
@@ -1029,6 +1533,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Longsword\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n100.389906627796\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.205225247925933\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].CAMP.FLNparams.MinLN\n8\n\n\n[Phenology].CAMP.FLNparams.PpLN\n1\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n7\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n1\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n110\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n2"
   },
   {
+    "objectID": "crop/wheat/Longsword.html#experiments",
+    "href": "crop/wheat/Longsword.html#experiments",
+    "title": "Longsword",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 49 experiments which tested cultivar Longsword and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Rongotea.html",
     "href": "crop/wheat/Rongotea.html",
     "title": "Rongotea",
@@ -1041,6 +1552,13 @@
     "title": "Rongotea",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Rongotea\n\n\n\n\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n3.92123686073301\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n100\n\n\n[Phenology].CAMP.FLNparams.MinLN\n7.73858795204672\n\n\n[Phenology].CAMP.FLNparams.PpLN\n10.6418278399273\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n0.307012432477857\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-0.256935248010825\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n168\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n6\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60"
+  },
+  {
+    "objectID": "crop/wheat/Rongotea.html#experiments",
+    "href": "crop/wheat/Rongotea.html#experiments",
+    "title": "Rongotea",
+    "section": "Experiments",
+    "text": "Experiments\n\nNo observations available for this cultivar.\n\nThere are 0 experiments which tested cultivar Rongotea and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/H46.html",
@@ -1057,6 +1575,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for H46\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n100\n\n\n[Phenology].CAMP.FLNparams.MinLN\n8\n\n\n[Phenology].CAMP.FLNparams.PpLN\n4.0\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n0\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0.0"
   },
   {
+    "objectID": "crop/wheat/H46.html#experiments",
+    "href": "crop/wheat/H46.html#experiments",
+    "title": "H46",
+    "section": "Experiments",
+    "text": "Experiments\n\nNo observations available for this cultivar.\n\nThere are 0 experiments which tested cultivar H46 and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Condo.html",
     "href": "crop/wheat/Condo.html",
     "title": "Condo",
@@ -1069,6 +1594,13 @@
     "title": "Condo",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Condo\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n94.4306598856844\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.179475706868039\n\n\n[Phenology].CAMP.FLNparams.MinLN\n7\n\n\n[Phenology].CAMP.FLNparams.PpLN\n2\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n3\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n190\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n0"
+  },
+  {
+    "objectID": "crop/wheat/Condo.html#experiments",
+    "href": "crop/wheat/Condo.html#experiments",
+    "title": "Condo",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 6 experiments which tested cultivar Condo and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/CSIROW087.html",
@@ -1085,6 +1617,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for CSIROW087\n\n\n\n\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n95.8407854192227\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.379363409943707\n\n\n[Phenology].CAMP.FLNparams.MinLN\n6.088762673975456\n\n\n[Phenology].CAMP.FLNparams.PpLN\n1.3098995454756082\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n1.7408533665776218\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-1.377321640166457\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n214.0\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n2.2429157431718143"
   },
   {
+    "objectID": "crop/wheat/CSIROW087.html#experiments",
+    "href": "crop/wheat/CSIROW087.html#experiments",
+    "title": "CSIROW087",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 10 experiments which tested cultivar CSIROW087 and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Calingiri.html",
     "href": "crop/wheat/Calingiri.html",
     "title": "Calingiri",
@@ -1097,6 +1636,13 @@
     "title": "Calingiri",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Calingiri\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n112.665706012865\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.16928704526596\n\n\n[Phenology].CAMP.FLNparams.MinLN\n7\n\n\n[Phenology].CAMP.FLNparams.PpLN\n2\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n2\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-1\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n50\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n4"
+  },
+  {
+    "objectID": "crop/wheat/Calingiri.html#experiments",
+    "href": "crop/wheat/Calingiri.html#experiments",
+    "title": "Calingiri",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 48 experiments which tested cultivar Calingiri and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/Yecora.html",
@@ -1113,6 +1659,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Yecora\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n90\n\n\n[Leaf].CohortParameters.MaxArea.AreaLargestLeaves.FixedValue\n4000\n\n\n[Phenology].CAMP.FLNparams.MinLN\n7\n\n\n[Phenology].CAMP.FLNparams.PpLN\n2\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n2\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n2\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n110\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n0\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n6\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60"
   },
   {
+    "objectID": "crop/wheat/Yecora.html#experiments",
+    "href": "crop/wheat/Yecora.html#experiments",
+    "title": "Yecora",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 2 experiments which tested cultivar Yecora and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Longford.html",
     "href": "crop/wheat/Longford.html",
     "title": "Longford",
@@ -1127,6 +1680,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Longford\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].CAMP.FLNparams.MinLN\n8.5\n\n\n[Phenology].CAMP.FLNparams.PpLN\n4\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n7.5\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n1\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n109.3\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.2\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.9\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n190\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n2"
   },
   {
+    "objectID": "crop/wheat/Longford.html#experiments",
+    "href": "crop/wheat/Longford.html#experiments",
+    "title": "Longford",
+    "section": "Experiments",
+    "text": "Experiments\n\nNo observations available for this cultivar.\n\nThere are 0 experiments which tested cultivar Longford and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Saracen.html",
     "href": "crop/wheat/Saracen.html",
     "title": "Saracen",
@@ -1139,6 +1699,13 @@
     "title": "Saracen",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Saracen\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n100.0\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.6\n\n\n[Phenology].CAMP.FLNparams.MinLN\n8\n\n\n[Phenology].CAMP.FLNparams.PpLN\n2\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n1\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n2\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n170\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n4\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n6\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60"
+  },
+  {
+    "objectID": "crop/wheat/Saracen.html#experiments",
+    "href": "crop/wheat/Saracen.html#experiments",
+    "title": "Saracen",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 1 experiments which tested cultivar Saracen and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "index.html",
@@ -1225,6 +1792,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for CSIROW011\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n90.109466190558\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.349636600984782\n\n\n[Phenology].CAMP.FLNparams.MinLN\n6.0\n\n\n[Phenology].CAMP.FLNparams.PpLN\n1.0\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n1.0\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-1.0\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n200.0\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n2.0"
   },
   {
+    "objectID": "crop/wheat/CSIROW011.html#experiments",
+    "href": "crop/wheat/CSIROW011.html#experiments",
+    "title": "CSIROW011",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 10 experiments which tested cultivar CSIROW011 and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Livingston.html",
     "href": "crop/wheat/Livingston.html",
     "title": "Livingston",
@@ -1237,6 +1811,13 @@
     "title": "Livingston",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Livingston\n\n\n\n\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n100\n\n\n[Phenology].CAMP.FLNparams.MinLN\n6.1\n\n\n[Phenology].CAMP.FLNparams.PpLN\n3.0\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n1.8000000000000007\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n4.0\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n108\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n1.3\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n6\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Grain].MaximumPotentialGrainSize.FixedValue\n0.041\n\n\n[Grain].NumberFunction.GrainNumber.GrainsPerGramOfStem.FixedValue\n22"
+  },
+  {
+    "objectID": "crop/wheat/Livingston.html#experiments",
+    "href": "crop/wheat/Livingston.html#experiments",
+    "title": "Livingston",
+    "section": "Experiments",
+    "text": "Experiments\n\nNo observations available for this cultivar.\n\nThere are 0 experiments which tested cultivar Livingston and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/Suneca.html",
@@ -1253,6 +1834,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Suneca\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].CAMP.FLNparams.MinLN\n5\n\n\n[Phenology].CAMP.FLNparams.PpLN\n6\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n3\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n3\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n190\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n2"
   },
   {
+    "objectID": "crop/wheat/Suneca.html#experiments",
+    "href": "crop/wheat/Suneca.html#experiments",
+    "title": "Suneca",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 6 experiments which tested cultivar Suneca and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Spring Very Slow.html",
     "href": "crop/wheat/Spring Very Slow.html",
     "title": "Spring Very Slow",
@@ -1265,6 +1853,13 @@
     "title": "Spring Very Slow",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Spring Very Slow\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].CAMP.FLNparams.MinLN\n7\n\n\n[Phenology].CAMP.FLNparams.PpLN\n5\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n10\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-5\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n100.4\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.2\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n150\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n4"
+  },
+  {
+    "objectID": "crop/wheat/Spring Very Slow.html#experiments",
+    "href": "crop/wheat/Spring Very Slow.html#experiments",
+    "title": "Spring Very Slow",
+    "section": "Experiments",
+    "text": "Experiments\n\nNo observations available for this cultivar.\n\nThere are 0 experiments which tested cultivar Spring Very Slow and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/Rosario.html",
@@ -1281,6 +1876,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Rosario\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n3\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n100.0\n\n\n[Leaf].ExtinctionCoeff.VegetativePhase.FixedValue\n0.8\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.6\n\n\n[Phenology].CAMP.FLNparams.MinLN\n9\n\n\n[Phenology].CAMP.FLNparams.PpLN\n3.0\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n7\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0.0"
   },
   {
+    "objectID": "crop/wheat/Rosario.html#experiments",
+    "href": "crop/wheat/Rosario.html#experiments",
+    "title": "Rosario",
+    "section": "Experiments",
+    "text": "Experiments\n\nNo observations available for this cultivar.\n\nThere are 0 experiments which tested cultivar Rosario and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Scepter.html",
     "href": "crop/wheat/Scepter.html",
     "title": "Scepter",
@@ -1293,6 +1895,13 @@
     "title": "Scepter",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Scepter\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n107.602580952482\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.23032920462638\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n6\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].CAMP.FLNparams.MinLN\n7\n\n\n[Phenology].CAMP.FLNparams.PpLN\n2\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n2\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-1\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n170\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n0"
+  },
+  {
+    "objectID": "crop/wheat/Scepter.html#experiments",
+    "href": "crop/wheat/Scepter.html#experiments",
+    "title": "Scepter",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 83 experiments which tested cultivar Scepter and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/Vixin.html",
@@ -1309,6 +1918,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Vixin\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].CAMP.FLNparams.MinLN\n6.6\n\n\n[Phenology].CAMP.FLNparams.PpLN\n1.9\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n1.1\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-0.6\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n91.8\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.3\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n175.6\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n1.4"
   },
   {
+    "objectID": "crop/wheat/Vixin.html#experiments",
+    "href": "crop/wheat/Vixin.html#experiments",
+    "title": "Vixin",
+    "section": "Experiments",
+    "text": "Experiments\n\nNo observations available for this cultivar.\n\nThere are 0 experiments which tested cultivar Vixin and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Catalina.html",
     "href": "crop/wheat/Catalina.html",
     "title": "Catalina",
@@ -1321,6 +1937,13 @@
     "title": "Catalina",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Catalina\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n93.1373432728081\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.403019826488085\n\n\n[Phenology].CAMP.FLNparams.MinLN\n7\n\n\n[Phenology].CAMP.FLNparams.PpLN\n1\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n0\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n230\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n1"
+  },
+  {
+    "objectID": "crop/wheat/Catalina.html#experiments",
+    "href": "crop/wheat/Catalina.html#experiments",
+    "title": "Catalina",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 14 experiments which tested cultivar Catalina and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/Gutha.html",
@@ -1337,6 +1960,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Gutha\n\n\n\n\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n107\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.247088996399892\n\n\n[Grain].NumberFunction.GrainNumber.GrainsPerGramOfStem.FixedValue\n17\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].CAMP.FLNparams.MinLN\n7\n\n\n[Phenology].CAMP.FLNparams.PpLN\n2\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n1\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n50\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n5"
   },
   {
+    "objectID": "crop/wheat/Gutha.html#experiments",
+    "href": "crop/wheat/Gutha.html#experiments",
+    "title": "Gutha",
+    "section": "Experiments",
+    "text": "Experiments\n\nNo observations available for this cultivar.\n\nThere are 0 experiments which tested cultivar Gutha and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Solstice.html",
     "href": "crop/wheat/Solstice.html",
     "title": "Solstice",
@@ -1349,6 +1979,13 @@
     "title": "Solstice",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Solstice\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].CAMP.FLNparams.MinLN\n9\n\n\n[Phenology].CAMP.FLNparams.PpLN\n3.0\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n7\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0.0"
+  },
+  {
+    "objectID": "crop/wheat/Solstice.html#experiments",
+    "href": "crop/wheat/Solstice.html#experiments",
+    "title": "Solstice",
+    "section": "Experiments",
+    "text": "Experiments\n\nNo observations available for this cultivar.\n\nThere are 0 experiments which tested cultivar Solstice and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/Mitch.html",
@@ -1365,6 +2002,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Mitch\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n90.7949886258521\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.313387918745248\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].CAMP.FLNparams.MinLN\n8\n\n\n[Phenology].CAMP.FLNparams.PpLN\n2\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n3\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-2\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n130\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n1"
   },
   {
+    "objectID": "crop/wheat/Mitch.html#experiments",
+    "href": "crop/wheat/Mitch.html#experiments",
+    "title": "Mitch",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 10 experiments which tested cultivar Mitch and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Sunbri.html",
     "href": "crop/wheat/Sunbri.html",
     "title": "Sunbri",
@@ -1377,6 +2021,13 @@
     "title": "Sunbri",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Sunbri\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n91.5032903672171\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.207593313150283\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].CAMP.FLNparams.MinLN\n8\n\n\n[Phenology].CAMP.FLNparams.PpLN\n4\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n2\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-1\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n170\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n2"
+  },
+  {
+    "objectID": "crop/wheat/Sunbri.html#experiments",
+    "href": "crop/wheat/Sunbri.html#experiments",
+    "title": "Sunbri",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 20 experiments which tested cultivar Sunbri and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/Conqueror.html",
@@ -1393,6 +2044,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Conqueror\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].CAMP.FLNparams.MinLN\n8.5\n\n\n[Phenology].CAMP.FLNparams.PpLN\n4\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n7.5\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n1\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n109.3\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.2\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.9\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n190\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n2"
   },
   {
+    "objectID": "crop/wheat/Conqueror.html#experiments",
+    "href": "crop/wheat/Conqueror.html#experiments",
+    "title": "Conqueror",
+    "section": "Experiments",
+    "text": "Experiments\n\nNo observations available for this cultivar.\n\nThere are 0 experiments which tested cultivar Conqueror and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Kellalac.html",
     "href": "crop/wheat/Kellalac.html",
     "title": "Kellalac",
@@ -1405,6 +2063,13 @@
     "title": "Kellalac",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Kellalac\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n88.1945544451052\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.350967201537242\n\n\n[Phenology].CAMP.FLNparams.MinLN\n7\n\n\n[Phenology].CAMP.FLNparams.PpLN\n4\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n2\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n6\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n210\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n3"
+  },
+  {
+    "objectID": "crop/wheat/Kellalac.html#experiments",
+    "href": "crop/wheat/Kellalac.html#experiments",
+    "title": "Kellalac",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 19 experiments which tested cultivar Kellalac and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/Regency.html",
@@ -1421,6 +2086,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Regency\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].CAMP.FLNparams.MinLN\n9\n\n\n[Phenology].CAMP.FLNparams.PpLN\n3.0\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n7\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0.0"
   },
   {
+    "objectID": "crop/wheat/Regency.html#experiments",
+    "href": "crop/wheat/Regency.html#experiments",
+    "title": "Regency",
+    "section": "Experiments",
+    "text": "Experiments\n\nNo observations available for this cultivar.\n\nThere are 0 experiments which tested cultivar Regency and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Zanzibar.html",
     "href": "crop/wheat/Zanzibar.html",
     "title": "Zanzibar",
@@ -1433,6 +2105,13 @@
     "title": "Zanzibar",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Zanzibar\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].CAMP.FLNparams.MinLN\n7.3\n\n\n[Phenology].CAMP.FLNparams.PpLN\n4\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n2.3\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0.8\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n95.5\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.3\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.9\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n230\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n1.5"
+  },
+  {
+    "objectID": "crop/wheat/Zanzibar.html#experiments",
+    "href": "crop/wheat/Zanzibar.html#experiments",
+    "title": "Zanzibar",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 3 experiments which tested cultivar Zanzibar and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/Peake.html",
@@ -1449,6 +2128,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Peake\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n87.7433052533018\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.44431162843274\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].CAMP.FLNparams.MinLN\n7\n\n\n[Phenology].CAMP.FLNparams.PpLN\n2\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n0\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n190\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n1"
   },
   {
+    "objectID": "crop/wheat/Peake.html#experiments",
+    "href": "crop/wheat/Peake.html#experiments",
+    "title": "Peake",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 14 experiments which tested cultivar Peake and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Winter Very Slow.html",
     "href": "crop/wheat/Winter Very Slow.html",
     "title": "Winter Very Slow",
@@ -1461,6 +2147,13 @@
     "title": "Winter Very Slow",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Winter Very Slow\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].CAMP.FLNparams.MinLN\n8.5\n\n\n[Phenology].CAMP.FLNparams.PpLN\n4\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n7.5\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n1\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n109.3\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.2\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.9\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n190\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n2"
+  },
+  {
+    "objectID": "crop/wheat/Winter Very Slow.html#experiments",
+    "href": "crop/wheat/Winter Very Slow.html#experiments",
+    "title": "Winter Very Slow",
+    "section": "Experiments",
+    "text": "Experiments\n\nNo observations available for this cultivar.\n\nThere are 0 experiments which tested cultivar Winter Very Slow and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/Rex.html",
@@ -1477,6 +2170,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Rex\n\n\n\n\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Grain].NumberFunction.GrainNumber.GrainsPerGramOfStem.FixedValue\n18\n\n\n[Grain].MaximumNConc.FixedValue\n0.02\n\n\n[Phenology].CAMP.FLNparams.MinLN\n7\n\n\n[Phenology].CAMP.FLNparams.PpLN\n4.0\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n6\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0.0"
   },
   {
+    "objectID": "crop/wheat/Rex.html#experiments",
+    "href": "crop/wheat/Rex.html#experiments",
+    "title": "Rex",
+    "section": "Experiments",
+    "text": "Experiments\n\nNo observations available for this cultivar.\n\nThere are 0 experiments which tested cultivar Rex and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Grenade.html",
     "href": "crop/wheat/Grenade.html",
     "title": "Grenade",
@@ -1489,6 +2189,13 @@
     "title": "Grenade",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Grenade\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n96.8120116390919\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.3478103654812\n\n\n[Phenology].CAMP.FLNparams.MinLN\n7\n\n\n[Phenology].CAMP.FLNparams.PpLN\n3\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n1\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n230\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n0"
+  },
+  {
+    "objectID": "crop/wheat/Grenade.html#experiments",
+    "href": "crop/wheat/Grenade.html#experiments",
+    "title": "Grenade",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 10 experiments which tested cultivar Grenade and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/Illabo.html",
@@ -1505,6 +2212,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Illabo\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n100.550798402656\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.238435422022958\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].CAMP.FLNparams.MinLN\n8\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n7\n\n\n[Phenology].CAMP.FLNparams.PpLN\n1\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-1\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n110\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n0"
   },
   {
+    "objectID": "crop/wheat/Illabo.html#experiments",
+    "href": "crop/wheat/Illabo.html#experiments",
+    "title": "Illabo",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 20 experiments which tested cultivar Illabo and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/CRWT153.html",
     "href": "crop/wheat/CRWT153.html",
     "title": "CRWT153",
@@ -1517,6 +2231,13 @@
     "title": "CRWT153",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for CRWT153\n\n\n\n\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n100.0\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.6\n\n\n[Phenology].CAMP.FLNparams.MinLN\n14.27272727272727\n\n\n[Phenology].CAMP.FLNparams.PpLN\n-0.028282828282829797\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n2.6000000000000014\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-1.2477272727272712\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n200\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n2.3\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n6\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60"
+  },
+  {
+    "objectID": "crop/wheat/CRWT153.html#experiments",
+    "href": "crop/wheat/CRWT153.html#experiments",
+    "title": "CRWT153",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 1 experiments which tested cultivar CRWT153 and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/Anapurna.html",
@@ -1533,6 +2254,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Anapurna\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].CAMP.FLNparams.MinLN\n8.5\n\n\n[Phenology].CAMP.FLNparams.PpLN\n4\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n7.5\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n1\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n109.3\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.2\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.9\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n190\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n2"
   },
   {
+    "objectID": "crop/wheat/Anapurna.html#experiments",
+    "href": "crop/wheat/Anapurna.html#experiments",
+    "title": "Anapurna",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 22 experiments which tested cultivar Anapurna and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Waugh.html",
     "href": "crop/wheat/Waugh.html",
     "title": "Waugh",
@@ -1545,6 +2273,13 @@
     "title": "Waugh",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Waugh\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].CAMP.FLNparams.MinLN\n8.5\n\n\n[Phenology].CAMP.FLNparams.PpLN\n4\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n7.5\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n1\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n109.3\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.2\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.9\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n190\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n2"
+  },
+  {
+    "objectID": "crop/wheat/Waugh.html#experiments",
+    "href": "crop/wheat/Waugh.html#experiments",
+    "title": "Waugh",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 4 experiments which tested cultivar Waugh and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/Exceed.html",
@@ -1561,6 +2296,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Exceed\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].CAMP.FLNparams.MinLN\n9\n\n\n[Phenology].CAMP.FLNparams.PpLN\n3.0\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n7\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0.0"
   },
   {
+    "objectID": "crop/wheat/Exceed.html#experiments",
+    "href": "crop/wheat/Exceed.html#experiments",
+    "title": "Exceed",
+    "section": "Experiments",
+    "text": "Experiments\n\nNo observations available for this cultivar.\n\nThere are 0 experiments which tested cultivar Exceed and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Spring Quick-Mid.html",
     "href": "crop/wheat/Spring Quick-Mid.html",
     "title": "Spring Quick-Mid",
@@ -1573,6 +2315,13 @@
     "title": "Spring Quick-Mid",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Spring Quick-Mid\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].CAMP.FLNparams.MinLN\n6.9\n\n\n[Phenology].CAMP.FLNparams.PpLN\n1.9\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n2.5\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-1.6\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n98.6\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.2\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n175.8\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n1.2"
+  },
+  {
+    "objectID": "crop/wheat/Spring Quick-Mid.html#experiments",
+    "href": "crop/wheat/Spring Quick-Mid.html#experiments",
+    "title": "Spring Quick-Mid",
+    "section": "Experiments",
+    "text": "Experiments\n\nNo observations available for this cultivar.\n\nThere are 0 experiments which tested cultivar Spring Quick-Mid and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/Eaglehawk.html",
@@ -1589,6 +2338,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Eaglehawk\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n122.758992485634\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.119042603665788\n\n\n[Phenology].CAMP.FLNparams.MinLN\n6\n\n\n[Phenology].CAMP.FLNparams.PpLN\n3\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n1\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n3\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n190\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n4"
   },
   {
+    "objectID": "crop/wheat/Eaglehawk.html#experiments",
+    "href": "crop/wheat/Eaglehawk.html#experiments",
+    "title": "Eaglehawk",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 32 experiments which tested cultivar Eaglehawk and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Ventura.html",
     "href": "crop/wheat/Ventura.html",
     "title": "Ventura",
@@ -1601,6 +2357,13 @@
     "title": "Ventura",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Ventura\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n100\n\n\n[Phenology].CAMP.FLNparams.MinLN\n8\n\n\n[Phenology].CAMP.FLNparams.PpLN\n4.0\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n0\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0.0"
+  },
+  {
+    "objectID": "crop/wheat/Ventura.html#experiments",
+    "href": "crop/wheat/Ventura.html#experiments",
+    "title": "Ventura",
+    "section": "Experiments",
+    "text": "Experiments\n\nNo observations available for this cultivar.\n\nThere are 0 experiments which tested cultivar Ventura and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/CSIROW027.html",
@@ -1617,6 +2380,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for CSIROW027\n\n\n\n\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n91.9686702262851\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.298865609355012\n\n\n[Phenology].CAMP.FLNparams.MinLN\n5.666666666666667\n\n\n[Phenology].CAMP.FLNparams.PpLN\n1.0\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n1.0\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-0.666666666666667\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n200.0\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n2.0"
   },
   {
+    "objectID": "crop/wheat/CSIROW027.html#experiments",
+    "href": "crop/wheat/CSIROW027.html#experiments",
+    "title": "CSIROW027",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 10 experiments which tested cultivar CSIROW027 and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Lancer.html",
     "href": "crop/wheat/Lancer.html",
     "title": "Lancer",
@@ -1629,6 +2399,13 @@
     "title": "Lancer",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Lancer\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n85.6623042725763\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.324980109776406\n\n\n[Phenology].CAMP.FLNparams.MinLN\n8\n\n\n[Phenology].CAMP.FLNparams.PpLN\n4\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n2\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-2\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n150\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n1"
+  },
+  {
+    "objectID": "crop/wheat/Lancer.html#experiments",
+    "href": "crop/wheat/Lancer.html#experiments",
+    "title": "Lancer",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 14 experiments which tested cultivar Lancer and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/CSIROW077.html",
@@ -1645,6 +2422,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for CSIROW077\n\n\n\n\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n89.0413135981221\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.320389882541901\n\n\n[Phenology].CAMP.FLNparams.MinLN\n5.0\n\n\n[Phenology].CAMP.FLNparams.PpLN\n0.7789007198658495\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n0.9296483932829428\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-0.4548378579547272\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n201.0\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n1.988848467332372"
   },
   {
+    "objectID": "crop/wheat/CSIROW077.html#experiments",
+    "href": "crop/wheat/CSIROW077.html#experiments",
+    "title": "CSIROW077",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 10 experiments which tested cultivar CSIROW077 and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Winter Very-Quick.html",
     "href": "crop/wheat/Winter Very-Quick.html",
     "title": "Winter Very-Quick",
@@ -1657,6 +2441,13 @@
     "title": "Winter Very-Quick",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Winter Very-Quick\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].CAMP.FLNparams.MinLN\n7.3\n\n\n[Phenology].CAMP.FLNparams.PpLN\n0\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n7.6\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-1.7\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n102.8\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.2\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n193\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n1.5"
+  },
+  {
+    "objectID": "crop/wheat/Winter Very-Quick.html#experiments",
+    "href": "crop/wheat/Winter Very-Quick.html#experiments",
+    "title": "Winter Very-Quick",
+    "section": "Experiments",
+    "text": "Experiments\n\nNo observations available for this cultivar.\n\nThere are 0 experiments which tested cultivar Winter Very-Quick and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/Sunmaster.html",
@@ -1673,6 +2464,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Sunmaster\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].CAMP.FLNparams.MinLN\n7.1\n\n\n[Phenology].CAMP.FLNparams.PpLN\n3.1\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n2.4\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-0.9\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n100\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.3\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n154\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n2"
   },
   {
+    "objectID": "crop/wheat/Sunmaster.html#experiments",
+    "href": "crop/wheat/Sunmaster.html#experiments",
+    "title": "Sunmaster",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 2 experiments which tested cultivar Sunmaster and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Spring Slow.html",
     "href": "crop/wheat/Spring Slow.html",
     "title": "Spring Slow",
@@ -1685,6 +2483,13 @@
     "title": "Spring Slow",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Spring Slow\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].CAMP.FLNparams.MinLN\n7.3\n\n\n[Phenology].CAMP.FLNparams.PpLN\n4\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n2.3\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0.8\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n95.5\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.3\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.9\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n230\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n1.5"
+  },
+  {
+    "objectID": "crop/wheat/Spring Slow.html#experiments",
+    "href": "crop/wheat/Spring Slow.html#experiments",
+    "title": "Spring Slow",
+    "section": "Experiments",
+    "text": "Experiments\n\nNo observations available for this cultivar.\n\nThere are 0 experiments which tested cultivar Spring Slow and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/Spring Very Quick-Quick.html",
@@ -1701,6 +2506,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Spring Very Quick-Quick\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].CAMP.FLNparams.MinLN\n5\n\n\n[Phenology].CAMP.FLNparams.PpLN\n0.8\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n0.9\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-0.5\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n89\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.3\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n201\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n2"
   },
   {
+    "objectID": "crop/wheat/Spring Very Quick-Quick.html#experiments",
+    "href": "crop/wheat/Spring Very Quick-Quick.html#experiments",
+    "title": "Spring Very Quick-Quick",
+    "section": "Experiments",
+    "text": "Experiments\n\nNo observations available for this cultivar.\n\nThere are 0 experiments which tested cultivar Spring Very Quick-Quick and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Osprey.html",
     "href": "crop/wheat/Osprey.html",
     "title": "Osprey",
@@ -1713,6 +2525,13 @@
     "title": "Osprey",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Osprey\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].CAMP.FLNparams.MinLN\n8\n\n\n[Phenology].CAMP.FLNparams.PpLN\n2.3\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n7.8\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n95\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.2\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n132\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n2.8"
+  },
+  {
+    "objectID": "crop/wheat/Osprey.html#experiments",
+    "href": "crop/wheat/Osprey.html#experiments",
+    "title": "Osprey",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 1 experiments which tested cultivar Osprey and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/Option.html",
@@ -1729,6 +2548,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Option\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].CAMP.FLNparams.MinLN\n9\n\n\n[Phenology].CAMP.FLNparams.PpLN\n3.0\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n7\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0.0"
   },
   {
+    "objectID": "crop/wheat/Option.html#experiments",
+    "href": "crop/wheat/Option.html#experiments",
+    "title": "Option",
+    "section": "Experiments",
+    "text": "Experiments\n\nNo observations available for this cultivar.\n\nThere are 0 experiments which tested cultivar Option and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Wylah.html",
     "href": "crop/wheat/Wylah.html",
     "title": "Wylah",
@@ -1741,6 +2567,13 @@
     "title": "Wylah",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Wylah\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].CAMP.FLNparams.MinLN\n8\n\n\n[Phenology].CAMP.FLNparams.PpLN\n2.3\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n7.8\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n100\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.2\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n132\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n2.8"
+  },
+  {
+    "objectID": "crop/wheat/Wylah.html#experiments",
+    "href": "crop/wheat/Wylah.html#experiments",
+    "title": "Wylah",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 1 experiments which tested cultivar Wylah and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/Adv08_0008.html",
@@ -1757,6 +2590,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Adv08_0008\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n107.385378970476\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.246728222459184\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].CAMP.FLNparams.MinLN\n8\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n5\n\n\n[Phenology].CAMP.FLNparams.PpLN\n1\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n290\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n0"
   },
   {
+    "objectID": "crop/wheat/Adv08_0008.html#experiments",
+    "href": "crop/wheat/Adv08_0008.html#experiments",
+    "title": "Adv08_0008",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 3 experiments which tested cultivar Adv08_0008 and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Spitfire.html",
     "href": "crop/wheat/Spitfire.html",
     "title": "Spitfire",
@@ -1769,6 +2609,13 @@
     "title": "Spitfire",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Spitfire\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n87.8426291924597\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.226170449889058\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].CAMP.FLNparams.MinLN\n8\n\n\n[Phenology].CAMP.FLNparams.PpLN\n1\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n3\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-3\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n130\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n1\n\n\n\n\n\n\n\n\nThe following aliases are also available for this cultivar: Drysdale"
+  },
+  {
+    "objectID": "crop/wheat/Spitfire.html#experiments",
+    "href": "crop/wheat/Spitfire.html#experiments",
+    "title": "Spitfire",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 14 experiments which tested cultivar Spitfire and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/CSIROW029.html",
@@ -1785,6 +2632,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for CSIROW029\n\n\n\n\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n98.5813007346922\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.228833970802351\n\n\n[Phenology].CAMP.FLNparams.MinLN\n5.666666666666667\n\n\n[Phenology].CAMP.FLNparams.PpLN\n0.33333333333333304\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n1.0\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-0.666666666666667\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n200.0\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n2.0"
   },
   {
+    "objectID": "crop/wheat/CSIROW029.html#experiments",
+    "href": "crop/wheat/CSIROW029.html#experiments",
+    "title": "CSIROW029",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 10 experiments which tested cultivar CSIROW029 and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Lincoln.html",
     "href": "crop/wheat/Lincoln.html",
     "title": "Lincoln",
@@ -1797,6 +2651,13 @@
     "title": "Lincoln",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Lincoln\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n100\n\n\n[Phenology].CAMP.FLNparams.MinLN\n6\n\n\n[Phenology].CAMP.FLNparams.PpLN\n4.0\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n0\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0.0"
+  },
+  {
+    "objectID": "crop/wheat/Lincoln.html#experiments",
+    "href": "crop/wheat/Lincoln.html#experiments",
+    "title": "Lincoln",
+    "section": "Experiments",
+    "text": "Experiments\n\nNo observations available for this cultivar.\n\nThere are 0 experiments which tested cultivar Lincoln and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/Janz.html",
@@ -1813,6 +2674,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Janz\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n91.4460925764448\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.235020437209909\n\n\n[Phenology].CAMP.FLNparams.MinLN\n8\n\n\n[Phenology].CAMP.FLNparams.PpLN\n3\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n1\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-1\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n130\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n1"
   },
   {
+    "objectID": "crop/wheat/Janz.html#experiments",
+    "href": "crop/wheat/Janz.html#experiments",
+    "title": "Janz",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 74 experiments which tested cultivar Janz and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/CSIROW102.html",
     "href": "crop/wheat/CSIROW102.html",
     "title": "CSIROW102",
@@ -1825,6 +2693,13 @@
     "title": "CSIROW102",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for CSIROW102\n\n\n\n\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n88.798911538629\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.366324783260731\n\n\n[Phenology].CAMP.FLNparams.MinLN\n5.431828108909145\n\n\n[Phenology].CAMP.FLNparams.PpLN\n0.9159899681289015\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n3.8766835434634936\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-2.3613865675565133\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n211.0\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n1.796407285473646"
+  },
+  {
+    "objectID": "crop/wheat/CSIROW102.html#experiments",
+    "href": "crop/wheat/CSIROW102.html#experiments",
+    "title": "CSIROW102",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 10 experiments which tested cultivar CSIROW102 and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/Ruby.html",
@@ -1841,6 +2716,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Ruby\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n100\n\n\n[Phenology].CAMP.FLNparams.MinLN\n8\n\n\n[Phenology].CAMP.FLNparams.PpLN\n4.0\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n0\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0.0"
   },
   {
+    "objectID": "crop/wheat/Ruby.html#experiments",
+    "href": "crop/wheat/Ruby.html#experiments",
+    "title": "Ruby",
+    "section": "Experiments",
+    "text": "Experiments\n\nNo observations available for this cultivar.\n\nThere are 0 experiments which tested cultivar Ruby and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/UOM001_3_47.html",
     "href": "crop/wheat/UOM001_3_47.html",
     "title": "UOM001_3_47",
@@ -1853,6 +2735,13 @@
     "title": "UOM001_3_47",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for UOM001_3_47\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].CAMP.FLNparams.MinLN\n7.1\n\n\n[Phenology].CAMP.FLNparams.PpLN\n3.1\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n2.4\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-0.9\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n96.3\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.3\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n154\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n2"
+  },
+  {
+    "objectID": "crop/wheat/UOM001_3_47.html#experiments",
+    "href": "crop/wheat/UOM001_3_47.html#experiments",
+    "title": "UOM001_3_47",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 1 experiments which tested cultivar UOM001_3_47 and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/Spring Quick.html",
@@ -1869,6 +2758,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Spring Quick\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].CAMP.FLNparams.MinLN\n6.6\n\n\n[Phenology].CAMP.FLNparams.PpLN\n1.9\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n1.1\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-0.6\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n91.8\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.3\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n175.6\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n1.4"
   },
   {
+    "objectID": "crop/wheat/Spring Quick.html#experiments",
+    "href": "crop/wheat/Spring Quick.html#experiments",
+    "title": "Spring Quick",
+    "section": "Experiments",
+    "text": "Experiments\n\nNo observations available for this cultivar.\n\nThere are 0 experiments which tested cultivar Spring Quick and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Kittyhawk.html",
     "href": "crop/wheat/Kittyhawk.html",
     "title": "Kittyhawk",
@@ -1881,6 +2777,13 @@
     "title": "Kittyhawk",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Kittyhawk\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n93.7220123291132\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.212225680614483\n\n\n[Phenology].CAMP.FLNparams.MinLN\n10\n\n\n[Phenology].CAMP.FLNparams.PpLN\n2\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n8\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-1\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n50\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n4"
+  },
+  {
+    "objectID": "crop/wheat/Kittyhawk.html#experiments",
+    "href": "crop/wheat/Kittyhawk.html#experiments",
+    "title": "Kittyhawk",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 51 experiments which tested cultivar Kittyhawk and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/Mowhawk.html",
@@ -1897,6 +2800,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Mowhawk\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].CAMP.FLNparams.MinLN\n8\n\n\n[Phenology].CAMP.FLNparams.PpLN\n2.3\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n7.8\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n100\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.2\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n132\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n2.8"
   },
   {
+    "objectID": "crop/wheat/Mowhawk.html#experiments",
+    "href": "crop/wheat/Mowhawk.html#experiments",
+    "title": "Mowhawk",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 6 experiments which tested cultivar Mowhawk and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/CSIROW105.html",
     "href": "crop/wheat/CSIROW105.html",
     "title": "CSIROW105",
@@ -1909,6 +2819,13 @@
     "title": "CSIROW105",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for CSIROW105\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n93.3581645003809\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.233916879031932\n\n\n[Phenology].CAMP.FLNparams.MinLN\n5.0\n\n\n[Phenology].CAMP.FLNparams.PpLN\n1.0\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n1.0\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0.0\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n200.0\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n2.0"
+  },
+  {
+    "objectID": "crop/wheat/CSIROW105.html#experiments",
+    "href": "crop/wheat/CSIROW105.html#experiments",
+    "title": "CSIROW105",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 10 experiments which tested cultivar CSIROW105 and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/CSIROW007.html",
@@ -1925,6 +2842,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for CSIROW007\n\n\n\n\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n102.785879373288\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.18434106648197\n\n\n[Phenology].CAMP.FLNparams.MinLN\n7.326398633965955\n\n\n[Phenology].CAMP.FLNparams.PpLN\n0.0\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n7.554300061869201\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-1.6841419188674127\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n193.0\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n1.4807227520020911"
   },
   {
+    "objectID": "crop/wheat/CSIROW007.html#experiments",
+    "href": "crop/wheat/CSIROW007.html#experiments",
+    "title": "CSIROW007",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 10 experiments which tested cultivar CSIROW007 and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Braewood.html",
     "href": "crop/wheat/Braewood.html",
     "title": "Braewood",
@@ -1937,6 +2861,13 @@
     "title": "Braewood",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Braewood\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n92.1177406284002\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.269041869726177\n\n\n[Phenology].CAMP.FLNparams.MinLN\n8\n\n\n[Phenology].CAMP.FLNparams.PpLN\n2\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n3\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-3\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n150\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n2"
+  },
+  {
+    "objectID": "crop/wheat/Braewood.html#experiments",
+    "href": "crop/wheat/Braewood.html#experiments",
+    "title": "Braewood",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 34 experiments which tested cultivar Braewood and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/Batavia.html",
@@ -1953,6 +2884,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Batavia\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n100\n\n\n[Phenology].CAMP.FLNparams.MinLN\n5\n\n\n[Phenology].CAMP.FLNparams.PpLN\n9\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n0\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n6\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n130\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n6"
   },
   {
+    "objectID": "crop/wheat/Batavia.html#experiments",
+    "href": "crop/wheat/Batavia.html#experiments",
+    "title": "Batavia",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 6 experiments which tested cultivar Batavia and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Gauntlet.html",
     "href": "crop/wheat/Gauntlet.html",
     "title": "Gauntlet",
@@ -1965,6 +2903,13 @@
     "title": "Gauntlet",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Gauntlet\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n91.4777217640106\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.28135751778138\n\n\n[Phenology].CAMP.FLNparams.MinLN\n7\n\n\n[Phenology].CAMP.FLNparams.PpLN\n2\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n4\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-4\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n230\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n1"
+  },
+  {
+    "objectID": "crop/wheat/Gauntlet.html#experiments",
+    "href": "crop/wheat/Gauntlet.html#experiments",
+    "title": "Gauntlet",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 14 experiments which tested cultivar Gauntlet and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/Discovery.html",
@@ -1981,6 +2926,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Discovery\n\n\n\n\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n80\n\n\n[Leaf].CohortParameters.MaxArea.AreaLargestLeaves.FixedValue\n1600\n\n\n[Grain].MaximumPotentialGrainSize.FixedValue\n0.051\n\n\n[Grain].NumberFunction.GrainNumber.GrainsPerGramOfStem.FixedValue\n26\n\n\n[Leaf].ExtinctionCoeff.VegetativePhase.FixedValue\n0.5\n\n\n[Structure].BranchingRate.PotentialBranchingRate.Vegetative.PotentialBranchingRate.XYPairs.Y\n0,0,0,0,4,7,12,20\n\n\n[Grain].MaximumNConc.FixedValue\n0.025\n\n\n[Grain].MaxNConcDailyGrowth.FixedValue\n0.025\n\n\n[Leaf].ExtinctionCoeff.DevelopmentFactor.XYPairs.Y\n1,1,1,1,1.4\n\n\n[Leaf].CohortParameters.MinimumNConc.XYPairs.Y\n0.01,0.008, 0.008,0.008, 0.008, 0.008\n\n\n[Stem].MinimumNConc.FixedValue\n0.006\n\n\n[Spike].DMRetranslocationFactor.ReproductiveGrowth.DMRetranslocationFactor.FixedValue\n0.05\n\n\n[Phenology].CAMP.FLNparams.MinLN\n9.0\n\n\n[Phenology].CAMP.FLNparams.PpLN\n0.0\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n0.0\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0.0\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n100\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n1.0\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n6\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60"
   },
   {
+    "objectID": "crop/wheat/Discovery.html#experiments",
+    "href": "crop/wheat/Discovery.html#experiments",
+    "title": "Discovery",
+    "section": "Experiments",
+    "text": "Experiments\n\nNo observations available for this cultivar.\n\nThere are 0 experiments which tested cultivar Discovery and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Stephens.html",
     "href": "crop/wheat/Stephens.html",
     "title": "Stephens",
@@ -1993,6 +2945,13 @@
     "title": "Stephens",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Stephens\n\n\n\n\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Grain].NumberFunction.GrainNumber.GrainsPerGramOfStem.FixedValue\n25\n\n\n[Grain].MaximumNConc.FixedValue\n0.02\n\n\n[Phenology].CAMP.FLNparams.MinLN\n7\n\n\n[Phenology].CAMP.FLNparams.PpLN\n4.0\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n6\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0.0"
+  },
+  {
+    "objectID": "crop/wheat/Stephens.html#experiments",
+    "href": "crop/wheat/Stephens.html#experiments",
+    "title": "Stephens",
+    "section": "Experiments",
+    "text": "Experiments\n\nNo observations available for this cultivar.\n\nThere are 0 experiments which tested cultivar Stephens and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/Ouyen.html",
@@ -2009,6 +2968,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Ouyen\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n84.1472430387947\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.332456383177313\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].CAMP.FLNparams.MinLN\n8\n\n\n[Phenology].CAMP.FLNparams.PpLN\n2\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n2\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-2\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n190\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n1"
   },
   {
+    "objectID": "crop/wheat/Ouyen.html#experiments",
+    "href": "crop/wheat/Ouyen.html#experiments",
+    "title": "Ouyen",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 14 experiments which tested cultivar Ouyen and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/UOM001_9_1.html",
     "href": "crop/wheat/UOM001_9_1.html",
     "title": "UOM001_9_1",
@@ -2021,6 +2987,13 @@
     "title": "UOM001_9_1",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for UOM001_9_1\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].CAMP.FLNparams.MinLN\n7.1\n\n\n[Phenology].CAMP.FLNparams.PpLN\n3.1\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n2.4\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-0.9\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n96.3\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.3\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n154\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n2"
+  },
+  {
+    "objectID": "crop/wheat/UOM001_9_1.html#experiments",
+    "href": "crop/wheat/UOM001_9_1.html#experiments",
+    "title": "UOM001_9_1",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 1 experiments which tested cultivar UOM001_9_1 and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/Tybalt.html",
@@ -2037,6 +3010,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Tybalt\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n90.0\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.6\n\n\n[Phenology].CAMP.FLNparams.MinLN\n9.0\n\n\n[Phenology].CAMP.FLNparams.PpLN\n0.0\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n0.0\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0.0\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n145\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n0.0\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n6\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60"
   },
   {
+    "objectID": "crop/wheat/Tybalt.html#experiments",
+    "href": "crop/wheat/Tybalt.html#experiments",
+    "title": "Tybalt",
+    "section": "Experiments",
+    "text": "Experiments\n\nNo observations available for this cultivar.\n\nThere are 0 experiments which tested cultivar Tybalt and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Whistler.html",
     "href": "crop/wheat/Whistler.html",
     "title": "Whistler",
@@ -2049,6 +3029,13 @@
     "title": "Whistler",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Whistler\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n101.152462224521\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.160519169483945\n\n\n[Phenology].CAMP.FLNparams.MinLN\n8\n\n\n[Phenology].CAMP.FLNparams.PpLN\n2\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n8\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-2\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n150\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n1\n\n\n[Phenology].CAMP.FLNparams.PpLN\n2.3\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n7.8\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n100\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.0\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n132\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n2.8"
+  },
+  {
+    "objectID": "crop/wheat/Whistler.html#experiments",
+    "href": "crop/wheat/Whistler.html#experiments",
+    "title": "Whistler",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 14 experiments which tested cultivar Whistler and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/Winter Mid.html",
@@ -2065,6 +3052,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Winter Mid\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].CAMP.FLNparams.MinLN\n8\n\n\n[Phenology].CAMP.FLNparams.PpLN\n2.3\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n7.8\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n100.8\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.2\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n132\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n2.8"
   },
   {
+    "objectID": "crop/wheat/Winter Mid.html#experiments",
+    "href": "crop/wheat/Winter Mid.html#experiments",
+    "title": "Winter Mid",
+    "section": "Experiments",
+    "text": "Experiments\n\nNo observations available for this cultivar.\n\nThere are 0 experiments which tested cultivar Winter Mid and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Keyu13.html",
     "href": "crop/wheat/Keyu13.html",
     "title": "Keyu13",
@@ -2077,6 +3071,13 @@
     "title": "Keyu13",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Keyu13\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n100\n\n\n[Phenology].CAMP.FLNparams.MinLN\n7\n\n\n[Phenology].CAMP.FLNparams.PpLN\n3.0\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n5\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0.0"
+  },
+  {
+    "objectID": "crop/wheat/Keyu13.html#experiments",
+    "href": "crop/wheat/Keyu13.html#experiments",
+    "title": "Keyu13",
+    "section": "Experiments",
+    "text": "Experiments\n\nNo observations available for this cultivar.\n\nThere are 0 experiments which tested cultivar Keyu13 and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/Nighthawk.html",
@@ -2093,6 +3094,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Nighthawk\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n97.5749140549815\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.234188946138953\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].CAMP.FLNparams.MinLN\n8\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n4\n\n\n[Phenology].CAMP.FLNparams.PpLN\n2\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-1\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n70\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n8"
   },
   {
+    "objectID": "crop/wheat/Nighthawk.html#experiments",
+    "href": "crop/wheat/Nighthawk.html#experiments",
+    "title": "Nighthawk",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 7 experiments which tested cultivar Nighthawk and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Egret.html",
     "href": "crop/wheat/Egret.html",
     "title": "Egret",
@@ -2105,6 +3113,13 @@
     "title": "Egret",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Egret\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n80\n\n\n[Phenology].CAMP.FLNparams.MinLN\n8\n\n\n[Phenology].CAMP.FLNparams.PpLN\n9\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n8\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-8\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n110\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n0\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n6\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60"
+  },
+  {
+    "objectID": "crop/wheat/Egret.html#experiments",
+    "href": "crop/wheat/Egret.html#experiments",
+    "title": "Egret",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 2 experiments which tested cultivar Egret and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/Wyalkatchem.html",
@@ -2121,6 +3136,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Wyalkatchem\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n101.991162889267\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.203541157884576\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].CAMP.FLNparams.MinLN\n7\n\n\n[Phenology].CAMP.FLNparams.PpLN\n2\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n3\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-3\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n90\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n3"
   },
   {
+    "objectID": "crop/wheat/Wyalkatchem.html#experiments",
+    "href": "crop/wheat/Wyalkatchem.html#experiments",
+    "title": "Wyalkatchem",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 55 experiments which tested cultivar Wyalkatchem and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Scythe.html",
     "href": "crop/wheat/Scythe.html",
     "title": "Scythe",
@@ -2133,6 +3155,13 @@
     "title": "Scythe",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Scythe\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n106.486507449716\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.22806739407445\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].CAMP.FLNparams.MinLN\n6\n\n\n[Phenology].CAMP.FLNparams.PpLN\n4\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n2\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n2\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n90\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n4"
+  },
+  {
+    "objectID": "crop/wheat/Scythe.html#experiments",
+    "href": "crop/wheat/Scythe.html#experiments",
+    "title": "Scythe",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 38 experiments which tested cultivar Scythe and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/Graham.html",
@@ -2149,6 +3178,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Graham\n\n\n\n\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n50\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n105.0\n\n\n[Leaf].ExtinctionCoeff.VegetativePhase.FixedValue\n0.75\n\n\n[Grain].NumberFunction.GrainNumber.GrainsPerGramOfStem.FixedValue\n26\n\n\n[Grain].MaximumPotentialGrainSize.FixedValue\n0.05\n\n\n[Leaf].CohortParameters.MaxArea.AreaLargestLeaves.FixedValue\n3000\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.33\n\n\n[Phenology].CAMP.FLNparams.MinLN\n10\n\n\n[Phenology].CAMP.FLNparams.PpLN\n12\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n12\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n4\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n8\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n6\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].GrainFilling.Target.FixedValue\n700"
   },
   {
+    "objectID": "crop/wheat/Graham.html#experiments",
+    "href": "crop/wheat/Graham.html#experiments",
+    "title": "Graham",
+    "section": "Experiments",
+    "text": "Experiments\n\nNo observations available for this cultivar.\n\nThere are 0 experiments which tested cultivar Graham and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Young.html",
     "href": "crop/wheat/Young.html",
     "title": "Young",
@@ -2161,6 +3197,13 @@
     "title": "Young",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Young\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n86.0661362380018\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.347762945437436\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].CAMP.FLNparams.MinLN\n8\n\n\n[Phenology].CAMP.FLNparams.PpLN\n1\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n1\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-1\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n150\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n1"
+  },
+  {
+    "objectID": "crop/wheat/Young.html#experiments",
+    "href": "crop/wheat/Young.html#experiments",
+    "title": "Young",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 32 experiments which tested cultivar Young and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/Cesario.html",
@@ -2177,6 +3220,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Cesario\n\n\n\n\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n50\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n105.0\n\n\n[Leaf].ExtinctionCoeff.VegetativePhase.FixedValue\n0.75\n\n\n[Grain].NumberFunction.GrainNumber.GrainsPerGramOfStem.FixedValue\n28\n\n\n[Grain].MaximumPotentialGrainSize.FixedValue\n0.05\n\n\n[Leaf].CohortParameters.MaxArea.AreaLargestLeaves.FixedValue\n3000\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.33\n\n\n[Phenology].CAMP.FLNparams.MinLN\n8\n\n\n[Phenology].CAMP.FLNparams.PpLN\n12\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n12\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n4\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n8\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n6\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].GrainFilling.Target.FixedValue\n700\n\n\n[Phenology].CAMP.FLNparams.MinLN\n8.5\n\n\n[Phenology].CAMP.FLNparams.PpLN\n4\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n7.5\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n1\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n109.3\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.2\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.9\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n190\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n2"
   },
   {
+    "objectID": "crop/wheat/Cesario.html#experiments",
+    "href": "crop/wheat/Cesario.html#experiments",
+    "title": "Cesario",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 27 experiments which tested cultivar Cesario and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Crusader.html",
     "href": "crop/wheat/Crusader.html",
     "title": "Crusader",
@@ -2189,6 +3239,13 @@
     "title": "Crusader",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Crusader\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n100.832025052954\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.199967770650946\n\n\n[Phenology].CAMP.FLNparams.MinLN\n6\n\n\n[Phenology].CAMP.FLNparams.PpLN\n5\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n3\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n6\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n230\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n0"
+  },
+  {
+    "objectID": "crop/wheat/Crusader.html#experiments",
+    "href": "crop/wheat/Crusader.html#experiments",
+    "title": "Crusader",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 15 experiments which tested cultivar Crusader and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/Rosella.html",
@@ -2205,6 +3262,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Rosella\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n96.7111881914136\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.209478791477046\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].CAMP.FLNparams.MinLN\n7\n\n\n[Phenology].CAMP.FLNparams.PpLN\n5\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n8\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n5\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n90\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n5"
   },
   {
+    "objectID": "crop/wheat/Rosella.html#experiments",
+    "href": "crop/wheat/Rosella.html#experiments",
+    "title": "Rosella",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 11 experiments which tested cultivar Rosella and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Spring Slow-Very Slow.html",
     "href": "crop/wheat/Spring Slow-Very Slow.html",
     "title": "Spring Slow-Very Slow",
@@ -2217,6 +3281,13 @@
     "title": "Spring Slow-Very Slow",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Spring Slow-Very Slow\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].CAMP.FLNparams.MinLN\n6\n\n\n[Phenology].CAMP.FLNparams.PpLN\n3\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n1\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n3\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n122.8\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.1\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n190\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n4"
+  },
+  {
+    "objectID": "crop/wheat/Spring Slow-Very Slow.html#experiments",
+    "href": "crop/wheat/Spring Slow-Very Slow.html#experiments",
+    "title": "Spring Slow-Very Slow",
+    "section": "Experiments",
+    "text": "Experiments\n\nNo observations available for this cultivar.\n\nThere are 0 experiments which tested cultivar Spring Slow-Very Slow and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/Accroc.html",
@@ -2233,6 +3304,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Accroc\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].CAMP.FLNparams.MinLN\n8.5\n\n\n[Phenology].CAMP.FLNparams.PpLN\n4\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n7.5\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n1\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n109.3\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.2\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.9\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n190\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n2"
   },
   {
+    "objectID": "crop/wheat/Accroc.html#experiments",
+    "href": "crop/wheat/Accroc.html#experiments",
+    "title": "Accroc",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 91 experiments which tested cultivar Accroc and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Beaufort.html",
     "href": "crop/wheat/Beaufort.html",
     "title": "Beaufort",
@@ -2245,6 +3323,13 @@
     "title": "Beaufort",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Beaufort\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n102.321288321408\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.254667061341894\n\n\n[Phenology].CAMP.FLNparams.MinLN\n8\n\n\n[Phenology].CAMP.FLNparams.PpLN\n3\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n3\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n3\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n6\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n170\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n0"
+  },
+  {
+    "objectID": "crop/wheat/Beaufort.html#experiments",
+    "href": "crop/wheat/Beaufort.html#experiments",
+    "title": "Beaufort",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 37 experiments which tested cultivar Beaufort and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/Voltron.html",
@@ -2261,6 +3346,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Voltron\n\n\n\n\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n50\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n105.0\n\n\n[Leaf].ExtinctionCoeff.VegetativePhase.FixedValue\n0.75\n\n\n[Grain].NumberFunction.GrainNumber.GrainsPerGramOfStem.FixedValue\n26\n\n\n[Grain].MaximumPotentialGrainSize.FixedValue\n0.05\n\n\n[Leaf].CohortParameters.MaxArea.AreaLargestLeaves.FixedValue\n3000\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.33\n\n\n[Phenology].CAMP.FLNparams.MinLN\n10\n\n\n[Phenology].CAMP.FLNparams.PpLN\n6\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n4\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n8\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n6\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].GrainFilling.Target.FixedValue\n700"
   },
   {
+    "objectID": "crop/wheat/Voltron.html#experiments",
+    "href": "crop/wheat/Voltron.html#experiments",
+    "title": "Voltron",
+    "section": "Experiments",
+    "text": "Experiments\n\nNo observations available for this cultivar.\n\nThere are 0 experiments which tested cultivar Voltron and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Revenue.html",
     "href": "crop/wheat/Revenue.html",
     "title": "Revenue",
@@ -2273,6 +3365,13 @@
     "title": "Revenue",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Revenue\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n113.782112306367\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.155926785053575\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].CAMP.FLNparams.MinLN\n8\n\n\n[Phenology].CAMP.FLNparams.PpLN\n2\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n7\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n2\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n150\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n4"
+  },
+  {
+    "objectID": "crop/wheat/Revenue.html#experiments",
+    "href": "crop/wheat/Revenue.html#experiments",
+    "title": "Revenue",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 22 experiments which tested cultivar Revenue and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/Sorrial.html",
@@ -2289,6 +3388,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Sorrial\n\n\n\n\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n50\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n105.0\n\n\n[Leaf].ExtinctionCoeff.VegetativePhase.FixedValue\n0.75\n\n\n[Grain].NumberFunction.GrainNumber.GrainsPerGramOfStem.FixedValue\n26\n\n\n[Grain].MaximumPotentialGrainSize.FixedValue\n0.05\n\n\n[Leaf].CohortParameters.MaxArea.AreaLargestLeaves.FixedValue\n3000\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.33\n\n\n[Phenology].CAMP.FLNparams.MinLN\n10\n\n\n[Phenology].CAMP.FLNparams.PpLN\n6\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n4\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n8\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n6\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].GrainFilling.Target.FixedValue\n700"
   },
   {
+    "objectID": "crop/wheat/Sorrial.html#experiments",
+    "href": "crop/wheat/Sorrial.html#experiments",
+    "title": "Sorrial",
+    "section": "Experiments",
+    "text": "Experiments\n\nNo observations available for this cultivar.\n\nThere are 0 experiments which tested cultivar Sorrial and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/Conquest.html",
     "href": "crop/wheat/Conquest.html",
     "title": "Conquest",
@@ -2301,6 +3407,13 @@
     "title": "Conquest",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Conquest\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n100\n\n\n[Phenology].CAMP.FLNparams.MinLN\n7.5\n\n\n[Phenology].CAMP.FLNparams.PpLN\n2.5\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n0.0\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0.0\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n100\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n1.0\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n6\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60"
+  },
+  {
+    "objectID": "crop/wheat/Conquest.html#experiments",
+    "href": "crop/wheat/Conquest.html#experiments",
+    "title": "Conquest",
+    "section": "Experiments",
+    "text": "Experiments\n\nNo observations available for this cultivar.\n\nThere are 0 experiments which tested cultivar Conquest and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   },
   {
     "objectID": "crop/wheat/Kerrin.html",
@@ -2317,6 +3430,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Kerrin\n\n\n\n\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n50\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n105.0\n\n\n[Leaf].ExtinctionCoeff.VegetativePhase.FixedValue\n0.75\n\n\n[Leaf].CohortParameters.MaxArea.AreaLargestLeaves.FixedValue\n3000\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.33\n\n\n[Phenology].CAMP.FLNparams.MinLN\n10\n\n\n[Phenology].CAMP.FLNparams.PpLN\n12\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n12\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n4\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n8\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n6\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].GrainFilling.Target.FixedValue\n700\n\n\n[Grain].MaximumPotentialGrainSize.FixedValue\n0.045\n\n\n[Grain].NumberFunction.GrainNumber.GrainsPerGramOfStem.FixedValue\n30"
   },
   {
+    "objectID": "crop/wheat/Kerrin.html#experiments",
+    "href": "crop/wheat/Kerrin.html#experiments",
+    "title": "Kerrin",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 1 experiments which tested cultivar Kerrin and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/CSIROW003.html",
     "href": "crop/wheat/CSIROW003.html",
     "title": "CSIROW003",
@@ -2331,6 +3451,13 @@
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for CSIROW003\n\n\n\n\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n97.9080402900587\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.219427317086708\n\n\n[Phenology].CAMP.FLNparams.MinLN\n5.793366821378284\n\n\n[Phenology].CAMP.FLNparams.PpLN\n0.0\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n4.787965491738554\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-2.8680601480674017\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n145.0\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n2.658836674667949"
   },
   {
+    "objectID": "crop/wheat/CSIROW003.html#experiments",
+    "href": "crop/wheat/CSIROW003.html#experiments",
+    "title": "CSIROW003",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 10 experiments which tested cultivar CSIROW003 and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
+  },
+  {
     "objectID": "crop/wheat/BattenWinter.html",
     "href": "crop/wheat/BattenWinter.html",
     "title": "BattenWinter",
@@ -2343,5 +3470,12 @@
     "title": "BattenWinter",
     "section": "Cultivar Information",
     "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for BattenWinter\n\n\n\n\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n3.8423212708469157\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n100.0\n\n\n[Leaf].ExtinctionCoeff.VegetativePhase.FixedValue\n0.7\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.6\n\n\n[Phenology].CAMP.FLNparams.MinLN\n8.15781757053076\n\n\n[Phenology].CAMP.FLNparams.PpLN\n3.6074343511019427\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n3.096547775405041\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n6.987099381114945\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n266.0\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n6\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60"
+  },
+  {
+    "objectID": "crop/wheat/BattenWinter.html#experiments",
+    "href": "crop/wheat/BattenWinter.html#experiments",
+    "title": "BattenWinter",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 3 experiments which tested cultivar BattenWinter and its aliases.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments."
   }
 ]
