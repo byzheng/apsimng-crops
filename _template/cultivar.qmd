@@ -18,26 +18,20 @@ if (!exists("params") || grepl("\\{", params$crop)) {
     crop <- params[["crop"]]
     cultivar <- params[["cultivar"]]
 }
-crop_cache_dir <- ".cache"
+crop_data_dir <- "_data/_outputs"
 
 ```
 
 ```{r data-obs-sim}
 
 # Read the obs/prediction files
-file_path <- file.path(crop_cache_dir, paste0(crop, ".Rds")) |> 
+file_path <- file.path(crop_data_dir, paste0(crop, ".Rds")) |> 
     here::here()
 message("Reading cached output: ", file_path)
 obs_sim <- readRDS(file_path)
 
-APSIMX_DIR <- Sys.getenv("APSIMX_DIR")
-if (APSIMX_DIR == "") {
-    stop("Please set APSIMX_DIR environment variable to point to APSIM NG installation directory.")
-}
-model <- file.path(APSIMX_DIR, sprintf("Models/Resources/%s.json", crop))
-if (!file.exists(model)) {
-    stop(sprintf("Model file %s does not exist.", model))
-}
+model <- sprintf("https://raw.githubusercontent.com/APSIMInitiative/ApsimX/refs/heads/master/Models/Resources/%s.json", crop)
+
 apsimx <- rapsimng::read_apsimx(model)
 cultivars <- rapsimng::get_cultivar(apsimx, alias = TRUE) |> tibble::tibble()
 cultivar_info <- cultivars |> dplyr::filter(standard_name == cultivar)
