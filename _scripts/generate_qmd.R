@@ -3,7 +3,6 @@ rm(list = ls())
 
 APSIMX_DIR <- Sys.getenv("APSIMX_DIR")
 target_crops <- c("Barley", "Wheat", "Canola") # list of crops to process
-target_crops <- "Wheat" 
 template_cultivar_file <- "_template/cultivar.qmd" # Template for cultivar report
 template_index_file <- "_template/index.qmd" # Template for index report
 template_home_file <- "_template/home.qmd" # Template for home report
@@ -30,6 +29,10 @@ for (i in seq(along = crops[[1]])) {
     
     message("Processing crop: ", crop)
     output_file <- file.path(crop_output_dir, paste0(crop, ".Rds"))
+    if (!file.exists(output_file)) {
+        message("Output file not found, skipping crop.")
+        next
+    }
     all_reports <- readRDS(output_file)
 
     apsimx <- rapsimng::read_apsimx(crops$Model[i])

@@ -88,7 +88,8 @@ if (length(aliases) > 0) {
 ```{r data-obs-sim-cultivar}
 
 obs_sim_cultivar <- obs_sim |> 
-    dplyr::filter(Genotype == tolower(cultivar))
+    dplyr::filter(Genotype == tolower(cultivar)) |> 
+    dplyr::mutate(trait = gsub(paste0("^", crop, "\\."), "", trait))
 
 experiments <- obs_sim_cultivar |> 
     dplyr::distinct(ExperimentName, Latitude, Longitude)
@@ -106,5 +107,51 @@ experiments |>
     leaflet::addMarkers(~Longitude, ~Latitude, 
         popup = ~ExperimentName)
 ```
+
+## Performance
+
+```{r data-trait}
+traits <- obs_sim_cultivar |> 
+    dplyr::distinct(trait) |> 
+    dplyr::pull(trait)
+```
+
+
+The table below summarizes the performance of APSIM NG for cultivar `r cultivar` across all experiments.
+
+```{r tbl-performance-summary}
+
+obs_sim_cultivar |> 
+    dplyr::group_by(trait) |>
+    myutils::model_summarise(x = "Observed", y = "Predicted", digits = 2)|>
+    knitr::kable(caption = sprintf("Performance summary for cultivar `%s`", cultivar))
+```
+
+::: {.panel-tabset}
+
+```{r results = "asis"}
+i <- 1
+for (i in seq(along = traits)) {
+    trait_i <- traits[i]
+    cat("### ", trait_i, "\n\n")
+    
+    obs_sim_trait <- obs_sim_cultivar |> 
+        dplyr::filter(trait == trait_i)
+    
+    p <- obs_sim_trait |> 
+        ggplot2::ggplot() +
+        ggplot2::geom_point(ggplot2::aes(x = Observed, y = Predicted)) +
+        ggplot2::theme_bw() +
+        ggplot2::geom_abline() +
+        ggplot2::labs(
+            x = "Observed",
+            y = "Predicted"
+        )
+    print(p)    
+    cat("\n\n")
+}
+```
+
+:::
 
 :::
