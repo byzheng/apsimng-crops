@@ -1,6 +1,3 @@
-
-
 ::: {.callout-warning}
-> No observations available for this cultivar.
-
+> No experiments and observations available for this cultivar in the validation test of APSIM NG.
 :::
