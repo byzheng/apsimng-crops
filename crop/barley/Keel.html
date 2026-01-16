@@ -227,8 +227,8 @@ Table&nbsp;1: Cultivar specific parameters for <code>Keel</code>
 <div id="fig-experiments" class="cell-output-display quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-experiments-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<div class="leaflet html-widget html-fill-item" id="htmlwidget-6636192ddcdf52f71b75" style="width:100%;height:557px;"></div>
-<script type="application/json" data-for="htmlwidget-6636192ddcdf52f71b75">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}},"scrollWheelZoom":false},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]},{"method":"addMarkers","args":[[-27.55,-35.8,-34.28,-35.05,-35.12,-32.2049,-37.55,-35.05,-34.97,-32.2049,-37.55,-34.3567],[152.33,142.88,138.77,147.35,139.04,116.7604,145.13,147.35,138.63,116.7604,145.13,146.9032],null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},["Gatton2011","Birchip2011","Tarlee2011","WaggaWagga2019","Callington2019","Dale2019","YanYean2019","WaggaWagga2020","Urrbrae2020","Dale2020","YanYean2020","LaTrobeCE"],null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[-37.55,-27.55],"lng":[116.7604,152.33]}},"evals":[],"jsHooks":[]}</script>
+<div class="leaflet html-widget html-fill-item" id="htmlwidget-1a645338768ae5234dbb" style="width:100%;height:557px;"></div>
+<script type="application/json" data-for="htmlwidget-1a645338768ae5234dbb">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}},"scrollWheelZoom":false},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]},{"method":"addMarkers","args":[[-27.55,-35.8,-34.28,-35.05,-35.12,-32.2049,-37.55,-35.05,-34.97,-32.2049,-37.55,-34.3567],[152.33,142.88,138.77,147.35,139.04,116.7604,145.13,147.35,138.63,116.7604,145.13,146.9032],null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},["Gatton2011","Birchip2011","Tarlee2011","WaggaWagga2019","Callington2019","Dale2019","YanYean2019","WaggaWagga2020","Urrbrae2020","Dale2020","YanYean2020","LaTrobeCE"],null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[-37.55,-27.55],"lng":[116.7604,152.33]}},"evals":[],"jsHooks":[]}</script>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-experiments-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;1: Locations of experiments without controlled environments.
@@ -298,14 +298,14 @@ Table&nbsp;2: Performance summary for cultivar <code>Keel</code>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Phenology.FlagLeafDAS</td>
-<td style="text-align: right;">3</td>
+<td style="text-align: right;">4</td>
 <td style="text-align: right;">0.99</td>
-<td style="text-align: right;">0.98</td>
-<td style="text-align: right;">-8.33</td>
-<td style="text-align: right;">115.67</td>
-<td style="text-align: right;">10.75</td>
-<td style="text-align: right;">0.16</td>
-<td style="text-align: right;">0.98</td>
+<td style="text-align: right;">0.99</td>
+<td style="text-align: right;">-6.00</td>
+<td style="text-align: right;">87.00</td>
+<td style="text-align: right;">9.33</td>
+<td style="text-align: right;">0.12</td>
+<td style="text-align: right;">0.99</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Phenology.FloweringDAS</td>
@@ -319,6 +319,17 @@ Table&nbsp;2: Performance summary for cultivar <code>Keel</code>
 <td style="text-align: right;">0.99</td>
 </tr>
 <tr class="odd">
+<td style="text-align: left;">Phenology.HaunStage</td>
+<td style="text-align: right;">28</td>
+<td style="text-align: right;">0.94</td>
+<td style="text-align: right;">0.89</td>
+<td style="text-align: right;">-0.41</td>
+<td style="text-align: right;">0.81</td>
+<td style="text-align: right;">0.90</td>
+<td style="text-align: right;">0.17</td>
+<td style="text-align: right;">0.96</td>
+</tr>
+<tr class="even">
 <td style="text-align: left;">Phenology.MaturityDAS</td>
 <td style="text-align: right;">6</td>
 <td style="text-align: right;">0.97</td>
@@ -329,6 +340,17 @@ Table&nbsp;2: Performance summary for cultivar <code>Keel</code>
 <td style="text-align: right;">0.03</td>
 <td style="text-align: right;">0.98</td>
 </tr>
+<tr class="odd">
+<td style="text-align: left;">Phenology.Zadok.Stage</td>
+<td style="text-align: right;">82</td>
+<td style="text-align: right;">0.54</td>
+<td style="text-align: right;">0.29</td>
+<td style="text-align: right;">10.53</td>
+<td style="text-align: right;">925.88</td>
+<td style="text-align: right;">30.43</td>
+<td style="text-align: right;">0.58</td>
+<td style="text-align: right;">0.75</td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -337,7 +359,7 @@ Table&nbsp;2: Performance summary for cultivar <code>Keel</code>
 </div>
 </div>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Phenology.EmergenceDAS</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Phenology.FinalLeafNumber</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Phenology.FlagLeafDAS</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false" href="">Phenology.FloweringDAS</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-5" role="tab" aria-controls="tabset-1-5" aria-selected="false" href="">Phenology.MaturityDAS</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Phenology.EmergenceDAS</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Phenology.FinalLeafNumber</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Phenology.FlagLeafDAS</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false" href="">Phenology.FloweringDAS</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-5" role="tab" aria-controls="tabset-1-5" aria-selected="false" href="">Phenology.HaunStage</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-6-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-6" role="tab" aria-controls="tabset-1-6" aria-selected="false" href="">Phenology.MaturityDAS</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-7-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-7" role="tab" aria-controls="tabset-1-7" aria-selected="false" href="">Phenology.Zadok.Stage</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <div class="quarto-figure quarto-figure-center">
@@ -375,6 +397,22 @@ Table&nbsp;2: Performance summary for cultivar <code>Keel</code>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="Keel_files/figure-html/performance-5.png" class="img-fluid figure-img" width="672"></p>
+<figcaption>Observed vs Predicted plots for different traits.</figcaption>
+</figure>
+</div>
+</div>
+<div id="tabset-1-6" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-6-tab">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Keel_files/figure-html/performance-6.png" class="img-fluid figure-img" width="672"></p>
+<figcaption>Observed vs Predicted plots for different traits.</figcaption>
+</figure>
+</div>
+</div>
+<div id="tabset-1-7" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-7-tab">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Keel_files/figure-html/performance-7.png" class="img-fluid figure-img" width="672"></p>
 <figcaption>Observed vs Predicted plots for different traits.</figcaption>
 </figure>
 </div>
