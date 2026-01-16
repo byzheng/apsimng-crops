@@ -80,7 +80,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-date','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       page: 30,
     pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-title","listing-author"],
@@ -199,12 +199,6 @@ window.Quarto = {
     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
       <option value="" disabled="" selected="" hidden="">Order By</option>
       <option value="index" data-direction="asc">Default</option>
-      <option value="listing-date-sort" data-direction="asc">
-        Date - Oldest
-      </option>
-      <option value="listing-date-sort" data-direction="desc">
-        Date - Newest
-      </option>
       <option value="listing-title-sort" data-direction="asc">
         Title
       </option>
@@ -223,586 +217,314 @@ window.Quarto = {
 <a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
 </th>
 
-<th>
-<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
-</th>
-
-<th>
-Description
-</th>
-
 </tr>
 </thead>
 <tbody class="list">
 
-<tr data-index="0" data-listing-file-modified-sort="1768521065889" data-listing-reading-time-sort="3" data-listing-word-count-sort="549" data-listing-title-sort="Alestar" data-listing-filename-sort="Alestar.qmd">
-<td>
-<a href="../../crop/barley/Alestar.html" class="title listing-title">Alestar</a>
-</td>
-<td>
-<span class="listing-date">&nbsp;</span>
-</td>
-<td>
-<span class="listing-description">This report is generated for performance of Barley model in APSIM NG for cultivar Alestar.</span>
-</td>
-
-</tr>
-
-<tr data-index="1" data-listing-file-modified-sort="1768521065893" data-listing-reading-time-sort="3" data-listing-word-count-sort="549" data-listing-title-sort="Banks" data-listing-filename-sort="Banks.qmd">
-<td>
-<a href="../../crop/barley/Banks.html" class="title listing-title">Banks</a>
-</td>
-<td>
-<span class="listing-date">&nbsp;</span>
-</td>
-<td>
-<span class="listing-description">This report is generated for performance of Barley model in APSIM NG for cultivar Banks.</span>
-</td>
-
-</tr>
-
-<tr data-index="2" data-listing-file-modified-sort="1768521065903" data-listing-reading-time-sort="3" data-listing-word-count-sort="549" data-listing-title-sort="Bass" data-listing-filename-sort="Bass.qmd">
-<td>
-<a href="../../crop/barley/Bass.html" class="title listing-title">Bass</a>
-</td>
-<td>
-<span class="listing-date">&nbsp;</span>
-</td>
-<td>
-<span class="listing-description">This report is generated for performance of Barley model in APSIM NG for cultivar Bass.</span>
-</td>
-
-</tr>
-
-<tr data-index="3" data-listing-file-modified-sort="1768521065896" data-listing-reading-time-sort="3" data-listing-word-count-sort="549" data-listing-title-sort="Baudin" data-listing-filename-sort="Baudin.qmd">
-<td>
-<a href="../../crop/barley/Baudin.html" class="title listing-title">Baudin</a>
-</td>
-<td>
-<span class="listing-date">&nbsp;</span>
-</td>
-<td>
-<span class="listing-description">This report is generated for performance of Barley model in APSIM NG for cultivar Baudin.</span>
-</td>
-
-</tr>
-
-<tr data-index="4" data-listing-file-modified-sort="1768521065906" data-listing-reading-time-sort="3" data-listing-word-count-sort="549" data-listing-title-sort="Biere" data-listing-filename-sort="Biere.qmd">
-<td>
-<a href="../../crop/barley/Biere.html" class="title listing-title">Biere</a>
-</td>
-<td>
-<span class="listing-date">&nbsp;</span>
-</td>
-<td>
-<span class="listing-description">This report is generated for performance of Barley model in APSIM NG for cultivar Biere.</span>
-</td>
-
-</tr>
-
-<tr data-index="5" data-listing-file-modified-sort="1768521065867" data-listing-reading-time-sort="3" data-listing-word-count-sort="549" data-listing-title-sort="Boss" data-listing-filename-sort="Boss.qmd">
-<td>
-<a href="../../crop/barley/Boss.html" class="title listing-title">Boss</a>
-</td>
-<td>
-<span class="listing-date">&nbsp;</span>
-</td>
-<td>
-<span class="listing-description">This report is generated for performance of Barley model in APSIM NG for cultivar Boss.</span>
-</td>
-
-</tr>
-
-<tr data-index="6" data-listing-file-modified-sort="1768521065910" data-listing-reading-time-sort="3" data-listing-word-count-sort="549" data-listing-title-sort="Buloke" data-listing-filename-sort="Buloke.qmd">
-<td>
-<a href="../../crop/barley/Buloke.html" class="title listing-title">Buloke</a>
-</td>
-<td>
-<span class="listing-date">&nbsp;</span>
-</td>
-<td>
-<span class="listing-description">This report is generated for performance of Barley model in APSIM NG for cultivar Buloke.</span>
-</td>
-
-</tr>
-
-<tr data-index="7" data-listing-file-modified-sort="1768521065926" data-listing-reading-time-sort="3" data-listing-word-count-sort="549" data-listing-title-sort="CSIROB1" data-listing-filename-sort="CSIROB1.qmd">
-<td>
-<a href="../../crop/barley/CSIROB1.html" class="title listing-title">CSIROB1</a>
-</td>
-<td>
-<span class="listing-date">&nbsp;</span>
-</td>
-<td>
-<span class="listing-description">This report is generated for performance of Barley model in APSIM NG for cultivar CSIROB1.</span>
-</td>
-
-</tr>
-
-<tr data-index="8" data-listing-file-modified-sort="1768521065930" data-listing-reading-time-sort="3" data-listing-word-count-sort="549" data-listing-title-sort="CSIROB3" data-listing-filename-sort="CSIROB3.qmd">
-<td>
-<a href="../../crop/barley/CSIROB3.html" class="title listing-title">CSIROB3</a>
-</td>
-<td>
-<span class="listing-date">&nbsp;</span>
-</td>
-<td>
-<span class="listing-description">This report is generated for performance of Barley model in APSIM NG for cultivar CSIROB3.</span>
-</td>
-
-</tr>
-
-<tr data-index="9" data-listing-file-modified-sort="1768521065916" data-listing-reading-time-sort="3" data-listing-word-count-sort="549" data-listing-title-sort="Capstan" data-listing-filename-sort="Capstan.qmd">
-<td>
-<a href="../../crop/barley/Capstan.html" class="title listing-title">Capstan</a>
-</td>
-<td>
-<span class="listing-date">&nbsp;</span>
-</td>
-<td>
-<span class="listing-description">This report is generated for performance of Barley model in APSIM NG for cultivar Capstan.</span>
-</td>
-
-</tr>
-
-<tr data-index="10" data-listing-file-modified-sort="1768521065913" data-listing-reading-time-sort="3" data-listing-word-count-sort="549" data-listing-title-sort="Cassiopee" data-listing-filename-sort="Cassiopee.qmd">
-<td>
-<a href="../../crop/barley/Cassiopee.html" class="title listing-title">Cassiopee</a>
-</td>
-<td>
-<span class="listing-date">&nbsp;</span>
-</td>
-<td>
-<span class="listing-description">This report is generated for performance of Barley model in APSIM NG for cultivar Cassiopee.</span>
-</td>
-
-</tr>
-
-<tr data-index="11" data-listing-file-modified-sort="1768521065920" data-listing-reading-time-sort="3" data-listing-word-count-sort="549" data-listing-title-sort="Commander" data-listing-filename-sort="Commander.qmd">
-<td>
-<a href="../../crop/barley/Commander.html" class="title listing-title">Commander</a>
-</td>
-<td>
-<span class="listing-date">&nbsp;</span>
-</td>
-<td>
-<span class="listing-description">This report is generated for performance of Barley model in APSIM NG for cultivar Commander.</span>
-</td>
-
-</tr>
-
-<tr data-index="12" data-listing-file-modified-sort="1768521065923" data-listing-reading-time-sort="3" data-listing-word-count-sort="549" data-listing-title-sort="Compass" data-listing-filename-sort="Compass.qmd">
-<td>
-<a href="../../crop/barley/Compass.html" class="title listing-title">Compass</a>
-</td>
-<td>
-<span class="listing-date">&nbsp;</span>
-</td>
-<td>
-<span class="listing-description">This report is generated for performance of Barley model in APSIM NG for cultivar Compass.</span>
-</td>
-
-</tr>
-
-<tr data-index="13" data-listing-file-modified-sort="1768521065870" data-listing-reading-time-sort="3" data-listing-word-count-sort="549" data-listing-title-sort="Dash" data-listing-filename-sort="Dash.qmd">
-<td>
-<a href="../../crop/barley/Dash.html" class="title listing-title">Dash</a>
-</td>
-<td>
-<span class="listing-date">&nbsp;</span>
-</td>
-<td>
-<span class="listing-description">This report is generated for performance of Barley model in APSIM NG for cultivar Dash.</span>
-</td>
-
-</tr>
-
-<tr data-index="14" data-listing-file-modified-sort="1768521065933" data-listing-reading-time-sort="3" data-listing-word-count-sort="549" data-listing-title-sort="Fathom" data-listing-filename-sort="Fathom.qmd">
-<td>
-<a href="../../crop/barley/Fathom.html" class="title listing-title">Fathom</a>
-</td>
-<td>
-<span class="listing-date">&nbsp;</span>
-</td>
-<td>
-<span class="listing-description">This report is generated for performance of Barley model in APSIM NG for cultivar Fathom.</span>
-</td>
-
-</tr>
-
-<tr data-index="15" data-listing-file-modified-sort="1768521065936" data-listing-reading-time-sort="3" data-listing-word-count-sort="549" data-listing-title-sort="Fleet" data-listing-filename-sort="Fleet.qmd">
-<td>
-<a href="../../crop/barley/Fleet.html" class="title listing-title">Fleet</a>
-</td>
-<td>
-<span class="listing-date">&nbsp;</span>
-</td>
-<td>
-<span class="listing-description">This report is generated for performance of Barley model in APSIM NG for cultivar Fleet.</span>
-</td>
-
-</tr>
-
-<tr data-index="16" data-listing-file-modified-sort="1768521065940" data-listing-reading-time-sort="3" data-listing-word-count-sort="549" data-listing-title-sort="Flinders" data-listing-filename-sort="Flinders.qmd">
-<td>
-<a href="../../crop/barley/Flinders.html" class="title listing-title">Flinders</a>
-</td>
-<td>
-<span class="listing-date">&nbsp;</span>
-</td>
-<td>
-<span class="listing-description">This report is generated for performance of Barley model in APSIM NG for cultivar Flinders.</span>
-</td>
-
-</tr>
-
-<tr data-index="17" data-listing-file-modified-sort="1768521065943" data-listing-reading-time-sort="3" data-listing-word-count-sort="549" data-listing-title-sort="Franklin" data-listing-filename-sort="Franklin.qmd">
-<td>
-<a href="../../crop/barley/Franklin.html" class="title listing-title">Franklin</a>
-</td>
-<td>
-<span class="listing-date">&nbsp;</span>
-</td>
-<td>
-<span class="listing-description">This report is generated for performance of Barley model in APSIM NG for cultivar Franklin.</span>
-</td>
-
-</tr>
-
-<tr data-index="18" data-listing-file-modified-sort="1768521065947" data-listing-reading-time-sort="3" data-listing-word-count-sort="549" data-listing-title-sort="Gairdner" data-listing-filename-sort="Gairdner.qmd">
-<td>
-<a href="../../crop/barley/Gairdner.html" class="title listing-title">Gairdner</a>
-</td>
-<td>
-<span class="listing-date">&nbsp;</span>
-</td>
-<td>
-<span class="listing-description">This report is generated for performance of Barley model in APSIM NG for cultivar Gairdner.</span>
-</td>
-
-</tr>
-
-<tr data-index="19" data-listing-file-modified-sort="1768521065950" data-listing-reading-time-sort="3" data-listing-word-count-sort="549" data-listing-title-sort="Granger" data-listing-filename-sort="Granger.qmd">
-<td>
-<a href="../../crop/barley/Granger.html" class="title listing-title">Granger</a>
-</td>
-<td>
-<span class="listing-date">&nbsp;</span>
-</td>
-<td>
-<span class="listing-description">This report is generated for performance of Barley model in APSIM NG for cultivar Granger.</span>
-</td>
-
-</tr>
-
-<tr data-index="20" data-listing-file-modified-sort="1768521065954" data-listing-reading-time-sort="3" data-listing-word-count-sort="549" data-listing-title-sort="Grimmett" data-listing-filename-sort="Grimmett.qmd">
-<td>
-<a href="../../crop/barley/Grimmett.html" class="title listing-title">Grimmett</a>
-</td>
-<td>
-<span class="listing-date">&nbsp;</span>
-</td>
-<td>
-<span class="listing-description">This report is generated for performance of Barley model in APSIM NG for cultivar Grimmett.</span>
-</td>
-
-</tr>
-
-<tr data-index="21" data-listing-file-modified-sort="1768521065957" data-listing-reading-time-sort="3" data-listing-word-count-sort="549" data-listing-title-sort="Grout" data-listing-filename-sort="Grout.qmd">
-<td>
-<a href="../../crop/barley/Grout.html" class="title listing-title">Grout</a>
-</td>
-<td>
-<span class="listing-date">&nbsp;</span>
-</td>
-<td>
-<span class="listing-description">This report is generated for performance of Barley model in APSIM NG for cultivar Grout.</span>
-</td>
-
-</tr>
-
-<tr data-index="22" data-listing-file-modified-sort="1768521065960" data-listing-reading-time-sort="3" data-listing-word-count-sort="549" data-listing-title-sort="Hindmarsh" data-listing-filename-sort="Hindmarsh.qmd">
-<td>
-<a href="../../crop/barley/Hindmarsh.html" class="title listing-title">Hindmarsh</a>
-</td>
-<td>
-<span class="listing-date">&nbsp;</span>
-</td>
-<td>
-<span class="listing-description">This report is generated for performance of Barley model in APSIM NG for cultivar Hindmarsh.</span>
-</td>
-
-</tr>
-
-<tr data-index="23" data-listing-file-modified-sort="1768521065964" data-listing-reading-time-sort="3" data-listing-word-count-sort="549" data-listing-title-sort="Keel" data-listing-filename-sort="Keel.qmd">
-<td>
-<a href="../../crop/barley/Keel.html" class="title listing-title">Keel</a>
-</td>
-<td>
-<span class="listing-date">&nbsp;</span>
-</td>
-<td>
-<span class="listing-description">This report is generated for performance of Barley model in APSIM NG for cultivar Keel.</span>
-</td>
-
-</tr>
-
-<tr data-index="24" data-listing-file-modified-sort="1768521065967" data-listing-reading-time-sort="3" data-listing-word-count-sort="549" data-listing-title-sort="Lockyer" data-listing-filename-sort="Lockyer.qmd">
-<td>
-<a href="../../crop/barley/Lockyer.html" class="title listing-title">Lockyer</a>
-</td>
-<td>
-<span class="listing-date">&nbsp;</span>
-</td>
-<td>
-<span class="listing-description">This report is generated for performance of Barley model in APSIM NG for cultivar Lockyer.</span>
-</td>
-
-</tr>
-
-<tr data-index="25" data-listing-file-modified-sort="1768521065970" data-listing-reading-time-sort="3" data-listing-word-count-sort="549" data-listing-title-sort="Mundah" data-listing-filename-sort="Mundah.qmd">
-<td>
-<a href="../../crop/barley/Mundah.html" class="title listing-title">Mundah</a>
-</td>
-<td>
-<span class="listing-date">&nbsp;</span>
-</td>
-<td>
-<span class="listing-description">This report is generated for performance of Barley model in APSIM NG for cultivar Mundah.</span>
-</td>
-
-</tr>
-
-<tr data-index="26" data-listing-file-modified-sort="1768521065974" data-listing-reading-time-sort="3" data-listing-word-count-sort="549" data-listing-title-sort="Navigator" data-listing-filename-sort="Navigator.qmd">
-<td>
-<a href="../../crop/barley/Navigator.html" class="title listing-title">Navigator</a>
-</td>
-<td>
-<span class="listing-date">&nbsp;</span>
-</td>
-<td>
-<span class="listing-description">This report is generated for performance of Barley model in APSIM NG for cultivar Navigator.</span>
-</td>
-
-</tr>
-
-<tr data-index="27" data-listing-file-modified-sort="1768521065874" data-listing-reading-time-sort="3" data-listing-word-count-sort="549" data-listing-title-sort="Omaka" data-listing-filename-sort="Omaka.qmd">
-<td>
-<a href="../../crop/barley/Omaka.html" class="title listing-title">Omaka</a>
-</td>
-<td>
-<span class="listing-date">&nbsp;</span>
-</td>
-<td>
-<span class="listing-description">This report is generated for performance of Barley model in APSIM NG for cultivar Omaka.</span>
-</td>
-
-</tr>
-
-<tr data-index="28" data-listing-file-modified-sort="1768521065877" data-listing-reading-time-sort="3" data-listing-word-count-sort="549" data-listing-title-sort="Omaka1" data-listing-filename-sort="Omaka1.qmd">
-<td>
-<a href="../../crop/barley/Omaka1.html" class="title listing-title">Omaka1</a>
-</td>
-<td>
-<span class="listing-date">&nbsp;</span>
-</td>
-<td>
-<span class="listing-description">This report is generated for performance of Barley model in APSIM NG for cultivar Omaka1.</span>
-</td>
-
-</tr>
-
-<tr data-index="29" data-listing-file-modified-sort="1768521065977" data-listing-reading-time-sort="3" data-listing-word-count-sort="549" data-listing-title-sort="Oxford" data-listing-filename-sort="Oxford.qmd">
-<td>
-<a href="../../crop/barley/Oxford.html" class="title listing-title">Oxford</a>
-</td>
-<td>
-<span class="listing-date">&nbsp;</span>
-</td>
-<td>
-<span class="listing-description">This report is generated for performance of Barley model in APSIM NG for cultivar Oxford.</span>
-</td>
-
-</tr>
-
-<tr data-index="30" data-listing-file-modified-sort="1768521065980" data-listing-reading-time-sort="3" data-listing-word-count-sort="549" data-listing-title-sort="RGT_Planet" data-listing-filename-sort="RGT_Planet.qmd">
-<td>
-<a href="../../crop/barley/RGT_Planet.html" class="title listing-title">RGT_Planet</a>
-</td>
-<td>
-<span class="listing-date">&nbsp;</span>
-</td>
-<td>
-<span class="listing-description">This report is generated for performance of Barley model in APSIM NG for cultivar RGT_Planet.</span>
-</td>
-
-</tr>
-
-<tr data-index="31" data-listing-file-modified-sort="1768521065880" data-listing-reading-time-sort="3" data-listing-word-count-sort="549" data-listing-title-sort="Retriever" data-listing-filename-sort="Retriever.qmd">
-<td>
-<a href="../../crop/barley/Retriever.html" class="title listing-title">Retriever</a>
-</td>
-<td>
-<span class="listing-date">&nbsp;</span>
-</td>
-<td>
-<span class="listing-description">This report is generated for performance of Barley model in APSIM NG for cultivar Retriever.</span>
-</td>
-
-</tr>
-
-<tr data-index="32" data-listing-file-modified-sort="1768521065984" data-listing-reading-time-sort="3" data-listing-word-count-sort="549" data-listing-title-sort="Rosalind" data-listing-filename-sort="Rosalind.qmd">
-<td>
-<a href="../../crop/barley/Rosalind.html" class="title listing-title">Rosalind</a>
-</td>
-<td>
-<span class="listing-date">&nbsp;</span>
-</td>
-<td>
-<span class="listing-description">This report is generated for performance of Barley model in APSIM NG for cultivar Rosalind.</span>
-</td>
-
-</tr>
-
-<tr data-index="33" data-listing-file-modified-sort="1768521065987" data-listing-reading-time-sort="3" data-listing-word-count-sort="549" data-listing-title-sort="Schooner" data-listing-filename-sort="Schooner.qmd">
-<td>
-<a href="../../crop/barley/Schooner.html" class="title listing-title">Schooner</a>
-</td>
-<td>
-<span class="listing-date">&nbsp;</span>
-</td>
-<td>
-<span class="listing-description">This report is generated for performance of Barley model in APSIM NG for cultivar Schooner.</span>
-</td>
-
-</tr>
-
-<tr data-index="34" data-listing-file-modified-sort="1768521065990" data-listing-reading-time-sort="3" data-listing-word-count-sort="549" data-listing-title-sort="Scope" data-listing-filename-sort="Scope.qmd">
-<td>
-<a href="../../crop/barley/Scope.html" class="title listing-title">Scope</a>
-</td>
-<td>
-<span class="listing-date">&nbsp;</span>
-</td>
-<td>
-<span class="listing-description">This report is generated for performance of Barley model in APSIM NG for cultivar Scope.</span>
-</td>
-
-</tr>
-
-<tr data-index="35" data-listing-file-modified-sort="1768521065997" data-listing-reading-time-sort="3" data-listing-word-count-sort="549" data-listing-title-sort="Shepherd" data-listing-filename-sort="Shepherd.qmd">
-<td>
-<a href="../../crop/barley/Shepherd.html" class="title listing-title">Shepherd</a>
-</td>
-<td>
-<span class="listing-date">&nbsp;</span>
-</td>
-<td>
-<span class="listing-description">This report is generated for performance of Barley model in APSIM NG for cultivar Shepherd.</span>
-</td>
-
-</tr>
-
-<tr data-index="36" data-listing-file-modified-sort="1768521066001" data-listing-reading-time-sort="3" data-listing-word-count-sort="549" data-listing-title-sort="Spartacus_CL" data-listing-filename-sort="Spartacus_CL.qmd">
-<td>
-<a href="../../crop/barley/Spartacus_CL.html" class="title listing-title">Spartacus_CL</a>
-</td>
-<td>
-<span class="listing-date">&nbsp;</span>
-</td>
-<td>
-<span class="listing-description">This report is generated for performance of Barley model in APSIM NG for cultivar Spartacus_CL.</span>
-</td>
-
-</tr>
-
-<tr data-index="37" data-listing-file-modified-sort="1768521066004" data-listing-reading-time-sort="3" data-listing-word-count-sort="549" data-listing-title-sort="Stirling" data-listing-filename-sort="Stirling.qmd">
-<td>
-<a href="../../crop/barley/Stirling.html" class="title listing-title">Stirling</a>
-</td>
-<td>
-<span class="listing-date">&nbsp;</span>
-</td>
-<td>
-<span class="listing-description">This report is generated for performance of Barley model in APSIM NG for cultivar Stirling.</span>
-</td>
-
-</tr>
-
-<tr data-index="38" data-listing-file-modified-sort="1768521065883" data-listing-reading-time-sort="3" data-listing-word-count-sort="549" data-listing-title-sort="Triumph" data-listing-filename-sort="Triumph.qmd">
-<td>
-<a href="../../crop/barley/Triumph.html" class="title listing-title">Triumph</a>
-</td>
-<td>
-<span class="listing-date">&nbsp;</span>
-</td>
-<td>
-<span class="listing-description">This report is generated for performance of Barley model in APSIM NG for cultivar Triumph.</span>
-</td>
-
-</tr>
-
-<tr data-index="39" data-listing-file-modified-sort="1768521066008" data-listing-reading-time-sort="3" data-listing-word-count-sort="549" data-listing-title-sort="Unicorn" data-listing-filename-sort="Unicorn.qmd">
-<td>
-<a href="../../crop/barley/Unicorn.html" class="title listing-title">Unicorn</a>
-</td>
-<td>
-<span class="listing-date">&nbsp;</span>
-</td>
-<td>
-<span class="listing-description">This report is generated for performance of Barley model in APSIM NG for cultivar Unicorn.</span>
-</td>
-
-</tr>
-
-<tr data-index="40" data-listing-file-modified-sort="1768521066012" data-listing-reading-time-sort="3" data-listing-word-count-sort="549" data-listing-title-sort="Urambie" data-listing-filename-sort="Urambie.qmd">
-<td>
-<a href="../../crop/barley/Urambie.html" class="title listing-title">Urambie</a>
-</td>
-<td>
-<span class="listing-date">&nbsp;</span>
-</td>
-<td>
-<span class="listing-description">This report is generated for performance of Barley model in APSIM NG for cultivar Urambie.</span>
-</td>
-
-</tr>
-
-<tr data-index="41" data-listing-file-modified-sort="1768521065886" data-listing-reading-time-sort="3" data-listing-word-count-sort="549" data-listing-title-sort="Valetta" data-listing-filename-sort="Valetta.qmd">
-<td>
-<a href="../../crop/barley/Valetta.html" class="title listing-title">Valetta</a>
-</td>
-<td>
-<span class="listing-date">&nbsp;</span>
-</td>
-<td>
-<span class="listing-description">This report is generated for performance of Barley model in APSIM NG for cultivar Valetta.</span>
-</td>
-
-</tr>
-
-<tr data-index="42" data-listing-file-modified-sort="1768521066015" data-listing-reading-time-sort="3" data-listing-word-count-sort="549" data-listing-title-sort="Westminster" data-listing-filename-sort="Westminster.qmd">
-<td>
-<a href="../../crop/barley/Westminster.html" class="title listing-title">Westminster</a>
-</td>
-<td>
-<span class="listing-date">&nbsp;</span>
-</td>
-<td>
-<span class="listing-description">This report is generated for performance of Barley model in APSIM NG for cultivar Westminster.</span>
-</td>
-
-</tr>
-
-<tr data-index="43" data-listing-file-modified-sort="1768521066018" data-listing-reading-time-sort="3" data-listing-word-count-sort="549" data-listing-title-sort="Yagan" data-listing-filename-sort="Yagan.qmd">
+<tr data-index="0" data-listing-file-modified-sort="1768531005553" data-listing-reading-time-sort="3" data-listing-word-count-sort="550" data-listing-title-sort="Yagan" data-listing-filename-sort="Yagan.qmd">
 <td>
 <a href="../../crop/barley/Yagan.html" class="title listing-title">Yagan</a>
 </td>
+
+</tr>
+
+<tr data-index="1" data-listing-file-modified-sort="1768531005550" data-listing-reading-time-sort="3" data-listing-word-count-sort="550" data-listing-title-sort="Westminster" data-listing-filename-sort="Westminster.qmd">
 <td>
-<span class="listing-date">&nbsp;</span>
+<a href="../../crop/barley/Westminster.html" class="title listing-title">Westminster</a>
 </td>
+
+</tr>
+
+<tr data-index="2" data-listing-file-modified-sort="1768531005429" data-listing-reading-time-sort="3" data-listing-word-count-sort="550" data-listing-title-sort="Valetta" data-listing-filename-sort="Valetta.qmd">
 <td>
-<span class="listing-description">This report is generated for performance of Barley model in APSIM NG for cultivar Yagan.</span>
+<a href="../../crop/barley/Valetta.html" class="title listing-title">Valetta</a>
+</td>
+
+</tr>
+
+<tr data-index="3" data-listing-file-modified-sort="1768531005547" data-listing-reading-time-sort="3" data-listing-word-count-sort="550" data-listing-title-sort="Urambie" data-listing-filename-sort="Urambie.qmd">
+<td>
+<a href="../../crop/barley/Urambie.html" class="title listing-title">Urambie</a>
+</td>
+
+</tr>
+
+<tr data-index="4" data-listing-file-modified-sort="1768531005543" data-listing-reading-time-sort="3" data-listing-word-count-sort="550" data-listing-title-sort="Unicorn" data-listing-filename-sort="Unicorn.qmd">
+<td>
+<a href="../../crop/barley/Unicorn.html" class="title listing-title">Unicorn</a>
+</td>
+
+</tr>
+
+<tr data-index="5" data-listing-file-modified-sort="1768531005426" data-listing-reading-time-sort="3" data-listing-word-count-sort="550" data-listing-title-sort="Triumph" data-listing-filename-sort="Triumph.qmd">
+<td>
+<a href="../../crop/barley/Triumph.html" class="title listing-title">Triumph</a>
+</td>
+
+</tr>
+
+<tr data-index="6" data-listing-file-modified-sort="1768531005540" data-listing-reading-time-sort="3" data-listing-word-count-sort="550" data-listing-title-sort="Stirling" data-listing-filename-sort="Stirling.qmd">
+<td>
+<a href="../../crop/barley/Stirling.html" class="title listing-title">Stirling</a>
+</td>
+
+</tr>
+
+<tr data-index="7" data-listing-file-modified-sort="1768531005537" data-listing-reading-time-sort="3" data-listing-word-count-sort="550" data-listing-title-sort="Spartacus_CL" data-listing-filename-sort="Spartacus_CL.qmd">
+<td>
+<a href="../../crop/barley/Spartacus_CL.html" class="title listing-title">Spartacus_CL</a>
+</td>
+
+</tr>
+
+<tr data-index="8" data-listing-file-modified-sort="1768531005531" data-listing-reading-time-sort="3" data-listing-word-count-sort="550" data-listing-title-sort="Shepherd" data-listing-filename-sort="Shepherd.qmd">
+<td>
+<a href="../../crop/barley/Shepherd.html" class="title listing-title">Shepherd</a>
+</td>
+
+</tr>
+
+<tr data-index="9" data-listing-file-modified-sort="1768531005528" data-listing-reading-time-sort="3" data-listing-word-count-sort="550" data-listing-title-sort="Scope" data-listing-filename-sort="Scope.qmd">
+<td>
+<a href="../../crop/barley/Scope.html" class="title listing-title">Scope</a>
+</td>
+
+</tr>
+
+<tr data-index="10" data-listing-file-modified-sort="1768531005524" data-listing-reading-time-sort="3" data-listing-word-count-sort="550" data-listing-title-sort="Schooner" data-listing-filename-sort="Schooner.qmd">
+<td>
+<a href="../../crop/barley/Schooner.html" class="title listing-title">Schooner</a>
+</td>
+
+</tr>
+
+<tr data-index="11" data-listing-file-modified-sort="1768531005521" data-listing-reading-time-sort="3" data-listing-word-count-sort="550" data-listing-title-sort="Rosalind" data-listing-filename-sort="Rosalind.qmd">
+<td>
+<a href="../../crop/barley/Rosalind.html" class="title listing-title">Rosalind</a>
+</td>
+
+</tr>
+
+<tr data-index="12" data-listing-file-modified-sort="1768531005423" data-listing-reading-time-sort="3" data-listing-word-count-sort="550" data-listing-title-sort="Retriever" data-listing-filename-sort="Retriever.qmd">
+<td>
+<a href="../../crop/barley/Retriever.html" class="title listing-title">Retriever</a>
+</td>
+
+</tr>
+
+<tr data-index="13" data-listing-file-modified-sort="1768531005518" data-listing-reading-time-sort="3" data-listing-word-count-sort="550" data-listing-title-sort="RGT_Planet" data-listing-filename-sort="RGT_Planet.qmd">
+<td>
+<a href="../../crop/barley/RGT_Planet.html" class="title listing-title">RGT_Planet</a>
+</td>
+
+</tr>
+
+<tr data-index="14" data-listing-file-modified-sort="1768531005515" data-listing-reading-time-sort="3" data-listing-word-count-sort="550" data-listing-title-sort="Oxford" data-listing-filename-sort="Oxford.qmd">
+<td>
+<a href="../../crop/barley/Oxford.html" class="title listing-title">Oxford</a>
+</td>
+
+</tr>
+
+<tr data-index="15" data-listing-file-modified-sort="1768531005420" data-listing-reading-time-sort="3" data-listing-word-count-sort="550" data-listing-title-sort="Omaka1" data-listing-filename-sort="Omaka1.qmd">
+<td>
+<a href="../../crop/barley/Omaka1.html" class="title listing-title">Omaka1</a>
+</td>
+
+</tr>
+
+<tr data-index="16" data-listing-file-modified-sort="1768531005416" data-listing-reading-time-sort="3" data-listing-word-count-sort="550" data-listing-title-sort="Omaka" data-listing-filename-sort="Omaka.qmd">
+<td>
+<a href="../../crop/barley/Omaka.html" class="title listing-title">Omaka</a>
+</td>
+
+</tr>
+
+<tr data-index="17" data-listing-file-modified-sort="1768531005512" data-listing-reading-time-sort="3" data-listing-word-count-sort="550" data-listing-title-sort="Navigator" data-listing-filename-sort="Navigator.qmd">
+<td>
+<a href="../../crop/barley/Navigator.html" class="title listing-title">Navigator</a>
+</td>
+
+</tr>
+
+<tr data-index="18" data-listing-file-modified-sort="1768531005509" data-listing-reading-time-sort="3" data-listing-word-count-sort="550" data-listing-title-sort="Mundah" data-listing-filename-sort="Mundah.qmd">
+<td>
+<a href="../../crop/barley/Mundah.html" class="title listing-title">Mundah</a>
+</td>
+
+</tr>
+
+<tr data-index="19" data-listing-file-modified-sort="1768531005506" data-listing-reading-time-sort="3" data-listing-word-count-sort="550" data-listing-title-sort="Lockyer" data-listing-filename-sort="Lockyer.qmd">
+<td>
+<a href="../../crop/barley/Lockyer.html" class="title listing-title">Lockyer</a>
+</td>
+
+</tr>
+
+<tr data-index="20" data-listing-file-modified-sort="1768531005502" data-listing-reading-time-sort="3" data-listing-word-count-sort="550" data-listing-title-sort="Keel" data-listing-filename-sort="Keel.qmd">
+<td>
+<a href="../../crop/barley/Keel.html" class="title listing-title">Keel</a>
+</td>
+
+</tr>
+
+<tr data-index="21" data-listing-file-modified-sort="1768531005499" data-listing-reading-time-sort="3" data-listing-word-count-sort="550" data-listing-title-sort="Hindmarsh" data-listing-filename-sort="Hindmarsh.qmd">
+<td>
+<a href="../../crop/barley/Hindmarsh.html" class="title listing-title">Hindmarsh</a>
+</td>
+
+</tr>
+
+<tr data-index="22" data-listing-file-modified-sort="1768531005496" data-listing-reading-time-sort="3" data-listing-word-count-sort="550" data-listing-title-sort="Grout" data-listing-filename-sort="Grout.qmd">
+<td>
+<a href="../../crop/barley/Grout.html" class="title listing-title">Grout</a>
+</td>
+
+</tr>
+
+<tr data-index="23" data-listing-file-modified-sort="1768531005493" data-listing-reading-time-sort="3" data-listing-word-count-sort="550" data-listing-title-sort="Grimmett" data-listing-filename-sort="Grimmett.qmd">
+<td>
+<a href="../../crop/barley/Grimmett.html" class="title listing-title">Grimmett</a>
+</td>
+
+</tr>
+
+<tr data-index="24" data-listing-file-modified-sort="1768531005490" data-listing-reading-time-sort="3" data-listing-word-count-sort="550" data-listing-title-sort="Granger" data-listing-filename-sort="Granger.qmd">
+<td>
+<a href="../../crop/barley/Granger.html" class="title listing-title">Granger</a>
+</td>
+
+</tr>
+
+<tr data-index="25" data-listing-file-modified-sort="1768531005487" data-listing-reading-time-sort="3" data-listing-word-count-sort="550" data-listing-title-sort="Gairdner" data-listing-filename-sort="Gairdner.qmd">
+<td>
+<a href="../../crop/barley/Gairdner.html" class="title listing-title">Gairdner</a>
+</td>
+
+</tr>
+
+<tr data-index="26" data-listing-file-modified-sort="1768531005483" data-listing-reading-time-sort="3" data-listing-word-count-sort="550" data-listing-title-sort="Franklin" data-listing-filename-sort="Franklin.qmd">
+<td>
+<a href="../../crop/barley/Franklin.html" class="title listing-title">Franklin</a>
+</td>
+
+</tr>
+
+<tr data-index="27" data-listing-file-modified-sort="1768531005480" data-listing-reading-time-sort="3" data-listing-word-count-sort="550" data-listing-title-sort="Flinders" data-listing-filename-sort="Flinders.qmd">
+<td>
+<a href="../../crop/barley/Flinders.html" class="title listing-title">Flinders</a>
+</td>
+
+</tr>
+
+<tr data-index="28" data-listing-file-modified-sort="1768531005477" data-listing-reading-time-sort="3" data-listing-word-count-sort="550" data-listing-title-sort="Fleet" data-listing-filename-sort="Fleet.qmd">
+<td>
+<a href="../../crop/barley/Fleet.html" class="title listing-title">Fleet</a>
+</td>
+
+</tr>
+
+<tr data-index="29" data-listing-file-modified-sort="1768531005474" data-listing-reading-time-sort="3" data-listing-word-count-sort="550" data-listing-title-sort="Fathom" data-listing-filename-sort="Fathom.qmd">
+<td>
+<a href="../../crop/barley/Fathom.html" class="title listing-title">Fathom</a>
+</td>
+
+</tr>
+
+<tr data-index="30" data-listing-file-modified-sort="1768531005413" data-listing-reading-time-sort="3" data-listing-word-count-sort="550" data-listing-title-sort="Dash" data-listing-filename-sort="Dash.qmd">
+<td>
+<a href="../../crop/barley/Dash.html" class="title listing-title">Dash</a>
+</td>
+
+</tr>
+
+<tr data-index="31" data-listing-file-modified-sort="1768531005464" data-listing-reading-time-sort="3" data-listing-word-count-sort="550" data-listing-title-sort="Compass" data-listing-filename-sort="Compass.qmd">
+<td>
+<a href="../../crop/barley/Compass.html" class="title listing-title">Compass</a>
+</td>
+
+</tr>
+
+<tr data-index="32" data-listing-file-modified-sort="1768531005461" data-listing-reading-time-sort="3" data-listing-word-count-sort="550" data-listing-title-sort="Commander" data-listing-filename-sort="Commander.qmd">
+<td>
+<a href="../../crop/barley/Commander.html" class="title listing-title">Commander</a>
+</td>
+
+</tr>
+
+<tr data-index="33" data-listing-file-modified-sort="1768531005455" data-listing-reading-time-sort="3" data-listing-word-count-sort="550" data-listing-title-sort="Cassiopee" data-listing-filename-sort="Cassiopee.qmd">
+<td>
+<a href="../../crop/barley/Cassiopee.html" class="title listing-title">Cassiopee</a>
+</td>
+
+</tr>
+
+<tr data-index="34" data-listing-file-modified-sort="1768531005458" data-listing-reading-time-sort="3" data-listing-word-count-sort="550" data-listing-title-sort="Capstan" data-listing-filename-sort="Capstan.qmd">
+<td>
+<a href="../../crop/barley/Capstan.html" class="title listing-title">Capstan</a>
+</td>
+
+</tr>
+
+<tr data-index="35" data-listing-file-modified-sort="1768531005471" data-listing-reading-time-sort="3" data-listing-word-count-sort="550" data-listing-title-sort="CSIROB3" data-listing-filename-sort="CSIROB3.qmd">
+<td>
+<a href="../../crop/barley/CSIROB3.html" class="title listing-title">CSIROB3</a>
+</td>
+
+</tr>
+
+<tr data-index="36" data-listing-file-modified-sort="1768531005468" data-listing-reading-time-sort="3" data-listing-word-count-sort="550" data-listing-title-sort="CSIROB1" data-listing-filename-sort="CSIROB1.qmd">
+<td>
+<a href="../../crop/barley/CSIROB1.html" class="title listing-title">CSIROB1</a>
+</td>
+
+</tr>
+
+<tr data-index="37" data-listing-file-modified-sort="1768531005452" data-listing-reading-time-sort="3" data-listing-word-count-sort="550" data-listing-title-sort="Buloke" data-listing-filename-sort="Buloke.qmd">
+<td>
+<a href="../../crop/barley/Buloke.html" class="title listing-title">Buloke</a>
+</td>
+
+</tr>
+
+<tr data-index="38" data-listing-file-modified-sort="1768531005409" data-listing-reading-time-sort="3" data-listing-word-count-sort="550" data-listing-title-sort="Boss" data-listing-filename-sort="Boss.qmd">
+<td>
+<a href="../../crop/barley/Boss.html" class="title listing-title">Boss</a>
+</td>
+
+</tr>
+
+<tr data-index="39" data-listing-file-modified-sort="1768531005448" data-listing-reading-time-sort="3" data-listing-word-count-sort="550" data-listing-title-sort="Biere" data-listing-filename-sort="Biere.qmd">
+<td>
+<a href="../../crop/barley/Biere.html" class="title listing-title">Biere</a>
+</td>
+
+</tr>
+
+<tr data-index="40" data-listing-file-modified-sort="1768531005439" data-listing-reading-time-sort="3" data-listing-word-count-sort="550" data-listing-title-sort="Baudin" data-listing-filename-sort="Baudin.qmd">
+<td>
+<a href="../../crop/barley/Baudin.html" class="title listing-title">Baudin</a>
+</td>
+
+</tr>
+
+<tr data-index="41" data-listing-file-modified-sort="1768531005442" data-listing-reading-time-sort="3" data-listing-word-count-sort="550" data-listing-title-sort="Bass" data-listing-filename-sort="Bass.qmd">
+<td>
+<a href="../../crop/barley/Bass.html" class="title listing-title">Bass</a>
+</td>
+
+</tr>
+
+<tr data-index="42" data-listing-file-modified-sort="1768531005435" data-listing-reading-time-sort="3" data-listing-word-count-sort="550" data-listing-title-sort="Banks" data-listing-filename-sort="Banks.qmd">
+<td>
+<a href="../../crop/barley/Banks.html" class="title listing-title">Banks</a>
+</td>
+
+</tr>
+
+<tr data-index="43" data-listing-file-modified-sort="1768531005432" data-listing-reading-time-sort="3" data-listing-word-count-sort="550" data-listing-title-sort="Alestar" data-listing-filename-sort="Alestar.qmd">
+<td>
+<a href="../../crop/barley/Alestar.html" class="title listing-title">Alestar</a>
 </td>
 
 </tr>
