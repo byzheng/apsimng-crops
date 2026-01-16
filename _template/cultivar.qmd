@@ -140,7 +140,7 @@ for (i in seq(along = traits)) {
     
     obs_sim_trait <- obs_sim_cultivar |> 
         dplyr::filter(trait == trait_i)
-    
+    rng <- range(c(obs_sim_trait$Observed, obs_sim_trait$Predicted), na.rm = TRUE)
     p <- obs_sim_trait |> 
         ggplot2::ggplot() +
         ggplot2::geom_point(ggplot2::aes(x = Observed, y = Predicted)) +
@@ -149,7 +149,9 @@ for (i in seq(along = traits)) {
         ggplot2::labs(
             x = "Observed",
             y = "Predicted"
-        )
+        ) +
+        ggplot2::xlim(rng) +
+        ggplot2::ylim(rng)
     print(p)    
     cat("\n\n")
 }
