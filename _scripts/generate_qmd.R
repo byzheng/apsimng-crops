@@ -40,7 +40,8 @@ for (i in seq(along = crops[[1]])) {
     cultivars_names <- cultivars$standard_name |> unique()
     is_github <- Sys.getenv("GITHUB_ACTIONS") == "true"
     if (!is_github) {
-        cultivars_names <- cultivars_names[1:1]
+        # local debugging, only keep first 2 cultivars
+        cultivars_names <- cultivars_names[1:2]
     }
 
     crop_output_dir <- paste0("crop/", tolower(crop))
