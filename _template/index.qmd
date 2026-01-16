@@ -5,7 +5,7 @@ listing:
    - "*.md"
    - "*.qmd"
   type: table
-  sort: "date desc"
-  fields: [title, date, description]
+  sort: "title desc"
+  fields: [title]
 ---
 

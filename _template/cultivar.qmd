@@ -129,7 +129,7 @@ obs_sim_cultivar |>
 
 ::: {.panel-tabset}
 
-```{r results = "asis"}
+```{r fig-performance, results = "asis"}
 i <- 1
 for (i in seq(along = traits)) {
     trait_i <- traits[i]
