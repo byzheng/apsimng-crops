@@ -132,7 +132,7 @@ obs_sim_cultivar |>
 
 ::: {.panel-tabset}
 
-```{r fig-performance, results = "asis", fig.keep='all'}
+```{r performance, results = "asis", fig.cap = "Observed vs Predicted plots for different traits."}
 i <- 1
 for (i in seq(along = traits)) {
     trait_i <- traits[i]
@@ -158,3 +158,4 @@ for (i in seq(along = traits)) {
 :::
 
 :::
+

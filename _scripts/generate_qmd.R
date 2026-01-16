@@ -4,7 +4,7 @@ rm(list = ls())
 APSIMX_DIR <- Sys.getenv("APSIMX_DIR")
 target_crops <- c("Barley", "Wheat", "Canola") # list of crops to process
 template_cultivar_file <- "_template/cultivar.qmd" # Template for cultivar report
-template_index_file <- "_template/index.qmd" # Template for index report
+template_index_file <- "_template/cultivar_index.qmd" # Template for index report
 template_home_file <- "_template/home.qmd" # Template for home report
 crop_db_output_dir <- "_data/_outputs" # Directory to store cached data
 
@@ -38,8 +38,10 @@ for (i in seq(along = crops[[1]])) {
     apsimx <- rapsimng::read_apsimx(crops$Model[i])
     cultivars <- rapsimng::get_cultivar(apsimx, alias = TRUE) |> tibble::tibble()
     cultivars_names <- cultivars$standard_name |> unique()
-    cultivars_names <- cultivars_names[1:2]
-
+    is_github <- Sys.getenv("GITHUB_ACTIONS") == "true"
+    if (!is_github) {
+        cultivars_names <- cultivars_names[1:1]
+    }
 
     crop_output_dir <- paste0("crop/", tolower(crop))
     if (!dir.exists(crop_output_dir)) {
