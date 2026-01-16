@@ -102,7 +102,7 @@ There are `r nrow(experiments)` experiments which tested cultivar `r cultivar` a
 experiments |> 
     dplyr::filter(!is.na(Longitude), !is.na(Latitude)) |>
     dplyr::filter(Longitude != 0 & Latitude != 0) |>
-    leaflet::leaflet() |>
+    leaflet::leaflet(options = leaflet::leafletOptions(scrollWheelZoom = FALSE)) |>
     leaflet::addTiles() |>
     leaflet::addMarkers(~Longitude, ~Latitude, 
         popup = ~ExperimentName)
