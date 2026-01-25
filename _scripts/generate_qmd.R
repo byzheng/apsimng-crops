@@ -4,7 +4,7 @@ rm(list = ls())
 APSIMX_DIR <- Sys.getenv("APSIMX_DIR")
 target_crops <- c("Barley", "Wheat", "Canola") # list of crops to process
 template_cultivar_file <- "_template/cultivar.qmd" # Template for cultivar report
-template_index_file <- "_template/cultivar_index.qmd" # Template for index report
+template_index_file <- "_template/crop_index.qmd" # Template for index report
 template_home_file <- "_template/home.qmd" # Template for home report
 crop_db_output_dir <- "_data/_outputs" # Directory to store cached data
 
@@ -44,7 +44,7 @@ for (i in seq(along = crops[[1]])) {
         cultivars_names <- cultivars_names[1:2]
     }
 
-    crop_output_dir <- paste0("crop/", tolower(crop))
+    crop_output_dir <- paste0("crop/", tolower(crop), "/cultivar")
     if (!dir.exists(crop_output_dir)) {
         dir.create(crop_output_dir, recursive = TRUE)
     } else {
