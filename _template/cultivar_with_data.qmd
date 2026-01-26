@@ -45,28 +45,31 @@ obs_sim_cultivar |>
 
 **Comparison of observed and predicted values**
 
-<button onclick="expandAllCallouts()">Expand all</button>
-<button onclick="collapseAllCallouts()">Collapse all</button>
+
+<div class="mb-3">
+<button class="btn btn-sm btn-outline-secondary me-2" onclick="expandAllCallouts()">Expand all</button>
+<button class="btn btn-sm btn-outline-secondary" onclick="collapseAllCallouts()">Collapse all</button>
+</div>
 
 <script>
 function expandAllCallouts() {
-  document
-    .querySelectorAll('.callout-collapse.collapse')
-    .forEach(el => {
-      if (!el.classList.contains('show')) {
-        new bootstrap.Collapse(el, { show: true });
-      }
-    });
+    document
+        .querySelectorAll('.callout-collapse.collapse')
+        .forEach(el => {
+        if (!el.classList.contains('show')) {
+            new bootstrap.Collapse(el, { show: true });
+        }
+        });
 }
 
 function collapseAllCallouts() {
-  document
-    .querySelectorAll('.callout-collapse.collapse')
-    .forEach(el => {
-      if (el.classList.contains('show')) {
-        new bootstrap.Collapse(el, { hide: true });
-      }
-    });
+    document
+        .querySelectorAll('.callout-collapse.collapse')
+        .forEach(el => {
+        if (el.classList.contains('show')) {
+            new bootstrap.Collapse(el, { hide: true });
+        }
+        });
 }
 </script>
 
