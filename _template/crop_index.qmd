@@ -1,11 +1,37 @@
 ---
 title: ""
-listing:
-  contents: 
-   - "*.md"
-   - "*.qmd"
-  type: table
-  sort: "title"
-  fields: [title]
 ---
+
+## Experiments
+
+
+## Cultivars
+
+
+
+```{r list-cultivar}
+files <- list.files("cultivar", "*.qmd", full.names = TRUE, recursive = TRUE)
+
+tbl <- data.frame(
+    Cultivar = tools::file_path_sans_ext(basename(files)),
+    Link = paste0(
+        "<a href='", gsub("qmd", "html", files), "'>",
+        tools::file_path_sans_ext(basename(files)),
+        "</a>"
+    ),
+    stringsAsFactors = FALSE
+)
+
+DT::datatable(
+    tbl["Link"],
+    colnames = "Cultivar",
+    escape = FALSE,
+    rownames = FALSE,
+    options = list(
+        pageLength = 50,
+        lengthMenu = c(25, 50, 100),
+        order = list(list(0, "asc"))
+    )
+)
+```
 

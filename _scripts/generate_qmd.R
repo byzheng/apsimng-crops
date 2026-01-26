@@ -1,8 +1,12 @@
 rm(list = ls())
-
+is_github <- Sys.getenv("GITHUB_ACTIONS") == "true"
 
 APSIMX_DIR <- Sys.getenv("APSIMX_DIR")
 target_crops <- c("Barley", "Wheat", "Canola") # list of crops to process
+if (!is_github) {
+    target_crops <- "Wheat"
+}
+
 template_cultivar_file <- "_template/cultivar.qmd" # Template for cultivar report
 template_index_file <- "_template/crop_index.qmd" # Template for index report
 template_home_file <- "_template/home.qmd" # Template for home report
@@ -38,7 +42,7 @@ for (i in seq(along = crops[[1]])) {
     apsimx <- rapsimng::read_apsimx(crops$Model[i])
     cultivars <- rapsimng::get_cultivar(apsimx, alias = TRUE) |> tibble::tibble()
     cultivars_names <- cultivars$standard_name |> unique()
-    is_github <- Sys.getenv("GITHUB_ACTIONS") == "true"
+    
     if (!is_github) {
         # local debugging, only keep first 2 cultivars
         cultivars_names <- cultivars_names[1:2]
@@ -72,7 +76,7 @@ for (i in seq(along = crops[[1]])) {
     }
     index_lines_i <- template_index
     
-    writeLines(index_lines_i, file.path(crop_output_dir, "index.qmd"))        
+    writeLines(index_lines_i, file.path(paste0("crop/", tolower(crop)), "index.qmd"))        
         
     # # Add link to index
     # rel_link <- file.path(crop_output_dir, "index.html")

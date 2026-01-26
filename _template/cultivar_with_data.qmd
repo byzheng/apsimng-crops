@@ -4,6 +4,10 @@
 
 There are `r nrow(experiments)` experiments which tested cultivar `r cultivar` and its aliases in the validation test dataset of APSIM NG..
 
+```{r tbl-experiments}
+experiments |> 
+    knitr::kable(caption = sprintf("Experiments for cultivar `%s`", cultivar))
+```
 
 ```{r fig-experiments, fig.height=6, fig.cap="Locations of experiments without controlled environments."}
 experiments |> 
