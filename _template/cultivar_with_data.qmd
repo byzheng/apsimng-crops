@@ -28,8 +28,10 @@ traits <- obs_sim_cultivar |>
     sort()
 ```
 
+**Overview**
 
 The table below summarizes the performance of APSIM NG for cultivar `r cultivar` across all experiments.
+
 
 ```{r tbl-performance-summary}
 
@@ -41,13 +43,40 @@ obs_sim_cultivar |>
     knitr::kable(caption = sprintf("Performance summary for cultivar `%s`", cultivar))
 ```
 
-::: {.panel-tabset}
+**Comparison of observed and predicted values**
+
+<button onclick="expandAllCallouts()">Expand all</button>
+<button onclick="collapseAllCallouts()">Collapse all</button>
+
+<script>
+function expandAllCallouts() {
+  document
+    .querySelectorAll('.callout-collapse.collapse')
+    .forEach(el => {
+      if (!el.classList.contains('show')) {
+        new bootstrap.Collapse(el, { show: true });
+      }
+    });
+}
+
+function collapseAllCallouts() {
+  document
+    .querySelectorAll('.callout-collapse.collapse')
+    .forEach(el => {
+      if (el.classList.contains('show')) {
+        new bootstrap.Collapse(el, { hide: true });
+      }
+    });
+}
+</script>
+
 
 ```{r performance, results = "asis", fig.cap = "Observed vs Predicted plots for different traits."}
 i <- 1
 for (i in seq(along = traits)) {
     trait_i <- traits[i]
-    cat("### ", trait_i, "\n\n")
+    cat('::: {.callout-note collapse="true"}\r\n\r\n')
+    cat("### ", trait_i, "\r\n\r\n")
     
     obs_sim_trait <- obs_sim_cultivar |> 
         dplyr::filter(trait == trait_i)
@@ -63,9 +92,8 @@ for (i in seq(along = traits)) {
         ) +
         ggplot2::xlim(rng) +
         ggplot2::ylim(rng)
-    print(p)    
-    cat("\n\n")
+    print(p)
+    cat("\r\n\r\n")    
+    cat(":::\r\n\r\n")
 }
 ```
-
-:::
