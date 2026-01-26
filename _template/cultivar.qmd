@@ -77,8 +77,9 @@ if (length(aliases) > 0) {
 
 obs_sim_cultivar <- obs_sim |> 
     dplyr::filter(Genotype == tolower(cultivar)) |> 
+    dplyr::mutate(trait = gsub(paste0("^", crop, "\\."), "", trait)) |> 
     dplyr::filter(!grepl("Error$", trait)) |>
-    dplyr::mutate(trait = gsub(paste0("^", crop, "\\."), "", trait))
+    dplyr::filter(!is.na(Observed), !is.na(Predicted)) 
 experiments <- obs_sim_cultivar |> 
     dplyr::distinct(ExperimentName, Latitude, Longitude)
 has_data <- nrow(obs_sim_cultivar) > 0
