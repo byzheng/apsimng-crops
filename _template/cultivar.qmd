@@ -18,17 +18,12 @@ if (!exists("params") || grepl("\\{", params$crop)) {
     crop <- params[["crop"]]
     cultivar <- params[["cultivar"]]
 }
-crop_data_dir <- "_data/_outputs"
 
 ```
 
 ```{r data-obs-sim}
 # Read the obs/prediction files
-file_path <- file.path(crop_data_dir, paste0(crop, ".Rds")) |> 
-    here::here()
-message("Reading cached output: ", file_path)
-obs_sim <- readRDS(file_path)
-
+obs_sim <- get_obs(crop)
 apsimx <- get_model(crop)
 cultivars <- rapsimng::get_cultivar(apsimx, alias = TRUE) |> tibble::tibble()
 cultivar_info <- cultivars |> dplyr::filter(standard_name == cultivar)
@@ -73,10 +68,7 @@ if (length(aliases) > 0) {
 ```{r data-obs-sim-cultivar}
 
 obs_sim_cultivar <- obs_sim |> 
-    dplyr::filter(Genotype == tolower(cultivar)) |> 
-    dplyr::mutate(trait = gsub(paste0("^", crop, "\\."), "", trait)) |> 
-    dplyr::filter(!grepl("Error$", trait)) |>
-    dplyr::filter(!is.na(Observed), !is.na(Predicted)) 
+    dplyr::filter(Genotype == tolower(cultivar))
 experiments <- obs_sim_cultivar |> 
     dplyr::distinct(ExperimentName, Latitude, Longitude)
 has_data <- nrow(obs_sim_cultivar) > 0

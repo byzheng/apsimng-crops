@@ -14,7 +14,7 @@ if (!exists("params") || grepl("\\{", params$crop)) {
     crop <- params[["crop"]]
     cultivar <- params[["cultivar"]]
 }
-crop_data_dir <- "_data/_outputs"
+
 
 ```
 
@@ -22,10 +22,10 @@ crop_data_dir <- "_data/_outputs"
 ```{r data-obs-sim}
 
 # Read the obs/prediction files
-file_path <- file.path(crop_data_dir, paste0(crop, ".Rds")) |> 
-    here::here()
-message("Reading cached output: ", file_path)
-obs_sim_cultivar <- readRDS(file_path)
+
+
+obs_sim_cultivar <- get_obs(crop)
+
 apsimx <- get_model(crop)
 cultivars <- rapsimng::get_cultivar(apsimx, alias = TRUE) |> tibble::tibble()
 experiments <- obs_sim_cultivar |> 
@@ -55,14 +55,13 @@ DT::datatable(
     escape = FALSE,
     rownames = FALSE,
     options = list(
-        pageLength = 50,
-        lengthMenu = c(25, 50, 100),
+        pageLength = 10,
+        lengthMenu = c(10, 25, 50, 100),
         order = list(list(0, "asc"))
     )
 )
 ```
 
-## Performance Overview
-
 
 {{< include /_template/cultivar_with_data.qmd >}}
+

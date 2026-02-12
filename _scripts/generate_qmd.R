@@ -3,9 +3,9 @@ is_github <- Sys.getenv("GITHUB_ACTIONS") == "true"
 
 APSIMX_DIR <- Sys.getenv("APSIMX_DIR")
 target_crops <- c("Barley", "Wheat", "Canola", "Chickpea", "Lentil") # list of crops to process
-# if (!is_github) {
-#     target_crops <- "Lentil"
-# }
+if (!is_github) {
+    target_crops <- "Chickpea"
+}
 
 template_cultivar_file <- "_template/cultivar.qmd" # Template for cultivar report
 template_index_file <- "_template/crop_index.qmd" # Template for index report
@@ -75,8 +75,9 @@ for (i in seq(along = crops[[1]])) {
         ))
         writeLines(output, file.path(crop_output_dir, paste0(cultivar, ".qmd")))
     }
-    index_lines_i <- template_index
-    
+    index_lines_i <- whisker::whisker.render(template_index, list(
+            crop = crop
+        ))
     writeLines(index_lines_i, file.path(paste0("crop/", tolower(crop)), "index.qmd"))        
         
     # # Add link to index
