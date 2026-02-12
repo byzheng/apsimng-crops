@@ -70,3 +70,15 @@ get_experiment_data <- function(apsimx, crop_data_dir = "_data/_outputs") {
     
     return(experiment_data)
 }
+
+
+strip_base_path <- function(paths, base_folder) {
+    base_folder <- normalizePath(base_folder, winslash = "/", mustWork = FALSE)
+    paths <- normalizePath(paths, winslash = "/", mustWork = FALSE)
+    
+    ifelse(
+        startsWith(paths, base_folder),
+        substring(paths, nchar(base_folder) + 2),
+        paths
+    )
+}

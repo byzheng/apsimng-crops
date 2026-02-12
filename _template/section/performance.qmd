@@ -1,10 +1,19 @@
 
 
+```{r data-performance-assign-variable}
+if (!exists("params")) {
+    stop("This template must be rendered via knit_child() with params supplied.")
+}
+cultivar <- params$cultivar
+obs_sim <- params$obs_sim
+cultivar_string <- ifelse(cultivar == "All", "all cultivars", sprintf("cultivar `%s`", cultivar))
+```
+
 ## Performance
 
 ```{r data-trait}
 cultivar_text <- ifelse(cultivar == "All", "all cultivars", paste0("cultivar ", cultivar))
-traits <- obs_sim_cultivar |> 
+traits <- obs_sim |> 
     dplyr::distinct(trait) |> 
     dplyr::pull(trait) |> 
     sort()
@@ -17,7 +26,7 @@ The table below summarizes the performance of APSIM NG for `r cultivar_text` acr
 
 ```{r tbl-performance-summary}
 tbl_cap <- sprintf("Performance summary for %s", cultivar_text)
-obs_sim_cultivar |> 
+obs_sim |> 
     dplyr::group_by(trait) |>
     myutils::model_summarise(x = "Observed", y = "Predicted", digits = 2)|>
     dplyr::ungroup() |>
@@ -68,7 +77,7 @@ for (i in seq(along = traits)) {
     cat('::: {.callout-note collapse="true"}\r\n\r\n')
     cat("### ", trait_i, "\r\n\r\n")
     
-    obs_sim_trait <- obs_sim_cultivar |> 
+    obs_sim_trait <- obs_sim |> 
         dplyr::filter(trait == trait_i)
     rng <- range(c(obs_sim_trait$Observed, obs_sim_trait$Predicted), na.rm = TRUE)
     p <- obs_sim_trait |> 

@@ -31,6 +31,21 @@ experiments <- obs_sim |>
     dplyr::distinct(ExperimentName, Latitude, Longitude)
 ```
 
+The performance of **`r crop`** in the [APSIM NG](https://apsim.info) is summarized using datasets in the [validation test set](https://github.com/APSIMInitiative/ApsimX) in the following apsimx files.
+
+```{r list-files}
+
+files <- get_apsimx(crop)
+base_folder <- Sys.getenv("APSIMX_DIR")
+files |> 
+    dplyr::mutate(file = strip_base_path(file, base_folder)) |>
+    dplyr::select(file) |> 
+    dplyr::distinct() |>
+    knitr::kable(
+        col.names = ""
+    )
+```
+
 
 ```{r child-cultivars, results = "asis"}
 # include the performance section if there are data for this cultivar
@@ -45,6 +60,18 @@ cat(render_child(
 cat(render_child(
     here::here("_template/section/experiments.qmd"),
     experiments = experiments,
+    cultivar = "All"
+))
+```
+
+
+
+
+
+```{r child-performance, results = "asis"}
+cat(render_child(
+    here::here("_template/section/performance.qmd"),
+    obs_sim = obs_sim,
     cultivar = "All"
 ))
 ```
