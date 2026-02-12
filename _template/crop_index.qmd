@@ -63,5 +63,8 @@ DT::datatable(
 ```
 
 
-{{< include /_template/cultivar_with_data.qmd >}}
+
+
+```{r, child=here::here('_template/cultivar_with_data.qmd')}
+```
 
