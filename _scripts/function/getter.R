@@ -60,3 +60,13 @@ get_obs <- function(crop, crop_data_dir = "_data/_outputs") {
         dplyr::filter(!is.na(Observed), !is.na(Predicted)) 
     return(obs)
 }
+
+get_experiment_data <- function(apsimx, crop_data_dir = "_data/_outputs") {
+    file_path <- file.path(crop_data_dir, paste0(crop, "_experiments.Rds")) |> 
+        here::here()
+    stopifnot(file.exists(file_path))
+    message("Reading cached experiment data: ", file_path)
+    experiment_data <- readRDS(file_path)
+    
+    return(experiment_data)
+}

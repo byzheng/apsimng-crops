@@ -1,0 +1,49 @@
+---
+title: "{{title}}"
+format: html
+params:
+  crop: "{{crop}}"
+  experiment: "{{experiment}}"
+has_data: true
+---
+
+
+```{r setup, echo=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, error = FALSE, message = FALSE)
+
+if (!exists("params") || grepl("\\{", params$crop)) {
+    crop <- "Chickpea"
+    experiment <- "Bremar_2003_"
+} else {
+    crop <- params[["crop"]]
+    experiment <- params[["experiment"]]
+}
+
+```
+
+```{r data-obs-sim}
+# Read the obs/prediction files
+obs_sim <- get_obs(crop)
+apsimx <- get_model(crop)
+experiment_data <- get_experiment_data(crop)
+experiment_data <- experiment_data |> 
+    dplyr::filter(Experiment == experiment)
+
+```
+
+This report is generated for performance of `r crop` model in APSIM NG for experiment `r experiment`. 
+
+
+## Experiment Information
+
+```{r info-experiment, results = "asis"}
+if (nrow(experiment_data) == 0) {
+    cat("No data available information for this experiment.")
+} else {
+    cat("The experiment specific information is provided in the memo of apsimx file.")
+    cat("\n\n)")
+    cat(experiment_data$Memo)
+}
+
+```
+
