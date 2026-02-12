@@ -1,121 +1,15 @@
 
-## Experiments
-
-
-There are `r nrow(experiments)` experiments which tested cultivar `r cultivar` and its aliases in the validation test dataset of APSIM NG..
-
-```{r tbl-experiments}
-tbl <- experiments |> 
-    dplyr::mutate(Link = paste0(
-        "<a href='", "experiments/", ExperimentName, ".html", "'>",
-        ExperimentName,
-        "</a>"
-    ))  |> 
-    dplyr::select(Link, Latitude, Longitude)
-
-DT::datatable(
-    tbl,
-    escape = FALSE,
-    rownames = FALSE,
-    options = list(
-        pageLength = 10,
-        lengthMenu = c(10, 25, 50, 100),
-        order = list(list(0, "asc"))
-    )
-)
-# tbl_cap <- ifelse(cultivar == "All", "Experiments for all cultivars", 
-#     sprintf("Experiments for cultivar `%s`", cultivar))
+```{r child-experiments, results = "asis", message = FALSE, warning = FALSE}
+# include the experiments section if there are data for this cultivar
+here::here('_template/experiments.qmd') |> 
+    knitr::knit_child(quiet = TRUE) |>
+    cat()
 ```
 
-```{r fig-experiments, fig.height=6, fig.cap="Locations of experiments without controlled environments."}
-experiments |> 
-    dplyr::filter(!is.na(Longitude), !is.na(Latitude)) |>
-    dplyr::filter(Longitude != 0 & Latitude != 0) |>
-    leaflet::leaflet(options = leaflet::leafletOptions(scrollWheelZoom = FALSE)) |>
-    leaflet::addTiles() |>
-    leaflet::addMarkers(~Longitude, ~Latitude, 
-        popup = ~ExperimentName)
-```
 
-## Performance
-
-```{r data-trait}
-traits <- obs_sim_cultivar |> 
-    dplyr::distinct(trait) |> 
-    dplyr::pull(trait) |> 
-    sort()
-```
-
-**Overview**
-
-The table below summarizes the performance of APSIM NG for `r ifelse(cultivar == "All", "all cultivars", paste0("cultivar ", cultivar))` across all experiments.
-
-
-```{r tbl-performance-summary}
-tbl_cap <- ifelse(cultivar == "All", "Performance summary for all cultivars", 
-    sprintf("Performance summary for cultivar `%s`", cultivar))
-obs_sim_cultivar |> 
-    dplyr::group_by(trait) |>
-    myutils::model_summarise(x = "Observed", y = "Predicted", digits = 2)|>
-    dplyr::ungroup() |>
-    dplyr::arrange(trait) |>
-    knitr::kable(caption = tbl_cap)
-```
-
-**Comparison of observed and predicted values**
-
-
-<div class="mb-3">
-<button class="btn btn-sm btn-outline-secondary me-2" onclick="expandAllCallouts()">Expand all</button>
-<button class="btn btn-sm btn-outline-secondary" onclick="collapseAllCallouts()">Collapse all</button>
-</div>
-
-<script>
-function expandAllCallouts() {
-    document
-        .querySelectorAll('.callout-collapse.collapse')
-        .forEach(el => {
-        if (!el.classList.contains('show')) {
-            new bootstrap.Collapse(el, { show: true });
-        }
-        });
-}
-
-function collapseAllCallouts() {
-    document
-        .querySelectorAll('.callout-collapse.collapse')
-        .forEach(el => {
-        if (el.classList.contains('show')) {
-            new bootstrap.Collapse(el, { hide: true });
-        }
-        });
-}
-</script>
-
-
-```{r performance, results = "asis", fig.cap = "Observed vs Predicted plots for different traits."}
-i <- 1
-for (i in seq(along = traits)) {
-    trait_i <- traits[i]
-    cat('::: {.callout-note collapse="true"}\r\n\r\n')
-    cat("### ", trait_i, "\r\n\r\n")
-    
-    obs_sim_trait <- obs_sim_cultivar |> 
-        dplyr::filter(trait == trait_i)
-    rng <- range(c(obs_sim_trait$Observed, obs_sim_trait$Predicted), na.rm = TRUE)
-    p <- obs_sim_trait |> 
-        ggplot2::ggplot() +
-        ggplot2::geom_point(ggplot2::aes(x = Observed, y = Predicted)) +
-        ggplot2::theme_bw() +
-        ggplot2::geom_abline() +
-        ggplot2::labs(
-            x = "Observed",
-            y = "Predicted"
-        ) +
-        ggplot2::xlim(rng) +
-        ggplot2::ylim(rng)
-    print(p)
-    cat("\r\n\r\n")    
-    cat(":::\r\n\r\n")
-}
+```{r child-performance, results = "asis", message = FALSE, warning = FALSE}
+# include the performance section if there are data for this cultivar
+here::here('_template/performance.qmd') |> 
+    knitr::knit_child(quiet = TRUE) |>
+    cat()
 ```

@@ -1,0 +1,45 @@
+
+## Experiments
+
+
+There are `r nrow(experiments)` experiments which tested cultivar `r cultivar` and its aliases in the validation test dataset of APSIM NG. Following the link below to see the details of each experiment, including the observed and predicted values for different traits, and the performance metrics.
+
+```{r tbl-experiments}
+tbl <- experiments |> 
+    dplyr::mutate(Link = paste0(
+        "<a href='", "experiments/", ExperimentName, ".html", "'>",
+        ExperimentName,
+        "</a>"
+    ))  |> 
+    dplyr::select(Link, Latitude, Longitude)
+
+DT::datatable(
+    tbl,
+    escape = FALSE,
+    rownames = FALSE,
+    options = list(
+        pageLength = 10,
+        lengthMenu = c(10, 25, 50, 100),
+        order = list(list(0, "asc"))
+    )
+)
+# tbl_cap <- ifelse(cultivar == "All", "Experiments for all cultivars", 
+#     sprintf("Experiments for cultivar `%s`", cultivar))
+```
+
+This map below shows the locations of experiments without controlled environments. Following the link on the marker will take you to the details of each experiment, including the observed and predicted values for different traits, and the performance metrics.
+
+```{r fig-experiments, fig.height=6, fig.cap="Locations of experiments without controlled environments."}
+experiments |> 
+    dplyr::filter(!is.na(Longitude), !is.na(Latitude)) |>
+    dplyr::filter(Longitude != 0 & Latitude != 0) |>
+    leaflet::leaflet(options = leaflet::leafletOptions(scrollWheelZoom = FALSE)) |>
+    leaflet::addTiles() |>
+    leaflet::addMarkers(~Longitude, ~Latitude, 
+        popup = ~paste0(
+            "<a href='experiments/", ExperimentName, ".html'>",
+            ExperimentName,
+            "</a>"
+        ))
+```
+

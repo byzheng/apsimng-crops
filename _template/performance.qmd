@@ -1,0 +1,89 @@
+
+
+## Performance
+
+```{r data-trait}
+cultivar_text <- ifelse(cultivar == "All", "all cultivars", paste0("cultivar ", cultivar))
+traits <- obs_sim_cultivar |> 
+    dplyr::distinct(trait) |> 
+    dplyr::pull(trait) |> 
+    sort()
+```
+
+**Overview**
+
+The table below summarizes the performance of APSIM NG for `r cultivar_text` across all experiments.
+
+
+```{r tbl-performance-summary}
+tbl_cap <- sprintf("Performance summary for %s", cultivar_text)
+obs_sim_cultivar |> 
+    dplyr::group_by(trait) |>
+    myutils::model_summarise(x = "Observed", y = "Predicted", digits = 2)|>
+    dplyr::ungroup() |>
+    dplyr::arrange(trait) |>
+    knitr::kable(caption = tbl_cap)
+```
+
+**Comparison of observed and predicted values**
+
+The model performance is compared with observed and predicted values for `r cultivar_text` across all experiments. The plots below show the observed vs predicted values for different traits. Each point represents an observation from an experiment. The closer the points are to the diagonal line, the better the performance of the model for that trait.
+
+The range of observed and predicted values are estimated using data in this page, which may be misleading for the narrow ranges of observed and predicted values. 
+
+Using the `Expand All` and `Collapse All` buttons below, you can expand or collapse the sections for each trait to see the observed vs predicted plots for different traits.
+
+<div class="mb-3">
+<button class="btn btn-sm btn-outline-secondary me-2" onclick="expandAllCallouts()">Expand All</button>
+<button class="btn btn-sm btn-outline-secondary" onclick="collapseAllCallouts()">Collapse All</button>
+</div>
+
+<script>
+function expandAllCallouts() {
+    document
+        .querySelectorAll('.callout-collapse.collapse')
+        .forEach(el => {
+        if (!el.classList.contains('show')) {
+            new bootstrap.Collapse(el, { show: true });
+        }
+        });
+}
+
+function collapseAllCallouts() {
+    document
+        .querySelectorAll('.callout-collapse.collapse')
+        .forEach(el => {
+        if (el.classList.contains('show')) {
+            new bootstrap.Collapse(el, { hide: true });
+        }
+        });
+}
+</script>
+
+
+```{r performance, results = "asis", fig.cap = "Observed vs Predicted plots for different traits."}
+i <- 1
+for (i in seq(along = traits)) {
+    trait_i <- traits[i]
+    cat('::: {.callout-note collapse="true"}\r\n\r\n')
+    cat("### ", trait_i, "\r\n\r\n")
+    
+    obs_sim_trait <- obs_sim_cultivar |> 
+        dplyr::filter(trait == trait_i)
+    rng <- range(c(obs_sim_trait$Observed, obs_sim_trait$Predicted), na.rm = TRUE)
+    p <- obs_sim_trait |> 
+        ggplot2::ggplot() +
+        ggplot2::geom_point(ggplot2::aes(x = Observed, y = Predicted)) +
+        ggplot2::theme_bw() +
+        ggplot2::geom_abline() +
+        ggplot2::labs(
+            x = "Observed",
+            y = "Predicted"
+        ) +
+        ggplot2::xlim(rng) +
+        ggplot2::ylim(rng)
+    print(p)
+    cat("\r\n\r\n")    
+    cat(":::\r\n\r\n")
+}
+```
