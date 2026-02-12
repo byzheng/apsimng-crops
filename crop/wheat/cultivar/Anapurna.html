@@ -77,6 +77,16 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-5K7WTC1T5R', { 'anonymize_ip': true});
 </script>
+<link href="../../../site_libs/htmltools-fill-0.5.9/fill.css" rel="stylesheet">
+<script src="../../../site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<script src="../../../site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<link href="../../../site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet">
+<script src="../../../site_libs/leaflet-1.3.1/leaflet.js"></script>
+<link href="../../../site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet">
+<script src="../../../site_libs/proj4-2.6.2/proj4.min.js"></script>
+<script src="../../../site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
+<link href="../../../site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet">
+<script src="../../../site_libs/leaflet-binding-2.2.3/leaflet.js"></script>
 
 
 <link rel="stylesheet" href="../../../styles.css">
@@ -131,6 +141,8 @@ gtag('config', 'G-5K7WTC1T5R', { 'anonymize_ip': true});
    
   <ul>
   <li><a href="#cultivar-information" id="toc-cultivar-information" class="nav-link active" data-scroll-target="#cultivar-information">Cultivar Information</a></li>
+  <li><a href="#experiments" id="toc-experiments" class="nav-link" data-scroll-target="#experiments">Experiments</a></li>
+  <li><a href="#performance" id="toc-performance" class="nav-link" data-scroll-target="#performance">Performance</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/byzheng/apsimng-crops/edit/main/crop/wheat/cultivar/Anapurna.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/byzheng/apsimng-crops/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -223,19 +235,492 @@ Table&nbsp;1: Cultivar specific parameters for <code>Anapurna</code>
 </figure>
 </div>
 </div>
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
+</section>
+<section id="experiments" class="level2">
+<h2 class="anchored" data-anchor-id="experiments">Experiments</h2>
+<p>There are 23 experiments which tested cultivar Anapurna and its aliases in the validation test dataset of APSIM NG..</p>
+<div class="cell">
+<div id="tbl-experiments" class="cell quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-experiments-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;2: Experiments for cultivar <code>Anapurna</code>
+</figcaption>
+<div aria-describedby="tbl-experiments-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell-output-display">
+<table class="do-not-create-environment cell caption-top table table-sm table-striped small">
+<thead>
+<tr class="header">
+<th style="text-align: left;">ExperimentName</th>
+<th style="text-align: right;">Latitude</th>
+<th style="text-align: right;">Longitude</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">FAR WAA W20-01b</td>
+<td style="text-align: right;">-34.60</td>
+<td style="text-align: right;">118.35</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">AGR ESW W23-01</td>
+<td style="text-align: right;">-34.20</td>
+<td style="text-align: right;">146.10</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">FAR WAE W21-05</td>
+<td style="text-align: right;">-33.65</td>
+<td style="text-align: right;">121.85</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">FAR WAE W22-04</td>
+<td style="text-align: right;">-33.55</td>
+<td style="text-align: right;">122.00</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">FAR DMC W20-03</td>
+<td style="text-align: right;">-38.20</td>
+<td style="text-align: right;">144.05</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">FAR HYC W17-01-2</td>
+<td style="text-align: right;">-41.50</td>
+<td style="text-align: right;">146.90</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">FAR HYC W17-02-1</td>
+<td style="text-align: right;">-41.50</td>
+<td style="text-align: right;">146.90</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">FAR HYC W18-02-1</td>
+<td style="text-align: right;">-41.50</td>
+<td style="text-align: right;">146.90</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">FAR HYC W18-02-2</td>
+<td style="text-align: right;">-41.50</td>
+<td style="text-align: right;">146.90</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">FAR HYC W18-02-2a</td>
+<td style="text-align: right;">-41.50</td>
+<td style="text-align: right;">146.90</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">FAR HYC W19-01-1</td>
+<td style="text-align: right;">-41.50</td>
+<td style="text-align: right;">146.90</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">FAR HYC W19-02-1</td>
+<td style="text-align: right;">-41.50</td>
+<td style="text-align: right;">146.90</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">FAR TAS W23-03</td>
+<td style="text-align: right;">-41.50</td>
+<td style="text-align: right;">146.90</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">FAR SAC W18-01</td>
+<td style="text-align: right;">-37.50</td>
+<td style="text-align: right;">140.20</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">FAR SAC W18-02</td>
+<td style="text-align: right;">-37.50</td>
+<td style="text-align: right;">140.20</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">FAR SAC W19-01</td>
+<td style="text-align: right;">-37.55</td>
+<td style="text-align: right;">140.25</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">FAR SAC W19-02</td>
+<td style="text-align: right;">-37.55</td>
+<td style="text-align: right;">140.25</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">FAR SAC W20-03-1</td>
+<td style="text-align: right;">-37.55</td>
+<td style="text-align: right;">140.25</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">FAR SAC W20-03-2</td>
+<td style="text-align: right;">-37.55</td>
+<td style="text-align: right;">140.25</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">FAR RRC W20-03</td>
+<td style="text-align: right;">-34.60</td>
+<td style="text-align: right;">148.15</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">FAR RRC W21-01</td>
+<td style="text-align: right;">-34.60</td>
+<td style="text-align: right;">148.15</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">FAR RRC W21-03</td>
+<td style="text-align: right;">-34.60</td>
+<td style="text-align: right;">148.15</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">FAR RRC W22-02</td>
+<td style="text-align: right;">-34.60</td>
+<td style="text-align: right;">148.10</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</figure>
+</div>
+</div>
+<div class="cell">
+<div id="fig-experiments" class="cell-output-display quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-experiments-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="leaflet html-widget html-fill-item" id="htmlwidget-473dc51e07ec2dd89f49" style="width:100%;height:557px;"></div>
+<script type="application/json" data-for="htmlwidget-473dc51e07ec2dd89f49">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}},"scrollWheelZoom":false},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]},{"method":"addMarkers","args":[[-34.6,-34.2,-33.65,-33.55,-38.2,-41.5,-41.5,-41.5,-41.5,-41.5,-41.5,-41.5,-41.5,-37.5,-37.5,-37.55,-37.55,-37.55,-37.55,-34.6,-34.6,-34.6,-34.6],[118.35,146.1,121.85,122,144.05,146.9,146.9,146.9,146.9,146.9,146.9,146.9,146.9,140.2,140.2,140.25,140.25,140.25,140.25,148.15,148.15,148.15,148.1],null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},["FAR WAA W20-01b","AGR ESW W23-01","FAR WAE W21-05","FAR WAE W22-04","FAR DMC W20-03","FAR HYC W17-01-2","FAR HYC W17-02-1","FAR HYC W18-02-1","FAR HYC W18-02-2","FAR HYC W18-02-2a","FAR HYC W19-01-1","FAR HYC W19-02-1","FAR TAS W23-03","FAR SAC W18-01","FAR SAC W18-02","FAR SAC W19-01","FAR SAC W19-02","FAR SAC W20-03-1","FAR SAC W20-03-2","FAR RRC W20-03","FAR RRC W21-01","FAR RRC W21-03","FAR RRC W22-02"],null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[-41.5,-33.55],"lng":[118.35,148.15]}},"evals":[],"jsHooks":[]}</script>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-experiments-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Locations of experiments without controlled environments.
+</figcaption>
+</figure>
+</div>
+</div>
+</section>
+<section id="performance" class="level2">
+<h2 class="anchored" data-anchor-id="performance">Performance</h2>
+<p><strong>Overview</strong></p>
+<p>The table below summarizes the performance of APSIM NG for cultivar Anapurna across all experiments.</p>
+<div class="cell">
+<div id="tbl-performance-summary" class="cell quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-performance-summary-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;3: Performance summary for cultivar <code>Anapurna</code>
+</figcaption>
+<div aria-describedby="tbl-performance-summary-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell-output-display">
+<table class="do-not-create-environment cell caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 5%">
+<col style="width: 8%">
+<col style="width: 6%">
+<col style="width: 10%">
+<col style="width: 13%">
+<col style="width: 9%">
+<col style="width: 8%">
+<col style="width: 6%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">trait</th>
+<th style="text-align: right;">n</th>
+<th style="text-align: right;">r</th>
+<th style="text-align: right;">r2</th>
+<th style="text-align: right;">bias</th>
+<th style="text-align: right;">mse</th>
+<th style="text-align: right;">rmse</th>
+<th style="text-align: right;">nrmse</th>
+<th style="text-align: right;">d</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">AboveGround.Wt</td>
+<td style="text-align: right;">123</td>
+<td style="text-align: right;">0.70</td>
+<td style="text-align: right;">0.49</td>
+<td style="text-align: right;">180.53</td>
+<td style="text-align: right;">282568.40</td>
+<td style="text-align: right;">531.57</td>
+<td style="text-align: right;">0.32</td>
+<td style="text-align: right;">0.82</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Grain.Protein</td>
+<td style="text-align: right;">57</td>
+<td style="text-align: right;">0.04</td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: right;">-1.68</td>
+<td style="text-align: right;">5.45</td>
+<td style="text-align: right;">2.33</td>
+<td style="text-align: right;">0.19</td>
+<td style="text-align: right;">0.29</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Grain.Size</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">-0.17</td>
+<td style="text-align: right;">0.03</td>
+<td style="text-align: right;">0.01</td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: right;">0.01</td>
+<td style="text-align: right;">0.30</td>
+<td style="text-align: right;">0.20</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Grain.Wt</td>
+<td style="text-align: right;">102</td>
+<td style="text-align: right;">0.20</td>
+<td style="text-align: right;">0.04</td>
+<td style="text-align: right;">241.66</td>
+<td style="text-align: right;">185433.86</td>
+<td style="text-align: right;">430.62</td>
+<td style="text-align: right;">0.51</td>
+<td style="text-align: right;">0.45</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Leaf.Height</td>
+<td style="text-align: right;">50</td>
+<td style="text-align: right;">-0.17</td>
+<td style="text-align: right;">0.03</td>
+<td style="text-align: right;">-767.87</td>
+<td style="text-align: right;">660315.24</td>
+<td style="text-align: right;">812.60</td>
+<td style="text-align: right;">8.79</td>
+<td style="text-align: right;">0.02</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Leaf.StemPopulation</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">0.25</td>
+<td style="text-align: right;">0.06</td>
+<td style="text-align: right;">-484.67</td>
+<td style="text-align: right;">273510.11</td>
+<td style="text-align: right;">522.98</td>
+<td style="text-align: right;">0.76</td>
+<td style="text-align: right;">0.27</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Phenology.Zadok.Stage</td>
+<td style="text-align: right;">96</td>
+<td style="text-align: right;">0.95</td>
+<td style="text-align: right;">0.90</td>
+<td style="text-align: right;">7.31</td>
+<td style="text-align: right;">83.99</td>
+<td style="text-align: right;">9.16</td>
+<td style="text-align: right;">0.22</td>
+<td style="text-align: right;">0.93</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Spike.HeadNumber</td>
+<td style="text-align: right;">34</td>
+<td style="text-align: right;">0.27</td>
+<td style="text-align: right;">0.07</td>
+<td style="text-align: right;">-232.70</td>
+<td style="text-align: right;">78347.10</td>
+<td style="text-align: right;">279.91</td>
+<td style="text-align: right;">0.54</td>
+<td style="text-align: right;">0.32</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</figure>
+</div>
+</div>
+<p><strong>Comparison of observed and predicted values</strong></p>
+<div class="mb-3">
+<button class="btn btn-sm btn-outline-secondary me-2" onclick="expandAllCallouts()">
+Expand all
+</button>
+<button class="btn btn-sm btn-outline-secondary" onclick="collapseAllCallouts()">
+Collapse all
+</button>
+</div>
+<script>
+function expandAllCallouts() {
+    document
+        .querySelectorAll('.callout-collapse.collapse')
+        .forEach(el => {
+        if (!el.classList.contains('show')) {
+            new bootstrap.Collapse(el, { show: true });
+        }
+        });
+}
+
+function collapseAllCallouts() {
+    document
+        .querySelectorAll('.callout-collapse.collapse')
+        .forEach(el => {
+        if (el.classList.contains('show')) {
+            new bootstrap.Collapse(el, { hide: true });
+        }
+        });
+}
+</script>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Warning
+<span class="screen-reader-only">Note</span>AboveGround.Wt
 </div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<blockquote class="blockquote">
-<p>No experiments and observations available for this cultivar in the validation test of APSIM NG.</p>
-</blockquote>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Anapurna_files/figure-html/performance-1.png" class="img-fluid figure-img" width="672"></p>
+<figcaption>Observed vs Predicted plots for different traits.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Grain.Protein
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Anapurna_files/figure-html/performance-2.png" class="img-fluid figure-img" width="672"></p>
+<figcaption>Observed vs Predicted plots for different traits.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Grain.Size
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Anapurna_files/figure-html/performance-3.png" class="img-fluid figure-img" width="672"></p>
+<figcaption>Observed vs Predicted plots for different traits.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Grain.Wt
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Anapurna_files/figure-html/performance-4.png" class="img-fluid figure-img" width="672"></p>
+<figcaption>Observed vs Predicted plots for different traits.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Leaf.Height
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Anapurna_files/figure-html/performance-5.png" class="img-fluid figure-img" width="672"></p>
+<figcaption>Observed vs Predicted plots for different traits.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Leaf.StemPopulation
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Anapurna_files/figure-html/performance-6.png" class="img-fluid figure-img" width="672"></p>
+<figcaption>Observed vs Predicted plots for different traits.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Phenology.Zadok.Stage
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Anapurna_files/figure-html/performance-7.png" class="img-fluid figure-img" width="672"></p>
+<figcaption>Observed vs Predicted plots for different traits.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Spike.HeadNumber
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-8" class="callout-8-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Anapurna_files/figure-html/performance-8.png" class="img-fluid figure-img" width="672"></p>
+<figcaption>Observed vs Predicted plots for different traits.</figcaption>
+</figure>
+</div>
+</div>
 </div>
 </div>
 
