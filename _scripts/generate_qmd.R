@@ -59,23 +59,23 @@ for (i in seq(along = crops[[1]])) {
         a <- file.remove(files)
     }
     
-    # for each cultivars
-    j <- 1
-    for (j in seq(along = cultivars_names)) {
-        cultivar <- cultivars_names[j]
-        obs_i <- all_reports |> 
-            dplyr::filter(Genotype == tolower(cultivar))
-        has_data <- nrow(obs_i) > 0
-        # Render .qmd content
-        pos <- grep("has_data:", template_cultivar)
-        template_cultivar[pos] <- paste0("has_data: ", tolower(as.character(has_data)))
-        output <- whisker::whisker.render(template_cultivar, list(
-            title = paste(cultivar),
-            crop = crop,
-            cultivar = cultivar
-        ))
-        writeLines(output, file.path(crop_output_dir, paste0(cultivar, ".qmd")))
-    }
+    # # for each cultivars
+    # j <- 1
+    # for (j in seq(along = cultivars_names)) {
+    #     cultivar <- cultivars_names[j]
+    #     obs_i <- all_reports |> 
+    #         dplyr::filter(Genotype == tolower(cultivar))
+    #     has_data <- nrow(obs_i) > 0
+    #     # Render .qmd content
+    #     pos <- grep("has_data:", template_cultivar)
+    #     template_cultivar[pos] <- paste0("has_data: ", tolower(as.character(has_data)))
+    #     output <- whisker::whisker.render(template_cultivar, list(
+    #         title = paste(cultivar),
+    #         crop = crop,
+    #         cultivar = cultivar
+    #     ))
+    #     writeLines(output, file.path(crop_output_dir, paste0(cultivar, ".qmd")))
+    # }
     index_lines_i <- whisker::whisker.render(template_index, list(
             crop = crop
         ))

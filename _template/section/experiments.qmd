@@ -1,8 +1,18 @@
 
+```{r data-exp-assign-variable}
+if (!exists("params")) {
+    stop("This template must be rendered via knit_child() with params supplied.")
+}
+experiments <- params$experiments
+cultivar <- params$cultivar
+
+cultivar_string <- ifelse(cultivar == "All", "all cultivars", sprintf("cultivar `%s`", cultivar))
+```
+
 ## Experiments
 
 
-There are `r nrow(experiments)` experiments which tested cultivar `r cultivar` and its aliases in the validation test dataset of APSIM NG. Following the link below to see the details of each experiment, including the observed and predicted values for different traits, and the performance metrics.
+There are `r nrow(experiments)` experiments which tested `r cultivar_string` in the validation test dataset of APSIM NG. Following the link below to see the details of each experiment, including the observed and predicted values for different traits, and the performance metrics.
 
 ```{r tbl-experiments}
 tbl <- experiments |> 

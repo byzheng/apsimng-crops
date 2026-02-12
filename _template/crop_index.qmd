@@ -9,10 +9,8 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, error = FALSE, message = FA
 
 if (!exists("params") || grepl("\\{", params$crop)) {
     crop <- "Wheat"
-    cultivar <- "All"
 } else {
     crop <- params[["crop"]]
-    cultivar <- params[["cultivar"]]
 }
 
 
@@ -22,21 +20,34 @@ if (!exists("params") || grepl("\\{", params$crop)) {
 ```{r data-obs-sim}
 
 # Read the obs/prediction files
-
-
-obs_sim_cultivar <- get_obs(crop)
+obs_sim <- get_obs(crop)
 
 apsimx <- get_model(crop)
 cultivars <- rapsimng::get_cultivar(apsimx, alias = TRUE) |> tibble::tibble()
-experiments <- obs_sim_cultivar |> 
+cultivars <- cultivars |> 
+    dplyr::select(Cultivar = standard_name) |> 
+    dplyr::distinct()
+experiments <- obs_sim |> 
     dplyr::distinct(ExperimentName, Latitude, Longitude)
 ```
 
 
 ```{r child-cultivars, results = "asis"}
 # include the performance section if there are data for this cultivar
-here::here('_template/section/cultivars.qmd') |> 
-    knitr::knit_child(quiet = TRUE) |>
-    cat()
+cat(render_child(
+    here::here("_template/section/cultivars.qmd"),
+    cultivars = cultivars
+))
 ```
+
+
+```{r child-experiment, results = "asis"}
+cat(render_child(
+    here::here("_template/section/experiments.qmd"),
+    experiments = experiments,
+    cultivar = "All"
+))
+```
+
+
 
