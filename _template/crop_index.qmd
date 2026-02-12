@@ -1,9 +1,36 @@
 ---
 title: ""
+params:
+  crop: "{{crop}}"
 ---
 
-## Experiments
+```{r setup, echo=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, error = FALSE, message = FALSE)
 
+if (!exists("params") || grepl("\\{", params$crop)) {
+    crop <- "Wheat"
+    cultivar <- "All"
+} else {
+    crop <- params[["crop"]]
+    cultivar <- params[["cultivar"]]
+}
+crop_data_dir <- "_data/_outputs"
+
+```
+
+
+```{r data-obs-sim}
+
+# Read the obs/prediction files
+file_path <- file.path(crop_data_dir, paste0(crop, ".Rds")) |> 
+    here::here()
+message("Reading cached output: ", file_path)
+obs_sim_cultivar <- readRDS(file_path)
+apsimx <- get_model(crop)
+cultivars <- rapsimng::get_cultivar(apsimx, alias = TRUE) |> tibble::tibble()
+experiments <- obs_sim_cultivar |> 
+    dplyr::distinct(ExperimentName, Latitude, Longitude)
+```
 
 ## Cultivars
 
@@ -35,3 +62,7 @@ DT::datatable(
 )
 ```
 
+## Performance Overview
+
+
+{{< include /_template/cultivar_with_data.qmd >}}
