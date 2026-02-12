@@ -1,7 +1,7 @@
 
 ```{r child-experiments, results = "asis", message = FALSE, warning = FALSE}
 # include the experiments section if there are data for this cultivar
-here::here('_template/experiments.qmd') |> 
+here::here('_template/section/experiments.qmd') |> 
     knitr::knit_child(quiet = TRUE) |>
     cat()
 ```
@@ -9,7 +9,7 @@ here::here('_template/experiments.qmd') |>
 
 ```{r child-performance, results = "asis", message = FALSE, warning = FALSE}
 # include the performance section if there are data for this cultivar
-here::here('_template/performance.qmd') |> 
+here::here('_template/section/performance.qmd') |> 
     knitr::knit_child(quiet = TRUE) |>
     cat()
 ```

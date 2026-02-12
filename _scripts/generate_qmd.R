@@ -7,10 +7,10 @@ if (!is_github) {
     target_crops <- "Chickpea"
 }
 
-template_cultivar_file <- "_template/cultivar.qmd" # Template for cultivar report
+template_cultivar_file <- "_template/page/cultivar.qmd" # Template for cultivar report
+template_experiment <- "_template/page/experiment.qmd" # Template for experiment report
 template_index_file <- "_template/crop_index.qmd" # Template for index report
 template_home_file <- "_template/home.qmd" # Template for home report
-template_experiment <- "_template/experiment_page.qmd" # Template for experiment report
 crop_db_output_dir <- "_data/_outputs" # Directory to store cached data
 # source all functions
 a <- list.files("_scripts/function", full.names = TRUE) |>
@@ -81,38 +81,38 @@ for (i in seq(along = crops[[1]])) {
         ))
     writeLines(index_lines_i, file.path(paste0("crop/", tolower(crop)), "index.qmd"))        
 
-    # Experiments
-    experiments <- all_reports |> 
-        dplyr::distinct(ExperimentName) |> 
-        dplyr::pull(ExperimentName)      
-    if (!is_github) {
-        # local debugging, only keep first 2 cultivars
-        experiments <- experiments[1:2]
-    }
+    # # Experiments
+    # experiments <- all_reports |> 
+    #     dplyr::distinct(ExperimentName) |> 
+    #     dplyr::pull(ExperimentName)      
+    # if (!is_github) {
+    #     # local debugging, only keep first 2 cultivars
+    #     experiments <- experiments[1:2]
+    # }
 
-    exp_output_dir <- paste0("crop/", tolower(crop), "/experiment")
-    if (!dir.exists(exp_output_dir)) {
-        dir.create(exp_output_dir, recursive = TRUE)
-    } else {
-        # remove all files in the directory
-        files <- list.files(exp_output_dir, full.names = TRUE)
-        a <- file.remove(files)
-    }
-    for (j in seq(along = experiments)) {
-        experiment_i <- experiments[j]
-        obs_i <- all_reports |> 
-            dplyr::filter(ExperimentName == tolower(experiment_i))
-        # has_data <- nrow(obs_i) > 0
-        # # Render .qmd content
-        # pos <- grep("has_data:", template_cultivar)
-        # template_cultivar[pos] <- paste0("has_data: ", tolower(as.character(has_data)))
-        output <- whisker::whisker.render(template_experiment, list(
-            title = paste(experiment_i),
-            crop = crop,
-            experiment = experiment_i
-        ))
-        writeLines(output, file.path(exp_output_dir, paste0(experiment_i, ".qmd")))
-    }
+    # exp_output_dir <- paste0("crop/", tolower(crop), "/experiment")
+    # if (!dir.exists(exp_output_dir)) {
+    #     dir.create(exp_output_dir, recursive = TRUE)
+    # } else {
+    #     # remove all files in the directory
+    #     files <- list.files(exp_output_dir, full.names = TRUE)
+    #     a <- file.remove(files)
+    # }
+    # for (j in seq(along = experiments)) {
+    #     experiment_i <- experiments[j]
+    #     obs_i <- all_reports |> 
+    #         dplyr::filter(ExperimentName == tolower(experiment_i))
+    #     # has_data <- nrow(obs_i) > 0
+    #     # # Render .qmd content
+    #     # pos <- grep("has_data:", template_cultivar)
+    #     # template_cultivar[pos] <- paste0("has_data: ", tolower(as.character(has_data)))
+    #     output <- whisker::whisker.render(template_experiment, list(
+    #         title = paste(experiment_i),
+    #         crop = crop,
+    #         experiment = experiment_i
+    #     ))
+    #     writeLines(output, file.path(exp_output_dir, paste0(experiment_i, ".qmd")))
+    # }
 
     # # Add link to index
     # rel_link <- file.path(crop_output_dir, "index.html")
