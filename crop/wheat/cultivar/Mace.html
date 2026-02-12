@@ -79,7 +79,14 @@ gtag('config', 'G-5K7WTC1T5R', { 'anonymize_ip': true});
 </script>
 <link href="../../../site_libs/htmltools-fill-0.5.9/fill.css" rel="stylesheet">
 <script src="../../../site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<link href="../../../site_libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet">
+<script src="../../../site_libs/datatables-binding-0.34.0/datatables.js"></script>
 <script src="../../../site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<link href="../../../site_libs/dt-core-1.13.6/css/jquery.dataTables.min.css" rel="stylesheet">
+<link href="../../../site_libs/dt-core-1.13.6/css/jquery.dataTables.extra.css" rel="stylesheet">
+<script src="../../../site_libs/dt-core-1.13.6/js/jquery.dataTables.min.js"></script>
+<link href="../../../site_libs/crosstalk-1.2.2/css/crosstalk.min.css" rel="stylesheet">
+<script src="../../../site_libs/crosstalk-1.2.2/js/crosstalk.min.js"></script>
 <link href="../../../site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet">
 <script src="../../../site_libs/leaflet-1.3.1/leaflet.js"></script>
 <link href="../../../site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet">
@@ -242,172 +249,13 @@ Table&nbsp;1: Cultivar specific parameters for <code>Mace</code>
 <div class="cell">
 <div id="tbl-experiments" class="cell quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-tbl figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-experiments-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Table&nbsp;2: Experiments for cultivar <code>Mace</code>
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl quarto-uncaptioned" id="tbl-experiments-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;2
 </figcaption>
 <div aria-describedby="tbl-experiments-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output-display">
-<table class="do-not-create-environment cell caption-top table table-sm table-striped small">
-<thead>
-<tr class="header">
-<th style="text-align: left;">ExperimentName</th>
-<th style="text-align: right;">Latitude</th>
-<th style="text-align: right;">Longitude</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">DookieWWHI2024</td>
-<td style="text-align: right;">-36.33300</td>
-<td style="text-align: right;">145.7000</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Gatton2014Irrigated</td>
-<td style="text-align: right;">-27.54360</td>
-<td style="text-align: right;">152.3375</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Minnipa2015</td>
-<td style="text-align: right;">-32.84270</td>
-<td style="text-align: right;">135.1515</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Gatton2014</td>
-<td style="text-align: right;">-27.54360</td>
-<td style="text-align: right;">152.3375</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Junee2014</td>
-<td style="text-align: right;">-34.65000</td>
-<td style="text-align: right;">147.6000</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Minnipa2014</td>
-<td style="text-align: right;">-32.84270</td>
-<td style="text-align: right;">135.1515</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Temora2015</td>
-<td style="text-align: right;">-34.40610</td>
-<td style="text-align: right;">147.5248</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">WaggaWagga</td>
-<td style="text-align: right;">-35.05000</td>
-<td style="text-align: right;">147.3500</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Callington</td>
-<td style="text-align: right;">-35.12000</td>
-<td style="text-align: right;">139.0400</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Dale</td>
-<td style="text-align: right;">-32.20490</td>
-<td style="text-align: right;">116.7604</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">YanYean</td>
-<td style="text-align: right;">-37.55000</td>
-<td style="text-align: right;">145.1300</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">WaggaWagga2020</td>
-<td style="text-align: right;">-35.05000</td>
-<td style="text-align: right;">147.3500</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Urrbrae2020</td>
-<td style="text-align: right;">-34.97000</td>
-<td style="text-align: right;">138.6300</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Dale2020</td>
-<td style="text-align: right;">-32.20490</td>
-<td style="text-align: right;">116.7604</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">YanYean2020</td>
-<td style="text-align: right;">-37.55000</td>
-<td style="text-align: right;">145.1300</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">SGEHEAT_13GEHEAT-1</td>
-<td style="text-align: right;">-27.54087</td>
-<td style="text-align: right;">152.3390</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">SGEHEAT_13GEHEAT-2</td>
-<td style="text-align: right;">-27.54087</td>
-<td style="text-align: right;">152.3390</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">14SSOW-1</td>
-<td style="text-align: right;">-27.54087</td>
-<td style="text-align: right;">152.3390</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">14SSOW-2</td>
-<td style="text-align: right;">-27.54087</td>
-<td style="text-align: right;">152.3390</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">14SSOW-4</td>
-<td style="text-align: right;">-27.54087</td>
-<td style="text-align: right;">152.3390</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">14SSOW-5</td>
-<td style="text-align: right;">-27.54087</td>
-<td style="text-align: right;">152.3390</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">HAGT_09Roseworthy-2</td>
-<td style="text-align: right;">-34.53000</td>
-<td style="text-align: right;">138.6900</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">HAGT_09Roseworthy-1</td>
-<td style="text-align: right;">-34.53000</td>
-<td style="text-align: right;">138.6900</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">HAGT_09Roseworthy-3</td>
-<td style="text-align: right;">-34.53000</td>
-<td style="text-align: right;">138.6900</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">HAGT_09Roseworthy-4</td>
-<td style="text-align: right;">-34.53000</td>
-<td style="text-align: right;">138.6900</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">HAGT_09Roseworthy-5</td>
-<td style="text-align: right;">-34.53000</td>
-<td style="text-align: right;">138.6900</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">LaTrobeCE</td>
-<td style="text-align: right;">-34.35670</td>
-<td style="text-align: right;">146.9032</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">LaTrobeCE</td>
-<td style="text-align: right;">0.00000</td>
-<td style="text-align: right;">0.0000</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Birchip2011</td>
-<td style="text-align: right;">-35.80000</td>
-<td style="text-align: right;">142.8800</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Tarlee2011</td>
-<td style="text-align: right;">-34.28000</td>
-<td style="text-align: right;">138.7700</td>
-</tr>
-</tbody>
-</table>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-63c9ed4c5961135cca75" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-63c9ed4c5961135cca75">{"x":{"filter":"none","vertical":false,"data":[["<a href='experiments/DookieWWHI2024.html'>DookieWWHI2024<\/a>","<a href='experiments/Gatton2014Irrigated.html'>Gatton2014Irrigated<\/a>","<a href='experiments/Minnipa2015.html'>Minnipa2015<\/a>","<a href='experiments/Gatton2014.html'>Gatton2014<\/a>","<a href='experiments/Junee2014.html'>Junee2014<\/a>","<a href='experiments/Minnipa2014.html'>Minnipa2014<\/a>","<a href='experiments/Temora2015.html'>Temora2015<\/a>","<a href='experiments/WaggaWagga.html'>WaggaWagga<\/a>","<a href='experiments/Callington.html'>Callington<\/a>","<a href='experiments/Dale.html'>Dale<\/a>","<a href='experiments/YanYean.html'>YanYean<\/a>","<a href='experiments/WaggaWagga2020.html'>WaggaWagga2020<\/a>","<a href='experiments/Urrbrae2020.html'>Urrbrae2020<\/a>","<a href='experiments/Dale2020.html'>Dale2020<\/a>","<a href='experiments/YanYean2020.html'>YanYean2020<\/a>","<a href='experiments/SGEHEAT_13GEHEAT-1.html'>SGEHEAT_13GEHEAT-1<\/a>","<a href='experiments/SGEHEAT_13GEHEAT-2.html'>SGEHEAT_13GEHEAT-2<\/a>","<a href='experiments/14SSOW-1.html'>14SSOW-1<\/a>","<a href='experiments/14SSOW-2.html'>14SSOW-2<\/a>","<a href='experiments/14SSOW-4.html'>14SSOW-4<\/a>","<a href='experiments/14SSOW-5.html'>14SSOW-5<\/a>","<a href='experiments/HAGT_09Roseworthy-2.html'>HAGT_09Roseworthy-2<\/a>","<a href='experiments/HAGT_09Roseworthy-1.html'>HAGT_09Roseworthy-1<\/a>","<a href='experiments/HAGT_09Roseworthy-3.html'>HAGT_09Roseworthy-3<\/a>","<a href='experiments/HAGT_09Roseworthy-4.html'>HAGT_09Roseworthy-4<\/a>","<a href='experiments/HAGT_09Roseworthy-5.html'>HAGT_09Roseworthy-5<\/a>","<a href='experiments/LaTrobeCE.html'>LaTrobeCE<\/a>","<a href='experiments/LaTrobeCE.html'>LaTrobeCE<\/a>","<a href='experiments/Birchip2011.html'>Birchip2011<\/a>","<a href='experiments/Tarlee2011.html'>Tarlee2011<\/a>"],[-36.333,-27.5436,-32.8427,-27.5436,-34.65,-32.8427,-34.4061,-35.05,-35.12,-32.2049,-37.55,-35.05,-34.97,-32.2049,-37.55,-27.54087,-27.54087,-27.54087,-27.54087,-27.54087,-27.54087,-34.53,-34.53,-34.53,-34.53,-34.53,-34.3567,0,-35.8,-34.28],[145.7,152.3375,135.1515,152.3375,147.6,135.1515,147.5248,147.35,139.04,116.7604,145.13,147.35,138.63,116.7604,145.13,152.339,152.339,152.339,152.339,152.339,152.339,138.69,138.69,138.69,138.69,138.69,146.9032,0,142.88,138.77]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Link<\/th>\n      <th>Latitude<\/th>\n      <th>Longitude<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":10,"lengthMenu":[10,25,50,100],"order":[[0,"asc"]],"columnDefs":[{"className":"dt-right","targets":[1,2]},{"name":"Link","targets":0},{"name":"Latitude","targets":1},{"name":"Longitude","targets":2}],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 </figure>
@@ -417,8 +265,8 @@ Table&nbsp;2: Experiments for cultivar <code>Mace</code>
 <div id="fig-experiments" class="cell-output-display quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-experiments-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<div class="leaflet html-widget html-fill-item" id="htmlwidget-067d19a626c37dd41e45" style="width:100%;height:557px;"></div>
-<script type="application/json" data-for="htmlwidget-067d19a626c37dd41e45">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}},"scrollWheelZoom":false},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]},{"method":"addMarkers","args":[[-36.333,-27.5436,-32.8427,-27.5436,-34.65,-32.8427,-34.4061,-35.05,-35.12,-32.2049,-37.55,-35.05,-34.97,-32.2049,-37.55,-27.54087,-27.54087,-27.54087,-27.54087,-27.54087,-27.54087,-34.53,-34.53,-34.53,-34.53,-34.53,-34.3567,-35.8,-34.28],[145.7,152.3375,135.1515,152.3375,147.6,135.1515,147.5248,147.35,139.04,116.7604,145.13,147.35,138.63,116.7604,145.13,152.339,152.339,152.339,152.339,152.339,152.339,138.69,138.69,138.69,138.69,138.69,146.9032,142.88,138.77],null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},["DookieWWHI2024","Gatton2014Irrigated","Minnipa2015","Gatton2014","Junee2014","Minnipa2014","Temora2015","WaggaWagga","Callington","Dale","YanYean","WaggaWagga2020","Urrbrae2020","Dale2020","YanYean2020","SGEHEAT_13GEHEAT-1","SGEHEAT_13GEHEAT-2","14SSOW-1","14SSOW-2","14SSOW-4","14SSOW-5","HAGT_09Roseworthy-2","HAGT_09Roseworthy-1","HAGT_09Roseworthy-3","HAGT_09Roseworthy-4","HAGT_09Roseworthy-5","LaTrobeCE","Birchip2011","Tarlee2011"],null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[-37.55,-27.54087],"lng":[116.7604,152.339]}},"evals":[],"jsHooks":[]}</script>
+<div class="leaflet html-widget html-fill-item" id="htmlwidget-0e70b15d2abac8de7707" style="width:100%;height:557px;"></div>
+<script type="application/json" data-for="htmlwidget-0e70b15d2abac8de7707">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}},"scrollWheelZoom":false},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]},{"method":"addMarkers","args":[[-36.333,-27.5436,-32.8427,-27.5436,-34.65,-32.8427,-34.4061,-35.05,-35.12,-32.2049,-37.55,-35.05,-34.97,-32.2049,-37.55,-27.54087,-27.54087,-27.54087,-27.54087,-27.54087,-27.54087,-34.53,-34.53,-34.53,-34.53,-34.53,-34.3567,-35.8,-34.28],[145.7,152.3375,135.1515,152.3375,147.6,135.1515,147.5248,147.35,139.04,116.7604,145.13,147.35,138.63,116.7604,145.13,152.339,152.339,152.339,152.339,152.339,152.339,138.69,138.69,138.69,138.69,138.69,146.9032,142.88,138.77],null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},["DookieWWHI2024","Gatton2014Irrigated","Minnipa2015","Gatton2014","Junee2014","Minnipa2014","Temora2015","WaggaWagga","Callington","Dale","YanYean","WaggaWagga2020","Urrbrae2020","Dale2020","YanYean2020","SGEHEAT_13GEHEAT-1","SGEHEAT_13GEHEAT-2","14SSOW-1","14SSOW-2","14SSOW-4","14SSOW-5","HAGT_09Roseworthy-2","HAGT_09Roseworthy-1","HAGT_09Roseworthy-3","HAGT_09Roseworthy-4","HAGT_09Roseworthy-5","LaTrobeCE","Birchip2011","Tarlee2011"],null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[-37.55,-27.54087],"lng":[116.7604,152.339]}},"evals":[],"jsHooks":[]}</script>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-experiments-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;1: Locations of experiments without controlled environments.

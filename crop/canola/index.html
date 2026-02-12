@@ -87,6 +87,13 @@ gtag('config', 'G-5K7WTC1T5R', { 'anonymize_ip': true});
 <script src="../../site_libs/dt-core-1.13.6/js/jquery.dataTables.min.js"></script>
 <link href="../../site_libs/crosstalk-1.2.2/css/crosstalk.min.css" rel="stylesheet">
 <script src="../../site_libs/crosstalk-1.2.2/js/crosstalk.min.js"></script>
+<link href="../../site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet">
+<script src="../../site_libs/leaflet-1.3.1/leaflet.js"></script>
+<link href="../../site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet">
+<script src="../../site_libs/proj4-2.6.2/proj4.min.js"></script>
+<script src="../../site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
+<link href="../../site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet">
+<script src="../../site_libs/leaflet-binding-2.2.3/leaflet.js"></script>
 
 
 <link rel="stylesheet" href="../../styles.css">
@@ -140,8 +147,9 @@ gtag('config', 'G-5K7WTC1T5R', { 'anonymize_ip': true});
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#experiments" id="toc-experiments" class="nav-link active" data-scroll-target="#experiments">Experiments</a></li>
-  <li><a href="#cultivars" id="toc-cultivars" class="nav-link" data-scroll-target="#cultivars">Cultivars</a></li>
+  <li><a href="#cultivars" id="toc-cultivars" class="nav-link active" data-scroll-target="#cultivars">Cultivars</a></li>
+  <li><a href="#experiments" id="toc-experiments" class="nav-link" data-scroll-target="#experiments">Experiments</a></li>
+  <li><a href="#performance" id="toc-performance" class="nav-link" data-scroll-target="#performance">Performance</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/byzheng/apsimng-crops/edit/main/crop/canola/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/byzheng/apsimng-crops/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -151,15 +159,920 @@ gtag('config', 'G-5K7WTC1T5R', { 'anonymize_ip': true});
 
 
 
-<section id="experiments" class="level2">
-<h2 class="anchored" data-anchor-id="experiments">Experiments</h2>
-</section>
 <section id="cultivars" class="level2">
 <h2 class="anchored" data-anchor-id="cultivars">Cultivars</h2>
 <div class="cell">
 <div class="cell-output-display">
-<div class="datatables html-widget html-fill-item" id="htmlwidget-92b9ddc5fe4636e611af" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-92b9ddc5fe4636e611af">{"x":{"filter":"none","vertical":false,"data":[["<a href='cultivar/43C80_CL.html'>43C80_CL<\/a>","<a href='cultivar/44Y84_CL.html'>44Y84_CL<\/a>","<a href='cultivar/44Y87_CL.html'>44Y87_CL<\/a>","<a href='cultivar/44Y89_CL.html'>44Y89_CL<\/a>","<a href='cultivar/44Y90_CL.html'>44Y90_CL<\/a>","<a href='cultivar/45Y25_RR.html'>45Y25_RR<\/a>","<a href='cultivar/45Y86_CL.html'>45Y86_CL<\/a>","<a href='cultivar/45Y88_CL.html'>45Y88_CL<\/a>","<a href='cultivar/45Y91_CL.html'>45Y91_CL<\/a>","<a href='cultivar/46Y78.html'>46Y78<\/a>","<a href='cultivar/Arazzo.html'>Arazzo<\/a>","<a href='cultivar/Archer.html'>Archer<\/a>","<a href='cultivar/ATR_Bonito.html'>ATR_Bonito<\/a>","<a href='cultivar/ATR_Gem.html'>ATR_Gem<\/a>","<a href='cultivar/ATR_Marlin.html'>ATR_Marlin<\/a>","<a href='cultivar/ATR_Stingray.html'>ATR_Stingray<\/a>","<a href='cultivar/ATR_Wahoo.html'>ATR_Wahoo<\/a>","<a href='cultivar/AV_Garnet.html'>AV_Garnet<\/a>","<a href='cultivar/AV_Zircon.html'>AV_Zircon<\/a>","<a href='cultivar/CB_Taurus.html'>CB_Taurus<\/a>","<a href='cultivar/CB_Telfer.html'>CB_Telfer<\/a>","<a href='cultivar/CBI_306.html'>CBI_306<\/a>","<a href='cultivar/Crusher_TT.html'>Crusher_TT<\/a>","<a href='cultivar/CSCH_01.html'>CSCH_01<\/a>","<a href='cultivar/CSCH_02.html'>CSCH_02<\/a>","<a href='cultivar/Drum_triazine.html'>Drum_triazine<\/a>","<a href='cultivar/Dunkeld.html'>Dunkeld<\/a>","<a href='cultivar/GenericEarly.html'>GenericEarly<\/a>","<a href='cultivar/GenericLate.html'>GenericLate<\/a>","<a href='cultivar/GenericWinter.html'>GenericWinter<\/a>","<a href='cultivar/Grouse.html'>Grouse<\/a>","<a href='cultivar/GT50_RR.html'>GT50_RR<\/a>","<a href='cultivar/Hyola42.html'>Hyola42<\/a>","<a href='cultivar/Hyola450_TT.html'>Hyola450_TT<\/a>","<a href='cultivar/Hyola559_TT.html'>Hyola559_TT<\/a>","<a href='cultivar/Hyola575_CL.html'>Hyola575_CL<\/a>","<a href='cultivar/Hyola575.html'>Hyola575<\/a>","<a href='cultivar/Hyola577_CL.html'>Hyola577_CL<\/a>","<a href='cultivar/Hyola600_RR.html'>Hyola600_RR<\/a>","<a href='cultivar/Hyola635_CL.html'>Hyola635_CL<\/a>","<a href='cultivar/Hyola650_TT.html'>Hyola650_TT<\/a>","<a href='cultivar/Hyola725_RT.html'>Hyola725_RT<\/a>","<a href='cultivar/Hyola750_TT.html'>Hyola750_TT<\/a>","<a href='cultivar/Hyola970_CL.html'>Hyola970_CL<\/a>","<a href='cultivar/Hyola971_CL.html'>Hyola971_CL<\/a>","<a href='cultivar/IH30_RR.html'>IH30_RR<\/a>","<a href='cultivar/IVT4510.html'>IVT4510<\/a>","<a href='cultivar/K50055.html'>K50055<\/a>","<a href='cultivar/K50058.html'>K50058<\/a>","<a href='cultivar/Karoo_triazine.html'>Karoo_triazine<\/a>","<a href='cultivar/Monty.html'>Monty<\/a>","<a href='cultivar/NS_Diamond.html'>NS_Diamond<\/a>","<a href='cultivar/NX953.html'>NX953<\/a>","<a href='cultivar/Oscar.html'>Oscar<\/a>","<a href='cultivar/Pinnacle_triazine.html'>Pinnacle_triazine<\/a>","<a href='cultivar/Range.html'>Range<\/a>","<a href='cultivar/Sensation.html'>Sensation<\/a>","<a href='cultivar/SF_Brazzil.html'>SF_Brazzil<\/a>","<a href='cultivar/SF_Edimax.html'>SF_Edimax<\/a>","<a href='cultivar/Victory_7001_CL.html'>Victory_7001_CL<\/a>"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Cultivar<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":50,"lengthMenu":[25,50,100],"order":[[0,"asc"]],"columnDefs":[{"name":"Link","targets":0}],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-4232bb3b8d8db62e0d41" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-4232bb3b8d8db62e0d41">{"x":{"filter":"none","vertical":false,"data":[["<a href='cultivar/43C80_CL.html'>43C80_CL<\/a>","<a href='cultivar/44Y84_CL.html'>44Y84_CL<\/a>","<a href='cultivar/44Y87_CL.html'>44Y87_CL<\/a>","<a href='cultivar/44Y89_CL.html'>44Y89_CL<\/a>","<a href='cultivar/44Y90_CL.html'>44Y90_CL<\/a>","<a href='cultivar/45Y25_RR.html'>45Y25_RR<\/a>","<a href='cultivar/45Y86_CL.html'>45Y86_CL<\/a>","<a href='cultivar/45Y88_CL.html'>45Y88_CL<\/a>","<a href='cultivar/45Y91_CL.html'>45Y91_CL<\/a>","<a href='cultivar/46Y78.html'>46Y78<\/a>","<a href='cultivar/Arazzo.html'>Arazzo<\/a>","<a href='cultivar/Archer.html'>Archer<\/a>","<a href='cultivar/ATR_Bonito.html'>ATR_Bonito<\/a>","<a href='cultivar/ATR_Gem.html'>ATR_Gem<\/a>","<a href='cultivar/ATR_Marlin.html'>ATR_Marlin<\/a>","<a href='cultivar/ATR_Stingray.html'>ATR_Stingray<\/a>","<a href='cultivar/ATR_Wahoo.html'>ATR_Wahoo<\/a>","<a href='cultivar/AV_Garnet.html'>AV_Garnet<\/a>","<a href='cultivar/AV_Zircon.html'>AV_Zircon<\/a>","<a href='cultivar/CB_Taurus.html'>CB_Taurus<\/a>","<a href='cultivar/CB_Telfer.html'>CB_Telfer<\/a>","<a href='cultivar/CBI_306.html'>CBI_306<\/a>","<a href='cultivar/Crusher_TT.html'>Crusher_TT<\/a>","<a href='cultivar/CSCH_01.html'>CSCH_01<\/a>","<a href='cultivar/CSCH_02.html'>CSCH_02<\/a>","<a href='cultivar/Drum_triazine.html'>Drum_triazine<\/a>","<a href='cultivar/Dunkeld.html'>Dunkeld<\/a>","<a href='cultivar/GenericEarly.html'>GenericEarly<\/a>","<a href='cultivar/GenericLate.html'>GenericLate<\/a>","<a href='cultivar/GenericWinter.html'>GenericWinter<\/a>","<a href='cultivar/Grouse.html'>Grouse<\/a>","<a href='cultivar/GT50_RR.html'>GT50_RR<\/a>","<a href='cultivar/Hyola42.html'>Hyola42<\/a>","<a href='cultivar/Hyola450_TT.html'>Hyola450_TT<\/a>","<a href='cultivar/Hyola559_TT.html'>Hyola559_TT<\/a>","<a href='cultivar/Hyola575_CL.html'>Hyola575_CL<\/a>","<a href='cultivar/Hyola575.html'>Hyola575<\/a>","<a href='cultivar/Hyola577_CL.html'>Hyola577_CL<\/a>","<a href='cultivar/Hyola600_RR.html'>Hyola600_RR<\/a>","<a href='cultivar/Hyola635_CL.html'>Hyola635_CL<\/a>","<a href='cultivar/Hyola650_TT.html'>Hyola650_TT<\/a>","<a href='cultivar/Hyola725_RT.html'>Hyola725_RT<\/a>","<a href='cultivar/Hyola750_TT.html'>Hyola750_TT<\/a>","<a href='cultivar/Hyola970_CL.html'>Hyola970_CL<\/a>","<a href='cultivar/Hyola971_CL.html'>Hyola971_CL<\/a>","<a href='cultivar/IH30_RR.html'>IH30_RR<\/a>","<a href='cultivar/IVT4510.html'>IVT4510<\/a>","<a href='cultivar/K50055.html'>K50055<\/a>","<a href='cultivar/K50058.html'>K50058<\/a>","<a href='cultivar/Karoo_triazine.html'>Karoo_triazine<\/a>","<a href='cultivar/Monty.html'>Monty<\/a>","<a href='cultivar/NS_Diamond.html'>NS_Diamond<\/a>","<a href='cultivar/NX953.html'>NX953<\/a>","<a href='cultivar/Oscar.html'>Oscar<\/a>","<a href='cultivar/Pinnacle_triazine.html'>Pinnacle_triazine<\/a>","<a href='cultivar/Range.html'>Range<\/a>","<a href='cultivar/Sensation.html'>Sensation<\/a>","<a href='cultivar/SF_Brazzil.html'>SF_Brazzil<\/a>","<a href='cultivar/SF_Edimax.html'>SF_Edimax<\/a>","<a href='cultivar/Victory_7001_CL.html'>Victory_7001_CL<\/a>"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Cultivar<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":10,"lengthMenu":[10,25,50,100],"order":[[0,"asc"]],"columnDefs":[{"name":"Link","targets":0}],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</section>
+<section id="experiments" class="level2">
+<h2 class="anchored" data-anchor-id="experiments">Experiments</h2>
+<p>There are 23 experiments which tested cultivar and its aliases in the validation test dataset of APSIM NG..</p>
+<div class="cell">
+<div id="tbl-experiments" class="cell quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl quarto-uncaptioned" id="tbl-experiments-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1
+</figcaption>
+<div aria-describedby="tbl-experiments-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell-output-display">
+<div class="datatables html-widget html-fill-item" id="htmlwidget-653d3c47968584bbdca3" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-653d3c47968584bbdca3">{"x":{"filter":"none","vertical":false,"data":[["<a href='experiments/Gatton2015.html'>Gatton2015<\/a>","<a href='experiments/Gatton2016.html'>Gatton2016<\/a>","<a href='experiments/Gatton2017.html'>Gatton2017<\/a>","<a href='experiments/Canberra2016.html'>Canberra2016<\/a>","<a href='experiments/Canberra2017.html'>Canberra2017<\/a>","<a href='experiments/Gatton2019.html'>Gatton2019<\/a>","<a href='experiments/Gatton2020.html'>Gatton2020<\/a>","<a href='experiments/Boorowa2019.html'>Boorowa2019<\/a>","<a href='experiments/Cummins2020.html'>Cummins2020<\/a>","<a href='experiments/York2020.html'>York2020<\/a>","<a href='experiments/Kojonup2013.html'>Kojonup2013<\/a>","<a href='experiments/Kojonup2014.html'>Kojonup2014<\/a>","<a href='experiments/Cunderdin2013.html'>Cunderdin2013<\/a>","<a href='experiments/Cunderdin2014.html'>Cunderdin2014<\/a>","<a href='experiments/Wagga2008.html'>Wagga2008<\/a>","<a href='experiments/Harden1999.html'>Harden1999<\/a>","<a href='experiments/Greenethorpe2013_Ex3.html'>Greenethorpe2013_Ex3<\/a>","<a href='experiments/Greenethorpe2014_Ex1.html'>Greenethorpe2014_Ex1<\/a>","<a href='experiments/Greenethorpe2013_Ex2.html'>Greenethorpe2013_Ex2<\/a>","<a href='experiments/Greenethorpe2014_Ex2.html'>Greenethorpe2014_Ex2<\/a>","<a href='experiments/Greenethorpe2014_Ex3.html'>Greenethorpe2014_Ex3<\/a>","<a href='experiments/Greenethorpe2013_Ex1.html'>Greenethorpe2013_Ex1<\/a>","<a href='experiments/Merredin2014.html'>Merredin2014<\/a>"],[-27.54,-27.54,-27.54,-35.3049,-35.3049,-27.5436,-27.5436,-34.45,-34.25,-32.1083,-33.83,-33.83,-31.6494,-31.6494,-35.05,-34.5,-34.0824,-34.0824,-34.0824,-34.0824,-34.0824,-34.0824,-31.4756],[152.34,152.34,152.34,149.2014,149.2014,152.3375,152.3375,148.7,135.7,116.9247,117.159,117.159,117.2331,117.2331,147.3,148.3,0,0,0,0,0,0,118.2789]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Link<\/th>\n      <th>Latitude<\/th>\n      <th>Longitude<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":10,"lengthMenu":[10,25,50,100],"order":[[0,"asc"]],"columnDefs":[{"className":"dt-right","targets":[1,2]},{"name":"Link","targets":0},{"name":"Latitude","targets":1},{"name":"Longitude","targets":2}],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</figure>
+</div>
+</div>
+<div class="cell">
+<div id="fig-experiments" class="cell-output-display quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-experiments-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="leaflet html-widget html-fill-item" id="htmlwidget-ce4ebe965ba478410799" style="width:100%;height:557px;"></div>
+<script type="application/json" data-for="htmlwidget-ce4ebe965ba478410799">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}},"scrollWheelZoom":false},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]},{"method":"addMarkers","args":[[-27.54,-27.54,-27.54,-35.3049,-35.3049,-27.5436,-27.5436,-34.45,-34.25,-32.1083,-33.83,-33.83,-31.6494,-31.6494,-35.05,-34.5,-31.4756],[152.34,152.34,152.34,149.2014,149.2014,152.3375,152.3375,148.7,135.7,116.9247,117.159,117.159,117.2331,117.2331,147.3,148.3,118.2789],null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},["Gatton2015","Gatton2016","Gatton2017","Canberra2016","Canberra2017","Gatton2019","Gatton2020","Boorowa2019","Cummins2020","York2020","Kojonup2013","Kojonup2014","Cunderdin2013","Cunderdin2014","Wagga2008","Harden1999","Merredin2014"],null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[-35.3049,-27.54],"lng":[116.9247,152.34]}},"evals":[],"jsHooks":[]}</script>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-experiments-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Locations of experiments without controlled environments.
+</figcaption>
+</figure>
+</div>
+</div>
+</section>
+<section id="performance" class="level2">
+<h2 class="anchored" data-anchor-id="performance">Performance</h2>
+<p><strong>Overview</strong></p>
+<p>The table below summarizes the performance of APSIM NG for across all experiments.</p>
+<div class="cell">
+<div id="tbl-performance-summary" class="cell quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl quarto-uncaptioned" id="tbl-performance-summary-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;2
+</figcaption>
+<div aria-describedby="tbl-performance-summary-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell-output-display">
+<table class="do-not-create-environment caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 34%">
+<col style="width: 5%">
+<col style="width: 6%">
+<col style="width: 5%">
+<col style="width: 10%">
+<col style="width: 14%">
+<col style="width: 10%">
+<col style="width: 6%">
+<col style="width: 5%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">trait</th>
+<th style="text-align: right;">n</th>
+<th style="text-align: right;">r</th>
+<th style="text-align: right;">r2</th>
+<th style="text-align: right;">bias</th>
+<th style="text-align: right;">mse</th>
+<th style="text-align: right;">rmse</th>
+<th style="text-align: right;">nrmse</th>
+<th style="text-align: right;">d</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">AboveGround.N</td>
+<td style="text-align: right;">111</td>
+<td style="text-align: right;">0.85</td>
+<td style="text-align: right;">0.73</td>
+<td style="text-align: right;">0.07</td>
+<td style="text-align: right;">6.650000e+00</td>
+<td style="text-align: right;">2.58</td>
+<td style="text-align: right;">0.41</td>
+<td style="text-align: right;">0.92</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">AboveGround.Wt</td>
+<td style="text-align: right;">606</td>
+<td style="text-align: right;">0.91</td>
+<td style="text-align: right;">0.83</td>
+<td style="text-align: right;">-12.35</td>
+<td style="text-align: right;">2.558836e+04</td>
+<td style="text-align: right;">159.96</td>
+<td style="text-align: right;">0.39</td>
+<td style="text-align: right;">0.95</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">CoverTotal</td>
+<td style="text-align: right;">338</td>
+<td style="text-align: right;">0.82</td>
+<td style="text-align: right;">0.67</td>
+<td style="text-align: right;">-0.01</td>
+<td style="text-align: right;">2.000000e-02</td>
+<td style="text-align: right;">0.16</td>
+<td style="text-align: right;">0.24</td>
+<td style="text-align: right;">0.88</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">DaysAfterSowing</td>
+<td style="text-align: right;">749</td>
+<td style="text-align: right;">1.00</td>
+<td style="text-align: right;">1.00</td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: right;">0.000000e+00</td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: right;">1.00</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Grain.N</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">0.80</td>
+<td style="text-align: right;">0.63</td>
+<td style="text-align: right;">3.98</td>
+<td style="text-align: right;">2.049000e+01</td>
+<td style="text-align: right;">4.53</td>
+<td style="text-align: right;">0.50</td>
+<td style="text-align: right;">0.62</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Grain.NConc</td>
+<td style="text-align: right;">103</td>
+<td style="text-align: right;">0.64</td>
+<td style="text-align: right;">0.41</td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: right;">0.000000e+00</td>
+<td style="text-align: right;">0.01</td>
+<td style="text-align: right;">0.21</td>
+<td style="text-align: right;">0.74</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Grain.Number</td>
+<td style="text-align: right;">133</td>
+<td style="text-align: right;">0.76</td>
+<td style="text-align: right;">0.58</td>
+<td style="text-align: right;">11321.27</td>
+<td style="text-align: right;">1.057294e+09</td>
+<td style="text-align: right;">32516.06</td>
+<td style="text-align: right;">0.48</td>
+<td style="text-align: right;">0.84</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Grain.Wt</td>
+<td style="text-align: right;">136</td>
+<td style="text-align: right;">0.83</td>
+<td style="text-align: right;">0.69</td>
+<td style="text-align: right;">-0.25</td>
+<td style="text-align: right;">7.241900e+03</td>
+<td style="text-align: right;">85.10</td>
+<td style="text-align: right;">0.39</td>
+<td style="text-align: right;">0.91</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Leaf.Dead.Wt</td>
+<td style="text-align: right;">415</td>
+<td style="text-align: right;">0.20</td>
+<td style="text-align: right;">0.04</td>
+<td style="text-align: right;">-1.37</td>
+<td style="text-align: right;">7.523000e+02</td>
+<td style="text-align: right;">27.43</td>
+<td style="text-align: right;">2.43</td>
+<td style="text-align: right;">0.43</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Leaf.LAI</td>
+<td style="text-align: right;">441</td>
+<td style="text-align: right;">0.75</td>
+<td style="text-align: right;">0.56</td>
+<td style="text-align: right;">-0.38</td>
+<td style="text-align: right;">1.080000e+00</td>
+<td style="text-align: right;">1.04</td>
+<td style="text-align: right;">0.64</td>
+<td style="text-align: right;">0.84</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Leaf.Live.N</td>
+<td style="text-align: right;">83</td>
+<td style="text-align: right;">0.79</td>
+<td style="text-align: right;">0.62</td>
+<td style="text-align: right;">0.53</td>
+<td style="text-align: right;">1.200000e+00</td>
+<td style="text-align: right;">1.10</td>
+<td style="text-align: right;">0.50</td>
+<td style="text-align: right;">0.85</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Leaf.Live.NConc</td>
+<td style="text-align: right;">85</td>
+<td style="text-align: right;">0.66</td>
+<td style="text-align: right;">0.44</td>
+<td style="text-align: right;">0.01</td>
+<td style="text-align: right;">0.000000e+00</td>
+<td style="text-align: right;">0.02</td>
+<td style="text-align: right;">0.43</td>
+<td style="text-align: right;">0.58</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Leaf.Live.Wt</td>
+<td style="text-align: right;">472</td>
+<td style="text-align: right;">0.80</td>
+<td style="text-align: right;">0.63</td>
+<td style="text-align: right;">-13.84</td>
+<td style="text-align: right;">1.437410e+03</td>
+<td style="text-align: right;">37.91</td>
+<td style="text-align: right;">0.62</td>
+<td style="text-align: right;">0.87</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Leaf.TrueLeafNumber</td>
+<td style="text-align: right;">2323</td>
+<td style="text-align: right;">0.91</td>
+<td style="text-align: right;">0.82</td>
+<td style="text-align: right;">-0.21</td>
+<td style="text-align: right;">1.520000e+00</td>
+<td style="text-align: right;">1.23</td>
+<td style="text-align: right;">0.42</td>
+<td style="text-align: right;">0.94</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Phenology.EmergenceDAS</td>
+<td style="text-align: right;">533</td>
+<td style="text-align: right;">0.84</td>
+<td style="text-align: right;">0.70</td>
+<td style="text-align: right;">0.59</td>
+<td style="text-align: right;">4.590000e+00</td>
+<td style="text-align: right;">2.14</td>
+<td style="text-align: right;">0.21</td>
+<td style="text-align: right;">0.90</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Phenology.FloralInitiationDAS</td>
+<td style="text-align: right;">380</td>
+<td style="text-align: right;">0.92</td>
+<td style="text-align: right;">0.85</td>
+<td style="text-align: right;">-1.07</td>
+<td style="text-align: right;">9.615000e+01</td>
+<td style="text-align: right;">9.81</td>
+<td style="text-align: right;">0.19</td>
+<td style="text-align: right;">0.96</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Phenology.GreenBudDAS</td>
+<td style="text-align: right;">505</td>
+<td style="text-align: right;">0.90</td>
+<td style="text-align: right;">0.81</td>
+<td style="text-align: right;">-3.10</td>
+<td style="text-align: right;">1.897400e+02</td>
+<td style="text-align: right;">13.77</td>
+<td style="text-align: right;">0.19</td>
+<td style="text-align: right;">0.94</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Phenology.StartFloweringDAS</td>
+<td style="text-align: right;">539</td>
+<td style="text-align: right;">0.94</td>
+<td style="text-align: right;">0.88</td>
+<td style="text-align: right;">2.13</td>
+<td style="text-align: right;">1.237600e+02</td>
+<td style="text-align: right;">11.12</td>
+<td style="text-align: right;">0.11</td>
+<td style="text-align: right;">0.97</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Pod.N</td>
+<td style="text-align: right;">43</td>
+<td style="text-align: right;">0.88</td>
+<td style="text-align: right;">0.77</td>
+<td style="text-align: right;">0.99</td>
+<td style="text-align: right;">3.500000e+00</td>
+<td style="text-align: right;">1.87</td>
+<td style="text-align: right;">0.41</td>
+<td style="text-align: right;">0.91</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Pod.NConc</td>
+<td style="text-align: right;">53</td>
+<td style="text-align: right;">-0.13</td>
+<td style="text-align: right;">0.02</td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: right;">0.000000e+00</td>
+<td style="text-align: right;">0.02</td>
+<td style="text-align: right;">0.63</td>
+<td style="text-align: right;">0.28</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Pod.Wt</td>
+<td style="text-align: right;">389</td>
+<td style="text-align: right;">0.88</td>
+<td style="text-align: right;">0.77</td>
+<td style="text-align: right;">35.80</td>
+<td style="text-align: right;">1.056984e+04</td>
+<td style="text-align: right;">102.81</td>
+<td style="text-align: right;">1.05</td>
+<td style="text-align: right;">0.88</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Shell.Wt</td>
+<td style="text-align: right;">28</td>
+<td style="text-align: right;">0.13</td>
+<td style="text-align: right;">0.02</td>
+<td style="text-align: right;">46.05</td>
+<td style="text-align: right;">9.744060e+03</td>
+<td style="text-align: right;">98.71</td>
+<td style="text-align: right;">0.63</td>
+<td style="text-align: right;">0.34</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Stem.N</td>
+<td style="text-align: right;">95</td>
+<td style="text-align: right;">0.10</td>
+<td style="text-align: right;">0.01</td>
+<td style="text-align: right;">-0.13</td>
+<td style="text-align: right;">9.580000e+00</td>
+<td style="text-align: right;">3.10</td>
+<td style="text-align: right;">1.03</td>
+<td style="text-align: right;">0.38</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Stem.NConc</td>
+<td style="text-align: right;">112</td>
+<td style="text-align: right;">0.56</td>
+<td style="text-align: right;">0.32</td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: right;">0.000000e+00</td>
+<td style="text-align: right;">0.01</td>
+<td style="text-align: right;">0.65</td>
+<td style="text-align: right;">0.75</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Stem.Wt</td>
+<td style="text-align: right;">485</td>
+<td style="text-align: right;">0.89</td>
+<td style="text-align: right;">0.79</td>
+<td style="text-align: right;">-33.83</td>
+<td style="text-align: right;">9.438080e+03</td>
+<td style="text-align: right;">97.15</td>
+<td style="text-align: right;">0.54</td>
+<td style="text-align: right;">0.93</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</figure>
+</div>
+</div>
+<p><strong>Comparison of observed and predicted values</strong></p>
+<div class="mb-3">
+<button class="btn btn-sm btn-outline-secondary me-2" onclick="expandAllCallouts()">
+Expand all
+</button>
+<button class="btn btn-sm btn-outline-secondary" onclick="collapseAllCallouts()">
+Collapse all
+</button>
+</div>
+<script>
+function expandAllCallouts() {
+    document
+        .querySelectorAll('.callout-collapse.collapse')
+        .forEach(el => {
+        if (!el.classList.contains('show')) {
+            new bootstrap.Collapse(el, { show: true });
+        }
+        });
+}
+
+function collapseAllCallouts() {
+    document
+        .querySelectorAll('.callout-collapse.collapse')
+        .forEach(el => {
+        if (el.classList.contains('show')) {
+            new bootstrap.Collapse(el, { hide: true });
+        }
+        });
+}
+</script>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>AboveGround.N
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="index_files/figure-html/performance-1.png" class="img-fluid figure-img" width="672"></p>
+<figcaption>Observed vs Predicted plots for different traits.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>AboveGround.Wt
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="index_files/figure-html/performance-2.png" class="img-fluid figure-img" width="672"></p>
+<figcaption>Observed vs Predicted plots for different traits.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>CoverTotal
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="index_files/figure-html/performance-3.png" class="img-fluid figure-img" width="672"></p>
+<figcaption>Observed vs Predicted plots for different traits.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>DaysAfterSowing
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="index_files/figure-html/performance-4.png" class="img-fluid figure-img" width="672"></p>
+<figcaption>Observed vs Predicted plots for different traits.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Grain.N
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="index_files/figure-html/performance-5.png" class="img-fluid figure-img" width="672"></p>
+<figcaption>Observed vs Predicted plots for different traits.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Grain.NConc
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="index_files/figure-html/performance-6.png" class="img-fluid figure-img" width="672"></p>
+<figcaption>Observed vs Predicted plots for different traits.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Grain.Number
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="index_files/figure-html/performance-7.png" class="img-fluid figure-img" width="672"></p>
+<figcaption>Observed vs Predicted plots for different traits.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Grain.Wt
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-8" class="callout-8-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="index_files/figure-html/performance-8.png" class="img-fluid figure-img" width="672"></p>
+<figcaption>Observed vs Predicted plots for different traits.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Leaf.Dead.Wt
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-9" class="callout-9-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="index_files/figure-html/performance-9.png" class="img-fluid figure-img" width="672"></p>
+<figcaption>Observed vs Predicted plots for different traits.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Leaf.LAI
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-10" class="callout-10-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="index_files/figure-html/performance-10.png" class="img-fluid figure-img" width="672"></p>
+<figcaption>Observed vs Predicted plots for different traits.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-11-contents" aria-controls="callout-11" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Leaf.Live.N
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-11" class="callout-11-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="index_files/figure-html/performance-11.png" class="img-fluid figure-img" width="672"></p>
+<figcaption>Observed vs Predicted plots for different traits.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-12-contents" aria-controls="callout-12" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Leaf.Live.NConc
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-12" class="callout-12-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="index_files/figure-html/performance-12.png" class="img-fluid figure-img" width="672"></p>
+<figcaption>Observed vs Predicted plots for different traits.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-13-contents" aria-controls="callout-13" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Leaf.Live.Wt
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-13" class="callout-13-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="index_files/figure-html/performance-13.png" class="img-fluid figure-img" width="672"></p>
+<figcaption>Observed vs Predicted plots for different traits.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-14-contents" aria-controls="callout-14" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Leaf.TrueLeafNumber
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-14" class="callout-14-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="index_files/figure-html/performance-14.png" class="img-fluid figure-img" width="672"></p>
+<figcaption>Observed vs Predicted plots for different traits.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-15-contents" aria-controls="callout-15" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Phenology.EmergenceDAS
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-15" class="callout-15-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="index_files/figure-html/performance-15.png" class="img-fluid figure-img" width="672"></p>
+<figcaption>Observed vs Predicted plots for different traits.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-16-contents" aria-controls="callout-16" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Phenology.FloralInitiationDAS
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-16" class="callout-16-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="index_files/figure-html/performance-16.png" class="img-fluid figure-img" width="672"></p>
+<figcaption>Observed vs Predicted plots for different traits.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-17-contents" aria-controls="callout-17" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Phenology.GreenBudDAS
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-17" class="callout-17-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="index_files/figure-html/performance-17.png" class="img-fluid figure-img" width="672"></p>
+<figcaption>Observed vs Predicted plots for different traits.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-18-contents" aria-controls="callout-18" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Phenology.StartFloweringDAS
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-18" class="callout-18-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="index_files/figure-html/performance-18.png" class="img-fluid figure-img" width="672"></p>
+<figcaption>Observed vs Predicted plots for different traits.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-19-contents" aria-controls="callout-19" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Pod.N
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-19" class="callout-19-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="index_files/figure-html/performance-19.png" class="img-fluid figure-img" width="672"></p>
+<figcaption>Observed vs Predicted plots for different traits.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-20-contents" aria-controls="callout-20" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Pod.NConc
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-20" class="callout-20-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="index_files/figure-html/performance-20.png" class="img-fluid figure-img" width="672"></p>
+<figcaption>Observed vs Predicted plots for different traits.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-21-contents" aria-controls="callout-21" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Pod.Wt
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-21" class="callout-21-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="index_files/figure-html/performance-21.png" class="img-fluid figure-img" width="672"></p>
+<figcaption>Observed vs Predicted plots for different traits.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-22-contents" aria-controls="callout-22" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Shell.Wt
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-22" class="callout-22-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="index_files/figure-html/performance-22.png" class="img-fluid figure-img" width="672"></p>
+<figcaption>Observed vs Predicted plots for different traits.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-23-contents" aria-controls="callout-23" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Stem.N
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-23" class="callout-23-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="index_files/figure-html/performance-23.png" class="img-fluid figure-img" width="672"></p>
+<figcaption>Observed vs Predicted plots for different traits.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-24-contents" aria-controls="callout-24" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Stem.NConc
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-24" class="callout-24-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="index_files/figure-html/performance-24.png" class="img-fluid figure-img" width="672"></p>
+<figcaption>Observed vs Predicted plots for different traits.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-25-contents" aria-controls="callout-25" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Stem.Wt
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-25" class="callout-25-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="index_files/figure-html/performance-25.png" class="img-fluid figure-img" width="672"></p>
+<figcaption>Observed vs Predicted plots for different traits.</figcaption>
+</figure>
+</div>
+</div>
 </div>
 </div>
 

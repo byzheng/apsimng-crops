@@ -79,7 +79,14 @@ gtag('config', 'G-5K7WTC1T5R', { 'anonymize_ip': true});
 </script>
 <link href="../../../site_libs/htmltools-fill-0.5.9/fill.css" rel="stylesheet">
 <script src="../../../site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<link href="../../../site_libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet">
+<script src="../../../site_libs/datatables-binding-0.34.0/datatables.js"></script>
 <script src="../../../site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<link href="../../../site_libs/dt-core-1.13.6/css/jquery.dataTables.min.css" rel="stylesheet">
+<link href="../../../site_libs/dt-core-1.13.6/css/jquery.dataTables.extra.css" rel="stylesheet">
+<script src="../../../site_libs/dt-core-1.13.6/js/jquery.dataTables.min.js"></script>
+<link href="../../../site_libs/crosstalk-1.2.2/css/crosstalk.min.css" rel="stylesheet">
+<script src="../../../site_libs/crosstalk-1.2.2/js/crosstalk.min.js"></script>
 <link href="../../../site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet">
 <script src="../../../site_libs/leaflet-1.3.1/leaflet.js"></script>
 <link href="../../../site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet">
@@ -242,267 +249,13 @@ Table&nbsp;1: Cultivar specific parameters for <code>Longsword</code>
 <div class="cell">
 <div id="tbl-experiments" class="cell quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-tbl figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-experiments-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Table&nbsp;2: Experiments for cultivar <code>Longsword</code>
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl quarto-uncaptioned" id="tbl-experiments-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;2
 </figcaption>
 <div aria-describedby="tbl-experiments-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output-display">
-<table class="do-not-create-environment cell caption-top table table-sm table-striped small">
-<thead>
-<tr class="header">
-<th style="text-align: left;">ExperimentName</th>
-<th style="text-align: right;">Latitude</th>
-<th style="text-align: right;">Longitude</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">WaggaWagga</td>
-<td style="text-align: right;">-35.05000</td>
-<td style="text-align: right;">147.3500</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Callington</td>
-<td style="text-align: right;">-35.12000</td>
-<td style="text-align: right;">139.0400</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Dale</td>
-<td style="text-align: right;">-32.20490</td>
-<td style="text-align: right;">116.7604</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">YanYean</td>
-<td style="text-align: right;">-37.55000</td>
-<td style="text-align: right;">145.1300</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">WaggaWagga2020</td>
-<td style="text-align: right;">-35.05000</td>
-<td style="text-align: right;">147.3500</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Urrbrae2020</td>
-<td style="text-align: right;">-34.97000</td>
-<td style="text-align: right;">138.6300</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Dale2020</td>
-<td style="text-align: right;">-32.20490</td>
-<td style="text-align: right;">116.7604</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">YanYean2020</td>
-<td style="text-align: right;">-37.55000</td>
-<td style="text-align: right;">145.1300</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">17CuryoMESW-TOS1</td>
-<td style="text-align: right;">-35.83955</td>
-<td style="text-align: right;">142.7799</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">17CuryoMESW-TOS2</td>
-<td style="text-align: right;">-35.83955</td>
-<td style="text-align: right;">142.7799</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">17CuryoMESW-TOS3</td>
-<td style="text-align: right;">-35.83955</td>
-<td style="text-align: right;">142.7799</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">17CuryoMESW-TOS4</td>
-<td style="text-align: right;">-35.83955</td>
-<td style="text-align: right;">142.7799</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">17HartMESW-TOS1</td>
-<td style="text-align: right;">-33.75734</td>
-<td style="text-align: right;">138.4156</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">17HartMESW-TOS2</td>
-<td style="text-align: right;">-33.75734</td>
-<td style="text-align: right;">138.4156</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">17HartMESW-TOS4</td>
-<td style="text-align: right;">-33.75734</td>
-<td style="text-align: right;">138.4156</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">17HartMESW-TOS3</td>
-<td style="text-align: right;">-33.75734</td>
-<td style="text-align: right;">138.4156</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">17LoxtonMESW-TOS1</td>
-<td style="text-align: right;">-34.53062</td>
-<td style="text-align: right;">140.5330</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">17LoxtonMESW-TOS3</td>
-<td style="text-align: right;">-34.53062</td>
-<td style="text-align: right;">140.5330</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">17LoxtonMESW-TOS2</td>
-<td style="text-align: right;">-34.53062</td>
-<td style="text-align: right;">140.5330</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">17LoxtonMESW-TOS4</td>
-<td style="text-align: right;">-34.53062</td>
-<td style="text-align: right;">140.5330</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">17MilduraMESW-TOS1</td>
-<td style="text-align: right;">-34.22000</td>
-<td style="text-align: right;">142.1700</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">17MilduraMESW-TOS2</td>
-<td style="text-align: right;">-34.22000</td>
-<td style="text-align: right;">142.1700</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">17MilduraMESW-TOS3</td>
-<td style="text-align: right;">-34.22000</td>
-<td style="text-align: right;">142.1700</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">17MinnipaMESW-TOS1</td>
-<td style="text-align: right;">-32.84904</td>
-<td style="text-align: right;">135.1626</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">17MilduraMESW-TOS4</td>
-<td style="text-align: right;">-34.22000</td>
-<td style="text-align: right;">142.1700</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">17MinnipaMESW-TOS2</td>
-<td style="text-align: right;">-32.84904</td>
-<td style="text-align: right;">135.1626</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">17MinnipaMESW-TOS4</td>
-<td style="text-align: right;">-32.84904</td>
-<td style="text-align: right;">135.1626</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">17MinnipaMESW-TOS3</td>
-<td style="text-align: right;">-32.84904</td>
-<td style="text-align: right;">135.1626</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">18HartMESW-TOS2</td>
-<td style="text-align: right;">-33.75574</td>
-<td style="text-align: right;">138.4152</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">18HartMESW-TOS1</td>
-<td style="text-align: right;">-33.75574</td>
-<td style="text-align: right;">138.4152</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">18HartMESW-TOS3</td>
-<td style="text-align: right;">-33.75574</td>
-<td style="text-align: right;">138.4152</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">18LoxtonMESW-TOS2</td>
-<td style="text-align: right;">-34.50683</td>
-<td style="text-align: right;">140.5680</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">18LoxtonMESW-TOS1</td>
-<td style="text-align: right;">-34.50683</td>
-<td style="text-align: right;">140.5680</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">18LoxtonMESW-TOS3</td>
-<td style="text-align: right;">-34.50683</td>
-<td style="text-align: right;">140.5680</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">18HartMESW-TOS4</td>
-<td style="text-align: right;">-33.75574</td>
-<td style="text-align: right;">138.4152</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">18LoxtonMESW-TOS4</td>
-<td style="text-align: right;">-34.50683</td>
-<td style="text-align: right;">140.5680</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">18MilduraMESW-TOS1</td>
-<td style="text-align: right;">-34.45576</td>
-<td style="text-align: right;">141.6661</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">18MilduraMESW-TOS2</td>
-<td style="text-align: right;">-34.45576</td>
-<td style="text-align: right;">141.6661</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">18MilduraMESW-TOS3</td>
-<td style="text-align: right;">-34.45576</td>
-<td style="text-align: right;">141.6661</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">18MilduraMESW-TOS4</td>
-<td style="text-align: right;">-34.45576</td>
-<td style="text-align: right;">141.6661</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Temora2015-TOS1</td>
-<td style="text-align: right;">-34.42770</td>
-<td style="text-align: right;">147.5117</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Temora2015-TOS2</td>
-<td style="text-align: right;">-34.42770</td>
-<td style="text-align: right;">147.5117</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Temora2015-TOS4</td>
-<td style="text-align: right;">-34.42770</td>
-<td style="text-align: right;">147.5117</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Temora2015-TOS3</td>
-<td style="text-align: right;">-34.42770</td>
-<td style="text-align: right;">147.5117</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Minnipa2015-TOS1</td>
-<td style="text-align: right;">-32.83610</td>
-<td style="text-align: right;">135.1500</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Minnipa2015-TOS2</td>
-<td style="text-align: right;">-32.83610</td>
-<td style="text-align: right;">135.1500</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Minnipa2015-TOS3</td>
-<td style="text-align: right;">-32.83610</td>
-<td style="text-align: right;">135.1500</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">LaTrobeCE</td>
-<td style="text-align: right;">0.00000</td>
-<td style="text-align: right;">0.0000</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">LaTrobeCE</td>
-<td style="text-align: right;">-34.35670</td>
-<td style="text-align: right;">146.9032</td>
-</tr>
-</tbody>
-</table>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-aea84e0d11427adc4020" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-aea84e0d11427adc4020">{"x":{"filter":"none","vertical":false,"data":[["<a href='experiments/WaggaWagga.html'>WaggaWagga<\/a>","<a href='experiments/Callington.html'>Callington<\/a>","<a href='experiments/Dale.html'>Dale<\/a>","<a href='experiments/YanYean.html'>YanYean<\/a>","<a href='experiments/WaggaWagga2020.html'>WaggaWagga2020<\/a>","<a href='experiments/Urrbrae2020.html'>Urrbrae2020<\/a>","<a href='experiments/Dale2020.html'>Dale2020<\/a>","<a href='experiments/YanYean2020.html'>YanYean2020<\/a>","<a href='experiments/17CuryoMESW-TOS1.html'>17CuryoMESW-TOS1<\/a>","<a href='experiments/17CuryoMESW-TOS2.html'>17CuryoMESW-TOS2<\/a>","<a href='experiments/17CuryoMESW-TOS3.html'>17CuryoMESW-TOS3<\/a>","<a href='experiments/17CuryoMESW-TOS4.html'>17CuryoMESW-TOS4<\/a>","<a href='experiments/17HartMESW-TOS1.html'>17HartMESW-TOS1<\/a>","<a href='experiments/17HartMESW-TOS2.html'>17HartMESW-TOS2<\/a>","<a href='experiments/17HartMESW-TOS4.html'>17HartMESW-TOS4<\/a>","<a href='experiments/17HartMESW-TOS3.html'>17HartMESW-TOS3<\/a>","<a href='experiments/17LoxtonMESW-TOS1.html'>17LoxtonMESW-TOS1<\/a>","<a href='experiments/17LoxtonMESW-TOS3.html'>17LoxtonMESW-TOS3<\/a>","<a href='experiments/17LoxtonMESW-TOS2.html'>17LoxtonMESW-TOS2<\/a>","<a href='experiments/17LoxtonMESW-TOS4.html'>17LoxtonMESW-TOS4<\/a>","<a href='experiments/17MilduraMESW-TOS1.html'>17MilduraMESW-TOS1<\/a>","<a href='experiments/17MilduraMESW-TOS2.html'>17MilduraMESW-TOS2<\/a>","<a href='experiments/17MilduraMESW-TOS3.html'>17MilduraMESW-TOS3<\/a>","<a href='experiments/17MinnipaMESW-TOS1.html'>17MinnipaMESW-TOS1<\/a>","<a href='experiments/17MilduraMESW-TOS4.html'>17MilduraMESW-TOS4<\/a>","<a href='experiments/17MinnipaMESW-TOS2.html'>17MinnipaMESW-TOS2<\/a>","<a href='experiments/17MinnipaMESW-TOS4.html'>17MinnipaMESW-TOS4<\/a>","<a href='experiments/17MinnipaMESW-TOS3.html'>17MinnipaMESW-TOS3<\/a>","<a href='experiments/18HartMESW-TOS2.html'>18HartMESW-TOS2<\/a>","<a href='experiments/18HartMESW-TOS1.html'>18HartMESW-TOS1<\/a>","<a href='experiments/18HartMESW-TOS3.html'>18HartMESW-TOS3<\/a>","<a href='experiments/18LoxtonMESW-TOS2.html'>18LoxtonMESW-TOS2<\/a>","<a href='experiments/18LoxtonMESW-TOS1.html'>18LoxtonMESW-TOS1<\/a>","<a href='experiments/18LoxtonMESW-TOS3.html'>18LoxtonMESW-TOS3<\/a>","<a href='experiments/18HartMESW-TOS4.html'>18HartMESW-TOS4<\/a>","<a href='experiments/18LoxtonMESW-TOS4.html'>18LoxtonMESW-TOS4<\/a>","<a href='experiments/18MilduraMESW-TOS1.html'>18MilduraMESW-TOS1<\/a>","<a href='experiments/18MilduraMESW-TOS2.html'>18MilduraMESW-TOS2<\/a>","<a href='experiments/18MilduraMESW-TOS3.html'>18MilduraMESW-TOS3<\/a>","<a href='experiments/18MilduraMESW-TOS4.html'>18MilduraMESW-TOS4<\/a>","<a href='experiments/Temora2015-TOS1.html'>Temora2015-TOS1<\/a>","<a href='experiments/Temora2015-TOS2.html'>Temora2015-TOS2<\/a>","<a href='experiments/Temora2015-TOS4.html'>Temora2015-TOS4<\/a>","<a href='experiments/Temora2015-TOS3.html'>Temora2015-TOS3<\/a>","<a href='experiments/Minnipa2015-TOS1.html'>Minnipa2015-TOS1<\/a>","<a href='experiments/Minnipa2015-TOS2.html'>Minnipa2015-TOS2<\/a>","<a href='experiments/Minnipa2015-TOS3.html'>Minnipa2015-TOS3<\/a>","<a href='experiments/LaTrobeCE.html'>LaTrobeCE<\/a>","<a href='experiments/LaTrobeCE.html'>LaTrobeCE<\/a>"],[-35.05,-35.12,-32.2049,-37.55,-35.05,-34.97,-32.2049,-37.55,-35.83955,-35.83955,-35.83955,-35.83955,-33.75734,-33.75734,-33.75734,-33.75734,-34.53062,-34.53062,-34.53062,-34.53062,-34.22,-34.22,-34.22,-32.84904,-34.22,-32.84904,-32.84904,-32.84904,-33.75574,-33.75574,-33.75574,-34.50683,-34.50683,-34.50683,-33.75574,-34.50683,-34.45576,-34.45576,-34.45576,-34.45576,-34.4277,-34.4277,-34.4277,-34.4277,-32.8361,-32.8361,-32.8361,0,-34.3567],[147.35,139.04,116.7604,145.13,147.35,138.63,116.7604,145.13,142.7799,142.7799,142.7799,142.7799,138.4156,138.4156,138.4156,138.4156,140.533,140.533,140.533,140.533,142.17,142.17,142.17,135.1626,142.17,135.1626,135.1626,135.1626,138.4152,138.4152,138.4152,140.568,140.568,140.568,138.4152,140.568,141.6661,141.6661,141.6661,141.6661,147.5117,147.5117,147.5117,147.5117,135.15,135.15,135.15,0,146.9032]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Link<\/th>\n      <th>Latitude<\/th>\n      <th>Longitude<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":10,"lengthMenu":[10,25,50,100],"order":[[0,"asc"]],"columnDefs":[{"className":"dt-right","targets":[1,2]},{"name":"Link","targets":0},{"name":"Latitude","targets":1},{"name":"Longitude","targets":2}],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 </figure>
@@ -512,8 +265,8 @@ Table&nbsp;2: Experiments for cultivar <code>Longsword</code>
 <div id="fig-experiments" class="cell-output-display quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-experiments-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<div class="leaflet html-widget html-fill-item" id="htmlwidget-3437e4ac5486eca0ca89" style="width:100%;height:557px;"></div>
-<script type="application/json" data-for="htmlwidget-3437e4ac5486eca0ca89">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}},"scrollWheelZoom":false},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]},{"method":"addMarkers","args":[[-35.05,-35.12,-32.2049,-37.55,-35.05,-34.97,-32.2049,-37.55,-35.83955,-35.83955,-35.83955,-35.83955,-33.75734,-33.75734,-33.75734,-33.75734,-34.53062,-34.53062,-34.53062,-34.53062,-34.22,-34.22,-34.22,-32.84904,-34.22,-32.84904,-32.84904,-32.84904,-33.75574,-33.75574,-33.75574,-34.50683,-34.50683,-34.50683,-33.75574,-34.50683,-34.45576,-34.45576,-34.45576,-34.45576,-34.4277,-34.4277,-34.4277,-34.4277,-32.8361,-32.8361,-32.8361,-34.3567],[147.35,139.04,116.7604,145.13,147.35,138.63,116.7604,145.13,142.7799,142.7799,142.7799,142.7799,138.4156,138.4156,138.4156,138.4156,140.533,140.533,140.533,140.533,142.17,142.17,142.17,135.1626,142.17,135.1626,135.1626,135.1626,138.4152,138.4152,138.4152,140.568,140.568,140.568,138.4152,140.568,141.6661,141.6661,141.6661,141.6661,147.5117,147.5117,147.5117,147.5117,135.15,135.15,135.15,146.9032],null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},["WaggaWagga","Callington","Dale","YanYean","WaggaWagga2020","Urrbrae2020","Dale2020","YanYean2020","17CuryoMESW-TOS1","17CuryoMESW-TOS2","17CuryoMESW-TOS3","17CuryoMESW-TOS4","17HartMESW-TOS1","17HartMESW-TOS2","17HartMESW-TOS4","17HartMESW-TOS3","17LoxtonMESW-TOS1","17LoxtonMESW-TOS3","17LoxtonMESW-TOS2","17LoxtonMESW-TOS4","17MilduraMESW-TOS1","17MilduraMESW-TOS2","17MilduraMESW-TOS3","17MinnipaMESW-TOS1","17MilduraMESW-TOS4","17MinnipaMESW-TOS2","17MinnipaMESW-TOS4","17MinnipaMESW-TOS3","18HartMESW-TOS2","18HartMESW-TOS1","18HartMESW-TOS3","18LoxtonMESW-TOS2","18LoxtonMESW-TOS1","18LoxtonMESW-TOS3","18HartMESW-TOS4","18LoxtonMESW-TOS4","18MilduraMESW-TOS1","18MilduraMESW-TOS2","18MilduraMESW-TOS3","18MilduraMESW-TOS4","Temora2015-TOS1","Temora2015-TOS2","Temora2015-TOS4","Temora2015-TOS3","Minnipa2015-TOS1","Minnipa2015-TOS2","Minnipa2015-TOS3","LaTrobeCE"],null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[-37.55,-32.2049],"lng":[116.7604,147.5117]}},"evals":[],"jsHooks":[]}</script>
+<div class="leaflet html-widget html-fill-item" id="htmlwidget-b4418f2c3b77fa804abf" style="width:100%;height:557px;"></div>
+<script type="application/json" data-for="htmlwidget-b4418f2c3b77fa804abf">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}},"scrollWheelZoom":false},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]},{"method":"addMarkers","args":[[-35.05,-35.12,-32.2049,-37.55,-35.05,-34.97,-32.2049,-37.55,-35.83955,-35.83955,-35.83955,-35.83955,-33.75734,-33.75734,-33.75734,-33.75734,-34.53062,-34.53062,-34.53062,-34.53062,-34.22,-34.22,-34.22,-32.84904,-34.22,-32.84904,-32.84904,-32.84904,-33.75574,-33.75574,-33.75574,-34.50683,-34.50683,-34.50683,-33.75574,-34.50683,-34.45576,-34.45576,-34.45576,-34.45576,-34.4277,-34.4277,-34.4277,-34.4277,-32.8361,-32.8361,-32.8361,-34.3567],[147.35,139.04,116.7604,145.13,147.35,138.63,116.7604,145.13,142.7799,142.7799,142.7799,142.7799,138.4156,138.4156,138.4156,138.4156,140.533,140.533,140.533,140.533,142.17,142.17,142.17,135.1626,142.17,135.1626,135.1626,135.1626,138.4152,138.4152,138.4152,140.568,140.568,140.568,138.4152,140.568,141.6661,141.6661,141.6661,141.6661,147.5117,147.5117,147.5117,147.5117,135.15,135.15,135.15,146.9032],null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},["WaggaWagga","Callington","Dale","YanYean","WaggaWagga2020","Urrbrae2020","Dale2020","YanYean2020","17CuryoMESW-TOS1","17CuryoMESW-TOS2","17CuryoMESW-TOS3","17CuryoMESW-TOS4","17HartMESW-TOS1","17HartMESW-TOS2","17HartMESW-TOS4","17HartMESW-TOS3","17LoxtonMESW-TOS1","17LoxtonMESW-TOS3","17LoxtonMESW-TOS2","17LoxtonMESW-TOS4","17MilduraMESW-TOS1","17MilduraMESW-TOS2","17MilduraMESW-TOS3","17MinnipaMESW-TOS1","17MilduraMESW-TOS4","17MinnipaMESW-TOS2","17MinnipaMESW-TOS4","17MinnipaMESW-TOS3","18HartMESW-TOS2","18HartMESW-TOS1","18HartMESW-TOS3","18LoxtonMESW-TOS2","18LoxtonMESW-TOS1","18LoxtonMESW-TOS3","18HartMESW-TOS4","18LoxtonMESW-TOS4","18MilduraMESW-TOS1","18MilduraMESW-TOS2","18MilduraMESW-TOS3","18MilduraMESW-TOS4","Temora2015-TOS1","Temora2015-TOS2","Temora2015-TOS4","Temora2015-TOS3","Minnipa2015-TOS1","Minnipa2015-TOS2","Minnipa2015-TOS3","LaTrobeCE"],null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[-37.55,-32.2049],"lng":[116.7604,147.5117]}},"evals":[],"jsHooks":[]}</script>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-experiments-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;1: Locations of experiments without controlled environments.
