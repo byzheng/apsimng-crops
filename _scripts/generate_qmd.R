@@ -2,10 +2,10 @@ rm(list = ls())
 is_github <- Sys.getenv("GITHUB_ACTIONS") == "true"
 
 APSIMX_DIR <- Sys.getenv("APSIMX_DIR")
-target_crops <- c("Barley", "Wheat", "Canola", "Chickpea") # list of crops to process
-if (!is_github) {
-    target_crops <- "Wheat"
-}
+target_crops <- c("Barley", "Wheat", "Canola", "Chickpea", "Lentil") # list of crops to process
+# if (!is_github) {
+#     target_crops <- "Lentil"
+# }
 
 template_cultivar_file <- "_template/cultivar.qmd" # Template for cultivar report
 template_index_file <- "_template/crop_index.qmd" # Template for index report
@@ -22,11 +22,12 @@ template_index <- readLines(template_index_file)
 template_home <- readLines(template_home_file)
 
 # list all crops and only keep target crops
-models <- sprintf("https://raw.githubusercontent.com/APSIMInitiative/ApsimX/refs/heads/master/Models/Resources/%s.json", target_crops)
-
-crops <- tibble::tibble(Model = models) |> 
+models <- list.files(file.path(APSIMX_DIR, "Models/Resources/"), "*.json", full.names = TRUE)
+prototypes <- list.files(file.path(APSIMX_DIR, "Prototypes/"), "*.apsimx", full.names = TRUE, recursive = TRUE)
+crops <- tibble::tibble(Model = c(models, prototypes)) |> 
     dplyr::mutate(Crop = tools::file_path_sans_ext(basename(Model)))
-
+crops <- crops |> 
+    dplyr::filter(Crop %in% target_crops)
 i <- 1
 for (i in seq(along = crops[[1]])) {
     crop <- crops$Crop[i]
