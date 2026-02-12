@@ -2,7 +2,7 @@ rm(list = ls())
 is_github <- Sys.getenv("GITHUB_ACTIONS") == "true"
 
 APSIMX_DIR <- Sys.getenv("APSIMX_DIR")
-target_crops <- c("Barley", "Wheat", "Canola") # list of crops to process
+target_crops <- c("Barley", "Wheat", "Canola", "Chickpea") # list of crops to process
 if (!is_github) {
     target_crops <- "Wheat"
 }
