@@ -41,6 +41,12 @@ merge_site <- function(site_dir = "_site",
         for (src in source_files) {
             src_norm <- normalizePath(src, winslash = "/", mustWork = TRUE)
             rel <- sub(paste0("^", source_root_norm, "/"), "", src_norm)
+
+            if (identical(rel, "index.html")) {
+                message("Skipping fragment root index.html: ", src)
+                next
+            }
+
             dst <- file.path(output_dir, rel)
             dir.create(dirname(dst), recursive = TRUE, showWarnings = FALSE)
 
