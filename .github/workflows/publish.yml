@@ -14,7 +14,7 @@ jobs:
       contents: write
 
     outputs:
-      groups: ${{ steps.groups.outputs.groups }}
+      group_ids: ${{ steps.group_ids.outputs.group_ids }}
 
     steps:
       - uses: actions/checkout@v4
@@ -28,11 +28,10 @@ jobs:
       - name: Generate qmd files
         run: Rscript _scripts/generate_qmd.R
 
-      - name: Read render groups
-        id: groups
+      - name: Read group IDs
+        id: group_ids
         run: |
-          # _render_groups.json contains a JSON array of arrays
-          echo "groups=$(cat _render_groups.json)" >> $GITHUB_OUTPUT
+          echo "group_ids=$(cat _render_group_ids.json)" >> $GITHUB_OUTPUT
 
 
       - name: Upload workspace
@@ -52,7 +51,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        group_id: ${{ range(0, fromJson(needs.prepare.outputs.groups).length) }}
+        group_id: ${{ fromJson(needs.prepare.outputs.group_ids) }}
 
     steps:
       - uses: actions/download-artifact@v4

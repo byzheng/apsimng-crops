@@ -100,4 +100,7 @@ list_qmd_files <- function(workers = 20) {
         groups[[idx]] <- c(groups[[idx]], files[i])
     }
     writeLines(jsonlite::toJSON(groups, auto_unbox = TRUE), "_render_groups.json")
+    n <- length(groups)
+    indices <- seq_len(n) - 1   # 0-based
+    writeLines(jsonlite::toJSON(indices, auto_unbox = TRUE), "_render_group_ids.json")
 }
