@@ -52,7 +52,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        group_id: ${{ range(fromJson(needs.prepare.outputs.groups) | length) }}
+        group_id: ${{ range(0, fromJson(needs.prepare.outputs.groups).length) }}
 
     steps:
       - uses: actions/download-artifact@v4
