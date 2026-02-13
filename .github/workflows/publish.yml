@@ -114,44 +114,10 @@ jobs:
           quarto render about.qmd
 
       - name: Merge site parts
+        env:
+          R_PROFILE_USER: ${{ github.workspace }}/.Rprofile
         run: |
-          mkdir -p final_site
-          # Copy global pages first
-          cp -r _site/* final_site/
-
-          # Merge all matrix group folders
-          for dir in site-parts/site-*; do
-            [ -d "$dir" ] || continue
-
-            # artifacts may contain a nested site-* root (e.g. site-parts/site-0/site-<run>-0)
-            source_root="$dir"
-            nested_root=$(find "$dir" -mindepth 1 -maxdepth 1 -type d -name 'site-*' | head -n 1)
-            if [ -n "$nested_root" ]; then
-              source_root="$nested_root"
-            fi
-
-            crop_root="$source_root/crop"
-            [ -d "$crop_root" ] || continue
-
-            find "$crop_root" -type f -exec bash -c '
-              root="$1"
-              shift
-              for f; do
-                target="final_site/crop/${f#"$root/"}"
-                mkdir -p "$(dirname "$target")"
-                if [ -e "$target" ]; then
-                  echo "Skipping existing file: $target (from $f)"
-                  continue
-                fi
-                cp "$f" "$target"
-              done
-            ' bash "$crop_root" {} +
-          done
-
-          echo "Merged file count in final_site:"
-          find final_site -type f | wc -l
-          echo "Sample merged files:"
-          find final_site -type f | sort | head -n 30
+          Rscript _scripts/merge_site.R
 
       - name: Publish to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
