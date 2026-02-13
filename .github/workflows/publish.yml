@@ -121,13 +121,24 @@ jobs:
 
           # Merge all matrix group folders
           for dir in site-parts/site-*; do
-            find "$dir" -type f ! -name 'index.html' -exec bash -c '
+            [ -d "$dir" ] || continue
+
+            # artifacts may contain a nested site-* root (e.g. site-parts/site-0/site-<run>-0)
+            source_root="$dir"
+            nested_root=$(find "$dir" -mindepth 1 -maxdepth 1 -type d -name 'site-*' | head -n 1)
+            if [ -n "$nested_root" ]; then
+              source_root="$nested_root"
+            fi
+
+            find "$source_root" -type f ! -name 'index.html' -exec bash -c '
+              root="$1"
+              shift
               for f; do
-                target="final_site/${f#"$dir/"}"
+                target="final_site/${f#"$root/"}"
                 mkdir -p "$(dirname "$target")"
                 cp "$f" "$target"
               done
-            ' bash {} +
+            ' bash "$source_root" {} +
           done
 
       - name: Publish to GitHub Pages
