@@ -130,16 +130,28 @@ jobs:
               source_root="$nested_root"
             fi
 
-            find "$source_root" -type f ! -name 'index.html' -exec bash -c '
+            crop_root="$source_root/crop"
+            [ -d "$crop_root" ] || continue
+
+            find "$crop_root" -type f -exec bash -c '
               root="$1"
               shift
               for f; do
-                target="final_site/${f#"$root/"}"
+                target="final_site/crop/${f#"$root/"}"
                 mkdir -p "$(dirname "$target")"
+                if [ -e "$target" ]; then
+                  echo "Skipping existing file: $target (from $f)"
+                  continue
+                fi
                 cp "$f" "$target"
               done
-            ' bash "$source_root" {} +
+            ' bash "$crop_root" {} +
           done
+
+          echo "Merged file count in final_site:"
+          find final_site -type f | wc -l
+          echo "Sample merged files:"
+          find final_site -type f | sort | head -n 30
 
       - name: Publish to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
