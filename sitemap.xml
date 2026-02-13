@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://apsimng-crops.bangyou.me/index.html</loc>
-    <lastmod>2026-02-13T14:36:51.481Z</lastmod>
+    <loc>https://apsimng-crops.bangyou.me/crop/canola/experiment/Gatton2015.html</loc>
+    <lastmod>2026-02-13T14:44:52.207Z</lastmod>
   </url>
   <url>
-    <loc>https://apsimng-crops.bangyou.me/about.html</loc>
-    <lastmod>2026-02-13T14:36:47.392Z</lastmod>
+    <loc>https://apsimng-crops.bangyou.me/crop/lentil/cultivar/Ace.html</loc>
+    <lastmod>2026-02-13T14:44:59.239Z</lastmod>
+  </url>
+  <url>
+    <loc>https://apsimng-crops.bangyou.me/crop/wheat/experiment/DookieWWHI2024.html</loc>
+    <lastmod>2026-02-13T14:45:06.122Z</lastmod>
   </url>
 </urlset>

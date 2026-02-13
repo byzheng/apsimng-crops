@@ -1,65 +1,86 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Cultivar Performances for APSIM NG Crops",
+    "objectID": "crop/canola/experiment/Gatton2015.html",
+    "href": "crop/canola/experiment/Gatton2015.html",
+    "title": "Gatton2015",
     "section": "",
-    "text": "Quarto Publish\nThis repository provides a overview of cultivar performances for various crops simulated using APSIM Next Generation (APSIM NG)."
+    "text": "This report is generated for performance of Canola model in APSIM NG for experiment Gatton2015."
   },
   {
-    "objectID": "index.html#crops",
-    "href": "index.html#crops",
-    "title": "Cultivar Performances for APSIM NG Crops",
-    "section": "Crops",
-    "text": "Crops\n\nBarley\nCanola\nChickpea\nWheat\nLentil"
+    "objectID": "crop/canola/experiment/Gatton2015.html#experiment-information",
+    "href": "crop/canola/experiment/Gatton2015.html#experiment-information",
+    "title": "Gatton2015",
+    "section": "Experiment Information",
+    "text": "Experiment Information\n\nThe experiment specific information is provided in the memo of apsimx file.\n\n)NA"
   },
   {
-    "objectID": "index.html#contributing",
-    "href": "index.html#contributing",
-    "title": "Cultivar Performances for APSIM NG Crops",
-    "section": "🤝 Contributing",
-    "text": "🤝 Contributing\nIf you find any errors, have suggestions, or want to contribute improvements, you’re welcome to create a pull request or open an issue on GitHub."
+    "objectID": "crop/canola/experiment/Gatton2015.html#cultivars",
+    "href": "crop/canola/experiment/Gatton2015.html#cultivars",
+    "title": "Gatton2015",
+    "section": "Cultivars",
+    "text": "Cultivars"
   },
   {
-    "objectID": "index.html#license-and-attribution",
-    "href": "index.html#license-and-attribution",
-    "title": "Cultivar Performances for APSIM NG Crops",
-    "section": "⚖️ License and Attribution",
-    "text": "⚖️ License and Attribution\nThis documentation includes content derived from:\n\nThe source code of APSIM Next Generation\n\nIt is provided under the General Use Licence Agreement for Agricultural Production Systems Simulator (APSIM).\n\nThis is an independent learning resource compiled and maintained by myself. It is not an official publication of the APSIM Initiative and may contain personal interpretations or errors."
+    "objectID": "crop/canola/experiment/Gatton2015.html#performance",
+    "href": "crop/canola/experiment/Gatton2015.html#performance",
+    "title": "Gatton2015",
+    "section": "Performance",
+    "text": "Performance\nOverview\nThe table below summarizes the performance of APSIM NG for all cultivars across experiment Gatton2015.\n\n\n\n\nTable 1: Performance summary for all cultivars across experiment Gatton2015\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntrait\nn\nr\nr2\nbias\nmse\nrmse\nnrmse\nd\n\n\n\n\nLeaf.TrueLeafNumber\n390\n0.94\n0.89\n0.02\n1.13\n1.06\n0.33\n0.96\n\n\nPhenology.EmergenceDAS\n84\n0.77\n0.60\n0.57\n1.43\n1.20\n0.14\n0.81\n\n\nPhenology.FloralInitiationDAS\n82\n0.97\n0.94\n1.74\n52.74\n7.26\n0.13\n0.98\n\n\nPhenology.GreenBudDAS\n84\n0.97\n0.94\n-1.42\n72.75\n8.53\n0.12\n0.98\n\n\nPhenology.StartFloweringDAS\n75\n0.97\n0.95\n4.84\n169.96\n13.04\n0.13\n0.97\n\n\n\n\n\n\n\n\nComparison of observed and predicted values\nThe model performance is compared with observed and predicted values for all cultivars across experiment Gatton2015. The plots below show the observed vs predicted values for different traits. Each point represents an observation from an experiment. The closer the points are to the diagonal line, the better the performance of the model for that trait.\nThe range of observed and predicted values are estimated using data in this page, which may be misleading for the narrow ranges of observed and predicted values.\nUsing the Expand All and Collapse All buttons below, you can expand or collapse the sections for each trait to see the observed vs predicted plots for different traits.\n\n\nExpand All\n\n\nCollapse All\n\n\n\n\n\n\n\n\n\nNoteLeaf.TrueLeafNumber\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.EmergenceDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.FloralInitiationDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.GreenBudDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.StartFloweringDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits."
   },
   {
-    "objectID": "index.html#acknowledgment",
-    "href": "index.html#acknowledgment",
-    "title": "Cultivar Performances for APSIM NG Crops",
-    "section": "🙏 Acknowledgment",
-    "text": "🙏 Acknowledgment\nAcknowledgment is made to the APSIM Initiative which takes responsibility for quality assurance and a structured innovation programme for APSIM’s modelling software, which is provided free for research and development use. See www.apsim.info for details."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "crop/lentil/cultivar/Ace.html",
+    "href": "crop/lentil/cultivar/Ace.html",
+    "title": "Ace",
     "section": "",
-    "text": "Welcome to my personal documentation site for cultivar performance in APSIM Next Generation.\nThis site provides a overview of cultivar performances for various crops simulated using APSIM Next Generation (APSIM NG)."
+    "text": "This report is generated for performance of Lentil model in APSIM NG for cultivar Ace."
   },
   {
-    "objectID": "about.html#not-official-documentation",
-    "href": "about.html#not-official-documentation",
-    "title": "About",
-    "section": "Not Official Documentation",
-    "text": "Not Official Documentation\n\nThis site is not the official APSIM documentation.\n\nThe official resources are available here:\n\n📘 APSIM Documentation (legacy)\n🔬 Model Validation\n🧪 APSIM GitHub Repository"
+    "objectID": "crop/lentil/cultivar/Ace.html#cultivar-information",
+    "href": "crop/lentil/cultivar/Ace.html#cultivar-information",
+    "title": "Ace",
+    "section": "Cultivar Information",
+    "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Ace\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].JuvenileBase.FixedValue\n91\n\n\n[Phenology].VernSensitivity.FixedValue\n0.85\n\n\n[Phenology].InductivePpSensitivity.FixedValue\n0.37\n\n\n[Phenology].BudDevelopmentPpSensitivity.FixedValue\n0\n\n\n[Phenology].FlowerAbortionPpSensitivity.FixedValue\n0"
   },
   {
-    "objectID": "about.html#license-and-attribution",
-    "href": "about.html#license-and-attribution",
-    "title": "About",
-    "section": "⚖️ License and Attribution",
-    "text": "⚖️ License and Attribution\nThis documentation includes content derived from:\n\nThe source code of APSIM Next Generation\n\nIt is provided under the General Use Licence Agreement for Agricultural Production Systems Simulator (APSIM).\n\nThis is an independent learning resource compiled and maintained by myself. It is not an official publication of the APSIM Initiative and may contain personal interpretations or errors."
+    "objectID": "crop/lentil/cultivar/Ace.html#experiments",
+    "href": "crop/lentil/cultivar/Ace.html#experiments",
+    "title": "Ace",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 8 experiments which tested cultivar Ace in the validation test dataset of APSIM NG. Following the link below to see the details of each experiment, including the observed and predicted values for different traits, and the performance metrics.\n\n\n\n\nTable 2\n\n\n\n\n\n\n\n\n\n\nThis map below shows the locations of experiments without controlled environments. Following the link on the marker will take you to the details of each experiment, including the observed and predicted values for different traits, and the performance metrics.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments without controlled environments."
   },
   {
-    "objectID": "about.html#acknowledgment",
-    "href": "about.html#acknowledgment",
-    "title": "About",
-    "section": "🙏 Acknowledgment",
-    "text": "🙏 Acknowledgment\nAcknowledgment is made to the APSIM Initiative which takes responsibility for quality assurance and a structured innovation programme for APSIM’s modelling software, which is provided free for research and development use. See www.apsim.info for details."
+    "objectID": "crop/lentil/cultivar/Ace.html#performance",
+    "href": "crop/lentil/cultivar/Ace.html#performance",
+    "title": "Ace",
+    "section": "Performance",
+    "text": "Performance\nOverview\nThe table below summarizes the performance of APSIM NG for cultivar Ace across all experiments.\n\n\n\n\nTable 3: Performance summary for cultivar Ace across all experiments\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntrait\nn\nr\nr2\nbias\nmse\nrmse\nnrmse\nd\n\n\n\n\nAboveGround.Wt\n115\n0.64\n0.41\n-127.19\n46961.62\n216.71\n0.84\n0.72\n\n\nGrain.HarvestIndex\n26\n0.26\n0.07\n-0.08\n0.02\n0.16\n0.57\n0.50\n\n\nGrain.Size\n8\nNA\nNA\n0.04\n0.00\n0.04\n1.01\n0.11\n\n\nGrain.Wt\n66\n0.35\n0.12\n-108.92\n20806.92\n144.25\n1.67\n0.35\n\n\nLeaf.NodeNumber\n56\n0.97\n0.93\n-2.07\n8.26\n2.87\n0.30\n0.94\n\n\nPhenology.EmergenceDAS\n18\n0.39\n0.15\n-0.33\n16.56\n4.07\n0.42\n0.63\n\n\nPhenology.MaturityDAS\n23\n0.77\n0.59\n-6.61\n314.27\n17.73\n0.12\n0.86\n\n\nPhenology.StartBuddingDAS\n3\n0.99\n0.98\n-1.33\n24.67\n4.97\n0.06\n0.98\n\n\nPhenology.StartFloweringDAS\n20\n0.84\n0.71\n-5.23\n128.79\n11.35\n0.12\n0.89\n\n\nPhenology.StartPoddingDAS\n20\n0.93\n0.86\n0.35\n90.50\n9.51\n0.09\n0.95\n\n\n\n\n\n\n\n\nComparison of observed and predicted values\nThe model performance is compared with observed and predicted values for cultivar Ace across all experiments. The plots below show the observed vs predicted values for different traits. Each point represents an observation from an experiment. The closer the points are to the diagonal line, the better the performance of the model for that trait.\nThe range of observed and predicted values are estimated using data in this page, which may be misleading for the narrow ranges of observed and predicted values.\nUsing the Expand All and Collapse All buttons below, you can expand or collapse the sections for each trait to see the observed vs predicted plots for different traits.\n\n\nExpand All\n\n\nCollapse All\n\n\n\n\n\n\n\n\n\nNoteAboveGround.Wt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteGrain.HarvestIndex\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteGrain.Size\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteGrain.Wt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteLeaf.NodeNumber\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.EmergenceDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.MaturityDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.StartBuddingDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.StartFloweringDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.StartPoddingDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits."
+  },
+  {
+    "objectID": "crop/wheat/experiment/DookieWWHI2024.html",
+    "href": "crop/wheat/experiment/DookieWWHI2024.html",
+    "title": "DookieWWHI2024",
+    "section": "",
+    "text": "This report is generated for performance of Wheat model in APSIM NG for experiment DookieWWHI2024."
+  },
+  {
+    "objectID": "crop/wheat/experiment/DookieWWHI2024.html#experiment-information",
+    "href": "crop/wheat/experiment/DookieWWHI2024.html#experiment-information",
+    "title": "DookieWWHI2024",
+    "section": "Experiment Information",
+    "text": "Experiment Information\n\nThe experiment specific information is provided in the memo of apsimx file.\n\n)"
+  },
+  {
+    "objectID": "crop/wheat/experiment/DookieWWHI2024.html#cultivars",
+    "href": "crop/wheat/experiment/DookieWWHI2024.html#cultivars",
+    "title": "DookieWWHI2024",
+    "section": "Cultivars",
+    "text": "Cultivars"
+  },
+  {
+    "objectID": "crop/wheat/experiment/DookieWWHI2024.html#performance",
+    "href": "crop/wheat/experiment/DookieWWHI2024.html#performance",
+    "title": "DookieWWHI2024",
+    "section": "Performance",
+    "text": "Performance\nOverview\nThe table below summarizes the performance of APSIM NG for all cultivars across experiment DookieWWHI2024.\n\n\n\n\nTable 1: Performance summary for all cultivars across experiment DookieWWHI2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntrait\nn\nr\nr2\nbias\nmse\nrmse\nnrmse\nd\n\n\n\n\nAboveGround.Wt\n128\n0.93\n0.86\n-57.95\n9926.81\n99.63\n0.11\n0.94\n\n\nEar.Wt\n128\n0.98\n0.96\n11.26\n3127.19\n55.92\n0.15\n0.99\n\n\nGrain.Number\n64\n0.05\n0.00\n-2831.68\n15469523.26\n3933.13\n0.31\n0.30\n\n\nGrain.Size\n64\n0.08\n0.01\n0.01\n0.00\n0.01\n0.21\n0.34\n\n\nGrain.Wt\n64\n0.16\n0.03\n8.09\n4471.22\n66.87\n0.13\n0.49\n\n\nLeaf.CoverTotal\n64\n0.34\n0.11\n0.01\n0.00\n0.04\n0.04\n0.49\n\n\nLeaf.Dead.Wt\n128\n0.80\n0.63\n-45.06\n7790.73\n88.27\n1.19\n0.54\n\n\nLeaf.Height\n64\n0.87\n0.76\n59.69\n8096.53\n89.98\n0.12\n0.87\n\n\nLeaf.Live.Wt\n64\n0.42\n0.17\n-137.20\n29857.47\n172.79\n0.91\n0.25\n\n\nPhenology.HaunStage\n296\n1.00\n0.99\n-0.12\n0.09\n0.30\n0.04\n1.00\n\n\nPhenology.Stage\n96\n1.00\n1.00\n-0.04\n0.01\n0.09\n0.02\n1.00\n\n\nSpike.Wt\n96\n0.96\n0.91\n17.92\n659.54\n25.68\n0.24\n0.95\n\n\nStem.Wt\n128\n0.54\n0.29\n44.45\n11606.30\n107.73\n0.28\n0.68\n\n\n\n\n\n\n\n\nComparison of observed and predicted values\nThe model performance is compared with observed and predicted values for all cultivars across experiment DookieWWHI2024. The plots below show the observed vs predicted values for different traits. Each point represents an observation from an experiment. The closer the points are to the diagonal line, the better the performance of the model for that trait.\nThe range of observed and predicted values are estimated using data in this page, which may be misleading for the narrow ranges of observed and predicted values.\nUsing the Expand All and Collapse All buttons below, you can expand or collapse the sections for each trait to see the observed vs predicted plots for different traits.\n\n\nExpand All\n\n\nCollapse All\n\n\n\n\n\n\n\n\n\nNoteAboveGround.Wt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteEar.Wt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteGrain.Number\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteGrain.Size\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteGrain.Wt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteLeaf.CoverTotal\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteLeaf.Dead.Wt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteLeaf.Height\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteLeaf.Live.Wt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.HaunStage\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.Stage\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteSpike.Wt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteStem.Wt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits."
   }
 ]
