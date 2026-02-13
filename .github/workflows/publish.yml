@@ -63,11 +63,22 @@ jobs:
         env:
           R_PROFILE_USER: ${{ github.workspace }}/.Rprofile
         run: |
-          files=$(jq -r ".[$GROUP_ID][]" _render_groups.json)
-          for file in $files; do
-            echo "Rendering $file"
-            quarto render "$file"
-          done
+          Rscript -e "
+          library(jsonlite)
+          library(quarto)
+
+          # Read groups
+          groups <- fromJSON('_render_groups.json')
+
+          # Get files for this matrix job
+          files <- groups[[${{ matrix.group_id }} + 1]] # R is 1-based
+
+          # Render each file
+          for (f in files) {
+            cat('Rendering', f, '\n')
+            quarto::quarto_render(f)
+          }
+          "
 
       - name: Upload site fragment
         uses: actions/upload-artifact@v4
