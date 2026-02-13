@@ -129,3 +129,5 @@ template_home <- whisker::whisker.render(template_home, list(
     crop_table = crop_table
 ))
 writeLines(template_home, "index.qmd")
+
+list_qmd_files()

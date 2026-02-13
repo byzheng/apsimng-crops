@@ -83,3 +83,21 @@ strip_base_path <- function(paths, base_folder) {
         paths
     )
 }
+
+
+list_qmd_files <- function(workers = 20) {
+    files <- list.files(".",
+                    pattern = "\\.qmd$",
+                    recursive = TRUE,
+                    full.names = TRUE)
+    files <- files[!grepl("_template", files)]  
+    # make sure each worker has at least 3 files to render, otherwise reduce the number of workers
+    workers <- min(workers, floor(length(files) / 3))    
+    groups <- vector("list", workers)
+
+    for (i in seq_along(files)) {
+        idx <- ((i - 1) %% workers) + 1
+        groups[[idx]] <- c(groups[[idx]], files[i])
+    }
+    writeLines(jsonlite::toJSON(groups, auto_unbox = TRUE), "_render_groups.json")
+}

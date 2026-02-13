@@ -14,7 +14,7 @@ jobs:
       contents: write
 
     outputs:
-      crops: ${{ steps.crops.outputs.crops }}
+      groups: ${{ steps.groups.outputs.groups }}
 
     steps:
       - uses: actions/checkout@v4
@@ -28,11 +28,12 @@ jobs:
       - name: Generate qmd files
         run: Rscript _scripts/generate_qmd.R
 
-      - name: Detect crops
-        id: crops
+      - name: Read render groups
+        id: groups
         run: |
-          crops=$(ls crop | sed '/^$/d' | awk 'BEGIN{printf "["} {printf "%s\"%s\"", (NR==1?"":","), $0} END{print "]"}')
-          echo "crops=$crops" >> $GITHUB_OUTPUT
+          # _render_groups.json contains a JSON array of arrays
+          echo "groups=$(cat _render_groups.json)" >> $GITHUB_OUTPUT
+
 
       - name: Upload workspace
         uses: actions/upload-artifact@v4
@@ -41,7 +42,8 @@ jobs:
           path: .
           include-hidden-files: true
 
-  render-crops:
+
+  render-files:
     needs: prepare
     runs-on: ubuntu-latest
     container:
@@ -50,7 +52,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        crop: ${{ fromJson(needs.prepare.outputs.crops) }}
+        group: ${{ fromJson(needs.prepare.outputs.groups) }}
 
     steps:
       - uses: actions/download-artifact@v4
@@ -58,19 +60,23 @@ jobs:
           name: workspace
           path: .
 
-      - name: Render crop
+      - name: Render Group Files
         env:
           R_PROFILE_USER: ${{ github.workspace }}/.Rprofile
-        run: quarto render crop/${{ matrix.crop }}
+        run: |
+          for file in $(echo '${{ toJson(matrix.group) }}' | jq -r '.[]'); do
+            quarto render "$file"
+          done
 
-      - name: Upload site part
+      - name: Upload site fragment
         uses: actions/upload-artifact@v4
         with:
-          name: site-${{ matrix.crop }}
+          name: site-${{ strategy.job-index }}
           path: _site
 
+
   deploy:
-    needs: render-crops
+    needs: render-files
     runs-on: ubuntu-latest
     container:
       image: ghcr.io/byzheng/apsimx-quarto-podman:latest
@@ -98,12 +104,18 @@ jobs:
       - name: Merge site parts
         run: |
           mkdir -p final_site
+          # Copy main _site (global pages)
           cp -r _site/* final_site/
-          find site-parts -type d -name _site -exec sh -c 'cp -r "$1"/* final_site/' _ {} \;
 
-      - name: Publish
+          # Loop through all matrix site uploads
+          for dir in site-parts/site-*; do
+            if [ -d "$dir/_site" ]; then
+              cp -r "$dir/_site/"* final_site/
+            fi
+          done
+
+      - name: Publish to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: final_site
-
