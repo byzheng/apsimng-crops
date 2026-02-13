@@ -77,7 +77,7 @@ jobs:
 
           for (f in files) {
             cat('Rendering', f, '...\n')
-            system(paste("quarto render", f, "--output-dir", output_dir))
+            system(paste('quarto render', f, '--output-dir', output_dir))
           }
           "
 
