@@ -39,6 +39,7 @@ jobs:
         with:
           name: workspace
           path: .
+          include-hidden-files: true
 
   render-crops:
     needs: prepare
@@ -58,6 +59,8 @@ jobs:
           path: .
 
       - name: Render crop
+        env:
+          R_PROFILE_USER: ${{ github.workspace }}/.Rprofile
         run: quarto render crop/${{ matrix.crop }}
 
       - name: Upload site part
@@ -86,6 +89,8 @@ jobs:
           path: site-parts
 
       - name: Render global pages
+        env:
+          R_PROFILE_USER: ${{ github.workspace }}/.Rprofile
         run: |
           quarto render index.qmd
           quarto render about.qmd
