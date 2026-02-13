@@ -33,14 +33,12 @@ jobs:
         run: |
           echo "group_ids=$(cat _render_group_ids.json)" >> $GITHUB_OUTPUT
 
-
       - name: Upload workspace
         uses: actions/upload-artifact@v4
         with:
           name: workspace
           path: .
           include-hidden-files: true
-
 
   render-files:
     needs: prepare
@@ -59,7 +57,7 @@ jobs:
           name: workspace
           path: .
 
-      - name: Render Group Files
+      - name: Render Group Files in R
         env:
           R_PROFILE_USER: ${{ github.workspace }}/.Rprofile
         run: |
@@ -73,23 +71,21 @@ jobs:
           # Get files for this matrix job
           files <- groups[[${{ matrix.group_id }} + 1]] # R is 1-based
 
-          # Render each file
+          # Render into a dedicated folder for this job
+          output_dir <- paste0('site-', Sys.getenv('GITHUB_RUN_ID'), '-', ${ { matrix.group_id }})
+          dir.create(output_dir, recursive = TRUE, showWarnings = FALSE)
+
           for (f in files) {
-            cat('Rendering', f, '\n')
-            quarto::quarto_render(f)
+            cat('Rendering', f, '...\n')
+            quarto::quarto_render(f, output_dir = output_dir)
           }
           "
-
-      - name: Prepare site fragment
-        run: |
-          mkdir -p site-${{ strategy.job-index }}
-          cp -r _site site-${{ strategy.job-index }}/_site
 
       - name: Upload site fragment
         uses: actions/upload-artifact@v4
         with:
-          name: site-${{ strategy.job-index }}
-          path: site-${{ strategy.job-index }}
+          name: site-${{ matrix.group_id }}
+          path: site-*
 
   deploy:
     needs: render-files
@@ -120,14 +116,18 @@ jobs:
       - name: Merge site parts
         run: |
           mkdir -p final_site
-          # Copy main _site (global pages)
+          # Copy global pages first
           cp -r _site/* final_site/
 
-          # Loop through all matrix site uploads
+          # Merge all matrix group folders
           for dir in site-parts/site-*; do
-            if [ -d "$dir/_site" ]; then
-              cp -r "$dir/_site/"* final_site/
-            fi
+            find "$dir" -type f ! -name 'index.html' -exec bash -c '
+              for f; do
+                target="final_site/${f#"$dir/"}"
+                mkdir -p "$(dirname "$target")"
+                cp "$f" "$target"
+              done
+            ' bash {} +
           done
 
       - name: Publish to GitHub Pages
