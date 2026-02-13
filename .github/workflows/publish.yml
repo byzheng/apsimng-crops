@@ -64,7 +64,8 @@ jobs:
         env:
           R_PROFILE_USER: ${{ github.workspace }}/.Rprofile
         run: |
-          for file in $(echo '${{ toJson(matrix.group) }}' | jq -r '.[]'); do
+          echo '${{ toJson(matrix.group) }}' | jq -r '.[]' | while IFS= read -r file; do
+            echo "Rendering $file"
             quarto render "$file"
           done
 
