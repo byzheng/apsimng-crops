@@ -33,38 +33,31 @@ merge_site <- function(site_dir = "_site",
         nested <- Sys.glob(file.path(dir, "site-*"))
         source_root <- if (length(nested) > 0) nested[[1]] else dir
 
-        crop_root <- file.path(source_root, "crop")
-        if (!dir.exists(crop_root)) next
+        source_files <- list.files(source_root, recursive = TRUE, full.names = TRUE, all.files = FALSE, no.. = TRUE)
+        source_files <- source_files[file.info(source_files)$isdir == FALSE]
 
-        crop_files <- list.files(crop_root, recursive = TRUE, full.names = TRUE, all.files = FALSE, no.. = TRUE)
-        crop_files <- crop_files[file.info(crop_files)$isdir == FALSE]
+        source_root_norm <- normalizePath(source_root, winslash = "/", mustWork = TRUE)
 
-        crop_root_norm <- normalizePath(crop_root, winslash = "/", mustWork = TRUE)
-
-        for (src in crop_files) {
+        for (src in source_files) {
             src_norm <- normalizePath(src, winslash = "/", mustWork = TRUE)
-            rel <- sub(paste0("^", crop_root_norm, "/"), "", src_norm)
-            dst <- file.path(output_dir, "crop", rel)
+            rel <- sub(paste0("^", source_root_norm, "/"), "", src_norm)
+            dst <- file.path(output_dir, rel)
             dir.create(dirname(dst), recursive = TRUE, showWarnings = FALSE)
 
             if (file.exists(dst)) {
                 collision_count <- collision_count + 1L
-                message("Skipping existing file: ", dst, " (from ", src, ")")
-                next
+                message("Overwriting existing file: ", dst, " (from ", src, ")")
             }
 
-            file.copy(src, dst, overwrite = FALSE, copy.mode = TRUE, copy.date = TRUE)
+            file.copy(src, dst, overwrite = TRUE, copy.mode = TRUE, copy.date = TRUE)
         }
     }
 
     merged_files <- list.files(output_dir, recursive = TRUE, full.names = TRUE, all.files = FALSE, no.. = TRUE)
     merged_files <- merged_files[file.info(merged_files)$isdir == FALSE]
-    crop_merged_files <- list.files(file.path(output_dir, "crop"), recursive = TRUE, full.names = TRUE, all.files = FALSE, no.. = TRUE)
-    crop_merged_files <- if (length(crop_merged_files) == 0) character(0) else crop_merged_files[file.info(crop_merged_files)$isdir == FALSE]
 
     message("Merged file count in ", output_dir, ": ", length(merged_files))
-    message("Merged crop file count in ", file.path(output_dir, "crop"), ": ", length(crop_merged_files))
-    message("Skipped collisions: ", collision_count)
+    message("Overwritten files: ", collision_count)
 
     if (length(merged_files) > 0) {
         sample_files <- head(sort(sub(paste0("^", normalizePath(output_dir, winslash = "/", mustWork = TRUE), "/"), "", normalizePath(merged_files, winslash = "/", mustWork = TRUE))), 30)
@@ -72,7 +65,7 @@ merge_site <- function(site_dir = "_site",
         for (f in sample_files) message(" - ", f)
     }
 
-    invisible(list(total = length(merged_files), crop = length(crop_merged_files), collisions = collision_count))
+    invisible(list(total = length(merged_files), overwritten = collision_count))
 }
 
 merge_site()
