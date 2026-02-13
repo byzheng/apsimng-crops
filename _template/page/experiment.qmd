@@ -24,6 +24,11 @@ if (!exists("params") || grepl("\\{", params$crop)) {
 ```{r data-obs-sim}
 # Read the obs/prediction files
 obs_sim <- get_obs(crop)
+obs_sim_experiment <- obs_sim |> 
+    dplyr::filter(ExperimentName == experiment)
+cultivars <- obs_sim_experiment |> 
+    dplyr::distinct(Genotype) |> 
+    dplyr::rename(Cultivar = Genotype)
 apsimx <- get_model(crop)
 experiment_data <- get_experiment_data(crop)
 experiment_data <- experiment_data |> 
@@ -38,12 +43,24 @@ This report is generated for performance of `r crop` model in APSIM NG for exper
 
 ```{r info-experiment, results = "asis"}
 if (nrow(experiment_data) == 0) {
-    cat("No data available information for this experiment.")
+    cat("<div class='intro-text'>No data available information for this experiment.</div>")
 } else {
-    cat("The experiment specific information is provided in the memo of apsimx file.")
+    cat("<div class='intro-text'>The experiment specific information is provided in the memo of apsimx file.</div>")
     cat("\n\n)")
     cat(experiment_data$Memo)
 }
 
 ```
 
+
+```{r child-performance, results = "asis"}
+cat(render_child(
+    here::here("_template/section/cultivars.qmd"),
+    cultivars = cultivars
+))
+cat(render_child(
+    here::here("_template/section/performance.qmd"),
+    obs_sim = obs_sim_experiment,
+    experiment = experiment
+))
+```

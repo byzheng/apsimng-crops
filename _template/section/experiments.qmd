@@ -17,7 +17,7 @@ There are `r nrow(experiments)` experiments which tested `r cultivar_string` in 
 ```{r tbl-experiments}
 tbl <- experiments |> 
     dplyr::mutate(Link = paste0(
-        "<a href='", "experiments/", ExperimentName, ".html", "'>",
+        "<a href='", "experiment/", ExperimentName, ".html", "'>",
         ExperimentName,
         "</a>"
     ))  |> 
@@ -47,7 +47,7 @@ experiments |>
     leaflet::addTiles() |>
     leaflet::addMarkers(~Longitude, ~Latitude, 
         popup = ~paste0(
-            "<a href='experiments/", ExperimentName, ".html'>",
+            "<a href='experiment/", ExperimentName, ".html'>",
             ExperimentName,
             "</a>"
         ))

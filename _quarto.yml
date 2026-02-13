@@ -7,7 +7,7 @@ execute:
   warning: false
   fig.align: center
   out.width: 100%
-  freeze: auto
+  freeze: false
 website:
   title: "APSIM NG Crops"
   google-analytics: 

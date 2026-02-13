@@ -4,15 +4,16 @@
 if (!exists("params")) {
     stop("This template must be rendered via knit_child() with params supplied.")
 }
-cultivar <- params$cultivar
+cultivar <- ifelse(is.null(params$cultivar), "All", params$cultivar)
+experiment <- ifelse(is.null(params$experiment), "All", params$experiment)
 obs_sim <- params$obs_sim
 cultivar_string <- ifelse(cultivar == "All", "all cultivars", sprintf("cultivar `%s`", cultivar))
+experiment_string <- ifelse(experiment == "All", "all experiments", sprintf("experiment `%s`", experiment))
 ```
 
 ## Performance
 
 ```{r data-trait}
-cultivar_text <- ifelse(cultivar == "All", "all cultivars", paste0("cultivar ", cultivar))
 traits <- obs_sim |> 
     dplyr::distinct(trait) |> 
     dplyr::pull(trait) |> 
@@ -21,11 +22,11 @@ traits <- obs_sim |>
 
 **Overview**
 
-The table below summarizes the performance of APSIM NG for `r cultivar_text` across all experiments.
+The table below summarizes the performance of APSIM NG for `r cultivar_string` across `r experiment_string`.
 
 
 ```{r tbl-performance-summary}
-tbl_cap <- sprintf("Performance summary for %s", cultivar_text)
+tbl_cap <- sprintf("Performance summary for %s across %s", cultivar_string, experiment_string)
 obs_sim |> 
     dplyr::group_by(trait) |>
     myutils::model_summarise(x = "Observed", y = "Predicted", digits = 2)|>
@@ -36,7 +37,7 @@ obs_sim |>
 
 **Comparison of observed and predicted values**
 
-The model performance is compared with observed and predicted values for `r cultivar_text` across all experiments. The plots below show the observed vs predicted values for different traits. Each point represents an observation from an experiment. The closer the points are to the diagonal line, the better the performance of the model for that trait.
+The model performance is compared with observed and predicted values for `r cultivar_string` across `r experiment_string`. The plots below show the observed vs predicted values for different traits. Each point represents an observation from an experiment. The closer the points are to the diagonal line, the better the performance of the model for that trait.
 
 The range of observed and predicted values are estimated using data in this page, which may be misleading for the narrow ranges of observed and predicted values. 
 

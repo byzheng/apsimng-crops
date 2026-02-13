@@ -75,5 +75,22 @@ has_data <- nrow(obs_sim_cultivar) > 0
 ```
 
 
-```{r, child=if (!has_data) here::here('_template/page/cultivar_without_data.qmd') else here::here('_template/page/cultivar_with_data.qmd')}
+
+```{r child-performance, results = "asis"}
+if (!has_data) {
+    cat(render_child(
+        here::here("_template/section/no-data-warning.qmd")
+    ))
+} else {
+    cat(render_child(
+        here::here("_template/section/experiments.qmd"),
+        experiments = experiments,
+        cultivar = cultivar
+    ))
+    cat(render_child(
+        here::here("_template/section/performance.qmd"),
+        obs_sim = obs_sim_cultivar,
+        cultivar = cultivar
+    ))
+}
 ```
