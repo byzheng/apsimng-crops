@@ -1,6 +1,5 @@
 project:
   type: website
-  pre-render: _scripts/generate_qmd.R
 execute:
   echo: false
   message: false

@@ -3,9 +3,9 @@ is_github <- Sys.getenv("GITHUB_ACTIONS") == "true"
 
 APSIMX_DIR <- Sys.getenv("APSIMX_DIR")
 target_crops <- c("Barley", "Wheat", "Canola", "Chickpea", "Lentil") # list of crops to process
-#if (!is_github) {
-    #target_crops <- "Chickpea"
-#}
+if (!is_github) {
+    target_crops <- "Chickpea"
+}
 
 template_cultivar_file <- "_template/page/cultivar.qmd" # Template for cultivar report
 template_experiment <- "_template/page/experiment.qmd" # Template for experiment report
@@ -46,10 +46,10 @@ for (i in seq(along = crops[[1]])) {
     cultivars <- rapsimng::get_cultivar(apsimx, alias = TRUE) |> tibble::tibble()
     cultivars_names <- cultivars$standard_name |> unique()
     
-    #if (!is_github) {
+    if (!is_github) {
         # local debugging, only keep first 2 cultivars
         cultivars_names <- cultivars_names[1:2]
-    # }
+    }
 
     crop_output_dir <- paste0("crop/", tolower(crop), "/cultivar")
     if (!dir.exists(crop_output_dir)) {
@@ -82,10 +82,10 @@ for (i in seq(along = crops[[1]])) {
     experiments <- all_reports |> 
         dplyr::distinct(ExperimentName) |> 
         dplyr::pull(ExperimentName)      
-    #if (!is_github) {
+    if (!is_github) {
         # local debugging, only keep first 2 cultivars
         experiments <- experiments[1:2]
-    #}
+    }
 
     exp_output_dir <- paste0("crop/", tolower(crop), "/experiment")
     if (!dir.exists(exp_output_dir)) {
