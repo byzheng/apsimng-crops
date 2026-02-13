@@ -52,7 +52,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        group: ${{ fromJson(needs.prepare.outputs.groups) }}
+        group_id: ${{ range(fromJson(needs.prepare.outputs.groups) | length) }}
 
     steps:
       - uses: actions/download-artifact@v4
@@ -64,7 +64,8 @@ jobs:
         env:
           R_PROFILE_USER: ${{ github.workspace }}/.Rprofile
         run: |
-          echo '${{ toJson(matrix.group) }}' | jq -r '.[]' | while IFS= read -r file; do
+          files=$(jq -r ".[$GROUP_ID][]" _render_groups.json)
+          for file in $files; do
             echo "Rendering $file"
             quarto render "$file"
           done
