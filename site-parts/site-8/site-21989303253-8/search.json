@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "crop/canola/experiment/Gatton2015.html",
+    "href": "crop/canola/experiment/Gatton2015.html",
+    "title": "Gatton2015",
+    "section": "",
+    "text": "This report is generated for performance of Canola model in APSIM NG for experiment Gatton2015."
+  },
+  {
+    "objectID": "crop/canola/experiment/Gatton2015.html#experiment-information",
+    "href": "crop/canola/experiment/Gatton2015.html#experiment-information",
+    "title": "Gatton2015",
+    "section": "Experiment Information",
+    "text": "Experiment Information\n\nThe experiment specific information is provided in the memo of apsimx file.\n\n)NA"
+  },
+  {
+    "objectID": "crop/canola/experiment/Gatton2015.html#cultivars",
+    "href": "crop/canola/experiment/Gatton2015.html#cultivars",
+    "title": "Gatton2015",
+    "section": "Cultivars",
+    "text": "Cultivars"
+  },
+  {
+    "objectID": "crop/canola/experiment/Gatton2015.html#performance",
+    "href": "crop/canola/experiment/Gatton2015.html#performance",
+    "title": "Gatton2015",
+    "section": "Performance",
+    "text": "Performance\nOverview\nThe table below summarizes the performance of APSIM NG for all cultivars across experiment Gatton2015.\n\n\n\n\nTable 1: Performance summary for all cultivars across experiment Gatton2015\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntrait\nn\nr\nr2\nbias\nmse\nrmse\nnrmse\nd\n\n\n\n\nLeaf.TrueLeafNumber\n390\n0.94\n0.89\n0.02\n1.13\n1.06\n0.33\n0.96\n\n\nPhenology.EmergenceDAS\n84\n0.77\n0.60\n0.57\n1.43\n1.20\n0.14\n0.81\n\n\nPhenology.FloralInitiationDAS\n82\n0.97\n0.94\n1.74\n52.74\n7.26\n0.13\n0.98\n\n\nPhenology.GreenBudDAS\n84\n0.97\n0.94\n-1.42\n72.75\n8.53\n0.12\n0.98\n\n\nPhenology.StartFloweringDAS\n75\n0.97\n0.95\n4.84\n169.96\n13.04\n0.13\n0.97\n\n\n\n\n\n\n\n\nComparison of observed and predicted values\nThe model performance is compared with observed and predicted values for all cultivars across experiment Gatton2015. The plots below show the observed vs predicted values for different traits. Each point represents an observation from an experiment. The closer the points are to the diagonal line, the better the performance of the model for that trait.\nThe range of observed and predicted values are estimated using data in this page, which may be misleading for the narrow ranges of observed and predicted values.\nUsing the Expand All and Collapse All buttons below, you can expand or collapse the sections for each trait to see the observed vs predicted plots for different traits.\n\n\nExpand All\n\n\nCollapse All\n\n\n\n\n\n\n\n\n\nNoteLeaf.TrueLeafNumber\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.EmergenceDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.FloralInitiationDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.GreenBudDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.StartFloweringDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits."
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "crop/canola/cultivar/GenericWinter.html",
+    "href": "crop/canola/cultivar/GenericWinter.html",
+    "title": "GenericWinter",
+    "section": "",
+    "text": "This report is generated for performance of Canola model in APSIM NG for cultivar GenericWinter."
+  },
+  {
+    "objectID": "crop/canola/cultivar/GenericWinter.html#cultivar-information",
+    "href": "crop/canola/cultivar/GenericWinter.html#cultivar-information",
+    "title": "GenericWinter",
+    "section": "Cultivar Information",
+    "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for GenericWinter\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Vegetative.Target.XYPairs.X\n0,30\n\n\n[Phenology].Vegetative.Target.XYPairs.Y\n2200,250\n\n\n[Leaf].Phyllochron.Base.FixedValue\n54\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWarning\n\n\n\n\nNo experiments and observations available for this cultivar in the validation test of APSIM NG."
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Welcome to my personal documentation site for cultivar performance in APSIM Next Generation.\nThis site provides a overview of cultivar performances for various crops simulated using APSIM Next Generation (APSIM NG)."
+  },
+  {
+    "objectID": "about.html#not-official-documentation",
+    "href": "about.html#not-official-documentation",
+    "title": "About",
+    "section": "Not Official Documentation",
+    "text": "Not Official Documentation\n\nThis site is not the official APSIM documentation.\n\nThe official resources are available here:\n\n📘 APSIM Documentation (legacy)\n🔬 Model Validation\n🧪 APSIM GitHub Repository"
+  },
+  {
+    "objectID": "about.html#license-and-attribution",
+    "href": "about.html#license-and-attribution",
+    "title": "About",
+    "section": "⚖️ License and Attribution",
+    "text": "⚖️ License and Attribution\nThis documentation includes content derived from:\n\nThe source code of APSIM Next Generation\n\nIt is provided under the General Use Licence Agreement for Agricultural Production Systems Simulator (APSIM).\n\nThis is an independent learning resource compiled and maintained by myself. It is not an official publication of the APSIM Initiative and may contain personal interpretations or errors."
+  },
+  {
+    "objectID": "about.html#acknowledgment",
+    "href": "about.html#acknowledgment",
+    "title": "About",
+    "section": "🙏 Acknowledgment",
+    "text": "🙏 Acknowledgment\nAcknowledgment is made to the APSIM Initiative which takes responsibility for quality assurance and a structured innovation programme for APSIM’s modelling software, which is provided free for research and development use. See www.apsim.info for details."
+  }
+]
