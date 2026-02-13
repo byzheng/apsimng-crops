@@ -3,9 +3,9 @@ is_github <- Sys.getenv("GITHUB_ACTIONS") == "true"
 
 APSIMX_DIR <- Sys.getenv("APSIMX_DIR")
 target_crops <- c("Barley", "Wheat", "Canola", "Chickpea", "Lentil") # list of crops to process
-if (!is_github) {
-    target_crops <- "Chickpea"
-}
+#if (!is_github) {
+    #target_crops <- "Chickpea"
+#}
 
 template_cultivar_file <- "_template/page/cultivar.qmd" # Template for cultivar report
 template_experiment <- "_template/page/experiment.qmd" # Template for experiment report
@@ -29,6 +29,7 @@ crops <- tibble::tibble(Model = c(models, prototypes)) |>
     dplyr::mutate(Crop = tools::file_path_sans_ext(basename(Model)))
 crops <- crops |> 
     dplyr::filter(Crop %in% target_crops)
+unlink("crop", recursive = TRUE)
 i <- 1
 for (i in seq(along = crops[[1]])) {
     crop <- crops$Crop[i]
