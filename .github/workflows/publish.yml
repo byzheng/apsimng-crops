@@ -1,29 +1,30 @@
+name: Quarto Publish
+
 on:
   workflow_dispatch:
   push:
     branches: main
 
-name: Quarto Publish
-
 jobs:
-  build-deploy:
+
+  prepare:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+
+    outputs:
+      crops: ${{ steps.crops.outputs.crops }}
+
     steps:
-      - name: Check out repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Set up Quarto
-        uses: quarto-dev/quarto-actions/setup@v2
+      - uses: quarto-dev/quarto-actions/setup@v2
 
-      - name: Install R
-        uses: r-lib/actions/setup-r@v2
+      - uses: r-lib/actions/setup-r@v2
         with:
           r-version: '4.5.0'
-      
-      - name: Install system dependencies
-        run: |
+      - name: Install system dependencies 
+        run: | 
           sudo apt-get update
           sudo apt-get install -y \
             libcurl4-openssl-dev \
@@ -38,31 +39,99 @@ jobs:
             libfontconfig1-dev \
             libfreetype6-dev
 
-      - name: Install R Dependencies
-        uses: r-lib/actions/setup-renv@v2
+      - uses: r-lib/actions/setup-renv@v2
         with:
           cache-version: 1
 
       - name: Compile APSIMX
         uses: byzheng/apsimx-actions@main
-      
+
       - name: Checkout Data Repository
         uses: actions/checkout@v4
         with:
           repository: byzheng/apsimng-crops-data
           path: _data
-      
-      - name: Cache Quarto freeze state
-        uses: actions/cache@v3
-        with:
-          path: _freeze
-          key: freeze-${{ github.ref }}-${{ hashFiles('Tests/Validation/**/*.qmd') }}
-          restore-keys: |
-            freeze-${{ github.ref }}-
 
-      - name: Render and Publish
-        uses: quarto-dev/quarto-actions/publish@v2
+      - name: Generate qmd files
+        run: Rscript _scripts/generate_qmd.R
+
+      - name: Detect crops
+        id: crops
+        run: |
+          echo "crops=$(ls crop | jq -R -s -c 'split("\n")[:-1]')" >> $GITHUB_OUTPUT
+
+      - name: Upload workspace
+        uses: actions/upload-artifact@v4
         with:
-          target: gh-pages
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          name: workspace
+          path: .
+
+  render-crops:
+    needs: prepare
+    runs-on: ubuntu-latest
+
+    strategy:
+      fail-fast: false
+      matrix:
+        crop: ${{ fromJson(needs.prepare.outputs.crops) }}
+
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: workspace
+
+      - uses: quarto-dev/quarto-actions/setup@v2
+
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: '4.5.0'
+
+      - uses: r-lib/actions/setup-renv@v2
+        with:
+          cache-version: 1
+
+      - name: Render crop
+        run: quarto render crop/${{ matrix.crop }}
+
+      - name: Upload site part
+        uses: actions/upload-artifact@v4
+        with:
+          name: site-${{ matrix.crop }}
+          path: _site
+
+  deploy:
+    needs: render-crops
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/download-artifact@v4
+
+      - uses: quarto-dev/quarto-actions/setup@v2
+
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: '4.5.0'
+
+      - uses: r-lib/actions/setup-renv@v2
+        with:
+          cache-version: 1
+
+      - name: Render global pages
+        run: |
+          quarto render index.qmd
+          quarto render about.qmd
+
+      - name: Merge site parts
+        run: |
+          mkdir final_site
+          cp -r site-*/** final_site/ || true
+          cp -r _site/* final_site/
+
+      - name: Publish
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: final_site
+
