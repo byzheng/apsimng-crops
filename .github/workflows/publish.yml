@@ -70,7 +70,7 @@ jobs:
 
           # Get files for this matrix job
           files <- groups[[${{ matrix.group_id }} + 1]] # R is 1-based
-
+          print(files)
           # Render into a dedicated folder for this job
           output_dir <- paste0('site-', Sys.getenv('GITHUB_RUN_ID'), '-', '${{ matrix.group_id }}')
           dir.create(output_dir, recursive = TRUE, showWarnings = FALSE)
