@@ -1,86 +1,912 @@
 [
   {
-    "objectID": "crop/canola/experiment/Gatton2015.html",
-    "href": "crop/canola/experiment/Gatton2015.html",
-    "title": "Gatton2015",
+    "objectID": "crop/barley/cultivar/Commander.html",
+    "href": "crop/barley/cultivar/Commander.html",
+    "title": "Commander",
     "section": "",
-    "text": "This report is generated for performance of Canola model in APSIM NG for experiment Gatton2015."
+    "text": "This report is generated for performance of Barley model in APSIM NG for cultivar Commander."
   },
   {
-    "objectID": "crop/canola/experiment/Gatton2015.html#experiment-information",
-    "href": "crop/canola/experiment/Gatton2015.html#experiment-information",
-    "title": "Gatton2015",
+    "objectID": "crop/barley/cultivar/Commander.html#cultivar-information",
+    "href": "crop/barley/cultivar/Commander.html#cultivar-information",
+    "title": "Commander",
+    "section": "Cultivar Information",
+    "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Commander\n\n\n\n\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].MinimumLeafNumber.FixedValue\n9\n\n\n[Phenology].PpSensitivity.FixedValue\n3\n\n\n[Phenology].VrnSensitivity.FixedValue\n0\n\n\n[Phenology].EarlyReproductivePpSensitivity.FixedValue\n2\n\n\n[Structure].BranchMortality.MortalityPhase.Mortality.MortalityPerDegDay.XYPairs.Y\n0.001,0"
+  },
+  {
+    "objectID": "crop/barley/cultivar/Commander.html#experiments",
+    "href": "crop/barley/cultivar/Commander.html#experiments",
+    "title": "Commander",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 12 experiments which tested cultivar Commander in the validation test dataset of APSIM NG. Following the link below to see the details of each experiment, including the observed and predicted values for different traits, and the performance metrics.\n\n\n\n\nTable 2\n\n\n\n\n\n\n\n\n\n\nThis map below shows the locations of experiments without controlled environments. Following the link on the marker will take you to the details of each experiment, including the observed and predicted values for different traits, and the performance metrics.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments without controlled environments."
+  },
+  {
+    "objectID": "crop/barley/cultivar/Commander.html#performance",
+    "href": "crop/barley/cultivar/Commander.html#performance",
+    "title": "Commander",
+    "section": "Performance",
+    "text": "Performance\nOverview\nThe table below summarizes the performance of APSIM NG for cultivar Commander across all experiments.\n\n\n\n\nTable 3: Performance summary for cultivar Commander across all experiments\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntrait\nn\nr\nr2\nbias\nmse\nrmse\nnrmse\nd\n\n\n\n\nPhenology.EmergenceDAS\n63\n1.00\n1.00\n0.00\n0.00\n0.00\n0.00\n1.00\n\n\nPhenology.FinalLeafNumber\n26\n0.60\n0.36\n-0.71\n1.49\n1.22\n0.12\n0.65\n\n\nPhenology.FlagLeafDAS\n32\n0.80\n0.64\n-4.31\n372.50\n19.30\n0.20\n0.88\n\n\nPhenology.FloweringDAS\n25\n0.84\n0.71\n-4.88\n352.64\n18.78\n0.18\n0.90\n\n\nPhenology.HaunStage\n268\n0.83\n0.69\n0.38\n2.41\n1.55\n0.22\n0.90\n\n\nPhenology.MaturityDAS\n6\n0.98\n0.96\n-1.50\n21.83\n4.67\n0.03\n0.99\n\n\nPhenology.Zadok.Stage\n83\n0.57\n0.33\n9.96\n819.00\n28.62\n0.57\n0.77\n\n\n\n\n\n\n\n\nComparison of observed and predicted values\nThe model performance is compared with observed and predicted values for cultivar Commander across all experiments. The plots below show the observed vs predicted values for different traits. Each point represents an observation from an experiment. The closer the points are to the diagonal line, the better the performance of the model for that trait.\nThe range of observed and predicted values are estimated using data in this page, which may be misleading for the narrow ranges of observed and predicted values.\nUsing the Expand All and Collapse All buttons below, you can expand or collapse the sections for each trait to see the observed vs predicted plots for different traits.\n\n\nExpand All\n\n\nCollapse All\n\n\n\n\n\n\n\n\n\nNotePhenology.EmergenceDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.FinalLeafNumber\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.FlagLeafDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.FloweringDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.HaunStage\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.MaturityDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.Zadok.Stage\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits."
+  },
+  {
+    "objectID": "crop/barley/cultivar/Oxford.html",
+    "href": "crop/barley/cultivar/Oxford.html",
+    "title": "Oxford",
+    "section": "",
+    "text": "This report is generated for performance of Barley model in APSIM NG for cultivar Oxford."
+  },
+  {
+    "objectID": "crop/barley/cultivar/Oxford.html#cultivar-information",
+    "href": "crop/barley/cultivar/Oxford.html#cultivar-information",
+    "title": "Oxford",
+    "section": "Cultivar Information",
+    "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Oxford\n\n\n\n\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].MinimumLeafNumber.FixedValue\n9\n\n\n[Phenology].PpSensitivity.FixedValue\n4\n\n\n[Phenology].VrnSensitivity.FixedValue\n0\n\n\n[Phenology].EarlyReproductivePpSensitivity.FixedValue\n2\n\n\n[Structure].BranchMortality.MortalityPhase.Mortality.MortalityPerDegDay.XYPairs.Y\n0.001,0"
+  },
+  {
+    "objectID": "crop/barley/cultivar/Oxford.html#experiments",
+    "href": "crop/barley/cultivar/Oxford.html#experiments",
+    "title": "Oxford",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 12 experiments which tested cultivar Oxford in the validation test dataset of APSIM NG. Following the link below to see the details of each experiment, including the observed and predicted values for different traits, and the performance metrics.\n\n\n\n\nTable 2\n\n\n\n\n\n\n\n\n\n\nThis map below shows the locations of experiments without controlled environments. Following the link on the marker will take you to the details of each experiment, including the observed and predicted values for different traits, and the performance metrics.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments without controlled environments."
+  },
+  {
+    "objectID": "crop/barley/cultivar/Oxford.html#performance",
+    "href": "crop/barley/cultivar/Oxford.html#performance",
+    "title": "Oxford",
+    "section": "Performance",
+    "text": "Performance\nOverview\nThe table below summarizes the performance of APSIM NG for cultivar Oxford across all experiments.\n\n\n\n\nTable 3: Performance summary for cultivar Oxford across all experiments\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntrait\nn\nr\nr2\nbias\nmse\nrmse\nnrmse\nd\n\n\n\n\nPhenology.EmergenceDAS\n63\n1.00\n1.00\n0.00\n0.00\n0.00\n0.00\n1.00\n\n\nPhenology.FinalLeafNumber\n2\nNA\nNA\n0.33\n0.22\n0.47\n0.05\n0.50\n\n\nPhenology.FlagLeafDAS\n8\n0.93\n0.86\n2.25\n84.00\n9.17\n0.11\n0.95\n\n\nPhenology.FloweringDAS\n2\n1.00\n1.00\n27.00\n729.00\n27.00\n0.32\n0.76\n\n\nPhenology.HaunStage\n30\n0.95\n0.90\n-0.74\n1.35\n1.16\n0.23\n0.94\n\n\nPhenology.MaturityDAS\n6\n0.98\n0.96\n-0.67\n17.33\n4.16\n0.03\n0.99\n\n\nPhenology.Zadok.Stage\n84\n0.61\n0.38\n8.57\n716.83\n26.77\n0.55\n0.79\n\n\n\n\n\n\n\n\nComparison of observed and predicted values\nThe model performance is compared with observed and predicted values for cultivar Oxford across all experiments. The plots below show the observed vs predicted values for different traits. Each point represents an observation from an experiment. The closer the points are to the diagonal line, the better the performance of the model for that trait.\nThe range of observed and predicted values are estimated using data in this page, which may be misleading for the narrow ranges of observed and predicted values.\nUsing the Expand All and Collapse All buttons below, you can expand or collapse the sections for each trait to see the observed vs predicted plots for different traits.\n\n\nExpand All\n\n\nCollapse All\n\n\n\n\n\n\n\n\n\nNotePhenology.EmergenceDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.FinalLeafNumber\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.FlagLeafDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.FloweringDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.HaunStage\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.MaturityDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.Zadok.Stage\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits."
+  },
+  {
+    "objectID": "crop/barley/experiment/Dale2020.html",
+    "href": "crop/barley/experiment/Dale2020.html",
+    "title": "Dale2020",
+    "section": "",
+    "text": "This report is generated for performance of Barley model in APSIM NG for experiment Dale2020."
+  },
+  {
+    "objectID": "crop/barley/experiment/Dale2020.html#experiment-information",
+    "href": "crop/barley/experiment/Dale2020.html#experiment-information",
+    "title": "Dale2020",
     "section": "Experiment Information",
     "text": "Experiment Information\n\nThe experiment specific information is provided in the memo of apsimx file.\n\n)NA"
   },
   {
-    "objectID": "crop/canola/experiment/Gatton2015.html#cultivars",
-    "href": "crop/canola/experiment/Gatton2015.html#cultivars",
-    "title": "Gatton2015",
+    "objectID": "crop/barley/experiment/Dale2020.html#cultivars",
+    "href": "crop/barley/experiment/Dale2020.html#cultivars",
+    "title": "Dale2020",
     "section": "Cultivars",
     "text": "Cultivars"
   },
   {
-    "objectID": "crop/canola/experiment/Gatton2015.html#performance",
-    "href": "crop/canola/experiment/Gatton2015.html#performance",
-    "title": "Gatton2015",
+    "objectID": "crop/barley/experiment/Dale2020.html#performance",
+    "href": "crop/barley/experiment/Dale2020.html#performance",
+    "title": "Dale2020",
     "section": "Performance",
-    "text": "Performance\nOverview\nThe table below summarizes the performance of APSIM NG for all cultivars across experiment Gatton2015.\n\n\n\n\nTable 1: Performance summary for all cultivars across experiment Gatton2015\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntrait\nn\nr\nr2\nbias\nmse\nrmse\nnrmse\nd\n\n\n\n\nLeaf.TrueLeafNumber\n390\n0.94\n0.89\n0.02\n1.13\n1.06\n0.33\n0.96\n\n\nPhenology.EmergenceDAS\n84\n0.77\n0.60\n0.57\n1.43\n1.20\n0.14\n0.81\n\n\nPhenology.FloralInitiationDAS\n82\n0.97\n0.94\n1.74\n52.74\n7.26\n0.13\n0.98\n\n\nPhenology.GreenBudDAS\n84\n0.97\n0.94\n-1.42\n72.75\n8.53\n0.12\n0.98\n\n\nPhenology.StartFloweringDAS\n75\n0.97\n0.95\n4.84\n169.96\n13.04\n0.13\n0.97\n\n\n\n\n\n\n\n\nComparison of observed and predicted values\nThe model performance is compared with observed and predicted values for all cultivars across experiment Gatton2015. The plots below show the observed vs predicted values for different traits. Each point represents an observation from an experiment. The closer the points are to the diagonal line, the better the performance of the model for that trait.\nThe range of observed and predicted values are estimated using data in this page, which may be misleading for the narrow ranges of observed and predicted values.\nUsing the Expand All and Collapse All buttons below, you can expand or collapse the sections for each trait to see the observed vs predicted plots for different traits.\n\n\nExpand All\n\n\nCollapse All\n\n\n\n\n\n\n\n\n\nNoteLeaf.TrueLeafNumber\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.EmergenceDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.FloralInitiationDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.GreenBudDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.StartFloweringDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits."
+    "text": "Performance\nOverview\nThe table below summarizes the performance of APSIM NG for all cultivars across experiment Dale2020.\n\n\n\n\nTable 1: Performance summary for all cultivars across experiment Dale2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntrait\nn\nr\nr2\nbias\nmse\nrmse\nnrmse\nd\n\n\n\n\nPhenology.EmergenceDAS\n240\n1.00\n1.00\n0.00\n0.00\n0.00\n0.00\n1.00\n\n\nPhenology.FinalLeafNumber\n12\n0.82\n0.68\n0.30\n1.76\n1.33\n0.12\n0.88\n\n\nPhenology.FlagLeafDAS\n12\n0.68\n0.47\n6.92\n351.42\n18.75\n0.20\n0.79\n\n\nPhenology.FloweringDAS\n12\n0.78\n0.61\n4.08\n249.08\n15.78\n0.14\n0.87\n\n\nPhenology.HaunStage\n266\n0.91\n0.83\n-0.53\n2.90\n1.70\n0.23\n0.94\n\n\n\n\n\n\n\n\nComparison of observed and predicted values\nThe model performance is compared with observed and predicted values for all cultivars across experiment Dale2020. The plots below show the observed vs predicted values for different traits. Each point represents an observation from an experiment. The closer the points are to the diagonal line, the better the performance of the model for that trait.\nThe range of observed and predicted values are estimated using data in this page, which may be misleading for the narrow ranges of observed and predicted values.\nUsing the Expand All and Collapse All buttons below, you can expand or collapse the sections for each trait to see the observed vs predicted plots for different traits.\n\n\nExpand All\n\n\nCollapse All\n\n\n\n\n\n\n\n\n\nNotePhenology.EmergenceDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.FinalLeafNumber\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.FlagLeafDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.FloweringDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.HaunStage\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits."
   },
   {
-    "objectID": "crop/lentil/cultivar/Ace.html",
-    "href": "crop/lentil/cultivar/Ace.html",
-    "title": "Ace",
+    "objectID": "crop/barley/experiment/YanYean2020.html",
+    "href": "crop/barley/experiment/YanYean2020.html",
+    "title": "YanYean2020",
     "section": "",
-    "text": "This report is generated for performance of Lentil model in APSIM NG for cultivar Ace."
+    "text": "This report is generated for performance of Barley model in APSIM NG for experiment YanYean2020."
   },
   {
-    "objectID": "crop/lentil/cultivar/Ace.html#cultivar-information",
-    "href": "crop/lentil/cultivar/Ace.html#cultivar-information",
-    "title": "Ace",
-    "section": "Cultivar Information",
-    "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Ace\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].JuvenileBase.FixedValue\n91\n\n\n[Phenology].VernSensitivity.FixedValue\n0.85\n\n\n[Phenology].InductivePpSensitivity.FixedValue\n0.37\n\n\n[Phenology].BudDevelopmentPpSensitivity.FixedValue\n0\n\n\n[Phenology].FlowerAbortionPpSensitivity.FixedValue\n0"
-  },
-  {
-    "objectID": "crop/lentil/cultivar/Ace.html#experiments",
-    "href": "crop/lentil/cultivar/Ace.html#experiments",
-    "title": "Ace",
-    "section": "Experiments",
-    "text": "Experiments\nThere are 8 experiments which tested cultivar Ace in the validation test dataset of APSIM NG. Following the link below to see the details of each experiment, including the observed and predicted values for different traits, and the performance metrics.\n\n\n\n\nTable 2\n\n\n\n\n\n\n\n\n\n\nThis map below shows the locations of experiments without controlled environments. Following the link on the marker will take you to the details of each experiment, including the observed and predicted values for different traits, and the performance metrics.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments without controlled environments."
-  },
-  {
-    "objectID": "crop/lentil/cultivar/Ace.html#performance",
-    "href": "crop/lentil/cultivar/Ace.html#performance",
-    "title": "Ace",
-    "section": "Performance",
-    "text": "Performance\nOverview\nThe table below summarizes the performance of APSIM NG for cultivar Ace across all experiments.\n\n\n\n\nTable 3: Performance summary for cultivar Ace across all experiments\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntrait\nn\nr\nr2\nbias\nmse\nrmse\nnrmse\nd\n\n\n\n\nAboveGround.Wt\n115\n0.64\n0.41\n-127.19\n46961.62\n216.71\n0.84\n0.72\n\n\nGrain.HarvestIndex\n26\n0.26\n0.07\n-0.08\n0.02\n0.16\n0.57\n0.50\n\n\nGrain.Size\n8\nNA\nNA\n0.04\n0.00\n0.04\n1.01\n0.11\n\n\nGrain.Wt\n66\n0.35\n0.12\n-108.92\n20806.92\n144.25\n1.67\n0.35\n\n\nLeaf.NodeNumber\n56\n0.97\n0.93\n-2.07\n8.26\n2.87\n0.30\n0.94\n\n\nPhenology.EmergenceDAS\n18\n0.39\n0.15\n-0.33\n16.56\n4.07\n0.42\n0.63\n\n\nPhenology.MaturityDAS\n23\n0.77\n0.59\n-6.61\n314.27\n17.73\n0.12\n0.86\n\n\nPhenology.StartBuddingDAS\n3\n0.99\n0.98\n-1.33\n24.67\n4.97\n0.06\n0.98\n\n\nPhenology.StartFloweringDAS\n20\n0.84\n0.71\n-5.23\n128.79\n11.35\n0.12\n0.89\n\n\nPhenology.StartPoddingDAS\n20\n0.93\n0.86\n0.35\n90.50\n9.51\n0.09\n0.95\n\n\n\n\n\n\n\n\nComparison of observed and predicted values\nThe model performance is compared with observed and predicted values for cultivar Ace across all experiments. The plots below show the observed vs predicted values for different traits. Each point represents an observation from an experiment. The closer the points are to the diagonal line, the better the performance of the model for that trait.\nThe range of observed and predicted values are estimated using data in this page, which may be misleading for the narrow ranges of observed and predicted values.\nUsing the Expand All and Collapse All buttons below, you can expand or collapse the sections for each trait to see the observed vs predicted plots for different traits.\n\n\nExpand All\n\n\nCollapse All\n\n\n\n\n\n\n\n\n\nNoteAboveGround.Wt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteGrain.HarvestIndex\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteGrain.Size\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteGrain.Wt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteLeaf.NodeNumber\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.EmergenceDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.MaturityDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.StartBuddingDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.StartFloweringDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.StartPoddingDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits."
-  },
-  {
-    "objectID": "crop/wheat/experiment/DookieWWHI2024.html",
-    "href": "crop/wheat/experiment/DookieWWHI2024.html",
-    "title": "DookieWWHI2024",
-    "section": "",
-    "text": "This report is generated for performance of Wheat model in APSIM NG for experiment DookieWWHI2024."
-  },
-  {
-    "objectID": "crop/wheat/experiment/DookieWWHI2024.html#experiment-information",
-    "href": "crop/wheat/experiment/DookieWWHI2024.html#experiment-information",
-    "title": "DookieWWHI2024",
+    "objectID": "crop/barley/experiment/YanYean2020.html#experiment-information",
+    "href": "crop/barley/experiment/YanYean2020.html#experiment-information",
+    "title": "YanYean2020",
     "section": "Experiment Information",
-    "text": "Experiment Information\n\nThe experiment specific information is provided in the memo of apsimx file.\n\n)"
+    "text": "Experiment Information\n\nThe experiment specific information is provided in the memo of apsimx file.\n\n)NA"
   },
   {
-    "objectID": "crop/wheat/experiment/DookieWWHI2024.html#cultivars",
-    "href": "crop/wheat/experiment/DookieWWHI2024.html#cultivars",
-    "title": "DookieWWHI2024",
+    "objectID": "crop/barley/experiment/YanYean2020.html#cultivars",
+    "href": "crop/barley/experiment/YanYean2020.html#cultivars",
+    "title": "YanYean2020",
     "section": "Cultivars",
     "text": "Cultivars"
   },
   {
-    "objectID": "crop/wheat/experiment/DookieWWHI2024.html#performance",
-    "href": "crop/wheat/experiment/DookieWWHI2024.html#performance",
-    "title": "DookieWWHI2024",
+    "objectID": "crop/barley/experiment/YanYean2020.html#performance",
+    "href": "crop/barley/experiment/YanYean2020.html#performance",
+    "title": "YanYean2020",
     "section": "Performance",
-    "text": "Performance\nOverview\nThe table below summarizes the performance of APSIM NG for all cultivars across experiment DookieWWHI2024.\n\n\n\n\nTable 1: Performance summary for all cultivars across experiment DookieWWHI2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntrait\nn\nr\nr2\nbias\nmse\nrmse\nnrmse\nd\n\n\n\n\nAboveGround.Wt\n128\n0.93\n0.86\n-57.95\n9926.81\n99.63\n0.11\n0.94\n\n\nEar.Wt\n128\n0.98\n0.96\n11.26\n3127.19\n55.92\n0.15\n0.99\n\n\nGrain.Number\n64\n0.05\n0.00\n-2831.68\n15469523.26\n3933.13\n0.31\n0.30\n\n\nGrain.Size\n64\n0.08\n0.01\n0.01\n0.00\n0.01\n0.21\n0.34\n\n\nGrain.Wt\n64\n0.16\n0.03\n8.09\n4471.22\n66.87\n0.13\n0.49\n\n\nLeaf.CoverTotal\n64\n0.34\n0.11\n0.01\n0.00\n0.04\n0.04\n0.49\n\n\nLeaf.Dead.Wt\n128\n0.80\n0.63\n-45.06\n7790.73\n88.27\n1.19\n0.54\n\n\nLeaf.Height\n64\n0.87\n0.76\n59.69\n8096.53\n89.98\n0.12\n0.87\n\n\nLeaf.Live.Wt\n64\n0.42\n0.17\n-137.20\n29857.47\n172.79\n0.91\n0.25\n\n\nPhenology.HaunStage\n296\n1.00\n0.99\n-0.12\n0.09\n0.30\n0.04\n1.00\n\n\nPhenology.Stage\n96\n1.00\n1.00\n-0.04\n0.01\n0.09\n0.02\n1.00\n\n\nSpike.Wt\n96\n0.96\n0.91\n17.92\n659.54\n25.68\n0.24\n0.95\n\n\nStem.Wt\n128\n0.54\n0.29\n44.45\n11606.30\n107.73\n0.28\n0.68\n\n\n\n\n\n\n\n\nComparison of observed and predicted values\nThe model performance is compared with observed and predicted values for all cultivars across experiment DookieWWHI2024. The plots below show the observed vs predicted values for different traits. Each point represents an observation from an experiment. The closer the points are to the diagonal line, the better the performance of the model for that trait.\nThe range of observed and predicted values are estimated using data in this page, which may be misleading for the narrow ranges of observed and predicted values.\nUsing the Expand All and Collapse All buttons below, you can expand or collapse the sections for each trait to see the observed vs predicted plots for different traits.\n\n\nExpand All\n\n\nCollapse All\n\n\n\n\n\n\n\n\n\nNoteAboveGround.Wt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteEar.Wt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteGrain.Number\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteGrain.Size\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteGrain.Wt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteLeaf.CoverTotal\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteLeaf.Dead.Wt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteLeaf.Height\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteLeaf.Live.Wt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.HaunStage\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.Stage\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteSpike.Wt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteStem.Wt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits."
+    "text": "Performance\nOverview\nThe table below summarizes the performance of APSIM NG for all cultivars across experiment YanYean2020.\n\n\n\n\nTable 1: Performance summary for all cultivars across experiment YanYean2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntrait\nn\nr\nr2\nbias\nmse\nrmse\nnrmse\nd\n\n\n\n\nPhenology.EmergenceDAS\n204\n1.00\n1.00\n0.00\n0.00\n0.00\n0.00\n1.00\n\n\nPhenology.FinalLeafNumber\n12\n0.50\n0.25\n0.36\n1.86\n1.36\n0.13\n0.69\n\n\nPhenology.FlagLeafDAS\n12\n0.87\n0.76\n1.17\n285.33\n16.89\n0.16\n0.90\n\n\nPhenology.FloweringDAS\n12\n0.92\n0.85\n-0.08\n306.58\n17.51\n0.14\n0.89\n\n\nPhenology.HaunStage\n296\n0.96\n0.92\n0.29\n0.74\n0.86\n0.12\n0.98\n\n\n\n\n\n\n\n\nComparison of observed and predicted values\nThe model performance is compared with observed and predicted values for all cultivars across experiment YanYean2020. The plots below show the observed vs predicted values for different traits. Each point represents an observation from an experiment. The closer the points are to the diagonal line, the better the performance of the model for that trait.\nThe range of observed and predicted values are estimated using data in this page, which may be misleading for the narrow ranges of observed and predicted values.\nUsing the Expand All and Collapse All buttons below, you can expand or collapse the sections for each trait to see the observed vs predicted plots for different traits.\n\n\nExpand All\n\n\nCollapse All\n\n\n\n\n\n\n\n\n\nNotePhenology.EmergenceDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.FinalLeafNumber\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.FlagLeafDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.FloweringDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.HaunStage\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits."
+  },
+  {
+    "objectID": "crop/canola/cultivar/AV_Zircon.html",
+    "href": "crop/canola/cultivar/AV_Zircon.html",
+    "title": "AV_Zircon",
+    "section": "",
+    "text": "This report is generated for performance of Canola model in APSIM NG for cultivar AV_Zircon."
+  },
+  {
+    "objectID": "crop/canola/cultivar/AV_Zircon.html#cultivar-information",
+    "href": "crop/canola/cultivar/AV_Zircon.html#cultivar-information",
+    "title": "AV_Zircon",
+    "section": "Cultivar Information",
+    "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for AV_Zircon\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Vegetative.Target.XYPairs.X\n0,25\n\n\n[Phenology].Vegetative.Target.XYPairs.Y\n450,200\n\n\n[Leaf].Phyllochron.Base.FixedValue\n55"
+  },
+  {
+    "objectID": "crop/canola/cultivar/AV_Zircon.html#experiments",
+    "href": "crop/canola/cultivar/AV_Zircon.html#experiments",
+    "title": "AV_Zircon",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 9 experiments which tested cultivar AV_Zircon in the validation test dataset of APSIM NG. Following the link below to see the details of each experiment, including the observed and predicted values for different traits, and the performance metrics.\n\n\n\n\nTable 2\n\n\n\n\n\n\n\n\n\n\nThis map below shows the locations of experiments without controlled environments. Following the link on the marker will take you to the details of each experiment, including the observed and predicted values for different traits, and the performance metrics.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments without controlled environments."
+  },
+  {
+    "objectID": "crop/canola/cultivar/AV_Zircon.html#performance",
+    "href": "crop/canola/cultivar/AV_Zircon.html#performance",
+    "title": "AV_Zircon",
+    "section": "Performance",
+    "text": "Performance\nOverview\nThe table below summarizes the performance of APSIM NG for cultivar AV_Zircon across all experiments.\n\n\n\n\nTable 3: Performance summary for cultivar AV_Zircon across all experiments\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntrait\nn\nr\nr2\nbias\nmse\nrmse\nnrmse\nd\n\n\n\n\nAboveGround.Wt\n4\n0.86\n0.75\n-21.35\n11203.86\n105.85\n0.14\n0.91\n\n\nDaysAfterSowing\n8\n1.00\n1.00\n0.00\n0.00\n0.00\n0.00\n1.00\n\n\nGrain.NConc\n4\n0.72\n0.52\n0.00\n0.00\n0.01\n0.12\n0.79\n\n\nGrain.Number\n4\n0.23\n0.05\n-10488.91\n736076271.04\n27130.73\n0.52\n0.43\n\n\nGrain.Wt\n4\n0.48\n0.23\n-2.83\n7144.06\n84.52\n0.36\n0.61\n\n\nLeaf.TrueLeafNumber\n102\n0.91\n0.82\n-0.01\n1.26\n1.12\n0.44\n0.94\n\n\nPhenology.EmergenceDAS\n26\n0.86\n0.75\n0.81\n6.04\n2.46\n0.21\n0.92\n\n\nPhenology.FloralInitiationDAS\n11\n0.95\n0.91\n-0.45\n14.09\n3.75\n0.08\n0.97\n\n\nPhenology.GreenBudDAS\n22\n0.71\n0.51\n7.18\n302.82\n17.40\n0.23\n0.80\n\n\nPhenology.StartFloweringDAS\n25\n0.84\n0.70\n6.79\n246.76\n15.71\n0.16\n0.86\n\n\n\n\n\n\n\n\nComparison of observed and predicted values\nThe model performance is compared with observed and predicted values for cultivar AV_Zircon across all experiments. The plots below show the observed vs predicted values for different traits. Each point represents an observation from an experiment. The closer the points are to the diagonal line, the better the performance of the model for that trait.\nThe range of observed and predicted values are estimated using data in this page, which may be misleading for the narrow ranges of observed and predicted values.\nUsing the Expand All and Collapse All buttons below, you can expand or collapse the sections for each trait to see the observed vs predicted plots for different traits.\n\n\nExpand All\n\n\nCollapse All\n\n\n\n\n\n\n\n\n\nNoteAboveGround.Wt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteDaysAfterSowing\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteGrain.NConc\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteGrain.Number\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteGrain.Wt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteLeaf.TrueLeafNumber\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.EmergenceDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.FloralInitiationDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.GreenBudDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.StartFloweringDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits."
+  },
+  {
+    "objectID": "crop/canola/cultivar/Hyola600_RR.html",
+    "href": "crop/canola/cultivar/Hyola600_RR.html",
+    "title": "Hyola600_RR",
+    "section": "",
+    "text": "This report is generated for performance of Canola model in APSIM NG for cultivar Hyola600_RR."
+  },
+  {
+    "objectID": "crop/canola/cultivar/Hyola600_RR.html#cultivar-information",
+    "href": "crop/canola/cultivar/Hyola600_RR.html#cultivar-information",
+    "title": "Hyola600_RR",
+    "section": "Cultivar Information",
+    "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Hyola600_RR\n\n\n\n\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Vegetative.Target.XYPairs.X\n0,5,8,20\n\n\n[Phenology].Vegetative.Target.XYPairs.Y\n500,400,200,150\n\n\n[Phenology].StemElongation.Target.PPResponse.Amount.FixedValue\n200\n\n\n[Leaf].Phyllochron.Base.FixedValue\n51"
+  },
+  {
+    "objectID": "crop/canola/cultivar/Hyola600_RR.html#experiments",
+    "href": "crop/canola/cultivar/Hyola600_RR.html#experiments",
+    "title": "Hyola600_RR",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 5 experiments which tested cultivar Hyola600_RR in the validation test dataset of APSIM NG. Following the link below to see the details of each experiment, including the observed and predicted values for different traits, and the performance metrics.\n\n\n\n\nTable 2\n\n\n\n\n\n\n\n\n\n\nThis map below shows the locations of experiments without controlled environments. Following the link on the marker will take you to the details of each experiment, including the observed and predicted values for different traits, and the performance metrics.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments without controlled environments."
+  },
+  {
+    "objectID": "crop/canola/cultivar/Hyola600_RR.html#performance",
+    "href": "crop/canola/cultivar/Hyola600_RR.html#performance",
+    "title": "Hyola600_RR",
+    "section": "Performance",
+    "text": "Performance\nOverview\nThe table below summarizes the performance of APSIM NG for cultivar Hyola600_RR across all experiments.\n\n\n\n\nTable 3: Performance summary for cultivar Hyola600_RR across all experiments\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntrait\nn\nr\nr2\nbias\nmse\nrmse\nnrmse\nd\n\n\n\n\nAboveGround.N\n6\n0.96\n0.92\n0.88\n2.20\n1.48\n0.34\n0.89\n\n\nAboveGround.Wt\n28\n0.95\n0.90\n33.51\n13836.33\n117.63\n0.35\n0.95\n\n\nCoverTotal\n22\n0.91\n0.82\n0.00\n0.01\n0.11\n0.17\n0.93\n\n\nDaysAfterSowing\n36\n1.00\n1.00\n0.00\n0.00\n0.00\n0.00\n1.00\n\n\nGrain.NConc\n6\n0.36\n0.13\n0.00\n0.00\n0.01\n0.22\n0.58\n\n\nGrain.Number\n6\n0.72\n0.51\n10223.33\n470105192.40\n21681.91\n0.57\n0.75\n\n\nGrain.Wt\n6\n0.71\n0.51\n16.25\n3786.43\n61.53\n0.50\n0.80\n\n\nLeaf.Dead.Wt\n22\n0.22\n0.05\n2.12\n129.63\n11.39\n1.66\n0.52\n\n\nLeaf.LAI\n22\n0.81\n0.66\n-0.11\n0.79\n0.89\n0.53\n0.84\n\n\nLeaf.Live.N\n6\n0.97\n0.94\n0.34\n0.35\n0.59\n0.37\n0.90\n\n\nLeaf.Live.NConc\n6\n0.80\n0.63\n0.01\n0.00\n0.01\n0.47\n0.51\n\n\nLeaf.Live.Wt\n22\n0.85\n0.73\n-15.66\n740.78\n27.22\n0.48\n0.88\n\n\nLeaf.TrueLeafNumber\n48\n0.93\n0.87\n-0.34\n1.41\n1.19\n0.37\n0.94\n\n\nPhenology.EmergenceDAS\n10\n0.76\n0.58\n0.90\n2.30\n1.52\n0.18\n0.75\n\n\nPhenology.FloralInitiationDAS\n10\n0.26\n0.07\n3.30\n36.30\n6.02\n0.15\n0.49\n\n\nPhenology.GreenBudDAS\n10\n-0.09\n0.01\n2.10\n48.70\n6.98\n0.13\n0.26\n\n\nPhenology.StartFloweringDAS\n16\n0.87\n0.76\n-1.03\n40.54\n6.37\n0.07\n0.93\n\n\nPod.N\n5\n0.74\n0.55\n0.88\n3.59\n1.90\n0.62\n0.82\n\n\nPod.NConc\n4\n-0.76\n0.58\n0.01\n0.00\n0.02\n0.68\n0.17\n\n\nPod.Wt\n22\n0.96\n0.92\n19.76\n2674.68\n51.72\n1.65\n0.85\n\n\nStem.N\n7\n0.88\n0.78\n0.99\n3.02\n1.74\n0.49\n0.84\n\n\nStem.NConc\n7\n0.83\n0.70\n0.00\n0.00\n0.01\n0.40\n0.82\n\n\nStem.Wt\n22\n0.92\n0.85\n-21.91\n6767.22\n82.26\n0.53\n0.95\n\n\n\n\n\n\n\n\nComparison of observed and predicted values\nThe model performance is compared with observed and predicted values for cultivar Hyola600_RR across all experiments. The plots below show the observed vs predicted values for different traits. Each point represents an observation from an experiment. The closer the points are to the diagonal line, the better the performance of the model for that trait.\nThe range of observed and predicted values are estimated using data in this page, which may be misleading for the narrow ranges of observed and predicted values.\nUsing the Expand All and Collapse All buttons below, you can expand or collapse the sections for each trait to see the observed vs predicted plots for different traits.\n\n\nExpand All\n\n\nCollapse All\n\n\n\n\n\n\n\n\n\nNoteAboveGround.N\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteAboveGround.Wt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteCoverTotal\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteDaysAfterSowing\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteGrain.NConc\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteGrain.Number\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteGrain.Wt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteLeaf.Dead.Wt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteLeaf.LAI\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteLeaf.Live.N\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteLeaf.Live.NConc\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteLeaf.Live.Wt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteLeaf.TrueLeafNumber\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.EmergenceDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.FloralInitiationDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.GreenBudDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.StartFloweringDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePod.N\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePod.NConc\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePod.Wt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteStem.N\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteStem.NConc\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteStem.Wt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits."
+  },
+  {
+    "objectID": "crop/canola/cultivar/SF_Edimax.html",
+    "href": "crop/canola/cultivar/SF_Edimax.html",
+    "title": "SF_Edimax",
+    "section": "",
+    "text": "This report is generated for performance of Canola model in APSIM NG for cultivar SF_Edimax."
+  },
+  {
+    "objectID": "crop/canola/cultivar/SF_Edimax.html#cultivar-information",
+    "href": "crop/canola/cultivar/SF_Edimax.html#cultivar-information",
+    "title": "SF_Edimax",
+    "section": "Cultivar Information",
+    "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for SF_Edimax\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Vegetative.Target.XYPairs.X\n0,30\n\n\n[Phenology].Vegetative.Target.XYPairs.Y\n2200,250\n\n\n[Leaf].Phyllochron.Base.FixedValue\n45"
+  },
+  {
+    "objectID": "crop/canola/cultivar/SF_Edimax.html#experiments",
+    "href": "crop/canola/cultivar/SF_Edimax.html#experiments",
+    "title": "SF_Edimax",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 3 experiments which tested cultivar SF_Edimax in the validation test dataset of APSIM NG. Following the link below to see the details of each experiment, including the observed and predicted values for different traits, and the performance metrics.\n\n\n\n\nTable 2\n\n\n\n\n\n\n\n\n\n\nThis map below shows the locations of experiments without controlled environments. Following the link on the marker will take you to the details of each experiment, including the observed and predicted values for different traits, and the performance metrics.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments without controlled environments."
+  },
+  {
+    "objectID": "crop/canola/cultivar/SF_Edimax.html#performance",
+    "href": "crop/canola/cultivar/SF_Edimax.html#performance",
+    "title": "SF_Edimax",
+    "section": "Performance",
+    "text": "Performance\nOverview\nThe table below summarizes the performance of APSIM NG for cultivar SF_Edimax across all experiments.\n\n\n\n\nTable 3: Performance summary for cultivar SF_Edimax across all experiments\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntrait\nn\nr\nr2\nbias\nmse\nrmse\nnrmse\nd\n\n\n\n\nLeaf.TrueLeafNumber\n88\n0.94\n0.88\n-0.90\n3.36\n1.83\n0.48\n0.91\n\n\nPhenology.EmergenceDAS\n15\n0.88\n0.78\n0.60\n2.07\n1.44\n0.15\n0.93\n\n\nPhenology.FloralInitiationDAS\n15\n0.83\n0.68\n-0.27\n63.33\n7.96\n0.09\n0.90\n\n\nPhenology.GreenBudDAS\n15\n0.77\n0.59\n-2.33\n75.13\n8.67\n0.07\n0.86\n\n\nPhenology.StartFloweringDAS\n9\n0.86\n0.75\n17.11\n314.22\n17.73\n0.11\n0.53\n\n\n\n\n\n\n\n\nComparison of observed and predicted values\nThe model performance is compared with observed and predicted values for cultivar SF_Edimax across all experiments. The plots below show the observed vs predicted values for different traits. Each point represents an observation from an experiment. The closer the points are to the diagonal line, the better the performance of the model for that trait.\nThe range of observed and predicted values are estimated using data in this page, which may be misleading for the narrow ranges of observed and predicted values.\nUsing the Expand All and Collapse All buttons below, you can expand or collapse the sections for each trait to see the observed vs predicted plots for different traits.\n\n\nExpand All\n\n\nCollapse All\n\n\n\n\n\n\n\n\n\nNoteLeaf.TrueLeafNumber\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.EmergenceDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.FloralInitiationDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.GreenBudDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.StartFloweringDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits."
+  },
+  {
+    "objectID": "crop/canola/experiment/Kojonup2013.html",
+    "href": "crop/canola/experiment/Kojonup2013.html",
+    "title": "Kojonup2013",
+    "section": "",
+    "text": "This report is generated for performance of Canola model in APSIM NG for experiment Kojonup2013."
+  },
+  {
+    "objectID": "crop/canola/experiment/Kojonup2013.html#experiment-information",
+    "href": "crop/canola/experiment/Kojonup2013.html#experiment-information",
+    "title": "Kojonup2013",
+    "section": "Experiment Information",
+    "text": "Experiment Information\n\nThe experiment specific information is provided in the memo of apsimx file.\n\n)NA"
+  },
+  {
+    "objectID": "crop/canola/experiment/Kojonup2013.html#cultivars",
+    "href": "crop/canola/experiment/Kojonup2013.html#cultivars",
+    "title": "Kojonup2013",
+    "section": "Cultivars",
+    "text": "Cultivars"
+  },
+  {
+    "objectID": "crop/canola/experiment/Kojonup2013.html#performance",
+    "href": "crop/canola/experiment/Kojonup2013.html#performance",
+    "title": "Kojonup2013",
+    "section": "Performance",
+    "text": "Performance\nOverview\nThe table below summarizes the performance of APSIM NG for all cultivars across experiment Kojonup2013.\n\n\n\n\nTable 1: Performance summary for all cultivars across experiment Kojonup2013\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntrait\nn\nr\nr2\nbias\nmse\nrmse\nnrmse\nd\n\n\n\n\nAboveGround.N\n38\n0.91\n0.83\n0.11\n5.06\n2.25\n0.30\n0.95\n\n\nAboveGround.Wt\n82\n0.93\n0.87\n-28.39\n14991.27\n122.44\n0.31\n0.95\n\n\nCoverTotal\n64\n0.91\n0.84\n-0.04\n0.01\n0.10\n0.14\n0.95\n\n\nDaysAfterSowing\n101\n1.00\n1.00\n0.00\n0.00\n0.00\n0.00\n1.00\n\n\nGrain.N\n10\n0.94\n0.89\n2.41\n8.30\n2.88\n0.31\n0.86\n\n\nGrain.NConc\n18\n0.47\n0.22\n0.00\n0.00\n0.01\n0.16\n0.71\n\n\nGrain.Number\n18\n0.84\n0.70\n17869.97\n501126391.02\n22385.85\n0.35\n0.78\n\n\nGrain.Wt\n18\n0.91\n0.84\n85.52\n8502.68\n92.21\n0.36\n0.75\n\n\nLeaf.Dead.Wt\n80\n0.06\n0.00\n-11.78\n576.36\n24.01\n6.86\n0.13\n\n\nLeaf.LAI\n64\n0.84\n0.70\n-1.39\n3.23\n1.80\n1.83\n0.59\n\n\nLeaf.Live.N\n28\n0.90\n0.82\n-0.15\n0.57\n0.76\n0.39\n0.94\n\n\nLeaf.Live.NConc\n18\n0.82\n0.68\n0.01\n0.00\n0.01\n0.35\n0.58\n\n\nLeaf.Live.Wt\n80\n0.89\n0.80\n-38.04\n3257.25\n57.07\n1.51\n0.74\n\n\nPhenology.StartFloweringDAS\n18\n-0.44\n0.20\n-9.78\n180.70\n13.44\n0.15\n0.31\n\n\nPod.N\n8\n0.95\n0.91\n1.79\n4.71\n2.17\n0.25\n0.87\n\n\nPod.NConc\n8\n0.81\n0.65\n-0.01\n0.00\n0.01\n0.40\n0.60\n\n\nPod.Wt\n80\n0.94\n0.88\n110.86\n38013.82\n194.97\n0.99\n0.79\n\n\nShell.Wt\n16\n0.71\n0.51\n111.48\n15031.34\n122.60\n0.59\n0.54\n\n\nStem.N\n28\n0.41\n0.17\n-0.13\n2.16\n1.47\n0.60\n0.61\n\n\nStem.NConc\n28\n0.79\n0.63\n0.00\n0.00\n0.01\n0.48\n0.88\n\n\nStem.Wt\n80\n0.91\n0.83\n-41.85\n6115.83\n78.20\n0.39\n0.94\n\n\n\n\n\n\n\n\nComparison of observed and predicted values\nThe model performance is compared with observed and predicted values for all cultivars across experiment Kojonup2013. The plots below show the observed vs predicted values for different traits. Each point represents an observation from an experiment. The closer the points are to the diagonal line, the better the performance of the model for that trait.\nThe range of observed and predicted values are estimated using data in this page, which may be misleading for the narrow ranges of observed and predicted values.\nUsing the Expand All and Collapse All buttons below, you can expand or collapse the sections for each trait to see the observed vs predicted plots for different traits.\n\n\nExpand All\n\n\nCollapse All\n\n\n\n\n\n\n\n\n\nNoteAboveGround.N\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteAboveGround.Wt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteCoverTotal\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteDaysAfterSowing\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteGrain.N\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteGrain.NConc\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteGrain.Number\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteGrain.Wt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteLeaf.Dead.Wt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteLeaf.LAI\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteLeaf.Live.N\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteLeaf.Live.NConc\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteLeaf.Live.Wt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.StartFloweringDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePod.N\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePod.NConc\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePod.Wt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteShell.Wt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteStem.N\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteStem.NConc\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteStem.Wt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits."
+  },
+  {
+    "objectID": "crop/chickpea/cultivar/98_106C.html",
+    "href": "crop/chickpea/cultivar/98_106C.html",
+    "title": "98_106C",
+    "section": "",
+    "text": "This report is generated for performance of Chickpea model in APSIM NG for cultivar 98_106C."
+  },
+  {
+    "objectID": "crop/chickpea/cultivar/98_106C.html#cultivar-information",
+    "href": "crop/chickpea/cultivar/98_106C.html#cultivar-information",
+    "title": "98_106C",
+    "section": "Cultivar Information",
+    "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for 98_106C\n\n\n\n\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Leaf].LeafCohortParameters.MaxArea.Vegetative_to_Flowering.MaxArea.XYPairs.X\n1, 5, 10, 21\n\n\n[Leaf].LeafCohortParameters.MaxArea.Vegetative_to_Flowering.MaxArea.XYPairs.Y\n224, 224, 489, 1080\n\n\n[Phenology].Vegetative.Target.FixedValue\n400\n\n\n[Phenology].Vegetative.Progression.PhotoperiodModifier.CriticalPhotoperiod\n11\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWarning\n\n\n\n\nNo experiments and observations available for this cultivar in the validation test of APSIM NG."
+  },
+  {
+    "objectID": "crop/chickpea/cultivar/JAKI.html",
+    "href": "crop/chickpea/cultivar/JAKI.html",
+    "title": "JAKI",
+    "section": "",
+    "text": "This report is generated for performance of Chickpea model in APSIM NG for cultivar JAKI."
+  },
+  {
+    "objectID": "crop/chickpea/cultivar/JAKI.html#cultivar-information",
+    "href": "crop/chickpea/cultivar/JAKI.html#cultivar-information",
+    "title": "JAKI",
+    "section": "Cultivar Information",
+    "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for JAKI\n\n\n\n\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Emerging.Target.ShootLag.FixedValue\n140\n\n\n[Phenology].Vegetative.Target.FixedValue\n550\n\n\n[Phenology].FloralInitiation.Target.FixedValue\n0\n\n\n[Phenology].Budding.Target.XYPairs.X\n10, 15.62, 17\n\n\n[Phenology].Budding.Target.XYPairs.Y\n478, 50, 50\n\n\n[Phenology].Flowering.Target.FixedValue\n200\n\n\n[Phenology].PodInitiation.Target.Total.FixedValue\n8\n\n\n[Leaf].LeafCohortParameters.MaxArea.Vegetative_to_Flowering.MaxArea.XYPairs.X\n1, 9, 19, 23, 30, 38\n\n\n[Leaf].LeafCohortParameters.MaxArea.Vegetative_to_Flowering.MaxArea.XYPairs.Y\n200, 400, 1000, 1000, 400, 0\n\n\n[Leaf].LeafCohortParameters.MaxArea.Flowering_to_Maturity.MinimumFunction.MaxArea.XYPairs.X\n1, 7, 15\n\n\n[Leaf].LeafCohortParameters.MaxArea.Flowering_to_Maturity.MinimumFunction.MaxArea.XYPairs.Y\n1000, 400, 10\n\n\n[Leaf].LeafCohortParameters.SpecificLeafAreaMax.XYPairs.X\n0, 1800\n\n\n[Leaf].LeafCohortParameters.SpecificLeafAreaMax.XYPairs.Y\n32000, 2000\n\n\n[Leaf].LeafCohortParameters.SpecificLeafAreaMin.XYPairs.X\n0, 1800\n\n\n[Leaf].LeafCohortParameters.SpecificLeafAreaMin.XYPairs.Y\n30000, 1000\n\n\n[Root].KLBiomMod.XYPairs.X\n0, 200, 350, 500, 700\n\n\n[Root].KLBiomMod.XYPairs.Y\n0.3, 0.8, 1.0, 1.2, 1.4\n\n\n[Structure].FinalLeafNumber.FixedValue\n26"
+  },
+  {
+    "objectID": "crop/chickpea/cultivar/JAKI.html#experiments",
+    "href": "crop/chickpea/cultivar/JAKI.html#experiments",
+    "title": "JAKI",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 1 experiments which tested cultivar JAKI in the validation test dataset of APSIM NG. Following the link below to see the details of each experiment, including the observed and predicted values for different traits, and the performance metrics.\n\n\n\n\nTable 2\n\n\n\n\n\n\n\n\n\n\nThis map below shows the locations of experiments without controlled environments. Following the link on the marker will take you to the details of each experiment, including the observed and predicted values for different traits, and the performance metrics.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments without controlled environments."
+  },
+  {
+    "objectID": "crop/chickpea/cultivar/JAKI.html#performance",
+    "href": "crop/chickpea/cultivar/JAKI.html#performance",
+    "title": "JAKI",
+    "section": "Performance",
+    "text": "Performance\nOverview\nThe table below summarizes the performance of APSIM NG for cultivar JAKI across all experiments.\n\n\n\n\nTable 3: Performance summary for cultivar JAKI across all experiments\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntrait\nn\nr\nr2\nbias\nmse\nrmse\nnrmse\nd\n\n\n\n\nAboveGround.Wt\n6\n0.98\n0.96\n12.22\n2875.87\n53.63\n0.15\n0.99\n\n\nLeaf.CoverGreen\n4\n1.00\n1.00\n0.19\n0.04\n0.20\n0.24\n0.79\n\n\nLeaf.LAI\n4\n0.98\n0.97\n-0.05\n0.05\n0.23\n0.16\n0.99\n\n\nLeaf.Live.Wt\n4\n0.99\n0.99\n-11.95\n579.68\n24.08\n0.27\n0.97\n\n\nLeaf.SpecificArea\n4\n0.87\n0.75\n609.62\n7969403.20\n2823.01\n0.15\n0.92\n\n\nStem.Live.Wt\n4\n0.99\n0.99\n22.63\n732.54\n27.07\n0.34\n0.94\n\n\n\n\n\n\n\n\nComparison of observed and predicted values\nThe model performance is compared with observed and predicted values for cultivar JAKI across all experiments. The plots below show the observed vs predicted values for different traits. Each point represents an observation from an experiment. The closer the points are to the diagonal line, the better the performance of the model for that trait.\nThe range of observed and predicted values are estimated using data in this page, which may be misleading for the narrow ranges of observed and predicted values.\nUsing the Expand All and Collapse All buttons below, you can expand or collapse the sections for each trait to see the observed vs predicted plots for different traits.\n\n\nExpand All\n\n\nCollapse All\n\n\n\n\n\n\n\n\n\nNoteAboveGround.Wt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteLeaf.CoverGreen\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteLeaf.LAI\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteLeaf.Live.Wt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteLeaf.SpecificArea\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteStem.Live.Wt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits."
+  },
+  {
+    "objectID": "crop/chickpea/experiment/Lawes1991.html",
+    "href": "crop/chickpea/experiment/Lawes1991.html",
+    "title": "Lawes1991",
+    "section": "",
+    "text": "This report is generated for performance of Chickpea model in APSIM NG for experiment Lawes1991."
+  },
+  {
+    "objectID": "crop/chickpea/experiment/Lawes1991.html#experiment-information",
+    "href": "crop/chickpea/experiment/Lawes1991.html#experiment-information",
+    "title": "Lawes1991",
+    "section": "Experiment Information",
+    "text": "Experiment Information\n\nThe experiment specific information is provided in the memo of apsimx file.\n\n) Gatton RS 1991, 2 sowing date experiment. Creek bank soil is highly variable.\nPeter Carberry upublished data. Also known as APS2??\nCurrent version of the model seems to be starting grainfill too early for this data. May have been a waterlogging stress that delayed flowering? Or do modern cultivars set seed faster than Amethyst?"
+  },
+  {
+    "objectID": "crop/chickpea/experiment/Lawes1991.html#cultivars",
+    "href": "crop/chickpea/experiment/Lawes1991.html#cultivars",
+    "title": "Lawes1991",
+    "section": "Cultivars",
+    "text": "Cultivars"
+  },
+  {
+    "objectID": "crop/chickpea/experiment/Lawes1991.html#performance",
+    "href": "crop/chickpea/experiment/Lawes1991.html#performance",
+    "title": "Lawes1991",
+    "section": "Performance",
+    "text": "Performance\nOverview\nThe table below summarizes the performance of APSIM NG for all cultivars across experiment Lawes1991.\n\n\n\n\nTable 1: Performance summary for all cultivars across experiment Lawes1991\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntrait\nn\nr\nr2\nbias\nmse\nrmse\nnrmse\nd\n\n\n\n\nAboveGround.Wt\n12\n0.37\n0.14\n207.43\n169685.72\n411.93\n0.81\n0.64\n\n\nGrain.Size\n2\n-1.00\n1.00\n-0.15\n0.02\n0.15\n1.24\n0.03\n\n\nLeaf.LAI\n8\n0.73\n0.53\n0.25\n0.84\n0.92\n0.47\n0.85\n\n\nLeaf.Live.Wt\n10\n0.61\n0.37\n41.79\n5488.11\n74.08\n0.63\n0.72\n\n\nLeaf.SpecificArea\n8\n0.54\n0.29\n468.66\n29250492.81\n5408.37\n0.32\n0.55\n\n\nStem.Live.Wt\n10\n0.08\n0.01\n148.38\n42317.27\n205.71\n1.00\n0.49\n\n\n\n\n\n\n\n\nComparison of observed and predicted values\nThe model performance is compared with observed and predicted values for all cultivars across experiment Lawes1991. The plots below show the observed vs predicted values for different traits. Each point represents an observation from an experiment. The closer the points are to the diagonal line, the better the performance of the model for that trait.\nThe range of observed and predicted values are estimated using data in this page, which may be misleading for the narrow ranges of observed and predicted values.\nUsing the Expand All and Collapse All buttons below, you can expand or collapse the sections for each trait to see the observed vs predicted plots for different traits.\n\n\nExpand All\n\n\nCollapse All\n\n\n\n\n\n\n\n\n\nNoteAboveGround.Wt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteGrain.Size\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteLeaf.LAI\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteLeaf.Live.Wt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteLeaf.SpecificArea\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteStem.Live.Wt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits."
+  },
+  {
+    "objectID": "crop/lentil/cultivar/HallmarkXT.html",
+    "href": "crop/lentil/cultivar/HallmarkXT.html",
+    "title": "HallmarkXT",
+    "section": "",
+    "text": "This report is generated for performance of Lentil model in APSIM NG for cultivar HallmarkXT."
+  },
+  {
+    "objectID": "crop/lentil/cultivar/HallmarkXT.html#cultivar-information",
+    "href": "crop/lentil/cultivar/HallmarkXT.html#cultivar-information",
+    "title": "HallmarkXT",
+    "section": "Cultivar Information",
+    "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for HallmarkXT\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].JuvenileBase.FixedValue\n200\n\n\n[Phenology].VernSensitivity.FixedValue\n0.0\n\n\n[Phenology].InductivePpSensitivity.FixedValue\n0.93\n\n\n[Phenology].BudDevelopmentPpSensitivity.FixedValue\n0\n\n\n[Phenology].FlowerAbortionPpSensitivity.FixedValue\n0"
+  },
+  {
+    "objectID": "crop/lentil/cultivar/HallmarkXT.html#experiments",
+    "href": "crop/lentil/cultivar/HallmarkXT.html#experiments",
+    "title": "HallmarkXT",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 8 experiments which tested cultivar HallmarkXT in the validation test dataset of APSIM NG. Following the link below to see the details of each experiment, including the observed and predicted values for different traits, and the performance metrics.\n\n\n\n\nTable 2\n\n\n\n\n\n\n\n\n\n\nThis map below shows the locations of experiments without controlled environments. Following the link on the marker will take you to the details of each experiment, including the observed and predicted values for different traits, and the performance metrics.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments without controlled environments."
+  },
+  {
+    "objectID": "crop/lentil/cultivar/HallmarkXT.html#performance",
+    "href": "crop/lentil/cultivar/HallmarkXT.html#performance",
+    "title": "HallmarkXT",
+    "section": "Performance",
+    "text": "Performance\nOverview\nThe table below summarizes the performance of APSIM NG for cultivar HallmarkXT across all experiments.\n\n\n\n\nTable 3: Performance summary for cultivar HallmarkXT across all experiments\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntrait\nn\nr\nr2\nbias\nmse\nrmse\nnrmse\nd\n\n\n\n\nAboveGround.Wt\n103\n0.79\n0.62\n-135.63\n42694.24\n206.63\n0.87\n0.81\n\n\nFruit.Wt\n12\n0.90\n0.81\n-114.19\n26707.12\n163.42\n0.83\n0.87\n\n\nGrain.HarvestIndex\n17\n0.41\n0.17\n-0.09\n0.02\n0.14\n0.54\n0.55\n\n\nGrain.Wt\n50\n0.83\n0.68\n-119.36\n20154.34\n141.97\n1.85\n0.67\n\n\nLeaf.Canopy.SpecificArea\n16\n-0.73\n0.53\n0.05\n0.00\n0.06\n0.83\n0.40\n\n\nLeaf.NodeNumber\n67\n0.96\n0.92\n-0.73\n2.52\n1.59\n0.15\n0.97\n\n\nLeaf.Wt\n16\n0.95\n0.91\n-2.55\n766.23\n27.68\n0.23\n0.98\n\n\nPhenology.EmergenceDAS\n12\n-0.18\n0.03\n-1.50\n20.50\n4.53\n0.51\n0.33\n\n\nPhenology.MaturityDAS\n18\n0.76\n0.58\n-9.11\n266.22\n16.32\n0.12\n0.83\n\n\nPhenology.Stage\n20\n0.98\n0.97\n-0.40\n0.63\n0.79\n0.14\n0.99\n\n\nPhenology.StartBuddingDAS\n1\nNA\nNA\n-19.00\n361.00\n19.00\n0.21\n0.00\n\n\nPhenology.StartFloweringDAS\n17\n0.88\n0.77\n-13.52\n304.88\n17.46\n0.22\n0.84\n\n\nPhenology.StartPoddingDAS\n11\n0.82\n0.67\n0.76\n278.70\n16.69\n0.18\n0.90\n\n\nPod.Wt\n4\n0.91\n0.82\n5.63\n59.87\n7.74\n0.08\n0.90\n\n\nStem.Wt\n20\n0.88\n0.77\n84.01\n22339.12\n149.46\n0.66\n0.77\n\n\n\n\n\n\n\n\nComparison of observed and predicted values\nThe model performance is compared with observed and predicted values for cultivar HallmarkXT across all experiments. The plots below show the observed vs predicted values for different traits. Each point represents an observation from an experiment. The closer the points are to the diagonal line, the better the performance of the model for that trait.\nThe range of observed and predicted values are estimated using data in this page, which may be misleading for the narrow ranges of observed and predicted values.\nUsing the Expand All and Collapse All buttons below, you can expand or collapse the sections for each trait to see the observed vs predicted plots for different traits.\n\n\nExpand All\n\n\nCollapse All\n\n\n\n\n\n\n\n\n\nNoteAboveGround.Wt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteFruit.Wt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteGrain.HarvestIndex\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteGrain.Wt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteLeaf.Canopy.SpecificArea\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteLeaf.NodeNumber\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteLeaf.Wt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.EmergenceDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.MaturityDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.Stage\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.StartBuddingDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.StartFloweringDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.StartPoddingDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePod.Wt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteStem.Wt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits."
+  },
+  {
+    "objectID": "crop/lentil/experiment/GreenethorpePhen19.html",
+    "href": "crop/lentil/experiment/GreenethorpePhen19.html",
+    "title": "GreenethorpePhen19",
+    "section": "",
+    "text": "This report is generated for performance of Lentil model in APSIM NG for experiment GreenethorpePhen19."
+  },
+  {
+    "objectID": "crop/lentil/experiment/GreenethorpePhen19.html#experiment-information",
+    "href": "crop/lentil/experiment/GreenethorpePhen19.html#experiment-information",
+    "title": "GreenethorpePhen19",
+    "section": "Experiment Information",
+    "text": "Experiment Information\n\nThe experiment specific information is provided in the memo of apsimx file.\n\n)Greenethorpe phenology trial:\n\nall treatments are irrigated - “JW: For greenethorpe simulate unlimited. We tried to keep it unlimited but there would have been some stress no measure of water just applied when ever we were out there.”\n\nthey use different TOS to the other Greenethorpe trial so will be simulated separately\n\nthere are only 2 TOS for the phenology trial at Greenethorpe\n\nonly treatments without lights used\n\nphenology measurements up until the time of flowering only are recorded\nphenological stages will change in apsim as the lentil model is developed:\n\nFrom AP: “For the moment:\nNextGen term ‘Start flowering’ – is actually 50% budding.\nNextGen term ‘End flowering’ – is actually 50% flowering.\nAnd I haven’t yet restructured to do a start podding.”\nMet file - taken from SILO (same as Jeremy Whish)"
+  },
+  {
+    "objectID": "crop/lentil/experiment/GreenethorpePhen19.html#cultivars",
+    "href": "crop/lentil/experiment/GreenethorpePhen19.html#cultivars",
+    "title": "GreenethorpePhen19",
+    "section": "Cultivars",
+    "text": "Cultivars"
+  },
+  {
+    "objectID": "crop/lentil/experiment/GreenethorpePhen19.html#performance",
+    "href": "crop/lentil/experiment/GreenethorpePhen19.html#performance",
+    "title": "GreenethorpePhen19",
+    "section": "Performance",
+    "text": "Performance\nOverview\nThe table below summarizes the performance of APSIM NG for all cultivars across experiment GreenethorpePhen19.\n\n\n\n\nTable 1: Performance summary for all cultivars across experiment GreenethorpePhen19\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntrait\nn\nr\nr2\nbias\nmse\nrmse\nnrmse\nd\n\n\n\n\nLeaf.NodeNumber\n245\n0.96\n0.92\n-1.59\n5.93\n2.44\n0.24\n0.96\n\n\nPhenology.EmergenceDAS\n13\n0.97\n0.95\n-0.69\n7.15\n2.67\n0.25\n0.92\n\n\nPhenology.StartBuddingDAS\n13\n0.49\n0.24\n0.69\n169.15\n13.01\n0.14\n0.69\n\n\nPhenology.StartFloweringDAS\n13\n0.44\n0.19\n-12.54\n244.08\n15.62\n0.14\n0.46\n\n\nPhenology.StartPoddingDAS\n13\n0.48\n0.23\n3.31\n99.00\n9.95\n0.07\n0.68\n\n\n\n\n\n\n\n\nComparison of observed and predicted values\nThe model performance is compared with observed and predicted values for all cultivars across experiment GreenethorpePhen19. The plots below show the observed vs predicted values for different traits. Each point represents an observation from an experiment. The closer the points are to the diagonal line, the better the performance of the model for that trait.\nThe range of observed and predicted values are estimated using data in this page, which may be misleading for the narrow ranges of observed and predicted values.\nUsing the Expand All and Collapse All buttons below, you can expand or collapse the sections for each trait to see the observed vs predicted plots for different traits.\n\n\nExpand All\n\n\nCollapse All\n\n\n\n\n\n\n\n\n\nNoteLeaf.NodeNumber\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.EmergenceDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.StartBuddingDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.StartFloweringDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.StartPoddingDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits."
+  },
+  {
+    "objectID": "crop/wheat/cultivar/Bennett.html",
+    "href": "crop/wheat/cultivar/Bennett.html",
+    "title": "Bennett",
+    "section": "",
+    "text": "This report is generated for performance of Wheat model in APSIM NG for cultivar Bennett."
+  },
+  {
+    "objectID": "crop/wheat/cultivar/Bennett.html#cultivar-information",
+    "href": "crop/wheat/cultivar/Bennett.html#cultivar-information",
+    "title": "Bennett",
+    "section": "Cultivar Information",
+    "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Bennett\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n106.269847259128\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.221423439420895\n\n\n[Phenology].CAMP.FLNparams.MinLN\n8\n\n\n[Phenology].CAMP.FLNparams.PpLN\n1\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n6\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n1\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n230\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n2"
+  },
+  {
+    "objectID": "crop/wheat/cultivar/Bennett.html#experiments",
+    "href": "crop/wheat/cultivar/Bennett.html#experiments",
+    "title": "Bennett",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 59 experiments which tested cultivar Bennett in the validation test dataset of APSIM NG. Following the link below to see the details of each experiment, including the observed and predicted values for different traits, and the performance metrics.\n\n\n\n\nTable 2\n\n\n\n\n\n\n\n\n\n\nThis map below shows the locations of experiments without controlled environments. Following the link on the marker will take you to the details of each experiment, including the observed and predicted values for different traits, and the performance metrics.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments without controlled environments."
+  },
+  {
+    "objectID": "crop/wheat/cultivar/Bennett.html#performance",
+    "href": "crop/wheat/cultivar/Bennett.html#performance",
+    "title": "Bennett",
+    "section": "Performance",
+    "text": "Performance\nOverview\nThe table below summarizes the performance of APSIM NG for cultivar Bennett across all experiments.\n\n\n\n\nTable 3: Performance summary for cultivar Bennett across all experiments\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntrait\nn\nr\nr2\nbias\nmse\nrmse\nnrmse\nd\n\n\n\n\nAboveGround.NConc\n10\n-0.02\n0.00\n0.01\n0.00\n0.01\n0.72\n0.17\n\n\nAboveGround.Wt\n93\n0.61\n0.37\n240.77\n329856.38\n574.33\n0.33\n0.76\n\n\nGrain.Protein\n41\n-0.14\n0.02\n-1.73\n6.08\n2.46\n0.23\n0.26\n\n\nGrain.Size\n7\n-0.27\n0.07\n0.01\n0.00\n0.01\n0.19\n0.30\n\n\nGrain.Wt\n74\n0.00\n0.00\n226.99\n240740.06\n490.65\n0.70\n0.32\n\n\nLeaf.Height\n30\n-0.16\n0.03\n-709.33\n638114.85\n798.82\n7.61\n0.02\n\n\nLeaf.StemPopulation\n5\n-0.12\n0.02\n-294.19\n99452.37\n315.36\n0.49\n0.34\n\n\nPhenology.EmergenceDAS\n4\n0.96\n0.92\n-1.21\n6.94\n2.63\n0.31\n0.96\n\n\nPhenology.FinalLeafNumber\n4\n1.00\n0.99\n-0.40\n0.74\n0.86\n0.07\n0.98\n\n\nPhenology.FlagLeafDAS\n10\n0.98\n0.97\n5.02\n98.71\n9.94\n0.07\n0.97\n\n\nPhenology.FloweringDAS\n20\n0.98\n0.96\n-0.33\n53.95\n7.35\n0.04\n0.98\n\n\nPhenology.HaunStage\n84\n0.99\n0.98\n-0.56\n0.85\n0.92\n0.12\n0.99\n\n\nPhenology.HeadingDAS\n30\n0.98\n0.95\n-0.18\n31.61\n5.62\n0.03\n0.98\n\n\nPhenology.Zadok.Stage\n180\n0.96\n0.92\n-0.34\n38.35\n6.19\n0.15\n0.97\n\n\nSpike.HeadNumber\n27\n0.08\n0.01\n-168.79\n38281.79\n195.66\n0.41\n0.29\n\n\n\n\n\n\n\n\nComparison of observed and predicted values\nThe model performance is compared with observed and predicted values for cultivar Bennett across all experiments. The plots below show the observed vs predicted values for different traits. Each point represents an observation from an experiment. The closer the points are to the diagonal line, the better the performance of the model for that trait.\nThe range of observed and predicted values are estimated using data in this page, which may be misleading for the narrow ranges of observed and predicted values.\nUsing the Expand All and Collapse All buttons below, you can expand or collapse the sections for each trait to see the observed vs predicted plots for different traits.\n\n\nExpand All\n\n\nCollapse All\n\n\n\n\n\n\n\n\n\nNoteAboveGround.NConc\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteAboveGround.Wt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteGrain.Protein\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteGrain.Size\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteGrain.Wt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteLeaf.Height\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteLeaf.StemPopulation\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.EmergenceDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.FinalLeafNumber\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.FlagLeafDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.FloweringDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.HaunStage\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.HeadingDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.Zadok.Stage\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteSpike.HeadNumber\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits."
+  },
+  {
+    "objectID": "crop/wheat/cultivar/CSIROW011.html",
+    "href": "crop/wheat/cultivar/CSIROW011.html",
+    "title": "CSIROW011",
+    "section": "",
+    "text": "This report is generated for performance of Wheat model in APSIM NG for cultivar CSIROW011."
+  },
+  {
+    "objectID": "crop/wheat/cultivar/CSIROW011.html#cultivar-information",
+    "href": "crop/wheat/cultivar/CSIROW011.html#cultivar-information",
+    "title": "CSIROW011",
+    "section": "Cultivar Information",
+    "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for CSIROW011\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n90.109466190558\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.349636600984782\n\n\n[Phenology].CAMP.FLNparams.MinLN\n6.0\n\n\n[Phenology].CAMP.FLNparams.PpLN\n1.0\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n1.0\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-1.0\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n200.0\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n2.0"
+  },
+  {
+    "objectID": "crop/wheat/cultivar/CSIROW011.html#experiments",
+    "href": "crop/wheat/cultivar/CSIROW011.html#experiments",
+    "title": "CSIROW011",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 10 experiments which tested cultivar CSIROW011 in the validation test dataset of APSIM NG. Following the link below to see the details of each experiment, including the observed and predicted values for different traits, and the performance metrics.\n\n\n\n\nTable 2\n\n\n\n\n\n\n\n\n\n\nThis map below shows the locations of experiments without controlled environments. Following the link on the marker will take you to the details of each experiment, including the observed and predicted values for different traits, and the performance metrics.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments without controlled environments."
+  },
+  {
+    "objectID": "crop/wheat/cultivar/CSIROW011.html#performance",
+    "href": "crop/wheat/cultivar/CSIROW011.html#performance",
+    "title": "CSIROW011",
+    "section": "Performance",
+    "text": "Performance\nOverview\nThe table below summarizes the performance of APSIM NG for cultivar CSIROW011 across all experiments.\n\n\n\n\nTable 3: Performance summary for cultivar CSIROW011 across all experiments\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntrait\nn\nr\nr2\nbias\nmse\nrmse\nnrmse\nd\n\n\n\n\nPhenology.EmergenceDAS\n67\n1.00\n1.00\n0.00\n0.01\n0.10\n0.01\n1.00\n\n\nPhenology.FinalLeafNumber\n4\n0.98\n0.96\n-0.35\n0.16\n0.40\n0.06\n0.95\n\n\nPhenology.FlagLeafDAS\n4\n0.99\n0.98\n-2.60\n30.76\n5.55\n0.10\n0.98\n\n\nPhenology.FloweringDAS\n4\n0.95\n0.91\n-14.68\n279.01\n16.70\n0.23\n0.90\n\n\nPhenology.HaunStage\n35\n0.99\n0.97\n-0.32\n0.21\n0.46\n0.11\n0.99\n\n\nPhenology.HeadingDAS\n65\n0.90\n0.81\n-1.18\n246.31\n15.69\n0.15\n0.88\n\n\n\n\n\n\n\n\nComparison of observed and predicted values\nThe model performance is compared with observed and predicted values for cultivar CSIROW011 across all experiments. The plots below show the observed vs predicted values for different traits. Each point represents an observation from an experiment. The closer the points are to the diagonal line, the better the performance of the model for that trait.\nThe range of observed and predicted values are estimated using data in this page, which may be misleading for the narrow ranges of observed and predicted values.\nUsing the Expand All and Collapse All buttons below, you can expand or collapse the sections for each trait to see the observed vs predicted plots for different traits.\n\n\nExpand All\n\n\nCollapse All\n\n\n\n\n\n\n\n\n\nNotePhenology.EmergenceDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.FinalLeafNumber\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.FlagLeafDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.FloweringDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.HaunStage\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.HeadingDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits."
+  },
+  {
+    "objectID": "crop/wheat/cultivar/Emu_Rock.html",
+    "href": "crop/wheat/cultivar/Emu_Rock.html",
+    "title": "Emu_Rock",
+    "section": "",
+    "text": "This report is generated for performance of Wheat model in APSIM NG for cultivar Emu_Rock."
+  },
+  {
+    "objectID": "crop/wheat/cultivar/Emu_Rock.html#cultivar-information",
+    "href": "crop/wheat/cultivar/Emu_Rock.html#cultivar-information",
+    "title": "Emu_Rock",
+    "section": "Cultivar Information",
+    "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Emu_Rock\n\n\n\n\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n94.7698873180009\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.358007951256312\n\n\n[Phenology].CAMP.FLNparams.MinLN\n6\n\n\n[Phenology].CAMP.FLNparams.PpLN\n1\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n1\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-1\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n183.0\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n1.7962741039794823"
+  },
+  {
+    "objectID": "crop/wheat/cultivar/Emu_Rock.html#experiments",
+    "href": "crop/wheat/cultivar/Emu_Rock.html#experiments",
+    "title": "Emu_Rock",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 10 experiments which tested cultivar Emu_Rock in the validation test dataset of APSIM NG. Following the link below to see the details of each experiment, including the observed and predicted values for different traits, and the performance metrics.\n\n\n\n\nTable 2\n\n\n\n\n\n\n\n\n\n\nThis map below shows the locations of experiments without controlled environments. Following the link on the marker will take you to the details of each experiment, including the observed and predicted values for different traits, and the performance metrics.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments without controlled environments."
+  },
+  {
+    "objectID": "crop/wheat/cultivar/Emu_Rock.html#performance",
+    "href": "crop/wheat/cultivar/Emu_Rock.html#performance",
+    "title": "Emu_Rock",
+    "section": "Performance",
+    "text": "Performance\nOverview\nThe table below summarizes the performance of APSIM NG for cultivar Emu_Rock across all experiments.\n\n\n\n\nTable 3: Performance summary for cultivar Emu_Rock across all experiments\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntrait\nn\nr\nr2\nbias\nmse\nrmse\nnrmse\nd\n\n\n\n\nPhenology.EmergenceDAS\n67\n1.00\n1.00\n-0.01\n0.02\n0.13\n0.01\n1.00\n\n\nPhenology.FinalLeafNumber\n4\n0.96\n0.91\n0.01\n0.10\n0.31\n0.04\n0.97\n\n\nPhenology.FlagLeafDAS\n4\n1.00\n0.99\n-1.82\n14.46\n3.80\n0.06\n0.99\n\n\nPhenology.FloweringDAS\n4\n0.95\n0.91\n-14.07\n253.42\n15.92\n0.22\n0.90\n\n\nPhenology.HaunStage\n37\n0.99\n0.98\n-0.28\n0.17\n0.41\n0.10\n0.99\n\n\nPhenology.HeadingDAS\n66\n0.91\n0.82\n-2.71\n178.68\n13.37\n0.13\n0.91\n\n\n\n\n\n\n\n\nComparison of observed and predicted values\nThe model performance is compared with observed and predicted values for cultivar Emu_Rock across all experiments. The plots below show the observed vs predicted values for different traits. Each point represents an observation from an experiment. The closer the points are to the diagonal line, the better the performance of the model for that trait.\nThe range of observed and predicted values are estimated using data in this page, which may be misleading for the narrow ranges of observed and predicted values.\nUsing the Expand All and Collapse All buttons below, you can expand or collapse the sections for each trait to see the observed vs predicted plots for different traits.\n\n\nExpand All\n\n\nCollapse All\n\n\n\n\n\n\n\n\n\nNotePhenology.EmergenceDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.FinalLeafNumber\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.FlagLeafDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.FloweringDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.HaunStage\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.HeadingDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits."
+  },
+  {
+    "objectID": "crop/wheat/cultivar/Kellalac.html",
+    "href": "crop/wheat/cultivar/Kellalac.html",
+    "title": "Kellalac",
+    "section": "",
+    "text": "This report is generated for performance of Wheat model in APSIM NG for cultivar Kellalac."
+  },
+  {
+    "objectID": "crop/wheat/cultivar/Kellalac.html#cultivar-information",
+    "href": "crop/wheat/cultivar/Kellalac.html#cultivar-information",
+    "title": "Kellalac",
+    "section": "Cultivar Information",
+    "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Kellalac\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n88.1945544451052\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.350967201537242\n\n\n[Phenology].CAMP.FLNparams.MinLN\n7\n\n\n[Phenology].CAMP.FLNparams.PpLN\n4\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n2\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n0\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n6\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n210\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n3"
+  },
+  {
+    "objectID": "crop/wheat/cultivar/Kellalac.html#experiments",
+    "href": "crop/wheat/cultivar/Kellalac.html#experiments",
+    "title": "Kellalac",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 19 experiments which tested cultivar Kellalac in the validation test dataset of APSIM NG. Following the link below to see the details of each experiment, including the observed and predicted values for different traits, and the performance metrics.\n\n\n\n\nTable 2\n\n\n\n\n\n\n\n\n\n\nThis map below shows the locations of experiments without controlled environments. Following the link on the marker will take you to the details of each experiment, including the observed and predicted values for different traits, and the performance metrics.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments without controlled environments."
+  },
+  {
+    "objectID": "crop/wheat/cultivar/Kellalac.html#performance",
+    "href": "crop/wheat/cultivar/Kellalac.html#performance",
+    "title": "Kellalac",
+    "section": "Performance",
+    "text": "Performance\nOverview\nThe table below summarizes the performance of APSIM NG for cultivar Kellalac across all experiments.\n\n\n\n\nTable 3: Performance summary for cultivar Kellalac across all experiments\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntrait\nn\nr\nr2\nbias\nmse\nrmse\nnrmse\nd\n\n\n\n\nPhenology.EmergenceDAS\n67\n1.00\n1.00\n-0.02\n0.05\n0.22\n0.02\n1.00\n\n\nPhenology.FinalLeafNumber\n4\n0.91\n0.82\n-0.76\n1.70\n1.30\n0.14\n0.93\n\n\nPhenology.FlagLeafDAS\n4\n1.00\n1.00\n-0.49\n56.45\n7.51\n0.09\n0.98\n\n\nPhenology.FloweringDAS\n2\n1.00\n1.00\n-14.95\n282.58\n16.81\n0.24\n0.85\n\n\nPhenology.HaunStage\n61\n0.99\n0.98\n-0.43\n0.44\n0.67\n0.10\n0.99\n\n\nPhenology.HeadingDAS\n72\n0.79\n0.63\n0.30\n293.06\n17.12\n0.12\n0.86\n\n\n\n\n\n\n\n\nComparison of observed and predicted values\nThe model performance is compared with observed and predicted values for cultivar Kellalac across all experiments. The plots below show the observed vs predicted values for different traits. Each point represents an observation from an experiment. The closer the points are to the diagonal line, the better the performance of the model for that trait.\nThe range of observed and predicted values are estimated using data in this page, which may be misleading for the narrow ranges of observed and predicted values.\nUsing the Expand All and Collapse All buttons below, you can expand or collapse the sections for each trait to see the observed vs predicted plots for different traits.\n\n\nExpand All\n\n\nCollapse All\n\n\n\n\n\n\n\n\n\nNotePhenology.EmergenceDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.FinalLeafNumber\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.FlagLeafDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.FloweringDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.HaunStage\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.HeadingDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits."
+  },
+  {
+    "objectID": "crop/wheat/cultivar/Merinda.html",
+    "href": "crop/wheat/cultivar/Merinda.html",
+    "title": "Merinda",
+    "section": "",
+    "text": "This report is generated for performance of Wheat model in APSIM NG for cultivar Merinda."
+  },
+  {
+    "objectID": "crop/wheat/cultivar/Merinda.html#cultivar-information",
+    "href": "crop/wheat/cultivar/Merinda.html#cultivar-information",
+    "title": "Merinda",
+    "section": "Cultivar Information",
+    "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Merinda\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n98.5779272570712\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.347160824156039\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].CAMP.FLNparams.MinLN\n7\n\n\n[Phenology].CAMP.FLNparams.PpLN\n1\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n1\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-1\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n210\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n1"
+  },
+  {
+    "objectID": "crop/wheat/cultivar/Merinda.html#experiments",
+    "href": "crop/wheat/cultivar/Merinda.html#experiments",
+    "title": "Merinda",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 14 experiments which tested cultivar Merinda in the validation test dataset of APSIM NG. Following the link below to see the details of each experiment, including the observed and predicted values for different traits, and the performance metrics.\n\n\n\n\nTable 2\n\n\n\n\n\n\n\n\n\n\nThis map below shows the locations of experiments without controlled environments. Following the link on the marker will take you to the details of each experiment, including the observed and predicted values for different traits, and the performance metrics.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments without controlled environments."
+  },
+  {
+    "objectID": "crop/wheat/cultivar/Merinda.html#performance",
+    "href": "crop/wheat/cultivar/Merinda.html#performance",
+    "title": "Merinda",
+    "section": "Performance",
+    "text": "Performance\nOverview\nThe table below summarizes the performance of APSIM NG for cultivar Merinda across all experiments.\n\n\n\n\nTable 3: Performance summary for cultivar Merinda across all experiments\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntrait\nn\nr\nr2\nbias\nmse\nrmse\nnrmse\nd\n\n\n\n\nPhenology.EmergenceDAS\n67\n1.00\n1.00\n-0.03\n0.02\n0.14\n0.01\n1.00\n\n\nPhenology.FinalLeafNumber\n4\n0.99\n0.98\n0.08\n0.03\n0.17\n0.02\n0.99\n\n\nPhenology.FlagLeafDAS\n4\n0.99\n0.97\n-2.22\n19.95\n4.47\n0.07\n0.99\n\n\nPhenology.FloweringDAS\n4\n0.98\n0.95\n-10.80\n149.75\n12.24\n0.15\n0.94\n\n\nPhenology.HaunStage\n45\n0.99\n0.99\n-0.34\n0.18\n0.43\n0.10\n0.99\n\n\nPhenology.HeadingDAS\n71\n0.88\n0.78\n1.21\n170.60\n13.06\n0.12\n0.92\n\n\n\n\n\n\n\n\nComparison of observed and predicted values\nThe model performance is compared with observed and predicted values for cultivar Merinda across all experiments. The plots below show the observed vs predicted values for different traits. Each point represents an observation from an experiment. The closer the points are to the diagonal line, the better the performance of the model for that trait.\nThe range of observed and predicted values are estimated using data in this page, which may be misleading for the narrow ranges of observed and predicted values.\nUsing the Expand All and Collapse All buttons below, you can expand or collapse the sections for each trait to see the observed vs predicted plots for different traits.\n\n\nExpand All\n\n\nCollapse All\n\n\n\n\n\n\n\n\n\nNotePhenology.EmergenceDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.FinalLeafNumber\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.FlagLeafDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.FloweringDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.HaunStage\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.HeadingDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits."
+  },
+  {
+    "objectID": "crop/wheat/cultivar/Saracen.html",
+    "href": "crop/wheat/cultivar/Saracen.html",
+    "title": "Saracen",
+    "section": "",
+    "text": "This report is generated for performance of Wheat model in APSIM NG for cultivar Saracen."
+  },
+  {
+    "objectID": "crop/wheat/cultivar/Saracen.html#cultivar-information",
+    "href": "crop/wheat/cultivar/Saracen.html#cultivar-information",
+    "title": "Saracen",
+    "section": "Cultivar Information",
+    "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Saracen\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n100.0\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.6\n\n\n[Phenology].CAMP.FLNparams.MinLN\n8\n\n\n[Phenology].CAMP.FLNparams.PpLN\n2\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n1\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n2\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n170\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n4\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n6\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60"
+  },
+  {
+    "objectID": "crop/wheat/cultivar/Saracen.html#experiments",
+    "href": "crop/wheat/cultivar/Saracen.html#experiments",
+    "title": "Saracen",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 1 experiments which tested cultivar Saracen in the validation test dataset of APSIM NG. Following the link below to see the details of each experiment, including the observed and predicted values for different traits, and the performance metrics.\n\n\n\n\nTable 2\n\n\n\n\n\n\n\n\n\n\nThis map below shows the locations of experiments without controlled environments. Following the link on the marker will take you to the details of each experiment, including the observed and predicted values for different traits, and the performance metrics.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments without controlled environments."
+  },
+  {
+    "objectID": "crop/wheat/cultivar/Saracen.html#performance",
+    "href": "crop/wheat/cultivar/Saracen.html#performance",
+    "title": "Saracen",
+    "section": "Performance",
+    "text": "Performance\nOverview\nThe table below summarizes the performance of APSIM NG for cultivar Saracen across all experiments.\n\n\n\n\nTable 3: Performance summary for cultivar Saracen across all experiments\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntrait\nn\nr\nr2\nbias\nmse\nrmse\nnrmse\nd\n\n\n\n\nPhenology.CAMP.TSHS\n4\n0.98\n0.96\n0.95\n1.01\n1.00\n0.14\n0.85\n\n\nPhenology.CAMP.VSHS\n4\n1.00\n1.00\n1.59\n2.59\n1.61\n0.41\n0.64\n\n\nPhenology.FinalLeafNumber\n4\n0.98\n0.96\n0.20\n0.16\n0.40\n0.04\n0.98\n\n\nPhenology.HaunStage\n36\n0.94\n0.89\n-0.78\n1.57\n1.25\n0.20\n0.95\n\n\n\n\n\n\n\n\nComparison of observed and predicted values\nThe model performance is compared with observed and predicted values for cultivar Saracen across all experiments. The plots below show the observed vs predicted values for different traits. Each point represents an observation from an experiment. The closer the points are to the diagonal line, the better the performance of the model for that trait.\nThe range of observed and predicted values are estimated using data in this page, which may be misleading for the narrow ranges of observed and predicted values.\nUsing the Expand All and Collapse All buttons below, you can expand or collapse the sections for each trait to see the observed vs predicted plots for different traits.\n\n\nExpand All\n\n\nCollapse All\n\n\n\n\n\n\n\n\n\nNotePhenology.CAMP.TSHS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.CAMP.VSHS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.FinalLeafNumber\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.HaunStage\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits."
+  },
+  {
+    "objectID": "crop/wheat/cultivar/Sunbri.html",
+    "href": "crop/wheat/cultivar/Sunbri.html",
+    "title": "Sunbri",
+    "section": "",
+    "text": "This report is generated for performance of Wheat model in APSIM NG for cultivar Sunbri."
+  },
+  {
+    "objectID": "crop/wheat/cultivar/Sunbri.html#cultivar-information",
+    "href": "crop/wheat/cultivar/Sunbri.html#cultivar-information",
+    "title": "Sunbri",
+    "section": "Cultivar Information",
+    "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Sunbri\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n91.5032903672171\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.207593313150283\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].CAMP.FLNparams.MinLN\n8\n\n\n[Phenology].CAMP.FLNparams.PpLN\n4\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n2\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-1\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n170\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n2"
+  },
+  {
+    "objectID": "crop/wheat/cultivar/Sunbri.html#experiments",
+    "href": "crop/wheat/cultivar/Sunbri.html#experiments",
+    "title": "Sunbri",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 20 experiments which tested cultivar Sunbri in the validation test dataset of APSIM NG. Following the link below to see the details of each experiment, including the observed and predicted values for different traits, and the performance metrics.\n\n\n\n\nTable 2\n\n\n\n\n\n\n\n\n\n\nThis map below shows the locations of experiments without controlled environments. Following the link on the marker will take you to the details of each experiment, including the observed and predicted values for different traits, and the performance metrics.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments without controlled environments."
+  },
+  {
+    "objectID": "crop/wheat/cultivar/Sunbri.html#performance",
+    "href": "crop/wheat/cultivar/Sunbri.html#performance",
+    "title": "Sunbri",
+    "section": "Performance",
+    "text": "Performance\nOverview\nThe table below summarizes the performance of APSIM NG for cultivar Sunbri across all experiments.\n\n\n\n\nTable 3: Performance summary for cultivar Sunbri across all experiments\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntrait\nn\nr\nr2\nbias\nmse\nrmse\nnrmse\nd\n\n\n\n\nPhenology.EmergenceDAS\n67\n1.00\n1.00\n0.02\n0.06\n0.24\n0.02\n1.00\n\n\nPhenology.FinalLeafNumber\n4\n1.00\n1.00\n0.01\n0.02\n0.12\n0.01\n1.00\n\n\nPhenology.FlagLeafDAS\n4\n1.00\n1.00\n2.02\n8.34\n2.89\n0.03\n1.00\n\n\nPhenology.FloweringDAS\n17\n0.99\n0.98\n-3.04\n22.09\n4.70\n0.04\n0.99\n\n\nPhenology.HaunStage\n66\n1.00\n0.99\n-0.28\n0.16\n0.40\n0.06\n1.00\n\n\nPhenology.HeadingDAS\n86\n0.92\n0.85\n-0.80\n105.97\n10.29\n0.08\n0.95\n\n\n\n\n\n\n\n\nComparison of observed and predicted values\nThe model performance is compared with observed and predicted values for cultivar Sunbri across all experiments. The plots below show the observed vs predicted values for different traits. Each point represents an observation from an experiment. The closer the points are to the diagonal line, the better the performance of the model for that trait.\nThe range of observed and predicted values are estimated using data in this page, which may be misleading for the narrow ranges of observed and predicted values.\nUsing the Expand All and Collapse All buttons below, you can expand or collapse the sections for each trait to see the observed vs predicted plots for different traits.\n\n\nExpand All\n\n\nCollapse All\n\n\n\n\n\n\n\n\n\nNotePhenology.EmergenceDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.FinalLeafNumber\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.FlagLeafDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.FloweringDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.HaunStage\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.HeadingDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits."
+  },
+  {
+    "objectID": "crop/wheat/cultivar/Wills.html",
+    "href": "crop/wheat/cultivar/Wills.html",
+    "title": "Wills",
+    "section": "",
+    "text": "This report is generated for performance of Wheat model in APSIM NG for cultivar Wills."
+  },
+  {
+    "objectID": "crop/wheat/cultivar/Wills.html#cultivar-information",
+    "href": "crop/wheat/cultivar/Wills.html#cultivar-information",
+    "title": "Wills",
+    "section": "Cultivar Information",
+    "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for Wills\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n[Phenology].Phyllochron.BasePhyllochron.FixedValue\n94.9906866085437\n\n\n[Phenology].PhyllochronPpSensitivity.FixedValue\n0.264808096779551\n\n\n[Phenology].CAMP.EnvData.VrnTreatTemp\n5.8\n\n\n[Phenology].CAMP.EnvData.VrnTreatDuration\n60\n\n\n[Phenology].CAMP.FLNparams.MinLN\n8\n\n\n[Phenology].CAMP.FLNparams.PpLN\n2\n\n\n[Phenology].CAMP.FLNparams.VrnLN\n4\n\n\n[Phenology].CAMP.FLNparams.VxPLN\n-3\n\n\n[Phenology].HeadEmergenceLongDayBase.FixedValue\n110\n\n\n[Phenology].HeadEmergencePpSensitivity.FixedValue\n1"
+  },
+  {
+    "objectID": "crop/wheat/cultivar/Wills.html#experiments",
+    "href": "crop/wheat/cultivar/Wills.html#experiments",
+    "title": "Wills",
+    "section": "Experiments",
+    "text": "Experiments\nThere are 14 experiments which tested cultivar Wills in the validation test dataset of APSIM NG. Following the link below to see the details of each experiment, including the observed and predicted values for different traits, and the performance metrics.\n\n\n\n\nTable 2\n\n\n\n\n\n\n\n\n\n\nThis map below shows the locations of experiments without controlled environments. Following the link on the marker will take you to the details of each experiment, including the observed and predicted values for different traits, and the performance metrics.\n\n\n\n\n\n\n\n\nFigure 1: Locations of experiments without controlled environments."
+  },
+  {
+    "objectID": "crop/wheat/cultivar/Wills.html#performance",
+    "href": "crop/wheat/cultivar/Wills.html#performance",
+    "title": "Wills",
+    "section": "Performance",
+    "text": "Performance\nOverview\nThe table below summarizes the performance of APSIM NG for cultivar Wills across all experiments.\n\n\n\n\nTable 3: Performance summary for cultivar Wills across all experiments\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntrait\nn\nr\nr2\nbias\nmse\nrmse\nnrmse\nd\n\n\n\n\nPhenology.EmergenceDAS\n67\n1.00\n1.00\n0.01\n0.01\n0.10\n0.01\n1.00\n\n\nPhenology.FinalLeafNumber\n4\n0.97\n0.94\n0.72\n1.88\n1.37\n0.12\n0.94\n\n\nPhenology.FlagLeafDAS\n4\n0.97\n0.94\n-1.66\n45.94\n6.78\n0.08\n0.97\n\n\nPhenology.FloweringDAS\n4\n0.94\n0.88\n-0.66\n73.02\n8.55\n0.09\n0.96\n\n\nPhenology.HaunStage\n63\n0.99\n0.99\n-0.09\n0.28\n0.53\n0.08\n1.00\n\n\nPhenology.HeadingDAS\n69\n0.91\n0.83\n0.10\n67.85\n8.24\n0.07\n0.95\n\n\n\n\n\n\n\n\nComparison of observed and predicted values\nThe model performance is compared with observed and predicted values for cultivar Wills across all experiments. The plots below show the observed vs predicted values for different traits. Each point represents an observation from an experiment. The closer the points are to the diagonal line, the better the performance of the model for that trait.\nThe range of observed and predicted values are estimated using data in this page, which may be misleading for the narrow ranges of observed and predicted values.\nUsing the Expand All and Collapse All buttons below, you can expand or collapse the sections for each trait to see the observed vs predicted plots for different traits.\n\n\nExpand All\n\n\nCollapse All\n\n\n\n\n\n\n\n\n\nNotePhenology.EmergenceDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.FinalLeafNumber\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.FlagLeafDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.FloweringDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.HaunStage\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.HeadingDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits."
+  },
+  {
+    "objectID": "crop/wheat/experiment/14SSOW-4.html",
+    "href": "crop/wheat/experiment/14SSOW-4.html",
+    "title": "14SSOW-4",
+    "section": "",
+    "text": "This report is generated for performance of Wheat model in APSIM NG for experiment 14SSOW-4."
+  },
+  {
+    "objectID": "crop/wheat/experiment/14SSOW-4.html#experiment-information",
+    "href": "crop/wheat/experiment/14SSOW-4.html#experiment-information",
+    "title": "14SSOW-4",
+    "section": "Experiment Information",
+    "text": "Experiment Information\n\nThe experiment specific information is provided in the memo of apsimx file.\n\n)NA"
+  },
+  {
+    "objectID": "crop/wheat/experiment/14SSOW-4.html#cultivars",
+    "href": "crop/wheat/experiment/14SSOW-4.html#cultivars",
+    "title": "14SSOW-4",
+    "section": "Cultivars",
+    "text": "Cultivars"
+  },
+  {
+    "objectID": "crop/wheat/experiment/14SSOW-4.html#performance",
+    "href": "crop/wheat/experiment/14SSOW-4.html#performance",
+    "title": "14SSOW-4",
+    "section": "Performance",
+    "text": "Performance\nOverview\nThe table below summarizes the performance of APSIM NG for all cultivars across experiment 14SSOW-4.\n\n\n\n\nTable 1: Performance summary for all cultivars across experiment 14SSOW-4\n\n\n\n\n\n\ntrait\nn\nr\nr2\nbias\nmse\nrmse\nnrmse\nd\n\n\n\n\nPhenology.HeadingDAS\n34\n0.85\n0.73\n-3.24\n26.47\n5.14\n0.07\n0.87\n\n\n\n\n\n\n\n\nComparison of observed and predicted values\nThe model performance is compared with observed and predicted values for all cultivars across experiment 14SSOW-4. The plots below show the observed vs predicted values for different traits. Each point represents an observation from an experiment. The closer the points are to the diagonal line, the better the performance of the model for that trait.\nThe range of observed and predicted values are estimated using data in this page, which may be misleading for the narrow ranges of observed and predicted values.\nUsing the Expand All and Collapse All buttons below, you can expand or collapse the sections for each trait to see the observed vs predicted plots for different traits.\n\n\nExpand All\n\n\nCollapse All\n\n\n\n\n\n\n\n\n\nNotePhenology.HeadingDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits."
+  },
+  {
+    "objectID": "crop/wheat/experiment/17MinnipaMESW-TOS3.html",
+    "href": "crop/wheat/experiment/17MinnipaMESW-TOS3.html",
+    "title": "17MinnipaMESW-TOS3",
+    "section": "",
+    "text": "This report is generated for performance of Wheat model in APSIM NG for experiment 17MinnipaMESW-TOS3."
+  },
+  {
+    "objectID": "crop/wheat/experiment/17MinnipaMESW-TOS3.html#experiment-information",
+    "href": "crop/wheat/experiment/17MinnipaMESW-TOS3.html#experiment-information",
+    "title": "17MinnipaMESW-TOS3",
+    "section": "Experiment Information",
+    "text": "Experiment Information\n\nThe experiment specific information is provided in the memo of apsimx file.\n\n)NA"
+  },
+  {
+    "objectID": "crop/wheat/experiment/17MinnipaMESW-TOS3.html#cultivars",
+    "href": "crop/wheat/experiment/17MinnipaMESW-TOS3.html#cultivars",
+    "title": "17MinnipaMESW-TOS3",
+    "section": "Cultivars",
+    "text": "Cultivars"
+  },
+  {
+    "objectID": "crop/wheat/experiment/17MinnipaMESW-TOS3.html#performance",
+    "href": "crop/wheat/experiment/17MinnipaMESW-TOS3.html#performance",
+    "title": "17MinnipaMESW-TOS3",
+    "section": "Performance",
+    "text": "Performance\nOverview\nThe table below summarizes the performance of APSIM NG for all cultivars across experiment 17MinnipaMESW-TOS3.\n\n\n\n\nTable 1: Performance summary for all cultivars across experiment 17MinnipaMESW-TOS3\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntrait\nn\nr\nr2\nbias\nmse\nrmse\nnrmse\nd\n\n\n\n\nPhenology.HeadingDAS\n4\n0.99\n0.98\n-14.25\n242.25\n15.56\n0.12\n0.91\n\n\n\n\n\n\n\n\nComparison of observed and predicted values\nThe model performance is compared with observed and predicted values for all cultivars across experiment 17MinnipaMESW-TOS3. The plots below show the observed vs predicted values for different traits. Each point represents an observation from an experiment. The closer the points are to the diagonal line, the better the performance of the model for that trait.\nThe range of observed and predicted values are estimated using data in this page, which may be misleading for the narrow ranges of observed and predicted values.\nUsing the Expand All and Collapse All buttons below, you can expand or collapse the sections for each trait to see the observed vs predicted plots for different traits.\n\n\nExpand All\n\n\nCollapse All\n\n\n\n\n\n\n\n\n\nNotePhenology.HeadingDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits."
+  },
+  {
+    "objectID": "crop/wheat/experiment/BCVT_Badgingarra_2005-05-26.html",
+    "href": "crop/wheat/experiment/BCVT_Badgingarra_2005-05-26.html",
+    "title": "BCVT_Badgingarra_2005-05-26",
+    "section": "",
+    "text": "This report is generated for performance of Wheat model in APSIM NG for experiment BCVT_Badgingarra_2005-05-26."
+  },
+  {
+    "objectID": "crop/wheat/experiment/BCVT_Badgingarra_2005-05-26.html#experiment-information",
+    "href": "crop/wheat/experiment/BCVT_Badgingarra_2005-05-26.html#experiment-information",
+    "title": "BCVT_Badgingarra_2005-05-26",
+    "section": "Experiment Information",
+    "text": "Experiment Information\n\nThe experiment specific information is provided in the memo of apsimx file.\n\n)NA"
+  },
+  {
+    "objectID": "crop/wheat/experiment/BCVT_Badgingarra_2005-05-26.html#cultivars",
+    "href": "crop/wheat/experiment/BCVT_Badgingarra_2005-05-26.html#cultivars",
+    "title": "BCVT_Badgingarra_2005-05-26",
+    "section": "Cultivars",
+    "text": "Cultivars"
+  },
+  {
+    "objectID": "crop/wheat/experiment/BCVT_Badgingarra_2005-05-26.html#performance",
+    "href": "crop/wheat/experiment/BCVT_Badgingarra_2005-05-26.html#performance",
+    "title": "BCVT_Badgingarra_2005-05-26",
+    "section": "Performance",
+    "text": "Performance\nOverview\nThe table below summarizes the performance of APSIM NG for all cultivars across experiment BCVT_Badgingarra_2005-05-26.\n\n\n\n\nTable 1: Performance summary for all cultivars across experiment BCVT_Badgingarra_2005-05-26\n\n\n\n\n\n\ntrait\nn\nr\nr2\nbias\nmse\nrmse\nnrmse\nd\n\n\n\n\nPhenology.HeadingDAS\n1\nNA\nNA\n-11\n121\n11\n0.1\n0\n\n\n\n\n\n\n\n\nComparison of observed and predicted values\nThe model performance is compared with observed and predicted values for all cultivars across experiment BCVT_Badgingarra_2005-05-26. The plots below show the observed vs predicted values for different traits. Each point represents an observation from an experiment. The closer the points are to the diagonal line, the better the performance of the model for that trait.\nThe range of observed and predicted values are estimated using data in this page, which may be misleading for the narrow ranges of observed and predicted values.\nUsing the Expand All and Collapse All buttons below, you can expand or collapse the sections for each trait to see the observed vs predicted plots for different traits.\n\n\nExpand All\n\n\nCollapse All\n\n\n\n\n\n\n\n\n\nNotePhenology.HeadingDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits."
+  },
+  {
+    "objectID": "crop/wheat/experiment/BCVT_Mt_Madden_1994-06-13.html",
+    "href": "crop/wheat/experiment/BCVT_Mt_Madden_1994-06-13.html",
+    "title": "BCVT_Mt_Madden_1994-06-13",
+    "section": "",
+    "text": "This report is generated for performance of Wheat model in APSIM NG for experiment BCVT_Mt_Madden_1994-06-13."
+  },
+  {
+    "objectID": "crop/wheat/experiment/BCVT_Mt_Madden_1994-06-13.html#experiment-information",
+    "href": "crop/wheat/experiment/BCVT_Mt_Madden_1994-06-13.html#experiment-information",
+    "title": "BCVT_Mt_Madden_1994-06-13",
+    "section": "Experiment Information",
+    "text": "Experiment Information\n\nThe experiment specific information is provided in the memo of apsimx file.\n\n)NA"
+  },
+  {
+    "objectID": "crop/wheat/experiment/BCVT_Mt_Madden_1994-06-13.html#cultivars",
+    "href": "crop/wheat/experiment/BCVT_Mt_Madden_1994-06-13.html#cultivars",
+    "title": "BCVT_Mt_Madden_1994-06-13",
+    "section": "Cultivars",
+    "text": "Cultivars"
+  },
+  {
+    "objectID": "crop/wheat/experiment/BCVT_Mt_Madden_1994-06-13.html#performance",
+    "href": "crop/wheat/experiment/BCVT_Mt_Madden_1994-06-13.html#performance",
+    "title": "BCVT_Mt_Madden_1994-06-13",
+    "section": "Performance",
+    "text": "Performance\nOverview\nThe table below summarizes the performance of APSIM NG for all cultivars across experiment BCVT_Mt_Madden_1994-06-13.\n\n\n\n\nTable 1: Performance summary for all cultivars across experiment BCVT_Mt_Madden_1994-06-13\n\n\n\n\n\n\ntrait\nn\nr\nr2\nbias\nmse\nrmse\nnrmse\nd\n\n\n\n\nPhenology.HeadingDAS\n1\nNA\nNA\n-6\n36\n6\n0.06\n0\n\n\n\n\n\n\n\n\nComparison of observed and predicted values\nThe model performance is compared with observed and predicted values for all cultivars across experiment BCVT_Mt_Madden_1994-06-13. The plots below show the observed vs predicted values for different traits. Each point represents an observation from an experiment. The closer the points are to the diagonal line, the better the performance of the model for that trait.\nThe range of observed and predicted values are estimated using data in this page, which may be misleading for the narrow ranges of observed and predicted values.\nUsing the Expand All and Collapse All buttons below, you can expand or collapse the sections for each trait to see the observed vs predicted plots for different traits.\n\n\nExpand All\n\n\nCollapse All\n\n\n\n\n\n\n\n\n\nNotePhenology.HeadingDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits."
+  },
+  {
+    "objectID": "crop/wheat/experiment/BTOS_2008GE4.html",
+    "href": "crop/wheat/experiment/BTOS_2008GE4.html",
+    "title": "BTOS_2008GE4",
+    "section": "",
+    "text": "This report is generated for performance of Wheat model in APSIM NG for experiment BTOS_2008GE4."
+  },
+  {
+    "objectID": "crop/wheat/experiment/BTOS_2008GE4.html#experiment-information",
+    "href": "crop/wheat/experiment/BTOS_2008GE4.html#experiment-information",
+    "title": "BTOS_2008GE4",
+    "section": "Experiment Information",
+    "text": "Experiment Information\n\nThe experiment specific information is provided in the memo of apsimx file.\n\n)NA"
+  },
+  {
+    "objectID": "crop/wheat/experiment/BTOS_2008GE4.html#cultivars",
+    "href": "crop/wheat/experiment/BTOS_2008GE4.html#cultivars",
+    "title": "BTOS_2008GE4",
+    "section": "Cultivars",
+    "text": "Cultivars"
+  },
+  {
+    "objectID": "crop/wheat/experiment/BTOS_2008GE4.html#performance",
+    "href": "crop/wheat/experiment/BTOS_2008GE4.html#performance",
+    "title": "BTOS_2008GE4",
+    "section": "Performance",
+    "text": "Performance\nOverview\nThe table below summarizes the performance of APSIM NG for all cultivars across experiment BTOS_2008GE4.\n\n\n\n\nTable 1: Performance summary for all cultivars across experiment BTOS_2008GE4\n\n\n\n\n\n\ntrait\nn\nr\nr2\nbias\nmse\nrmse\nnrmse\nd\n\n\n\n\nPhenology.HeadingDAS\n11\n0.81\n0.65\n-8.91\n93.09\n9.65\n0.11\n0.56\n\n\n\n\n\n\n\n\nComparison of observed and predicted values\nThe model performance is compared with observed and predicted values for all cultivars across experiment BTOS_2008GE4. The plots below show the observed vs predicted values for different traits. Each point represents an observation from an experiment. The closer the points are to the diagonal line, the better the performance of the model for that trait.\nThe range of observed and predicted values are estimated using data in this page, which may be misleading for the narrow ranges of observed and predicted values.\nUsing the Expand All and Collapse All buttons below, you can expand or collapse the sections for each trait to see the observed vs predicted plots for different traits.\n\n\nExpand All\n\n\nCollapse All\n\n\n\n\n\n\n\n\n\nNotePhenology.HeadingDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits."
+  },
+  {
+    "objectID": "crop/wheat/experiment/BYIE_09GN.html",
+    "href": "crop/wheat/experiment/BYIE_09GN.html",
+    "title": "BYIE_09GN",
+    "section": "",
+    "text": "This report is generated for performance of Wheat model in APSIM NG for experiment BYIE_09GN."
+  },
+  {
+    "objectID": "crop/wheat/experiment/BYIE_09GN.html#experiment-information",
+    "href": "crop/wheat/experiment/BYIE_09GN.html#experiment-information",
+    "title": "BYIE_09GN",
+    "section": "Experiment Information",
+    "text": "Experiment Information\n\nThe experiment specific information is provided in the memo of apsimx file.\n\n)NA"
+  },
+  {
+    "objectID": "crop/wheat/experiment/BYIE_09GN.html#cultivars",
+    "href": "crop/wheat/experiment/BYIE_09GN.html#cultivars",
+    "title": "BYIE_09GN",
+    "section": "Cultivars",
+    "text": "Cultivars"
+  },
+  {
+    "objectID": "crop/wheat/experiment/BYIE_09GN.html#performance",
+    "href": "crop/wheat/experiment/BYIE_09GN.html#performance",
+    "title": "BYIE_09GN",
+    "section": "Performance",
+    "text": "Performance\nOverview\nThe table below summarizes the performance of APSIM NG for all cultivars across experiment BYIE_09GN.\n\n\n\n\nTable 1: Performance summary for all cultivars across experiment BYIE_09GN\n\n\n\n\n\n\ntrait\nn\nr\nr2\nbias\nmse\nrmse\nnrmse\nd\n\n\n\n\nPhenology.HeadingDAS\n13\n0.76\n0.58\n-8.69\n93.77\n9.68\n0.11\n0.47\n\n\n\n\n\n\n\n\nComparison of observed and predicted values\nThe model performance is compared with observed and predicted values for all cultivars across experiment BYIE_09GN. The plots below show the observed vs predicted values for different traits. Each point represents an observation from an experiment. The closer the points are to the diagonal line, the better the performance of the model for that trait.\nThe range of observed and predicted values are estimated using data in this page, which may be misleading for the narrow ranges of observed and predicted values.\nUsing the Expand All and Collapse All buttons below, you can expand or collapse the sections for each trait to see the observed vs predicted plots for different traits.\n\n\nExpand All\n\n\nCollapse All\n\n\n\n\n\n\n\n\n\nNotePhenology.HeadingDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits."
+  },
+  {
+    "objectID": "crop/wheat/experiment/Cunderdin97.html",
+    "href": "crop/wheat/experiment/Cunderdin97.html",
+    "title": "Cunderdin97",
+    "section": "",
+    "text": "This report is generated for performance of Wheat model in APSIM NG for experiment Cunderdin97."
+  },
+  {
+    "objectID": "crop/wheat/experiment/Cunderdin97.html#experiment-information",
+    "href": "crop/wheat/experiment/Cunderdin97.html#experiment-information",
+    "title": "Cunderdin97",
+    "section": "Experiment Information",
+    "text": "Experiment Information\n\nThe experiment specific information is provided in the memo of apsimx file.\n\n)NA"
+  },
+  {
+    "objectID": "crop/wheat/experiment/Cunderdin97.html#cultivars",
+    "href": "crop/wheat/experiment/Cunderdin97.html#cultivars",
+    "title": "Cunderdin97",
+    "section": "Cultivars",
+    "text": "Cultivars"
+  },
+  {
+    "objectID": "crop/wheat/experiment/Cunderdin97.html#performance",
+    "href": "crop/wheat/experiment/Cunderdin97.html#performance",
+    "title": "Cunderdin97",
+    "section": "Performance",
+    "text": "Performance\nOverview\nThe table below summarizes the performance of APSIM NG for all cultivars across experiment Cunderdin97.\n\n\n\n\nTable 1: Performance summary for all cultivars across experiment Cunderdin97\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntrait\nn\nr\nr2\nbias\nmse\nrmse\nnrmse\nd\n\n\n\n\nAboveGround.Wt\n33\n0.91\n0.83\n-22.36\n5939.28\n77.07\n0.12\n0.94\n\n\nGrain.N\n33\n0.79\n0.63\n-0.46\n1.12\n1.06\n0.20\n0.87\n\n\nGrain.NConc\n34\n0.47\n0.22\n0.00\n0.00\n0.00\n0.20\n0.25\n\n\nGrain.Number\n33\n0.88\n0.78\n-637.96\n1155223.37\n1074.81\n0.16\n0.90\n\n\nGrain.Protein\n34\n0.47\n0.22\n0.06\n7.57\n2.75\n0.20\n0.25\n\n\nGrain.Size\n33\n0.40\n0.16\n0.00\n0.00\n0.01\n0.22\n0.54\n\n\nGrain.Wt\n33\n0.87\n0.75\n-6.50\n2419.13\n49.18\n0.21\n0.88\n\n\n\n\n\n\n\n\nComparison of observed and predicted values\nThe model performance is compared with observed and predicted values for all cultivars across experiment Cunderdin97. The plots below show the observed vs predicted values for different traits. Each point represents an observation from an experiment. The closer the points are to the diagonal line, the better the performance of the model for that trait.\nThe range of observed and predicted values are estimated using data in this page, which may be misleading for the narrow ranges of observed and predicted values.\nUsing the Expand All and Collapse All buttons below, you can expand or collapse the sections for each trait to see the observed vs predicted plots for different traits.\n\n\nExpand All\n\n\nCollapse All\n\n\n\n\n\n\n\n\n\nNoteAboveGround.Wt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteGrain.N\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteGrain.NConc\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteGrain.Number\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteGrain.Protein\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteGrain.Size\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteGrain.Wt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits."
+  },
+  {
+    "objectID": "crop/wheat/experiment/Gatton2014Irrigated.html",
+    "href": "crop/wheat/experiment/Gatton2014Irrigated.html",
+    "title": "Gatton2014Irrigated",
+    "section": "",
+    "text": "This report is generated for performance of Wheat model in APSIM NG for experiment Gatton2014Irrigated."
+  },
+  {
+    "objectID": "crop/wheat/experiment/Gatton2014Irrigated.html#experiment-information",
+    "href": "crop/wheat/experiment/Gatton2014Irrigated.html#experiment-information",
+    "title": "Gatton2014Irrigated",
+    "section": "Experiment Information",
+    "text": "Experiment Information\n\nThe experiment specific information is provided in the memo of apsimx file.\n\n)NA"
+  },
+  {
+    "objectID": "crop/wheat/experiment/Gatton2014Irrigated.html#cultivars",
+    "href": "crop/wheat/experiment/Gatton2014Irrigated.html#cultivars",
+    "title": "Gatton2014Irrigated",
+    "section": "Cultivars",
+    "text": "Cultivars"
+  },
+  {
+    "objectID": "crop/wheat/experiment/Gatton2014Irrigated.html#performance",
+    "href": "crop/wheat/experiment/Gatton2014Irrigated.html#performance",
+    "title": "Gatton2014Irrigated",
+    "section": "Performance",
+    "text": "Performance\nOverview\nThe table below summarizes the performance of APSIM NG for all cultivars across experiment Gatton2014Irrigated.\n\n\n\n\nTable 1: Performance summary for all cultivars across experiment Gatton2014Irrigated\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntrait\nn\nr\nr2\nbias\nmse\nrmse\nnrmse\nd\n\n\n\n\nAboveGround.N\n9\n0.94\n0.88\n-2.59\n18.08\n4.25\n0.32\n0.88\n\n\nAboveGround.StorageWt\n9\n0.83\n0.68\n-46.93\n6358.71\n79.74\n1.54\n0.63\n\n\nAboveGround.Wt\n15\n0.99\n0.99\n140.37\n29799.67\n172.63\n0.20\n0.97\n\n\nEar.Wt\n6\n0.97\n0.95\n158.26\n69410.11\n263.46\n0.40\n0.87\n\n\nGrain.Number\n6\n0.75\n0.56\n2623.68\n10113816.55\n3180.22\n0.19\n0.52\n\n\nGrain.Size\n6\n0.87\n0.75\n0.01\n0.00\n0.01\n0.12\n0.53\n\n\nGrain.Wt\n6\n0.01\n0.00\n195.16\n46571.89\n215.81\n0.29\n0.34\n\n\nLeaf.CoverTotal\n9\n0.87\n0.76\n0.03\n0.00\n0.04\n0.04\n0.34\n\n\nLeaf.Dead.Wt\n15\n0.60\n0.36\n12.96\n4692.11\n68.50\n0.90\n0.73\n\n\nLeaf.LAI\n12\n0.73\n0.53\n2.28\n8.03\n2.83\n0.45\n0.68\n\n\nLeaf.Live.Wt\n15\n0.99\n0.99\n-19.39\n631.13\n25.12\n0.14\n0.99\n\n\nLeaf.SpecificAreaCanopy\n12\n0.35\n0.12\n0.01\n0.00\n0.01\n0.41\n0.33\n\n\nPhenology.HaunStage\n24\n1.00\n0.99\n0.28\n0.13\n0.36\n0.06\n0.99\n\n\nStem.Wt\n15\n0.87\n0.76\n98.62\n20373.57\n142.74\n0.41\n0.88\n\n\n\n\n\n\n\n\nComparison of observed and predicted values\nThe model performance is compared with observed and predicted values for all cultivars across experiment Gatton2014Irrigated. The plots below show the observed vs predicted values for different traits. Each point represents an observation from an experiment. The closer the points are to the diagonal line, the better the performance of the model for that trait.\nThe range of observed and predicted values are estimated using data in this page, which may be misleading for the narrow ranges of observed and predicted values.\nUsing the Expand All and Collapse All buttons below, you can expand or collapse the sections for each trait to see the observed vs predicted plots for different traits.\n\n\nExpand All\n\n\nCollapse All\n\n\n\n\n\n\n\n\n\nNoteAboveGround.N\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteAboveGround.StorageWt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteAboveGround.Wt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteEar.Wt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteGrain.Number\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteGrain.Size\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteGrain.Wt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteLeaf.CoverTotal\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteLeaf.Dead.Wt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteLeaf.LAI\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteLeaf.Live.Wt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteLeaf.SpecificAreaCanopy\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.HaunStage\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteStem.Wt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits."
+  },
+  {
+    "objectID": "crop/wheat/experiment/Inverleigh2013-TOS4.html",
+    "href": "crop/wheat/experiment/Inverleigh2013-TOS4.html",
+    "title": "Inverleigh2013-TOS4",
+    "section": "",
+    "text": "This report is generated for performance of Wheat model in APSIM NG for experiment Inverleigh2013-TOS4."
+  },
+  {
+    "objectID": "crop/wheat/experiment/Inverleigh2013-TOS4.html#experiment-information",
+    "href": "crop/wheat/experiment/Inverleigh2013-TOS4.html#experiment-information",
+    "title": "Inverleigh2013-TOS4",
+    "section": "Experiment Information",
+    "text": "Experiment Information\n\nThe experiment specific information is provided in the memo of apsimx file.\n\n)NA"
+  },
+  {
+    "objectID": "crop/wheat/experiment/Inverleigh2013-TOS4.html#cultivars",
+    "href": "crop/wheat/experiment/Inverleigh2013-TOS4.html#cultivars",
+    "title": "Inverleigh2013-TOS4",
+    "section": "Cultivars",
+    "text": "Cultivars"
+  },
+  {
+    "objectID": "crop/wheat/experiment/Inverleigh2013-TOS4.html#performance",
+    "href": "crop/wheat/experiment/Inverleigh2013-TOS4.html#performance",
+    "title": "Inverleigh2013-TOS4",
+    "section": "Performance",
+    "text": "Performance\nOverview\nThe table below summarizes the performance of APSIM NG for all cultivars across experiment Inverleigh2013-TOS4.\n\n\n\n\nTable 1: Performance summary for all cultivars across experiment Inverleigh2013-TOS4\n\n\n\n\n\n\ntrait\nn\nr\nr2\nbias\nmse\nrmse\nnrmse\nd\n\n\n\n\nPhenology.FloweringDAS\n1\nNA\nNA\n-4\n16\n4\n0.03\n0\n\n\n\n\n\n\n\n\nComparison of observed and predicted values\nThe model performance is compared with observed and predicted values for all cultivars across experiment Inverleigh2013-TOS4. The plots below show the observed vs predicted values for different traits. Each point represents an observation from an experiment. The closer the points are to the diagonal line, the better the performance of the model for that trait.\nThe range of observed and predicted values are estimated using data in this page, which may be misleading for the narrow ranges of observed and predicted values.\nUsing the Expand All and Collapse All buttons below, you can expand or collapse the sections for each trait to see the observed vs predicted plots for different traits.\n\n\nExpand All\n\n\nCollapse All\n\n\n\n\n\n\n\n\n\nNotePhenology.FloweringDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits."
+  },
+  {
+    "objectID": "crop/wheat/experiment/MaricopaFACE95_96.html",
+    "href": "crop/wheat/experiment/MaricopaFACE95_96.html",
+    "title": "MaricopaFACE95_96",
+    "section": "",
+    "text": "This report is generated for performance of Wheat model in APSIM NG for experiment MaricopaFACE95_96."
+  },
+  {
+    "objectID": "crop/wheat/experiment/MaricopaFACE95_96.html#experiment-information",
+    "href": "crop/wheat/experiment/MaricopaFACE95_96.html#experiment-information",
+    "title": "MaricopaFACE95_96",
+    "section": "Experiment Information",
+    "text": "Experiment Information\n\nThe experiment specific information is provided in the memo of apsimx file.\n\n)NA"
+  },
+  {
+    "objectID": "crop/wheat/experiment/MaricopaFACE95_96.html#cultivars",
+    "href": "crop/wheat/experiment/MaricopaFACE95_96.html#cultivars",
+    "title": "MaricopaFACE95_96",
+    "section": "Cultivars",
+    "text": "Cultivars"
+  },
+  {
+    "objectID": "crop/wheat/experiment/MaricopaFACE95_96.html#performance",
+    "href": "crop/wheat/experiment/MaricopaFACE95_96.html#performance",
+    "title": "MaricopaFACE95_96",
+    "section": "Performance",
+    "text": "Performance\nOverview\nThe table below summarizes the performance of APSIM NG for all cultivars across experiment MaricopaFACE95_96.\n\n\n\n\nTable 1: Performance summary for all cultivars across experiment MaricopaFACE95_96\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntrait\nn\nr\nr2\nbias\nmse\nrmse\nnrmse\nd\n\n\n\n\n.Wheat.Leaf.Transpiration…ISoilWater.Es…MicroClimate.PrecipitationInterception.\n323\n0.84\n0.70\n0.30\n2.04\n1.43\n0.29\n0.86\n\n\nAboveGround.Wt\n56\n0.96\n0.93\n-76.74\n47393.87\n217.70\n0.26\n0.97\n\n\nDaysAfterSowing\n444\n0.93\n0.86\n1.34\n200.01\n14.14\n0.16\n0.96\n\n\nEar.Wt\n28\n0.91\n0.83\n48.01\n20220.27\n142.20\n0.20\n0.95\n\n\nGrain.Number\n4\n0.82\n0.68\n-1228.34\n2704144.49\n1644.43\n0.10\n0.80\n\n\nGrain.Protein\n4\n1.00\n1.00\n-0.48\n0.86\n0.93\n0.08\n0.92\n\n\nGrain.Size\n4\n-0.96\n0.92\n0.01\n0.00\n0.01\n0.26\n0.00\n\n\nGrain.Wt\n28\n0.91\n0.82\n2.40\n17554.12\n132.49\n0.28\n0.95\n\n\nLeaf.CoverTotal\n36\n0.85\n0.73\n0.02\n0.01\n0.09\n0.11\n0.92\n\n\nLeaf.Dead.Wt\n42\n0.82\n0.67\n11.17\n965.06\n31.07\n0.56\n0.88\n\n\nLeaf.LAI\n79\n0.96\n0.92\n-0.91\n1.20\n1.09\n0.49\n0.91\n\n\nLeaf.Live.N\n48\n0.94\n0.87\n-2.19\n8.37\n2.89\n0.84\n0.83\n\n\nLeaf.Live.NConc\n50\n0.83\n0.68\n0.00\n0.00\n0.01\n0.26\n0.88\n\n\nLeaf.Live.Wt\n49\n0.94\n0.87\n-68.96\n7200.62\n84.86\n0.80\n0.82\n\n\nLeaf.SpecificAreaCanopy\n49\n0.22\n0.05\n0.00\n0.00\n0.01\n0.24\n0.45\n\n\nLeaf.StemPopulation\n52\n0.78\n0.60\n195.20\n59740.50\n244.42\n0.37\n0.57\n\n\nLeaf.Wt\n56\n0.90\n0.81\n-59.17\n5967.40\n77.25\n0.55\n0.86\n\n\nPhenology.FinalLeafNumber\n4\nNA\nNA\n-0.95\n0.92\n0.96\n0.13\n0.16\n\n\nPhenology.FloweringDAS\n4\nNA\nNA\n4.94\n25.05\n5.00\n0.05\n0.21\n\n\nPhenology.HaunStage\n28\n0.94\n0.88\n0.26\n1.07\n1.03\n0.16\n0.96\n\n\nPhenology.MaturityDAS\n4\nNA\nNA\n-5.19\n39.61\n6.29\n0.04\n0.48\n\n\nPhenology.Zadok.Stage\n52\n0.99\n0.98\n2.84\n24.96\n5.00\n0.09\n0.99\n\n\nSpike.Wt\n36\n0.87\n0.75\n35.10\n3922.46\n62.63\n0.30\n0.87\n\n\nStem.Wt\n56\n0.90\n0.81\n-65.67\n24593.05\n156.82\n0.52\n0.91\n\n\n\n\n\n\n\n\nComparison of observed and predicted values\nThe model performance is compared with observed and predicted values for all cultivars across experiment MaricopaFACE95_96. The plots below show the observed vs predicted values for different traits. Each point represents an observation from an experiment. The closer the points are to the diagonal line, the better the performance of the model for that trait.\nThe range of observed and predicted values are estimated using data in this page, which may be misleading for the narrow ranges of observed and predicted values.\nUsing the Expand All and Collapse All buttons below, you can expand or collapse the sections for each trait to see the observed vs predicted plots for different traits.\n\n\nExpand All\n\n\nCollapse All\n\n\n\n\n\n\n\n\n\nNote.Wheat.Leaf.Transpiration…ISoilWater.Es…MicroClimate.PrecipitationInterception.\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteAboveGround.Wt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteDaysAfterSowing\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteEar.Wt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteGrain.Number\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteGrain.Protein\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteGrain.Size\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteGrain.Wt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteLeaf.CoverTotal\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteLeaf.Dead.Wt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteLeaf.LAI\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteLeaf.Live.N\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteLeaf.Live.NConc\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteLeaf.Live.Wt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteLeaf.SpecificAreaCanopy\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteLeaf.StemPopulation\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteLeaf.Wt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.FinalLeafNumber\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.FloweringDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.HaunStage\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.MaturityDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNotePhenology.Zadok.Stage\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteSpike.Wt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits.\n\n\n\n\n\n\n\n\n\n\n\nNoteStem.Wt\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits."
+  },
+  {
+    "objectID": "crop/wheat/experiment/PTOS_10Kairi-1.html",
+    "href": "crop/wheat/experiment/PTOS_10Kairi-1.html",
+    "title": "PTOS_10Kairi-1",
+    "section": "",
+    "text": "This report is generated for performance of Wheat model in APSIM NG for experiment PTOS_10Kairi-1."
+  },
+  {
+    "objectID": "crop/wheat/experiment/PTOS_10Kairi-1.html#experiment-information",
+    "href": "crop/wheat/experiment/PTOS_10Kairi-1.html#experiment-information",
+    "title": "PTOS_10Kairi-1",
+    "section": "Experiment Information",
+    "text": "Experiment Information\n\nThe experiment specific information is provided in the memo of apsimx file.\n\n)NA"
+  },
+  {
+    "objectID": "crop/wheat/experiment/PTOS_10Kairi-1.html#cultivars",
+    "href": "crop/wheat/experiment/PTOS_10Kairi-1.html#cultivars",
+    "title": "PTOS_10Kairi-1",
+    "section": "Cultivars",
+    "text": "Cultivars"
+  },
+  {
+    "objectID": "crop/wheat/experiment/PTOS_10Kairi-1.html#performance",
+    "href": "crop/wheat/experiment/PTOS_10Kairi-1.html#performance",
+    "title": "PTOS_10Kairi-1",
+    "section": "Performance",
+    "text": "Performance\nOverview\nThe table below summarizes the performance of APSIM NG for all cultivars across experiment PTOS_10Kairi-1.\n\n\n\n\nTable 1: Performance summary for all cultivars across experiment PTOS_10Kairi-1\n\n\n\n\n\n\ntrait\nn\nr\nr2\nbias\nmse\nrmse\nnrmse\nd\n\n\n\n\nPhenology.HeadingDAS\n8\n0.84\n0.71\n1.38\n39.88\n6.31\n0.09\n0.88\n\n\n\n\n\n\n\n\nComparison of observed and predicted values\nThe model performance is compared with observed and predicted values for all cultivars across experiment PTOS_10Kairi-1. The plots below show the observed vs predicted values for different traits. Each point represents an observation from an experiment. The closer the points are to the diagonal line, the better the performance of the model for that trait.\nThe range of observed and predicted values are estimated using data in this page, which may be misleading for the narrow ranges of observed and predicted values.\nUsing the Expand All and Collapse All buttons below, you can expand or collapse the sections for each trait to see the observed vs predicted plots for different traits.\n\n\nExpand All\n\n\nCollapse All\n\n\n\n\n\n\n\n\n\nNotePhenology.HeadingDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits."
+  },
+  {
+    "objectID": "crop/wheat/experiment/Temora2016-TOS4.html",
+    "href": "crop/wheat/experiment/Temora2016-TOS4.html",
+    "title": "Temora2016-TOS4",
+    "section": "",
+    "text": "This report is generated for performance of Wheat model in APSIM NG for experiment Temora2016-TOS4."
+  },
+  {
+    "objectID": "crop/wheat/experiment/Temora2016-TOS4.html#experiment-information",
+    "href": "crop/wheat/experiment/Temora2016-TOS4.html#experiment-information",
+    "title": "Temora2016-TOS4",
+    "section": "Experiment Information",
+    "text": "Experiment Information\n\nThe experiment specific information is provided in the memo of apsimx file.\n\n)NA"
+  },
+  {
+    "objectID": "crop/wheat/experiment/Temora2016-TOS4.html#cultivars",
+    "href": "crop/wheat/experiment/Temora2016-TOS4.html#cultivars",
+    "title": "Temora2016-TOS4",
+    "section": "Cultivars",
+    "text": "Cultivars"
+  },
+  {
+    "objectID": "crop/wheat/experiment/Temora2016-TOS4.html#performance",
+    "href": "crop/wheat/experiment/Temora2016-TOS4.html#performance",
+    "title": "Temora2016-TOS4",
+    "section": "Performance",
+    "text": "Performance\nOverview\nThe table below summarizes the performance of APSIM NG for all cultivars across experiment Temora2016-TOS4.\n\n\n\n\nTable 1: Performance summary for all cultivars across experiment Temora2016-TOS4\n\n\n\n\n\n\ntrait\nn\nr\nr2\nbias\nmse\nrmse\nnrmse\nd\n\n\n\n\nPhenology.FloweringDAS\n2\n1\n1\n4\n17\n4.12\n0.03\n0.73\n\n\n\n\n\n\n\n\nComparison of observed and predicted values\nThe model performance is compared with observed and predicted values for all cultivars across experiment Temora2016-TOS4. The plots below show the observed vs predicted values for different traits. Each point represents an observation from an experiment. The closer the points are to the diagonal line, the better the performance of the model for that trait.\nThe range of observed and predicted values are estimated using data in this page, which may be misleading for the narrow ranges of observed and predicted values.\nUsing the Expand All and Collapse All buttons below, you can expand or collapse the sections for each trait to see the observed vs predicted plots for different traits.\n\n\nExpand All\n\n\nCollapse All\n\n\n\n\n\n\n\n\n\nNotePhenology.FloweringDAS\n\n\n\n\n\n\n\n\nObserved vs Predicted plots for different traits."
   }
 ]
