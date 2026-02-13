@@ -45,10 +45,10 @@ for (i in seq(along = crops[[1]])) {
     cultivars <- rapsimng::get_cultivar(apsimx, alias = TRUE) |> tibble::tibble()
     cultivars_names <- cultivars$standard_name |> unique()
     
-    if (!is_github) {
+    #if (!is_github) {
         # local debugging, only keep first 2 cultivars
         cultivars_names <- cultivars_names[1:2]
-    }
+    # }
 
     crop_output_dir <- paste0("crop/", tolower(crop), "/cultivar")
     if (!dir.exists(crop_output_dir)) {
@@ -81,10 +81,10 @@ for (i in seq(along = crops[[1]])) {
     experiments <- all_reports |> 
         dplyr::distinct(ExperimentName) |> 
         dplyr::pull(ExperimentName)      
-    if (!is_github) {
+    #if (!is_github) {
         # local debugging, only keep first 2 cultivars
         experiments <- experiments[1:2]
-    }
+    #}
 
     exp_output_dir <- paste0("crop/", tolower(crop), "/experiment")
     if (!dir.exists(exp_output_dir)) {

@@ -80,12 +80,16 @@ jobs:
           }
           "
 
+      - name: Prepare site fragment
+        run: |
+          mkdir -p site-${{ strategy.job-index }}
+          cp -r _site site-${{ strategy.job-index }}/_site
+
       - name: Upload site fragment
         uses: actions/upload-artifact@v4
         with:
           name: site-${{ strategy.job-index }}
-          path: _site
-
+          path: site-${{ strategy.job-index }}
 
   deploy:
     needs: render-files
