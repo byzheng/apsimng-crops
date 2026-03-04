@@ -44,7 +44,7 @@ for (i in seq(along = crops[[1]])) {
 
     apsimx <- rapsimng::read_apsimx(crops$Model[i])
     cultivars <- rapsimng::get_cultivar(apsimx, alias = TRUE) |> tibble::tibble()
-    cultivars_names <- cultivars$standard_name |> unique()
+    cultivars_names <- cultivars$standard_name |> unique() |> tolower()
     
     if (!is_github) {
         # local debugging, only keep first 2 cultivars

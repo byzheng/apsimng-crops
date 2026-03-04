@@ -17,7 +17,7 @@ There are `r nrow(experiments)` experiments which tested `r cultivar_string` in 
 ```{r tbl-experiments}
 tbl <- experiments |> 
     dplyr::mutate(Link = paste0(
-        "<a href='", "experiment/", ExperimentName, ".html", "'>",
+        "<a href='", "/crop/", tolower(crop), "/experiment/", ExperimentName, ".html", "'>",
         ExperimentName,
         "</a>"
     ))  |> 

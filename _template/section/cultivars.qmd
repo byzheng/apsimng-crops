@@ -14,7 +14,7 @@ cultivars <- params$cultivars
 ```{r list-cultivar}
 tbl <- cultivars |> 
     dplyr::mutate(Cultivar = paste0(
-        "<a href='", "cultivar/", Cultivar, ".html", "'>",
+        "<a href='", "/crop/", tolower(crop), "/cultivar/", Cultivar, ".html", "'>",
         Cultivar,
         "</a>"
     ))
