@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "crop/chickpea/cultivar/98_106c.html",
+    "href": "crop/chickpea/cultivar/98_106c.html",
+    "title": "98_106c",
+    "section": "",
+    "text": "This report is generated for performance of Chickpea model in APSIM NG for cultivar 98_106c."
+  },
+  {
+    "objectID": "crop/chickpea/cultivar/98_106c.html#cultivar-information",
+    "href": "crop/chickpea/cultivar/98_106c.html#cultivar-information",
+    "title": "98_106c",
+    "section": "Cultivar Information",
+    "text": "Cultivar Information\nThe cultivar specific parameters used in the simulation are listed in the table below:\n\n\n\n\nTable 1: Cultivar specific parameters for 98_106c\n\n\n\n\n\n\nparameter\nvalue\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWarning\n\n\n\n\nNo experiments and observations available for this cultivar in the validation test of APSIM NG."
+  }
+]
