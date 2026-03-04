@@ -52,7 +52,8 @@ files |>
 cat(render_child(
     here::here("_template/section/cultivars.qmd"),
     cultivars = cultivars,
-    crop = crop
+    crop = crop,
+    rel_path = "./"
 ))
 ```
 
@@ -62,7 +63,8 @@ cat(render_child(
     here::here("_template/section/experiments.qmd"),
     experiments = experiments,
     cultivar = "All",
-    crop = crop
+    crop = crop,
+    rel_path = "./"
 ))
 ```
 
@@ -74,7 +76,8 @@ cat(render_child(
 cat(render_child(
     here::here("_template/section/performance.qmd"),
     obs_sim = obs_sim,
-    cultivar = "All"
+    cultivar = "All",
+    rel_path = "./"
 ))
 ```
 

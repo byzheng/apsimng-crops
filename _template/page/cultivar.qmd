@@ -86,7 +86,8 @@ if (!has_data) {
         here::here("_template/section/experiments.qmd"),
         experiments = experiments,
         cultivar = cultivar,
-        crop = crop
+        crop = crop,
+        rel_path = "../"
     ))
     cat(render_child(
         here::here("_template/section/performance.qmd"),
