@@ -57,7 +57,8 @@ if (nrow(experiment_data) == 0) {
 cat(render_child(
     here::here("_template/section/cultivars.qmd"),
     cultivars = cultivars,
-    crop = crop
+    crop = crop,
+    rel_path = "../"
 ))
 cat(render_child(
     here::here("_template/section/performance.qmd"),

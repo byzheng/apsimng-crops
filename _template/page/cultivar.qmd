@@ -26,7 +26,7 @@ if (!exists("params") || grepl("\\{", params$crop)) {
 obs_sim <- get_obs(crop)
 apsimx <- get_model(crop)
 cultivars <- rapsimng::get_cultivar(apsimx, alias = TRUE) |> tibble::tibble()
-cultivar_info <- cultivars |> dplyr::filter(standard_name == cultivar)
+cultivar_info <- cultivars |> dplyr::filter(tolower(standard_name) == tolower(cultivar))
 ```
 
 
@@ -68,7 +68,7 @@ if (length(aliases) > 0) {
 ```{r data-obs-sim-cultivar}
 
 obs_sim_cultivar <- obs_sim |> 
-    dplyr::filter(Genotype == tolower(cultivar))
+    dplyr::filter(tolower(Genotype) == tolower(cultivar))
 experiments <- obs_sim_cultivar |> 
     dplyr::distinct(ExperimentName, Latitude, Longitude)
 has_data <- nrow(obs_sim_cultivar) > 0
@@ -86,7 +86,8 @@ if (!has_data) {
         here::here("_template/section/experiments.qmd"),
         experiments = experiments,
         cultivar = cultivar,
-        crop = crop
+        crop = crop,
+        rel_path = "../"
     ))
     cat(render_child(
         here::here("_template/section/performance.qmd"),
