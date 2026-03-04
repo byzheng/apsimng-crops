@@ -4,6 +4,7 @@ if (!exists("params")) {
     stop("This template must be rendered via knit_child() with params supplied.")
 }
 cultivars <- params$cultivars
+crop <- params$crop
 ```
 
 
@@ -14,7 +15,7 @@ cultivars <- params$cultivars
 ```{r list-cultivar}
 tbl <- cultivars |> 
     dplyr::mutate(Cultivar = paste0(
-        "<a href='", "/crop/", tolower(crop), "/cultivar/", Cultivar, ".html", "'>",
+        "<a href='", "../cultivar/", tolower(Cultivar), ".html", "'>",
         Cultivar,
         "</a>"
     ))

@@ -56,11 +56,13 @@ if (nrow(experiment_data) == 0) {
 ```{r child-performance, results = "asis"}
 cat(render_child(
     here::here("_template/section/cultivars.qmd"),
-    cultivars = cultivars
+    cultivars = cultivars,
+    crop = crop
 ))
 cat(render_child(
     here::here("_template/section/performance.qmd"),
     obs_sim = obs_sim_experiment,
-    experiment = experiment
+    experiment = experiment,
+    crop = crop
 ))
 ```

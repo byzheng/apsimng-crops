@@ -29,7 +29,7 @@ The table below summarizes the performance of APSIM NG for `r cultivar_string` a
 tbl_cap <- sprintf("Performance summary for %s across %s", cultivar_string, experiment_string)
 obs_sim |> 
     dplyr::group_by(trait) |>
-    myutils::model_summarise(x = "Observed", y = "Predicted", digits = 2)|>
+    myutils::summarise_model(x = "Observed", y = "Predicted", digits = 2)|>
     dplyr::ungroup() |>
     dplyr::arrange(trait) |>
     knitr::kable(caption = tbl_cap)
