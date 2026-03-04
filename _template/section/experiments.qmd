@@ -5,6 +5,7 @@ if (!exists("params")) {
 }
 experiments <- params$experiments
 cultivar <- params$cultivar
+crop <- params$crop
 
 cultivar_string <- ifelse(cultivar == "All", "all cultivars", sprintf("cultivar `%s`", cultivar))
 ```
@@ -17,7 +18,7 @@ There are `r nrow(experiments)` experiments which tested `r cultivar_string` in 
 ```{r tbl-experiments}
 tbl <- experiments |> 
     dplyr::mutate(Link = paste0(
-        "<a href='", "experiment/", ExperimentName, ".html", "'>",
+        "<a href='", "../experiment/", ExperimentName, ".html", "'>",
         ExperimentName,
         "</a>"
     ))  |> 

@@ -85,12 +85,14 @@ if (!has_data) {
     cat(render_child(
         here::here("_template/section/experiments.qmd"),
         experiments = experiments,
-        cultivar = cultivar
+        cultivar = cultivar,
+        crop = crop
     ))
     cat(render_child(
         here::here("_template/section/performance.qmd"),
         obs_sim = obs_sim_cultivar,
-        cultivar = cultivar
+        cultivar = cultivar,
+        crop = crop
     ))
 }
 ```

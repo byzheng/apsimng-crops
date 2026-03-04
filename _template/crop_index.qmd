@@ -51,7 +51,8 @@ files |>
 # include the performance section if there are data for this cultivar
 cat(render_child(
     here::here("_template/section/cultivars.qmd"),
-    cultivars = cultivars
+    cultivars = cultivars,
+    crop = crop
 ))
 ```
 
@@ -60,7 +61,8 @@ cat(render_child(
 cat(render_child(
     here::here("_template/section/experiments.qmd"),
     experiments = experiments,
-    cultivar = "All"
+    cultivar = "All",
+    crop = crop
 ))
 ```
 

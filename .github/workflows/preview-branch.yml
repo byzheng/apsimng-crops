@@ -1,0 +1,142 @@
+name: Quarto Branch Preview
+
+on:
+  push:
+    branches-ignore:
+      - main
+  delete:
+
+permissions:
+  contents: write
+
+jobs:
+  prepare:
+    if: github.event_name != 'delete'
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/byzheng/apsimx-quarto-podman:latest
+
+    outputs:
+      group_ids: ${{ steps.group_ids.outputs.group_ids }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Checkout Data Repository
+        uses: actions/checkout@v4
+        with:
+          repository: byzheng/apsimng-crops-data
+          ref: ${{ github.ref_name }}
+          path: _data
+
+      - name: Generate qmd files
+        run: Rscript _scripts/generate_qmd.R
+
+      - name: Read group IDs
+        id: group_ids
+        run: |
+          echo "group_ids=$(cat _render_group_ids.json)" >> $GITHUB_OUTPUT
+
+      - name: Upload workspace
+        uses: actions/upload-artifact@v4
+        with:
+          name: workspace
+          path: .
+          include-hidden-files: true
+
+  render-files:
+    if: github.event_name != 'delete'
+    needs: prepare
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/byzheng/apsimx-quarto-podman:latest
+
+    strategy:
+      fail-fast: false
+      matrix:
+        group_id: ${{ fromJson(needs.prepare.outputs.group_ids) }}
+
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: workspace
+          path: .
+
+      - name: Render Group Files in R
+        env:
+          R_PROFILE_USER: ${{ github.workspace }}/.Rprofile
+        run: |
+          Rscript -e "
+          library(jsonlite)
+          library(quarto)
+
+          groups <- fromJSON('_render_groups.json')
+
+          files <- groups[[${{ matrix.group_id }} + 1]]
+          print(files)
+
+          output_dir <- paste0('site-', Sys.getenv('GITHUB_RUN_ID'), '-', '${{ matrix.group_id }}')
+          dir.create(output_dir, recursive = TRUE, showWarnings = FALSE)
+
+          for (f in files) {
+            cat('Rendering', f, '...\n')
+            system(paste('quarto render', f, '--output-dir', output_dir))
+          }
+          "
+
+      - name: Upload site fragment
+        uses: actions/upload-artifact@v4
+        with:
+          name: site-${{ matrix.group_id }}
+          path: site-*
+
+  deploy:
+    if: github.event_name != 'delete'
+    needs: render-files
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/byzheng/apsimx-quarto-podman:latest
+
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: workspace
+          path: .
+
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: site-*
+          path: site-parts
+
+      - name: Render global pages
+        env:
+          R_PROFILE_USER: ${{ github.workspace }}/.Rprofile
+        run: |
+          quarto render index.qmd
+          quarto render about.qmd
+
+      - name: Merge site parts
+        env:
+          R_PROFILE_USER: ${{ github.workspace }}/.Rprofile
+        run: |
+          Rscript _scripts/merge_site.R
+
+      - name: Deploy branch preview
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: final_site
+          destination_dir: branch/${{ github.ref_name }}
+          keep_files: true
+
+  cleanup:
+    if: github.event_name == 'delete'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Remove branch preview from gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: .
+          destination_dir: branch/${{ github.ref_name }}
+          keep_files: false
